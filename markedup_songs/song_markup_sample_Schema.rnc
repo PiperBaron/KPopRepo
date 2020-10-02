@@ -1,5 +1,5 @@
 start = song
-song = element song {about, koreanLyrics?, engTrans?}
+song = element song {about, koreanLyrics, engTrans}
 about = element about {songName, artistName, bgInfo, album, produceCredit, lyricCredit, label, releaseDate}
 songName = element songName {xmlid, text}
 artistName = element artistName {artistRef*, text}
@@ -35,4 +35,4 @@ chorus = element chorus {chorusnum, artistname, line+}
 chorusnum = attribute chorusnum {xsd:integer}
 bridge = element bridge {artistname, line+}
 outro = element outro {artistname, line+}
-engTrans = element koreanLyrics {intro, (verse | preChorus | chorus | bridge)+, outro}
+engTrans = element engTrans {intro, (verse | preChorus | chorus | bridge)+, outro}
