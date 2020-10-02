@@ -1,0 +1,37 @@
+start = groupPage
+groupPage = element groupPage {about, memberList}
+about = element about {groupName, bgInfo, company, debutDate, debutSong, discopgrahy, currentRank?}
+groupName = element groupName {xmlid, text}
+bgInfo = element bgInfo {p+}
+company = element company {xmlid, text}
+labelRef = attribute labelRef {xsd:IDREF}
+p = element p {mixed{(groupRef | group)*}}
+xmlid = attribute xml:id {xsd:ID}
+debutDate = element debutDate {when, text}
+when = attribute when {xsd:date}
+debutSong = element debutSong {text}
+discopgrahy = element discopgrahy {album*}
+album = element album {albumType, xmlid?, text}
+albumType = attribute albumType {"mini" | "full" | "live" | "repackage" | "single"}
+currentRank = element currentRank {xsd:integer}
+ref = attribute ref {xsd:IDREF}
+group = element group {xmlid, text}
+groupRef = element groupRef {ref, text}
+memberRef = element memberRef {ref, text}
+memberList = element memberList {member+}
+member = element member {xmlid, stageName, koreanName?, nkBirthName?, role, subunit, height, weight, birthday}
+stageName = element stageName {text}
+koreanName = element koreanName {text}
+nkBirthName = element nkBirthName {text}
+role = element role {position+}
+position = element position {num, type, text}
+num = attribute num {xsd:integer}
+type = attribute type {"dancer" | "rapper" | "vocalist" | "leader" | "visual" | "center" | "maknae"}
+subunit = element subunit {unit+}
+unit = element unit {name, text}
+name = attribute name {text}
+height = element height {text}
+weight = element weight {text}
+birthday = element birthday {when, text}
+
+
