@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="group_markup_sample_Schema.rnc" roleType="application/relax-ng-compact-syntax"?>
+<?xml-model href="group_markup_sample_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <groupPage>
     <about>
         <groupName xml:id="NCT127">NCT 127 (엔씨티 127)</groupName>
