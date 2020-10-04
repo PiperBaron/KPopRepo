@@ -19,7 +19,11 @@ group = element group {xmlid, text}
 groupRef = element groupRef {ref, text}
 memberRef = element memberRef {ref, text}
 memberList = element memberList {member+}
+<<<<<<< HEAD:group_profiles/group_markup_Schema.rnc
 member = element member {xmlid, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight, birthday, note?}
+=======
+member = element member {xmlid, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight, birthday}
+>>>>>>> 1869a2b5e9bab493f271225c94e692e37ce76951:group_profiles/group_markup_sample_Schema.rnc
 stageName = element stageName {text}
 koreanName = element koreanName {text}
 nkBirthName = element nkBirthName {text}
@@ -33,4 +37,7 @@ name = attribute name {text}
 height = element height {text}
 weight = element weight {text}
 birthday = element birthday {when, text}
+<<<<<<< HEAD:group_profiles/group_markup_Schema.rnc
 note = element note {text}
+=======
+>>>>>>> 1869a2b5e9bab493f271225c94e692e37ce76951:group_profiles/group_markup_sample_Schema.rnc
