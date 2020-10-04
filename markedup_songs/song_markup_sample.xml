@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="song_markup_sample_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <!-- This doc doesn't validate, because it's calling on xml:ids that aren't in this page. I need a way to link the group page to this one. -->
-
 <?xml-model href="xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--2020-10-04 ebb: Above is a new schema association line for a Schematron file to work together with your RNC file so we can check the various refs to xml:ids. -->
 <song>
     <about>
         <songName xml:id="Regular">Regular (English Ver.)</songName>
