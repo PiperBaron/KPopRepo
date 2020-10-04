@@ -4,11 +4,6 @@ about = element about {songName, artistName, bgInfo, album, produceCredit, lyric
 songName = element songName {xmlid, text}
 artistName = element artistName {artistRef*, text}
 artistRef = attribute artistRef {text}
-<<<<<<< HEAD:markedup_songs/song_markup_Schema.rnc
-=======
-# ebb: I'm changing all of the IDREF values to text because we'll validate these using Schematron!
-# NOTE: This changes the rules for @artistRef, @labelRef, @ref
->>>>>>> 1869a2b5e9bab493f271225c94e692e37ce76951:markedup_songs/song_markup_sample_Schema.rnc
 bgInfo = element bgInfo {p+}
 p = element p {mixed{(groupRef | group)*}}
 xmlid = attribute xml:id {xsd:ID}
