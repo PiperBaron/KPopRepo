@@ -2,6 +2,7 @@
 <?xml-model href="song_markup_sample_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <!-- This doc doesn't validate, because it's calling on xml:ids that aren't in this page. I need a way to link the group page to this one. -->
 
+<?xml-model href="xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <song>
     <about>
         <songName xml:id="Regular">Regular (English Ver.)</songName>
