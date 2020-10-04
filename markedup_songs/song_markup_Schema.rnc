@@ -19,15 +19,9 @@ label = element label {labelRef, text}
 labelRef = attribute labelRef {text}
 releaseDate = element releaseDate {when, text}
 when = attribute when {xsd:date}
-<<<<<<< HEAD:markedup_songs/song_markup_Schema.rnc
 koreanLyrics = element koreanLyrics {intro?, (verse | preChorus | chorus | bridge)+, outro?}
 line = element line {mixed{lineRef, linenum, backVocal*, sharedLine*}}
 lineRef = attribute lineRef {text}
-=======
-ref = attribute ref {text}
-koreanLyrics = element koreanLyrics {intro, (verse | preChorus | chorus | bridge)+, outro}
-line = element line {mixed{ref, linenum, backVocal?}}
->>>>>>> 1869a2b5e9bab493f271225c94e692e37ce76951:markedup_songs/song_markup_sample_Schema.rnc
 linenum = attribute linenum {xsd:integer}
 backVocal = element backVocal {lineRef, text}
 sharedLine = element sharedLine {lineRef, text}
@@ -42,8 +36,4 @@ chorus = element chorus {chorusnum, artistname, line+}
 chorusnum = attribute chorusnum {xsd:integer}
 bridge = element bridge {artistname, line+}
 outro = element outro {artistname, line+}
-<<<<<<< HEAD:markedup_songs/song_markup_Schema.rnc
 engTrans = element engTrans {intro?, (verse | preChorus | chorus | bridge)+, outro?}
-=======
-engTrans = element engTrans {intro, (verse | preChorus | chorus | bridge)+, outro}
->>>>>>> 1869a2b5e9bab493f271225c94e692e37ce76951:markedup_songs/song_markup_sample_Schema.rnc
