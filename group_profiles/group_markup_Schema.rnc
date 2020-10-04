@@ -19,19 +19,18 @@ group = element group {xmlid, text}
 groupRef = element groupRef {ref, text}
 memberRef = element memberRef {ref, text}
 memberList = element memberList {member+}
-member = element member {xmlid, stageName, koreanName?, nkBirthName?, role, subunit, height, weight, birthday}
+member = element member {xmlid, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight, birthday, note?}
 stageName = element stageName {text}
 koreanName = element koreanName {text}
 nkBirthName = element nkBirthName {text}
 role = element role {position+}
-position = element position {num, type, text}
+position = element position {num, roleType, text}
 num = attribute num {xsd:integer}
-type = attribute type {"dancer" | "rapper" | "vocalist" | "leader" | "visual" | "center" | "maknae"}
+roleType = attribute roleType {"dancer" | "rapper" | "vocalist" | "leader" | "visual" | "center" | "maknae"}
 subunit = element subunit {unit+}
 unit = element unit {name, text}
 name = attribute name {text}
 height = element height {text}
 weight = element weight {text}
 birthday = element birthday {when, text}
-
-
+note = element note {text}

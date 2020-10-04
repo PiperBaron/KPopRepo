@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="song_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<song>
+    <about>
+        <songName xml:id="Simon-Says">Simon Says</songName>
+        <artistName artistRef="NCT127">NCT 127 (엔씨티 127)</artistName>
+        <bgInfo>
+            <p><groupRef artistRef="NCT127">NCT 127</groupRef>’s title song ‘Simon Says’ is an urban hip-hop song with heavy bass riff and sharp synth sounds with lyrics that express how modern people match themselves to other people’s expectations and social conventions, alluding to the game ‘Simon Says’ where actions are done as said.</p>
+        </bgInfo>
+        <album albumRef="Reg-Irreg">Regular-Irregular</album>
+        <produceCredit>
+            <producer>Yoo Young Jin (유영진)</producer>
+            <producer>Ronny Svendsen</producer>
+            <producer>Choi Jin Seok (최진석)</producer>
+        </produceCredit>
+        <lyricCredit>
+            <writer>JQ (제이큐)</writer>
+            <writer>DADA (makeumine works)</writer>
+            <writer>Tommy $trate</writer>
+        </lyricCredit>
+        <label labelRef="SMEnt">SM Entertainment</label>
+        <releaseDate when="2018-11-13">November 13, 2018</releaseDate>
+    </about>
+    
+    <koreanLyrics>    
+        
+        <intro artistname="Taeyong">
+            <line linenum="1" lineRef="Taeyong">Yo, Simon says</line>
+        </intro>
+        
+        <verse versenum="1" artistname="Taeyong, Johnny, WinWin, Yuta, Taeil, Haechan">
+            <line linenum="2" lineRef="Taeyong">Hurry up 거리에 널린 Flat hoop들</line>
+            <line linenum="3" lineRef="Taeyong">멈춘 순간 널 향해 조준 다 쏜다</line>
+            <line linenum="4" lineRef="Johnny">Hands up, 뒤돌아 <sharedLine lineRef="WinWin">hands up 흔들어</sharedLine></line>
+            <line linenum="5" lineRef="Taeyong">숨이 가득 차도 여기 법 계속 달려</line>
+            <line linenum="6" lineRef="Yuta">왜 또 눈치만 보고 서있나 <backVocal lineRef="Taeil">(우두커니)</backVocal></line>
+            <line linenum="7" lineRef="Haechan">왜 또 겁먹은 표정을 짓나 <backVocal lineRef="Doyoung">(이걸 원해)</backVocal></line>
+        </verse>
+        
+        <preChorus prechorusnum="1" artistname="MarkLee, Johnny, Doyoung, Jungwoo, Jaehyun, Yuta">
+            <line linenum="8" lineRef="MarkLee">주문을 외워 I'm God 너희를 홀려 like wow</line>
+            <line linenum="9" lineRef="Johnny">NCT we all so sexy, <sharedLine lineRef="MarkLee">NCT know you can't break me</sharedLine></line>
+            <line linenum="10" lineRef="Doyoung">누가 날 욕해 who</line>
+            <line linenum="11" lineRef="Jungwoo">Bless me, achoo</line>
+            <line linenum="12" lineRef="Jaehyun">Simon says, "be cool"</line>
+            <line linenum="13" lineRef="Yuta">Don't be such a fool</line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname="All, Taeyong, Yuta, MarkLee">
+            <line linenum="14" lineRef="All">Simon says 우린 real vibe killer <backVocal lineRef="All">(Killer Killer Killer)</backVocal></line>
+            <line linenum="15" lineRef="All">Simon says 우린 real vibe killer <backVocal lineRef="All">(Killer Killer Killer)</backVocal></line>
+            <line linenum="16" lineRef="Taeyong">너네들은 다 mine, mine, mine, mine, mine</line>
+            <line linenum="17" lineRef="Yuta">너네들은 다 mine, mine, mine, mine, mine</line>
+            <line linenum="18" lineRef="MarkLee">필요 없어 그딴 말말말말말</line>
+            <line linenum="19" lineRef="MarkLee">We don't play, no mind, mind, mind, mind, mind</line>
+        </chorus>
+        
+        <verse versenum="2" artistname="MarkLee, Jaehyun, Taeyong, Johnny, Taeil, WinWin">
+            <line linenum="20" lineRef="MarkLee">꽉 막힌 차 사이로 길을 여는 siren</line>
+            <line linenum="21" lineRef="Jaehyun">니 맘에 그 체증을밤새 뚫고 달려</line>
+            <line linenum="22" lineRef="Taeyong">누구보다 빨라 전부 뒤에 가있어</line>
+            <line linenum="23" lineRef="Johnny">거침없어 모든 건 <sharedLine lineRef="WinWin">내게 달려</sharedLine></line>
+            <line linenum="24" lineRef="Taeil">점점 분위기는 high, high, high, high</line>
+            <line linenum="25" lineRef="Jaehyun">우릴 막는 소린 bye, bye, bye, bye</line>
+            <line linenum="26" lineRef="Johnny">신경 다 끄고 놀아 밤새</line>
+            <line linenum="27" lineRef="WinWin">누가 뭐라 하든 상관 안 해</line>
+        </verse>
+        
+        <preChorus prechorusnum="2" artistname="Taeyong, Johnny, Jaehyun, Haechan, Jungwoo, Taeil">
+            <line linenum="28" lineRef="Taeyong">주문을 외워 I'm God 너희를 홀려 like wow</line>
+            <line linenum="29" lineRef="Johnny">NCT we all so sexy, <sharedLine lineRef="Jaehyun">NCT know you can't break me</sharedLine></line>
+            <line linenum="30" lineRef="Haechan">누가 날 욕해 who</line>
+            <line linenum="31" lineRef="Jungwoo">Bless me, achoo</line>
+            <line linenum="32" lineRef="Jaehyun">Simon says, "be cool"</line>
+            <line linenum="33" lineRef="Taeil">Don't be such a fool</line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname="All, Haechan,Johnny, Jungwoo, Taeyong">
+            <line linenum="34" lineRef="All">Simon says 우린 real vibe killer <backVocal lineRef="All">(Killer Killer Killer)</backVocal> <backVocal lineRef="Haechan">(You think you know it all)</backVocal></line>
+            <line linenum="35" lineRef="All">Simon says 우린 real vibe killer <backVocal lineRef="All">(Killer Killer Killer)</backVocal></line>
+            <line linenum="36" lineRef="Johnny">너네들은 다 mine, mine, mine, mine, mine</line>
+            <line linenum="37" lineRef="Johnny">너네들은 다 mine, mine, mine, mine, mine</line>
+            <line linenum="38" lineRef="Jungwoo">필요 없어 그딴 말말말말말</line>
+            <line linenum="39" lineRef="Taeyong">We don't play, no mind, mind, mind, mind, mind</line>
+        </chorus>
+        
+        <bridge artistname="Doyoung, Jungwoo, Jaehyun, Haechan, Taeil, MarkLee">
+            <line linenum="40" lineRef="Doyoung">두려워하지마 <backVocal lineRef="Jungwoo">(괜찮아)</backVocal> 널 막는 건 너 일 뿐</line>
+            <line linenum="41" lineRef="Jaehyun">착각하지마 <backVocal lineRef="Haechan">(두려워 하지마)</backVocal> <sharedLine lineRef="Jungwoo">우린 오늘 break the rules</sharedLine></line>
+            <line linenum="42" lineRef="Haechan">눈을 뜨고 깨어나 이 순간 깊숙이 빠져들어가</line>
+            <line linenum="43" lineRef="Taeil">현실과 꿈의 사이 진짜 널 찾는 그 순간 <backVocal lineRef="MarkLee">(yeah, find me)</backVocal></line>
+        </bridge>
+        
+        <chorus chorusnum="3" artistname="All, MarkLee, Yuta, Taeyong, Johnny">
+            <line linenum="44" lineRef="All">Simon says 우린 real vibe killer <backVocal lineRef="Yuta">(Ayy real vibe killer)</backVocal></line>
+            <line linenum="45" lineRef="All">Simon says 우린 real vibe killer <backVocal lineRef="MarkLee">(Ayy real vibe killer)</backVocal></line>
+            <line linenum="46" lineRef="MarkLee">너네들은 다 mine, mine, mine, mine, mine</line>
+            <line linenum="47" lineRef="Yuta">너네들은 다 mine, mine, mine, mine, mine</line>
+            <line linenum="48" lineRef="Taeyong">필요 없어 그딴 말말말말말</line>
+            <line linenum="49" lineRef="Johnny">We don't play, no mind, mind, mind, mind, mind</line>
+        </chorus>
+        
+        <outro artistname="MarkLee">
+            <line linenum="50" lineRef="MarkLee">We don't play, no attention</line>
+        </outro>
+    </koreanLyrics>
+    
+    
+    <engTrans>
+        
+        <intro artistname="Taeyong">
+            <line linenum="1" lineRef="Taeyong">Yo, Simon says</line>
+        </intro>
+        
+        <verse versenum="1" artistname="Taeyong, Johnny, WinWin, Yuta, Taeil, Haechan">
+            <line linenum="2" lineRef="Taeyong">Hurry up, so many flat hoops on the street</line>
+            <line linenum="3" lineRef="Taeyong">The moment I stop, I'm gonna aim and shoot for you</line>
+            <line linenum="4" lineRef="Johnny">Hands up, turn around<sharedLine lineRef="WinWin">hands up, shake it up</sharedLine></line>
+            <line linenum="5" lineRef="Taeyong">Running out of breath but I keep running</line>
+            <line linenum="6" lineRef="Yuta">Why are you just scoping things out <backVocal lineRef="Taeil">(Standing there)</backVocal></line>
+            <line linenum="7" lineRef="Haechan">Why do you look so scared?<backVocal lineRef="Doyoung">(Do you want this?)</backVocal></line>
+        </verse>
+        
+        <preChorus prechorusnum="1" artistname="MarkLee, Johnny, Doyoung, Jungwoo, Jaehyun, Yuta">
+            <line linenum="8" lineRef="MarkLee">Cast a spell, I'm God. Bewitching you all like wow</line>
+            <line linenum="9" lineRef="Johnny">NCT we all so sexy, <sharedLine lineRef="MarkLee">NCT know you can't break me</sharedLine></line>
+            <line linenum="10" lineRef="Doyoung">Who can talk against me, who</line>
+            <line linenum="11" lineRef="Jungwoo">Bless me, achoo</line>
+            <line linenum="12" lineRef="Jaehyun">Simon says, "be cool"</line>
+            <line linenum="13" lineRef="Yuta">Don't be such a fool</line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname="All, Taeyong, Yuta, MarkLee">
+            <line linenum="14" lineRef="All">Simon says we're a real vibe killer <backVocal lineRef="All">(Killer Killer Killer)</backVocal></line>
+            <line linenum="15" lineRef="All">Simon says we’re a real vibe killer <backVocal lineRef="All">(Killer Killer Killer)</backVocal></line>
+            <line linenum="16" lineRef="Taeyong">You're all mine, mine, mine, mine, mine</line>
+            <line linenum="17" lineRef="Yuta">You're all mine, mine, mine, mine, mine</line>
+            <line linenum="18" lineRef="MarkLee">Don't need those kind of words, words, words, words</line>
+            <line linenum="19" lineRef="MarkLee">We don't play, no mind, mind, mind, mind, mind</line>
+        </chorus>
+        
+        <verse versenum="2" artistname="MarkLee, Jaehyun, Taeyong, Johnny, Taeil, WinWin">
+            <line linenum="20" lineRef="MarkLee">Through the jammed cars, I'm the siren that opens up the roads</line>
+            <line linenum="21" lineRef="Jaehyun">Piercing through the traffic in your heart all night</line>
+            <line linenum="22" lineRef="Taeyong">Faster than anyone else, They're all behind me</line>
+            <line linenum="23" lineRef="Johnny">I won’t hold back, <sharedLine lineRef="WinWin">everything’s up to me</sharedLine></line>
+            <line linenum="24" lineRef="Taeil">The mood is getting high, high, high, high</line>
+            <line linenum="25" lineRef="Jaehyun">All the sounds that try to stop us, bye, bye, bye, bye</line>
+            <line linenum="26" lineRef="Johnny">Don't mind them, let’s party all night</line>
+            <line linenum="27" lineRef="WinWin">Don't care what anyone says</line>
+        </verse>
+        
+        <preChorus prechorusnum="2" artistname="Taeyong, Johnny, Jaehyun, Haechan, Jungwoo, Taeil">
+            <line linenum="28" lineRef="Taeyong">Cast a spell, I'm God. Bewitching you all like wow</line>
+            <line linenum="29" lineRef="Johnny">NCT we all so sexy, <sharedLine lineRef="Jaehyun">NCT know you can't break me</sharedLine></line>
+            <line linenum="30" lineRef="Haechan">Who can talk against me, who</line>
+            <line linenum="31" lineRef="Jungwoo">Bless me, achoo</line>
+            <line linenum="32" lineRef="Jaehyun">Simon says, "be cool"</line>
+            <line linenum="33" lineRef="Taeil">Don't be such a fool</line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname="All, Haechan,Johnny, Jungwoo, Taeyong">
+            <line linenum="34" lineRef="All">Simon says we're a real vibe killer <backVocal lineRef="All">(Killer Killer Killer)</backVocal> <backVocal lineRef="Haechan">(You think you know it all)</backVocal></line>
+            <line linenum="35" lineRef="All">Simon says we're a real vibe killer <backVocal lineRef="All">(Killer Killer Killer)</backVocal></line>
+            <line linenum="36" lineRef="Johnny">You're all mine, mine, mine, mine, mine</line>
+            <line linenum="37" lineRef="Johnny">You're all mine, mine, mine, mine, mine</line>
+            <line linenum="38" lineRef="Jungwoo">Don't need those kind of words, words, words, words</line>
+            <line linenum="39" lineRef="Taeyong">We don't play, no mind, mind, mind, mind, mind</line>
+        </chorus>
+        
+        <bridge artistname="Doyoung, Jungwoo, Jaehyun, Haechan, Taeil, MarkLee">
+            <line linenum="40" lineRef="Doyoung">Don't be afraid <backVocal lineRef="Jungwoo">(It's okay)</backVocal> The only one stopping you is you</line>
+            <line linenum="41" lineRef="Jaehyun">Don't misunderstand <backVocal lineRef="Haechan">(Don't be scared)</backVocal> <sharedLine lineRef="Jungwoo">Today, we break the rules</sharedLine></line>
+            <line linenum="42" lineRef="Haechan">Open your eyes and wake up, fall deep inside</line>
+            <line linenum="43" lineRef="Taeil">The moment you find your true self between reality and dreams <backVocal lineRef="MarkLee">(yeah, find me)</backVocal></line>
+        </bridge>
+        
+        <chorus chorusnum="3" artistname="All, MarkLee, Yuta, Taeyong, Johnny">
+            <line linenum="44" lineRef="All">Simon says we're a real vibe killer <backVocal lineRef="Yuta">(Ayy real vibe killer)</backVocal></line>
+            <line linenum="45" lineRef="All">Simon says we're a real vibe killer <backVocal lineRef="MarkLee">(Ayy real vibe killer)</backVocal></line>
+            <line linenum="46" lineRef="MarkLee">You're all mine, mine, mine, mine, mine</line>
+            <line linenum="47" lineRef="Yuta">You're all mine, mine, mine, mine, mine</line>
+            <line linenum="48" lineRef="Taeyong">Don't need those kind of words, words, words, words</line>
+            <line linenum="49" lineRef="Johnny">We don't play, no mind, mind, mind, mind, mind</line>
+        </chorus>
+        
+        <outro artistname="MarkLee">
+            <line linenum="50" lineRef="MarkLee">We don't play, no attention</line>
+        </outro>
+    </engTrans>
+</song>

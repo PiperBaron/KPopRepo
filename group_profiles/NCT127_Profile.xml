@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="group_markup_sample_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="group_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <groupPage>
     <about>
         <groupName xml:id="NCT127">NCT 127 (엔씨티 127)</groupName>
@@ -31,12 +31,12 @@
             <stageName>Taeyong (태용)</stageName>
             <koreanName>Lee Taeyong (이태용)</koreanName>
             <role>
-                <position num="1" type="leader">Leader</position>
-                <position num="2" type="rapper">Main Rapper</position>
-                <position num="3" type="dancer">Main Dancer</position>
-                <position num="4" type="vocalist">Sub Vocalist</position>
-                <position num="5" type="visual">Visual</position>
-                <position num="6" type="center">Center</position>
+                <position num="1" roleType="leader">Leader</position>
+                <position num="2" roleType="rapper">Main Rapper</position>
+                <position num="3" roleType="dancer">Main Dancer</position>
+                <position num="4" roleType="vocalist">Sub Vocalist</position>
+                <position num="5" roleType="visual">Visual</position>
+                <position num="6" roleType="center">Center</position>
             </role>
             <subunit>
                 <unit name="NCT127">NCT 127</unit>
@@ -46,11 +46,12 @@
             <weight>58 kg (128 lbs)</weight>
             <birthday when="1995-06-01">July 1, 1995</birthday>
         </member>
+        
         <member xml:id="Taeil">
             <stageName>Taeil (태일)</stageName>
             <koreanName>Moon Tae Il (문태일)</koreanName>
             <role>
-                <position num="1" type="vocalist">Main Vocalist</position>
+                <position num="1" roleType="vocalist">Main Vocalist</position>
             </role>
             <subunit>
                 <unit name="NCT127">NCT 127</unit>
@@ -66,9 +67,9 @@
             <koreanName>Seo Young Ho (서영호)</koreanName>
             <nkBirthName>John Suh</nkBirthName>
             <role>
-                <position num="1" type="dancer">Lead Dancer</position>
-                <position num="2" type="vocalist">Sub Vocalist</position>
-                <position num="3" type="rapper">Sub Rapper</position>
+                <position num="1" roleType="dancer">Lead Dancer</position>
+                <position num="2" roleType="vocalist">Sub Vocalist</position>
+                <position num="3" roleType="rapper">Sub Rapper</position>
             </role>
             <subunit>
                 <unit name="NCT127">NCT 127</unit>
@@ -83,9 +84,9 @@
             <stageName>Yuta (유타)</stageName>
             <nkBirthName>Nakamoto Yuta (中本悠太)</nkBirthName>
             <role>
-                <position num="1" type="dancer">Lead Dancer</position>
-                <position num="2" type="vocalist">Sub Vocalist</position>
-                <position num="3" type="rapper">Sub Rapper</position>
+                <position num="1" roleType="dancer">Lead Dancer</position>
+                <position num="2" roleType="vocalist">Sub Vocalist</position>
+                <position num="3" roleType="rapper">Sub Rapper</position>
             </role>
             <subunit>
                 <unit name="NCT127">NCT 127</unit>
@@ -100,7 +101,7 @@
             <stageName>Doyoung (도영)</stageName>
             <koreanName>Kim Dong Young (김동영‬)</koreanName>
             <role>
-                <position num="1" type="vocalist">Main Vocalist</position>
+                <position num="1" roleType="vocalist">Main Vocalist</position>
             </role>
             <subunit>
                 <unit name="NCT127">NCT 127</unit>
@@ -115,10 +116,10 @@
             <stageName>Jaehyun (재현)</stageName>
             <koreanName>Jung Jae Hyun, but he legalized to Jung Yoon Oh (정윤오)</koreanName>
             <role>
-                <position num="1" type="vocalist">Main Vocalist</position>
-                <position num="2" type="dancer">Lead Dancer</position>
-                <position num="3" type="rapper">Sub Rapper</position>
-                <position num="4" type="visual">Visual</position>
+                <position num="1" roleType="vocalist">Main Vocalist</position>
+                <position num="2" roleType="dancer">Lead Dancer</position>
+                <position num="3" roleType="rapper">Sub Rapper</position>
+                <position num="4" roleType="visual">Visual</position>
             </role>
             <subunit>
                 <unit name="NCT127">NCT 127</unit>
@@ -133,8 +134,8 @@
             <stageName>Jungwoo (정우)</stageName>
             <koreanName>Kim Jung-woo (김정우)</koreanName>
             <role>
-                <position num="1" type="vocalist">Lead Vocalist</position>
-                <position num="2" type="dancer">Lead Dancer</position>
+                <position num="1" roleType="vocalist">Lead Vocalist</position>
+                <position num="2" roleType="dancer">Lead Dancer</position>
             </role>
             <subunit>
                 <unit name="NCT127">NCT 127</unit>
@@ -150,8 +151,8 @@
             <koreanName>Dong Sa Sung (동사성)</koreanName>
             <nkBirthName>Dong Si Cheng (董思成)</nkBirthName>
             <role>
-                <position num="1" type="dancer">Lead Dancer</position>
-                <position num="2" type="vocalist">Sub Vocalist</position>
+                <position num="1" roleType="dancer">Lead Dancer</position>
+                <position num="2" roleType="vocalist">Sub Vocalist</position>
             </role>
             <subunit>
                 <unit name="NCT127">NCT 127</unit>
@@ -161,6 +162,7 @@
             <height>182 cm (6’0″)</height>
             <weight>60 kg (132 lbs)</weight>
             <birthday when="1997-10-28">October 28, 1997</birthday>
+            <note>WinWin is considered inactive in NCT 127 and is currently promoting with WayV.</note>
         </member>
         
         <member xml:id="MarkLee">
@@ -168,9 +170,9 @@
             <koreanName>Mark Lee</koreanName>
             <nkBirthName>Lee Min Hyung (이민형)</nkBirthName>
             <role>
-                <position num="1" type="rapper">Main Rapper</position>
-                <position num="2" type="dancer">Main Dancer</position>
-                <position num="3" type="vocalist">Sub Vocalist</position>
+                <position num="1" roleType="rapper">Main Rapper</position>
+                <position num="2" roleType="dancer">Main Dancer</position>
+                <position num="3" roleType="vocalist">Sub Vocalist</position>
             </role>
             <subunit>
                 <unit name="NCT127">NCT 127</unit>
@@ -186,9 +188,9 @@
             <stageName>Haechan (해찬)</stageName>
             <koreanName>Lee Dong Hyuck (이동혁)</koreanName>
             <role>
-                <position num="1" type="vocalist">Lead Vocalist</position>
-                <position num="2" type="dancer">Lead Dancer</position>
-                <position num="3" type="maknae">Maknae</position>
+                <position num="1" roleType="vocalist">Lead Vocalist</position>
+                <position num="2" roleType="dancer">Lead Dancer</position>
+                <position num="3" roleType="maknae">Maknae</position>
             </role>
             <subunit>
                 <unit name="NCT127">NCT 127</unit>
