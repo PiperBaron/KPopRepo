@@ -4,7 +4,11 @@
     <about>
         <groupName xml:id="StrayKids">Stray Kids (스트레이 키즈)</groupName>
         <bgInfo>
-            <p></p> 
+            <p>Stray Kids is a K-pop group formed by JYP Entertainment through the 2017 reality show of the same name. It is composed of eight members. JYPE announced the departure of (now) former member Woojin from the group on October 28th 2019.</p>
+            
+            <p>Prior to the show’s premiere, JYP Entertainment released Stray Kids' first music video for the song titled “Hellevator”, and later released the track as a digital single. After confirming the line-up, the 9-members released a pre-debut EP in January 2018 titled “Mixtape” which debuted at #2 on Gaon Album Chart and Billboard World Albums Chart.</p>
+            
+            <p>On March 26, 2018, Stray Kids officially debuted with “I am NOT.” They were met with widespread success and subsequently released two more EPs in 2018, each outselling the last.</p>         
         </bgInfo>
         <company xml:id="JYPEnt">JYP Entertainment</company>
         <debutDate when="2018-03-25">March 25, 2018</debutDate>
