@@ -15,12 +15,13 @@ bgInfo = element bgInfo {p+}
 # Put general background info on the group in this element
 # How the song was recorded, its genre, general meaning/themes, etc.
 
-p = element p {mixed{(groupRef | group)*}}
+p = element p {mixed{(groupRef | group | blockQuote)*}}
 xmlid = attribute xml:id {xsd:ID}
 group = element group {xmlid, text}
 groupRef = element groupRef {artistRef, text}
 # Element used if a group with an existing group page is mentioned/referenced
 
+blockQuote = element blockQuote {text}
 album = element album {albumRef, text}
 albumRef = attribute albumRef {text}
 # Reference the album the song comes from, pull from discography element in group page
@@ -57,7 +58,7 @@ backVocal = element backVocal {lineRef, text}
 
 sharedLine = element sharedLine {lineRef, text}
 # sharedLine is used when there's someone sing AFTER someone else in a line 
-# When in doubt, use the sharedLine element 
+# When in doubt, use the sharedLine element
 
 koreanLyric = element koreanLyric {text}
 intro = element intro {artistname, line+}

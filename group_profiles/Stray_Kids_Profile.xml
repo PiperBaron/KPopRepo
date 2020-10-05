@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="group_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<groupPage>
+    <about>
+        <groupName xml:id="StrayKids">Stray Kids (스트레이 키즈)</groupName>
+        <bgInfo>
+            <p></p> 
+        </bgInfo>
+        <company xml:id="JYPEnt">JYP Entertainment</company>
+        <debutDate when="2018-03-25">March 25, 2018</debutDate>
+        <debutSong>District 9</debutSong>
+        <discography>
+            <album albumType="single">Hellevator</album>
+            <album albumType="mini">Mixtape</album>
+            <album albumType="mini">I Am NOT</album>
+            <album albumType="mini">I Am WHO?</album>
+            <album albumType="mini">I Am YOU</album>
+            <album albumType="mini">Clé 1: Miroh</album>
+            <album albumType="mini">Clé 2: Yellow Wood</album>
+            <album albumType="single">Double Knot</album>
+            <album albumType="mini">Clé: Levanter</album>
+            <album albumType="single">Mixtape: Gone Days</album>
+            <album albumType="single">Step Out of Cle</album>
+            <album albumType="repackage">SKZ2020</album>
+            <album albumType="single">Mixtape: On Track</album>
+            <album albumType="single">TOP</album>
+            <album albumType="full">GO生</album>
+            <album albumType="repackage" xml:id="INLife">IN生</album>
+        </discography>
+        <currentRank>33</currentRank>
+    </about> 
+    
+    <memberList>
+        
+        <member xml:id="BangChan">
+            <stageName>Bang Chan (방찬)</stageName>
+            <koreanName>Bang Chan (방찬)</koreanName>
+            <nkBirthName>Christopher Bang</nkBirthName>
+            <role>
+                <position num="1" roleType="leader">Leader</position>
+                <position num="2" roleType="producer">Main Producer</position>
+                <position num="3" roleType="dancer">Lead Dancer</position>
+                <position num="4" roleType="vocalist">Lead Vocalist</position>
+                <position num="5" roleType="rapper">Sub Rapper</position>
+            </role>
+            <subunit>
+                <unit name="3RACHA">3RACHA</unit>
+            </subunit>
+            <height>171 cm (5’7″)</height>
+            <birthday when="1997-10-03">October 3, 1997</birthday>
+        </member>
+        
+        <member xml:id="LeeKnow">
+            <stageName>Lee Know (리노)</stageName>
+            <koreanName>Lee Min Ho (이민호)</koreanName>
+            <role>
+                <position num="1" roleType="dancer">Main Dancer</position>
+                <position num="2" roleType="vocalist">Sub Vocalist</position>
+                <position num="3" roleType="rapper">Sub Rapper</position>
+            </role>
+            <subunit>
+                <unit name="DanceRacha">Dance Racha</unit>
+            </subunit>
+            <height>172 cm (5’8″)</height>
+            <birthday when="1998-10-25">October 25, 1998</birthday>
+        </member>
+        
+        <member xml:id="Changbin">
+            <stageName>Changbin (창빈)</stageName>
+            <koreanName>Seo Chang Bin (서창빈)</koreanName>
+            <role>
+                <position num="1" roleType="rapper">Main Rapper</position>
+                <position num="2" roleType="vocalist">Sub Vocalist</position>
+                <position num="3" roleType="producer">Producer</position>
+            </role>
+            <subunit>
+                <unit name="3RACHA">3RACHA</unit>
+            </subunit>
+            <height>167 cm (5’6″)</height>
+            <birthday when="1999-08-11">August 11, 1999</birthday>
+        </member>
+        
+        <member xml:id="Hyunjin">
+            <stageName>Hyunjin (현진)</stageName>
+            <koreanName>Hwang Hyun Jin (황현진)</koreanName>
+            <role>
+                <position num="1" roleType="dancer">Main Dancer</position>
+                <position num="2" roleType="rapper">Lead Rapper</position>
+                <position num="3" roleType="vocalist">Sub Vocalist</position>
+                <position num="4" roleType="visual">Visual</position>
+            </role>
+            <subunit>
+                <unit name="DanceRacha">Dance Racha</unit>
+            </subunit>
+            <height>179 cm (5’10.5″)</height>
+            <birthday when="2000-03-15">March 20, 2000</birthday>
+        </member>
+        
+        <member xml:id="Han">
+            <stageName>Han (한)</stageName>
+            <koreanName>Han Ji Sung (한지성)</koreanName>
+            <role>
+                <position num="1" roleType="rapper">Main Rapper</position>
+                <position num="2" roleType="vocalist">Lead Vocalist</position>
+                <position num="3" roleType="producer">Producer</position>
+            </role>
+            <subunit>
+                <unit name="3RACHA">3RACHA</unit>
+            </subunit>
+            <height>169 cm (5’7″)</height>
+            <birthday when="2000-09-14">September 14, 2000</birthday>
+        </member>
+        
+        <member xml:id="Felix">
+            <stageName>Felix (필릭스)</stageName>
+            <koreanName>Lee Yong Bok (이용복)</koreanName>
+            <nkBirthName>Felix Lee (이 필릭스)</nkBirthName>
+            <role>
+                <position num="1" roleType="dancer">Lead Dancer</position>
+                <position num="2" roleType="rapper">Lead Rapper</position>
+                <position num="3" roleType="vocalist">Sub Vocalist</position>
+            </role>
+            <subunit>
+                <unit name="DanceRacha">Dance Racha</unit>
+            </subunit>
+            <height>171 cm (5’7″)</height>
+            <birthday when="2000-09-15">September 15, 2000</birthday>
+        </member>
+        
+        <member xml:id="Seungmin">
+            <stageName>Seungmin (승민)</stageName>
+            <koreanName>Kim Seung Min (김승민)</koreanName>
+            <role>
+                <position num="1" roleType="vocalist">Main Vocalist</position>
+            </role>
+            <subunit>
+                <unit name="VocalRacha">Vocal Racha</unit>
+            </subunit>
+            <height>178 cm (5’10″)</height>
+            <birthday when="2000-09-22">September 22, 2000</birthday>
+        </member>
+        
+        <member xml:id="IN">
+            <stageName>I.N (아이엔)</stageName>
+            <koreanName>Yang Jeong In (양정인)</koreanName>
+            <role>
+                <position num="1" roleType="vocalist">Lead Vocalist</position>
+                <position num="2" roleType="maknae">Maknae</position>
+            </role>
+            <subunit>
+                <unit name="VocalRacha">Vocal Racha</unit>
+            </subunit>
+            <height>172 cm (5’8″)</height>
+            <birthday when="2001-02-08">February 8, 2001</birthday>
+        </member>
+        
+    </memberList>
+</groupPage>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="song_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- I've taken out the Schematron line, because it currently only points to the NCT 127 profile doc -->
+<song>
+    <about>
+        <songName xml:id="Back-Door">Back Door</songName>
+        <artistName artistRef="StrayKids">Stray Kids</artistName>
+        <bgInfo>
+            <p>“Back Door” was released as the title track off of <groupRef artistRef="StrayKids">Stray Kids</groupRef>' first repackaged album, IN生 (a reissue of their debut studio album, 2020’s GO生) along with its official M/V, teased on September 9. The group revealed about their anticipation for song before its final completion, as also they added:
+                
+                <blockQuote>Following our well-loved track “God’s Menu,” we hope “Back Door” will be even more well-received.</blockQuote>
+                
+                The track, co-composed by <groupRef artistRef="3RACHA">3RACHA</groupRef> (Han, Changbin, and SKZ’s leader Bang Chan), featuring the festival-like sound and “effects that will delight both the eyes and the ears” was also praised for its production by JYPE’s J.Y. Park himself.</p>
+        </bgInfo>
+        <album albumRef="INLife"></album>
+        <produceCredit>
+            <producer artistRef="3RACHA">3RACHA</producer>
+            <producer artistRef="BangChan">Bang Chan</producer>
+            <producer artistRef="Changbin">Changbin</producer>
+            <producer artistRef="Han">Han</producer>
+            <producer>HOT SAUCE</producer>
+        </produceCredit>
+        <lyricCredit>
+            <writer artistRef="3RACHA">3RACHA</writer>
+            <writer artistRef="BangChan">Bang Chan</writer>
+            <writer artistRef="Changbin">Changbin</writer>
+            <writer artistRef="Han">Han</writer>
+        </lyricCredit>
+        <label labelRef="JYPEnt">JYP Entertainment</label>
+        <releaseDate when="2020-09-14">September 14, 2020</releaseDate>
+    </about>
+    
+    <koreanLyrics>    
+        
+        <intro artistname="Felix">
+            <line linenum="1" lineRef="Felix">Hey, you wanna come in?</line>
+        </intro>
+        
+        <verse versenum="1" artistname="Han, Hyunjin">
+            <line linenum="2" lineRef="Han">다 치워 이제 들어가</line>
+            <line linenum="3" lineRef="Han">저번 건 입가심, mm</line>
+            <line linenum="4" lineRef="Han">이젠 본편으로 party <backVocal lineRef="Han">(Oh)</backVocal></line>
+            <line linenum="5" lineRef="Han">감당 안 됨 빠지지 <backVocal lineRef="Han">(Hol' up)</backVocal>, yeah</line>
+            <line linenum="6" lineRef="Hyunjin">에고 어기어차 참 뻐근한 거</line>
+            <line linenum="7" lineRef="Hyunjin">다 풀고 맘대로 즐겨 누구라도</line>
+            <line linenum="8" lineRef="Hyunjin">불 끄고 눈 밝혀라 밤새</line>
+            <line linenum="9" lineRef="">억눌렀던 흥을 끌어모아 방생 <backVocal lineRef="Hyunjin">(Oh)</backVocal></line>
+        </verse>
+        
+        <preChorus prechorusnum="1" artistname="Seungmin, BangChan, Felix, Hyunjin">
+            <line linenum="10" lineRef="Seungmin">손잡이를 돌려 내가 원하던 걸 다 볼래</line>
+            <line linenum="11" lineRef="Seungmin">이 문 앞에서 들리는 음악 소리</line>
+            <line linenum="12" lineRef="BangChan">내 목소리가 터지도록 외쳐</line>
+            <line linenum="13" lineRef="BangChan">멈칫할 시간 따윈 없어</line>
+            <line linenum="14" lineRef="Felix">(Hey, <sharedLine lineRef="Hyunjin">come inside now</sharedLine>, hey)</line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname="LeeKnow, Hyunjin, Felix">
+            <line linenum="15" lineRef="LeeKnow">관계자 외 출입금지 여긴, backdoor</line>
+            <line linenum="16" lineRef="LeeKnow">관계자 외 출입금지 여긴, backdoor</line>
+            <line linenum="17" lineRef="LeeKnow">관계자 외 출입금지 여긴, backdoor</line>
+            <line linenum="18" lineRef="Hyunjin">관계자가 되고 싶다면 <backVocal lineRef="Felix">(Ayy)</backVocal></line>
+        </chorus>
+        
+        <verse versenum="2" artistname="Changbin, Han, Felix">
+            <line linenum="19" lineRef="Changbin">여기까지가 끝인가 보오 <backVocal lineRef="Felix">(Right, right)</backVocal></line>
+            <line linenum="20" lineRef="Changbin">머리 쓸 시간 ready to go <backVocal lineRef="Felix">(Go, right)</backVocal></line>
+            <line linenum="21" lineRef="Changbin">고생했어 주인 잘못 만난 몸 <backVocal lineRef="Felix">(몸)</backVocal></line>
+            <line linenum="22" lineRef="Changbin">호강 시켜 줄게 따라와라와라, backdoor</line>
+            <line linenum="23" lineRef="Han">세콤 아니니까 괜찮네</line>
+            <line linenum="24" lineRef="Han">지금 들려오는 이 소리는 팡파르</line>
+            <line linenum="25" lineRef="Han">밤새 놀아보자 필요한 건 more caffeine</line>
+            <line linenum="26" lineRef="Han">오려면 오든가 암호는 열려라 참깨</line>
+        </verse>
+        
+        <preChorus prechorusnum="2" artistname="Seungmin, IN, Han, Felix">
+            <line linenum="27" lineRef="Seungmin">달라 보여 모든 게 완벽해지는 이 순간</line>
+            <line linenum="28" lineRef="Seungmin">두 눈앞에서 펼쳐지는 fantasy</line>
+            <line linenum="29" lineRef="IN">내 목소리가 터지도록 외쳐 멈칫</line>
+            <line linenum="30" lineRef="IN">할 시간 따윈 없어</line>
+            <line linenum="31" lineRef="Han">(Hey, <backVocal lineRef="Felix">come inside now</backVocal>, hey)</line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname="Changbin, Hyunjin, Felix">
+            <line linenum="32" lineRef="Changbin">관계자 외 출입금지 여긴, backdoor</line>
+            <line linenum="33" lineRef="Changbin">관계자 외 출입금지 여긴, backdoor</line>
+            <line linenum="34" lineRef="Changbin">관계자 외 출입금지 여긴, backdoor</line>
+            <line linenum="35" lineRef="Hyunjin">관계자가 되고 싶다면 <backVocal lineRef="Felix">(Knock, knock)</backVocal></line>
+        </chorus>
+        
+        <bridge artistname="BangChan, IN, Seungmin, Felix, All">
+            <line linenum="36" lineRef="BangChan">Lights out</line>
+            <line linenum="37" lineRef="IN">Yeah, 시간이 지나갈수록 더 화려해지는 이 순간</line>
+            <line linenum="38" lineRef="Seungmin">Yeah, we gon' do it right now, do it right now, baby</line>
+            <line linenum="39" lineRef="BangChan">이제부터 정신 차려 이 세계를 눈에 담아</line>
+            <line linenum="40" lineRef="BangChan">심장 울려, rum, pum, pum, pum</line>
+            <line linenum="41" lineRef="Felix">Make 'em say, "Wow, wow, wow," yeah</line>
+            <line linenum="42" lineRef="Felix">다들 불러와 와 와, ayy</line>
+            <line linenum="43" lineRef="Felix">노래 불러라 라 라, hey</line>
+            <line linenum="44" lineRef="All">(Three, two, one)</line>
+        </bridge>
+        
+        <chorus chorusnum="3" artistname="Changbin, Han, Felix">
+            <line linenum="45" lineRef="Changbin">관계자 외 출입금지 여긴, backdoor</line>
+            <line linenum="46" lineRef="Changbin">관계자 외 출입금지 여긴, backdoor</line>
+            <line linenum="47" lineRef="Changbin">관계자 외 출입금지 여긴, backdoor</line>
+            <line linenum="48" lineRef="Han">관계자가 되고 싶다면 <backVocal lineRef="Felix">(Knock, knock)</backVocal></line>
+        </chorus>
+        
+        <outro artistname="BangChan, IN, LeeKnow, Felix">
+            <line linenum="49" lineRef="BangChan">종 때리고 미쳐 날뛰어</line>
+            <line linenum="50" lineRef="BangChan">오늘도 we do our thing</line>
+            <line linenum="51" lineRef="IN">종 때리고 미쳐 날뛰어</line>
+            <line linenum="52" lineRef="IN">오늘 밤도 짖어, ayy</line>
+            <line linenum="53" lineRef="BangChan">종 때리고 미쳐 날뛰어</line>
+            <line linenum="54" lineRef="BangChan">오늘도 we do our thing</line>
+            <line linenum="55" lineRef="LeeKnow">종 때리고 미쳐 날뛰어</line>
+            <line linenum="56" lineRef="BangChan">Hot, hot (Yeah), hot, hot, ah</line>
+            <line linenum="57" lineRef="BangChan">Hot, hot (Oh), hot, hot</line>
+            <line linenum="58" lineRef="Felix">Hey, you wanna come in?</line>
+        </outro>
+    </koreanLyrics>
+    
+    <engTrans>
+        
+        <intro artistname="Felix">
+            <line linenum="1" lineRef="Felix">Hey, you wanna come in?</line>
+        </intro>
+        
+        <verse versenum="1" artistname="Han, Hyunjin">
+            <line linenum="2" lineRef="Han">Move over, and here I come</line>
+            <line linenum="3" lineRef="Han">Last time was just a warm-up, umm</line>
+            <line linenum="4" lineRef="Han">This time, it’s for real party <backVocal lineRef="Han">(Oh)</backVocal></line>
+            <line linenum="5" lineRef="Han">Stay out of this if you can’t handle it <backVocal lineRef="Han">(Hol' up)</backVocal>, yeah</line>
+            <line linenum="6" lineRef="Hyunjin">Gosh, you must feel tight</line>
+            <line linenum="7" lineRef="Hyunjin">Let it all go and enjoy yourself to the full, everyone</line>
+            <line linenum="8" lineRef="Hyunjin">Turn off the light, and light up your eyes all night</line>
+            <line linenum="9" lineRef="">Stop hiding your excitement, and let it all out<backVocal lineRef="Hyunjin">(Oh)</backVocal></line>
+        </verse>
+        
+        <preChorus prechorusnum="1" artistname="Seungmin, BangChan, Felix, Hyunjin">
+            <line linenum="10" lineRef="Seungmin">I’ll walk out that door to see everything I wanted</line>
+            <line linenum="11" lineRef="Seungmin">I can hear the music playing on the other side of the door</line>
+            <line linenum="12" lineRef="BangChan">I shout my lungs out, I don’t</line>
+            <line linenum="13" lineRef="BangChan">Have time to hesitate</line>
+            <line linenum="14" lineRef="Felix">(Hey, <sharedLine lineRef="Hyunjin">come inside now</sharedLine>, hey)</line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname="LeeKnow, Hyunjin, Felix">
+            <line linenum="15" lineRef="LeeKnow">Authorized personnel only here, backdoor</line>
+            <line linenum="16" lineRef="LeeKnow">Authorized personnel only here, backdoor</line>
+            <line linenum="17" lineRef="LeeKnow">Authorized personnel only here, backdoor</line>
+            <line linenum="18" lineRef="Hyunjin">If you want to be authorized <backVocal lineRef="Felix">(Ayy)</backVocal></line>
+        </chorus>
+  
+        <verse versenum="2" artistname="Changbin, Han, Felix">
+            <line linenum="19" lineRef="Changbin">I guess this is it <backVocal lineRef="Felix">(Right, right)</backVocal></line>
+            <line linenum="20" lineRef="Changbin">It’s time to think ready to go <backVocal lineRef="Felix">(Go, right)</backVocal></line>
+            <line linenum="21" lineRef="Changbin">This body suffered enough from having a bad owner <backVocal lineRef="Felix">(body)</backVocal></line>
+            <line linenum="22" lineRef="Changbin">I’ll make it up to you, so follow follow me, back door</line>
+            <line linenum="23" lineRef="Han">It’s okay since it’s not SECOM</line>
+            <line linenum="24" lineRef="Han">The sound that I’m hearing is a fanfare</line>
+            <line linenum="25" lineRef="Han">Let’s play all night long, what I need is more caffeine</line>
+            <line linenum="26" lineRef="Han">Come if you want, the passcode is Open Sesame</line>
+        </verse>
+        
+        <preChorus prechorusnum="2" artistname="Seungmin, IN, Han, Felix">
+            <line linenum="27" lineRef="Seungmin">Everything looks different, and at this moment, everything turns out to be perfect</line>
+            <line linenum="28" lineRef="Seungmin">I’m watching my fantasy unfold before my eyes</line>
+            <line linenum="29" lineRef="IN">I shout my lungs out, I don’t</line>
+            <line linenum="30" lineRef="IN">Have time to hesitate</line>
+            <line linenum="31" lineRef="Han">(Hey, <backVocal lineRef="Felix">come inside now</backVocal>, hey)</line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname="Changbin, Hyunjin, Felix">
+            <line linenum="32" lineRef="Changbin">Authorized personnel only here, backdoor</line>
+            <line linenum="33" lineRef="Changbin">Authorized personnel only here, backdoor</line>
+            <line linenum="34" lineRef="Changbin">Authorized personnel only here, backdoor</line>
+            <line linenum="35" lineRef="Hyunjin">If you want to be authorized <backVocal lineRef="Felix">(Knock, knock)</backVocal></line>
+        </chorus>
+        
+        <bridge artistname="BangChan, IN, Seungmin, Felix, All">
+            <line linenum="36" lineRef="BangChan">Lights out</line>
+            <line linenum="37" lineRef="IN">Yeah it is getting more glamorous as time passes</line>
+            <line linenum="38" lineRef="Seungmin">Yeah, we gon' do it right now, do it right now, baby</line>
+            <line linenum="39" lineRef="BangChan">Come to your senses from now on, look at this world and keep it in your eyes</line>
+            <line linenum="40" lineRef="BangChan">Your heart pounds, rum, pum, pum, pum</line>
+            <line linenum="41" lineRef="Felix">Make 'em say, "Wow, wow, wow," yeah</line>
+            <line linenum="42" lineRef="Felix">Bring ‘em all, all, all, ayy</line>
+            <line linenum="43" lineRef="Felix">Sing along, along, along, hey</line>
+            <line linenum="44" lineRef="All">(Three, two, one)</line>
+        </bridge>
+        
+        <chorus chorusnum="3" artistname="Changbin, Han, Felix">
+            <line linenum="45" lineRef="Changbin">Authorized personnel only here, backdoor</line>
+            <line linenum="46" lineRef="Changbin">Authorized personnel only here, backdoor</line>
+            <line linenum="47" lineRef="Changbin">Authorized personnel only here, backdoor</line>
+            <line linenum="48" lineRef="Han">If you want to be authorized <backVocal lineRef="Felix">(Knock, knock)</backVocal></line>
+        </chorus>
+        
+        <outro artistname="BangChan, IN, LeeKnow, Felix">
+            <line linenum="49" lineRef="BangChan">The bell rings and we go crazy</line>
+            <line linenum="50" lineRef="BangChan">Today, we do our thing again</line>
+            <line linenum="51" lineRef="IN">The bell rings and we go crazy</line>
+            <line linenum="52" lineRef="IN">Tonight, I bark again, ayy</line>
+            <line linenum="53" lineRef="BangChan">The bell rings and we go crazy</line>
+            <line linenum="54" lineRef="BangChan">Today, we do our thing again</line>
+            <line linenum="55" lineRef="LeeKnow">The bell rings and we go crazy</line>
+            <line linenum="56" lineRef="BangChan">Hot, hot (Yeah), hot, hot, ah</line>
+            <line linenum="57" lineRef="BangChan">Hot, hot (Oh), hot, hot</line>
+            <line linenum="58" lineRef="Felix">Hey, you wanna come in?</line>
+        </outro>
+    </engTrans>
+</song>

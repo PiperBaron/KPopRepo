@@ -37,7 +37,7 @@ group = element group {xmlid, text}
 groupRef = element groupRef {ref, text}
 memberRef = element memberRef {ref, text}
 memberList = element memberList {member+}
-member = element member {xmlid, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight, birthday, note?}
+member = element member {xmlid, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight?, birthday, note?}
 # This is a lot of info (probably unnecessary)
 # I wanted to emphasize how K-Pop and its community focuses on idols 
 
@@ -64,7 +64,7 @@ num = attribute num {xsd:integer}
 # List the roles in order of priority, e.g. Main goes before Lead, which goes before Sub, etc.
 # Just reference KProfiles if you get stuck and go with the order they use
 
-roleType = attribute roleType {"dancer" | "rapper" | "vocalist" | "leader" | "visual" | "center" | "maknae"}
+roleType = attribute roleType {"dancer" | "rapper" | "vocalist" | "leader" | "visual" | "center" | "maknae" | "producer"}
 # These are the roles I'm familiar with, but we may need to add more as we go
 
 subunit = element subunit {unit+}
@@ -75,6 +75,8 @@ unit = element unit {name, text}
 name = attribute name {text}
 height = element height {text}
 weight = element weight {text}
+# Changed and made optional, not all companies release this info
+
 birthday = element birthday {when, text}
 note = element note {text}
 # Only used when there's something to note about the status of a member in a group
