@@ -1,6 +1,12 @@
+# Dr. B is adding a spurious and totally unecessary comment here. But she is doing it for a reason! 
 start = groupPage
 groupPage = element groupPage {about, memberList}
 about = element about {groupName, bgInfo, company, debutDate, debutSong, discopgrahy, currentRank?}
+# Here is a comment that is meant to help document your code and explain what's here:
+# This about element is meant to store background information in a SET SEQUENCE. 
+# QUESTION: Do you have a mispelling here? Look at discopgrahy 
+# Do you mean discography
+
 groupName = element groupName {xmlid, text}
 bgInfo = element bgInfo {p+}
 company = element company {xmlid, text}
