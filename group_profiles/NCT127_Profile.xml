@@ -11,7 +11,7 @@
         <company xml:id="SMEnt">SM Entertainment</company>
         <debutDate when="2018-06-07">July 7, 2016 </debutDate>
         <debutSong>Fire Truck (소방차)</debutSong>
-        <discopgrahy>
+        <discography>
             <album albumType="mini">NCT #127</album>
             <album albumType="mini">Limitless</album>
             <album albumType="mini">Cherry Bomb</album>
@@ -22,7 +22,7 @@
             <album albumType="single">Highway to Heaven</album>
             <album albumType="live">Neo City: Seoul – The Origin</album>
             <album albumType="full">Neo Zone</album>
-        </discopgrahy>
+        </discography>
         <currentRank>11</currentRank>
     </about> 
     

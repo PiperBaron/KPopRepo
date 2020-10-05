@@ -1,42 +1,81 @@
-# Dr. B is adding a spurious and totally unecessary comment here. But she is doing it for a reason! 
 start = groupPage
 groupPage = element groupPage {about, memberList}
-about = element about {groupName, bgInfo, company, debutDate, debutSong, discopgrahy, currentRank?}
+about = element about {groupName, bgInfo, company, debutDate, debutSong, discography, currentRank?}
 # Here is a comment that is meant to help document your code and explain what's here:
 # This about element is meant to store background information in a SET SEQUENCE. 
-# QUESTION: Do you have a mispelling here? Look at discopgrahy 
-# Do you mean discography
+# Discography typo fixed. Sorry about that! 
 
 groupName = element groupName {xmlid, text}
 bgInfo = element bgInfo {p+}
+# Put general background info on the group in this element
+# Basically just explain the idea/origins of the group, meaning behind name, anything
+
 company = element company {xmlid, text}
+# Companies are BIG in K-Pop (lots of drama relating to the Big 3)
+# Companies /usually/ double as labels for their groups
+
 labelRef = attribute labelRef {xsd:IDREF}
+# Only used when the label for a song = the group's company
+
 p = element p {mixed{(groupRef | group)*}}
 xmlid = attribute xml:id {xsd:ID}
 debutDate = element debutDate {when, text}
 when = attribute when {xsd:date}
 debutSong = element debutSong {text}
-discopgrahy = element discopgrahy {album*}
+discography = element discography {album*}
+# The discography lists out each major album/single for a group
+# But we only need to put an xml:id on an album with the song that we've marked up
+
 album = element album {albumType, xmlid?, text}
 albumType = attribute albumType {"mini" | "full" | "live" | "repackage" | "single"}
 currentRank = element currentRank {xsd:integer}
+# The current rank referes to Brand Reputation in Korea (see GitHub issue #3)
+# Only use if applicable, leave out if you're not sure
+
 ref = attribute ref {xsd:IDREF}
 group = element group {xmlid, text}
 groupRef = element groupRef {ref, text}
 memberRef = element memberRef {ref, text}
 memberList = element memberList {member+}
 member = element member {xmlid, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight, birthday, note?}
+# This is a lot of info (probably unnecessary)
+# I wanted to emphasize how K-Pop and its community focuses on idols 
+
 stageName = element stageName {text}
+# stageName is the only Name element that's mandatory 
+
 koreanName = element koreanName {text}
+# koreanName is used for the full birth names of native Korean memebers
+# OR the the Korean name of a foreigner 
+
 nkBirthName = element nkBirthName {text}
+# nkBirthName stands for "not korean Birth Name"
+# Used for the full birth names of foreign members (i.e. NOT Korean) only
+# Example for how to use these elemements together:
+# Mark (NCT) --> He's Canadian with a foreign birth name (Mark) and a Korean name (Minhyung)
+    # stageName = Mark, koreanName = Lee Minhyung, nkBirthName = Mark Lee 
+
 role = element role {position+}
 position = element position {num, roleType, text}
+# Only put as many positions as the member fulfills
+# Some members fill like 5 roles, some only 1
+
 num = attribute num {xsd:integer}
+# List the roles in order of priority, e.g. Main goes before Lead, which goes before Sub, etc.
+# Just reference KProfiles if you get stuck and go with the order they use
+
 roleType = attribute roleType {"dancer" | "rapper" | "vocalist" | "leader" | "visual" | "center" | "maknae"}
+# These are the roles I'm familiar with, but we may need to add more as we go
+
 subunit = element subunit {unit+}
+# Subunits are optional, because not all groups have subunits
+# Only use this element if it's applicable
+
 unit = element unit {name, text}
 name = attribute name {text}
 height = element height {text}
 weight = element weight {text}
 birthday = element birthday {when, text}
 note = element note {text}
+# Only used when there's something to note about the status of a member in a group
+# Sometimes members are considered "inactive" but still a part of a group (like Lay of EXO)

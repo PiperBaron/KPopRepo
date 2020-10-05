@@ -2,32 +2,68 @@ start = song
 song = element song {about, koreanLyrics, engTrans}
 about = element about {songName, artistName, bgInfo, album, produceCredit, lyricCredit, label, releaseDate}
 songName = element songName {xmlid, text}
+# Use both English and Korean (if possible -- some song titles are only in English)
+
 artistName = element artistName {artistRef*, text}
+# Use both English and Korean
+# Reference the xml:id established in the groupName element from the group page
+
 artistRef = attribute artistRef {text}
+# artistRef is used whenever ANY artist with an existing xml:id, group/member/whoever, is referenced
+
 bgInfo = element bgInfo {p+}
+# Put general background info on the group in this element
+# How the song was recorded, its genre, general meaning/themes, etc.
+
 p = element p {mixed{(groupRef | group)*}}
 xmlid = attribute xml:id {xsd:ID}
 group = element group {xmlid, text}
 groupRef = element groupRef {artistRef, text}
+# Element used if a group with an existing group page is mentioned/referenced
+
 album = element album {albumRef, text}
 albumRef = attribute albumRef {text}
+# Reference the album the song comes from, pull from discography element in group page
+
 produceCredit = element produceCredit {producer+}
 producer = element producer {artistRef*, text}
+# List ALL producers of the song
+# Use artistRef to reference any members of the group
+
 lyricCredit = element lyricCredit {writer+}
 writer = element writer {artistRef*, text}
-label = element label {labelRef, text}
+# List ALL writers/lyricists of the song
+# Use artistRef to reference any members of the group
+
+label = element label {labelRef?, text}
+# Just put main label listed (on Genius)
+
 labelRef = attribute labelRef {text}
+# Only use if referencing the group's company. 
+# If not, leave out the labelRef
+
 releaseDate = element releaseDate {when, text}
 when = attribute when {xsd:date}
 koreanLyrics = element koreanLyrics {intro?, (verse | preChorus | chorus | bridge)+, outro?}
 line = element line {mixed{lineRef, linenum, backVocal*, sharedLine*}}
 lineRef = attribute lineRef {text}
+# Referencing (with the Schematron) a xml:id on a member element from a group page
+# OR you can use "All" if everyone is singing at once
+
 linenum = attribute linenum {xsd:integer}
 backVocal = element backVocal {lineRef, text}
+# backVocal is used when there's someone sing BEHIND someone else in a line
+# Mostly used for ad-libs 
+
 sharedLine = element sharedLine {lineRef, text}
+# sharedLine is used when there's someone sing AFTER someone else in a line 
+# When in doubt, use the sharedLine element 
+
 koreanLyric = element koreanLyric {text}
 intro = element intro {artistname, line+}
 artistname = attribute artistname {text}
+# This is meant more for our own reference, and thus has no real set format/rules
+
 verse = element verse {versenum, artistname, line+}
 versenum = attribute versenum {xsd:integer}
 preChorus = element preChorus {prechorusnum, artistname, line+}
