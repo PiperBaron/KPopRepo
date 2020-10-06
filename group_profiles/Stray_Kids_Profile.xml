@@ -32,14 +32,14 @@
             <album albumType="repackage" xml:id="INLife">IN生</album>
         </discography>
         <fandomName>Stay</fandomName>
-        <lightstick></lightstick>
+        <lightstick>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/lightsticks/Stray_Kids_Lightstick.png?raw=true</lightstick>
         <currentRank>33</currentRank>
     </about> 
     
     <memberList>
         
         <member xml:id="BangChan">
-            <portrait></portrait>
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Stray_Kids/BangChan_Portrait.jpg?raw=true</portrait>
             <stageName>Bang Chan (방찬)</stageName>
             <koreanName>Bang Chan (방찬)</koreanName>
             <nkBirthName>Christopher Bang</nkBirthName>
@@ -58,7 +58,7 @@
         </member>
         
         <member xml:id="LeeKnow">
-            <portrait></portrait>
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Stray_Kids/LeeKnow_Portrait.jpg?raw=true</portrait>
             <stageName>Lee Know (리노)</stageName>
             <koreanName>Lee Min Ho (이민호)</koreanName>
             <role>
@@ -74,7 +74,7 @@
         </member>
         
         <member xml:id="Changbin">
-            <portrait></portrait>
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Stray_Kids/Changbin_Portrait.jpg?raw=true</portrait>
             <stageName>Changbin (창빈)</stageName>
             <koreanName>Seo Chang Bin (서창빈)</koreanName>
             <role>
@@ -90,7 +90,7 @@
         </member>
         
         <member xml:id="Hyunjin">
-            <portrait></portrait>
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Stray_Kids/Hyunjin_Portrait.jpg?raw=true</portrait>
             <stageName>Hyunjin (현진)</stageName>
             <koreanName>Hwang Hyun Jin (황현진)</koreanName>
             <role>
@@ -107,7 +107,7 @@
         </member>
         
         <member xml:id="Han">
-            <portrait></portrait>
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Stray_Kids/Han_Portrait.jpg?raw=true</portrait>
             <stageName>Han (한)</stageName>
             <koreanName>Han Ji Sung (한지성)</koreanName>
             <role>
@@ -123,7 +123,7 @@
         </member>
         
         <member xml:id="Felix">
-            <portrait></portrait>
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Stray_Kids/Felix_Portrait.jpg?raw=true</portrait>
             <stageName>Felix (필릭스)</stageName>
             <koreanName>Lee Yong Bok (이용복)</koreanName>
             <nkBirthName>Felix Lee (이 필릭스)</nkBirthName>
@@ -140,7 +140,7 @@
         </member>
         
         <member xml:id="Seungmin">
-            <portrait></portrait>
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Stray_Kids/Seungmin_Portrait.jpg?raw=true</portrait>
             <stageName>Seungmin (승민)</stageName>
             <koreanName>Kim Seung Min (김승민)</koreanName>
             <role>
@@ -154,7 +154,7 @@
         </member>
         
         <member xml:id="IN">
-            <portrait></portrait>
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Stray_Kids/IN_Portrait.jpg?raw=true</portrait>
             <stageName>I.N (아이엔)</stageName>
             <koreanName>Yang Jeong In (양정인)</koreanName>
             <role>

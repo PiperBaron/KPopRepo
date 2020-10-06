@@ -102,6 +102,8 @@ num = attribute num {xsd:integer}
 
 roleType = attribute roleType {"dancer" | "rapper" | "vocalist" | "leader" | "visual" | "center" | "maknae" | "producer"}
 # These are the roles I'm familiar with, but we may need to add more as we go
+# I should mention, "maknae" = the youngest person in a group
+# Age and seniority is very important in Korean culture, so being the youngest is notable
 
 subunit = element subunit {unit+}
 # Subunits are optional, because not all groups have subunits
