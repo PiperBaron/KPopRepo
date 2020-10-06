@@ -23,11 +23,15 @@
             <album albumType="live">Neo City: Seoul – The Origin</album>
             <album albumType="full">Neo Zone</album>
         </discography>
+        <fandomName>NCTzen</fandomName>
+        <fandomColor colorHex="#caff00">Pearl Neo Champagne</fandomColor>
+        <lightstick></lightstick>
         <currentRank>11</currentRank>
     </about> 
     
     <memberList>
         <member xml:id="Taeyong">
+            <portrait></portrait>
             <stageName>Taeyong (태용)</stageName>
             <koreanName>Lee Taeyong (이태용)</koreanName>
             <role>
@@ -48,6 +52,7 @@
         </member>
         
         <member xml:id="Taeil">
+            <portrait></portrait>
             <stageName>Taeil (태일)</stageName>
             <koreanName>Moon Tae Il (문태일)</koreanName>
             <role>
@@ -63,6 +68,7 @@
         </member>
         
         <member xml:id="Johnny">
+            <portrait></portrait>
             <stageName>Johnny (쟈니)</stageName>
             <koreanName>Seo Young Ho (서영호)</koreanName>
             <nkBirthName>John Suh</nkBirthName>
@@ -81,6 +87,7 @@
         </member>
         
         <member xml:id="Yuta">
+            <portrait></portrait>
             <stageName>Yuta (유타)</stageName>
             <nkBirthName>Nakamoto Yuta (中本悠太)</nkBirthName>
             <role>
@@ -98,6 +105,7 @@
         </member>
         
         <member xml:id="Doyoung">
+            <portrait></portrait>
             <stageName>Doyoung (도영)</stageName>
             <koreanName>Kim Dong Young (김동영‬)</koreanName>
             <role>
@@ -113,6 +121,7 @@
         </member>
         
         <member xml:id="Jaehyun">
+            <portrait></portrait>
             <stageName>Jaehyun (재현)</stageName>
             <koreanName>Jung Jae Hyun, but he legalized to Jung Yoon Oh (정윤오)</koreanName>
             <role>
@@ -131,6 +140,7 @@
         </member>
         
         <member xml:id="Jungwoo">
+            <portrait></portrait>
             <stageName>Jungwoo (정우)</stageName>
             <koreanName>Kim Jung-woo (김정우)</koreanName>
             <role>
@@ -147,6 +157,7 @@
         </member>
         
         <member xml:id="WinWin">
+            <portrait></portrait>
             <stageName>Win Win (윈윈)</stageName>
             <koreanName>Dong Sa Sung (동사성)</koreanName>
             <nkBirthName>Dong Si Cheng (董思成)</nkBirthName>
@@ -166,6 +177,7 @@
         </member>
         
         <member xml:id="MarkLee">
+            <portrait></portrait>
             <stageName>Mark (마크)</stageName>
             <koreanName>Mark Lee</koreanName>
             <nkBirthName>Lee Min Hyung (이민형)</nkBirthName>
@@ -185,6 +197,7 @@
         </member>
         
         <member xml:id="Haechan">
+            <portrait></portrait>
             <stageName>Haechan (해찬)</stageName>
             <koreanName>Lee Dong Hyuck (이동혁)</koreanName>
             <role>

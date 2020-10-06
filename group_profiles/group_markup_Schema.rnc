@@ -1,6 +1,6 @@
 start = groupPage
 groupPage = element groupPage {about, memberList}
-about = element about {groupName, bgInfo, company, debutDate, debutSong, discography, currentRank?}
+about = element about {groupName, bgInfo, company, debutDate, debutSong, discography, fandomName, fandomColor*, lightstick, currentRank?}
 # This about element is meant to store background information in a SET SEQUENCE
 # Discography typo fixed. Sorry about that! 
 
@@ -30,6 +30,22 @@ discography = element discography {album*}
 album = element album {albumType, xmlid?, text}
 albumType = attribute albumType {"mini" | "full" | "live" | "repackage" | "single"}
 albumRef = attribute albumRef {text}
+
+fandomName = element fandomName {text}
+# Basically every group has a special name they call their fans
+# I'm including this, because fandom culture is SO immensely important in K-Pop
+
+fandomColor = element fandomColor {colorHex, text}
+# Yes, some K-Pop groups have color(s)
+
+colorHex = attribute colorHex {text}
+# colorHex holds the html hex code for the color (with the #)
+# {text} because I couldn't find a datatype that's specifically for hex codes 
+
+lightstick = element lightstick {xsd:anyURI}
+# Lighsticks are used at concerts, just another way to support a group you like
+# We'll put images here, for now they'll be hosted on GitHub
+
 currentRank = element currentRank {xsd:integer}
 # The current rank referes to Brand Reputation in Korea (see GitHub issue #3)
 # Only use if applicable, leave out if you're not sure
@@ -54,9 +70,12 @@ compMent = element compMent {labelRef, text}
 # Element used if a company with an existing xml:id is mentioned/referenced in bgInfo
 
 memberList = element memberList {member+}
-member = element member {xmlid, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight?, birthday, note?}
+member = element member {xmlid, portrait, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight?, birthday, note?}
 # This is a lot of info (probably unnecessary)
 # I wanted to emphasize how K-Pop and its community focuses on idols 
+
+portrait = element portrait {xsd:anyURI}
+# URL for portrait images go here, for now they'll be hosted on GitHub
 
 stageName = element stageName {text}
 # stageName is the only Name element that's mandatory 
