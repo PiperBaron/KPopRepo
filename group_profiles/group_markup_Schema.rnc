@@ -1,8 +1,7 @@
 start = groupPage
 groupPage = element groupPage {about, memberList}
 about = element about {groupName, bgInfo, company, debutDate, debutSong, discography, currentRank?}
-# Here is a comment that is meant to help document your code and explain what's here:
-# This about element is meant to store background information in a SET SEQUENCE. 
+# This about element is meant to store background information in a SET SEQUENCE
 # Discography typo fixed. Sorry about that! 
 
 groupName = element groupName {xmlid, text}
@@ -15,9 +14,11 @@ company = element company {xmlid, text}
 # Companies /usually/ double as labels for their groups
 
 labelRef = attribute labelRef {xsd:IDREF}
-# Only used when the label for a song = the group's company
+# labelRef is used in two different ways:
+# 1. Specifying the label/company in the company element
+# 2. Acting as a reference for compMent whenever a company is mentioned (like in bgInfo)
 
-p = element p {mixed{(groupRef | group)*}}
+p = element p {mixed{(groupMent | group | memberMent | albumMent | compMent)*}}
 xmlid = attribute xml:id {xsd:ID}
 debutDate = element debutDate {when, text}
 when = attribute when {xsd:date}
@@ -28,14 +29,30 @@ discography = element discography {album*}
 
 album = element album {albumType, xmlid?, text}
 albumType = attribute albumType {"mini" | "full" | "live" | "repackage" | "single"}
+albumRef = attribute albumRef {text}
 currentRank = element currentRank {xsd:integer}
 # The current rank referes to Brand Reputation in Korea (see GitHub issue #3)
 # Only use if applicable, leave out if you're not sure
 
-ref = attribute ref {xsd:IDREF}
+artistRef = attribute artistRef {text}
+# artistRef is used whenever ANY artist with an existing xml:id, group/member/whoever, is referenced
+
 group = element group {xmlid, text}
-groupRef = element groupRef {ref, text}
-memberRef = element memberRef {ref, text}
+groupMent = element groupMent {artistRef, text}
+# Element used if a group with an existing group page is mentioned/referenced
+# CHANGED NAME: from groupRef to groupMent (Ment as in Mention)
+# Ref --> Ment change b/c it was getting confusing between elements and attributes
+# All reference ELEMENTS will now use "Ment" instead of "Ref"
+
+memberMent = element memberMent {artistRef, text}
+# Element used if a member is mentioned/referenced in bgInfo
+
+albumMent = element albumMent {albumRef, text}
+# Element used if a album with an existing xml:id is mentioned/referenced in bgInfo
+
+compMent = element compMent {labelRef, text}
+# Element used if a company with an existing xml:id is mentioned/referenced in bgInfo
+
 memberList = element memberList {member+}
 member = element member {xmlid, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight?, birthday, note?}
 # This is a lot of info (probably unnecessary)

@@ -6,7 +6,7 @@
         <bgInfo>
             <p>The subunit NCT127 is part of the larger group <group xml:id="NCT">NCT</group>. NCT stands for Neo Culture Technology, and the idea is that they're a group of infinite members who are constantly shifting into different sub-units in different cities around the world.</p> 
             
-            <p>Each member was hand-selected by their company. Before being a part of NCT, they were considered members of SM Rookies, a training program for young idols-to-be who are primed and prepared to become a part of a greater group.</p>
+            <p>Each member was hand-selected by their <compMent labelRef="SMEnt">company</compMent>. Before being a part of NCT, they were considered members of SM Rookies, a training program for young idols-to-be who are primed and prepared to become a part of a greater group.</p>
         </bgInfo>
         <company xml:id="SMEnt">SM Entertainment</company>
         <debutDate when="2018-06-07">July 7, 2016 </debutDate>

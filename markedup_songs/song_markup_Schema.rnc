@@ -9,19 +9,38 @@ artistName = element artistName {artistRef*, text}
 # Reference the xml:id established in the groupName element from the group page
 
 artistRef = attribute artistRef {text}
-# artistRef is used whenever ANY artist with an existing xml:id, group/member/whoever, is referenced
+# artistRef is used whenever ANY artist with an existing xml:id, 
+# group/member/whoever, is referenced
 
-bgInfo = element bgInfo {p+}
+bgInfo = element bgInfo {p+, meaning?}
 # Put general background info on the group in this element
 # How the song was recorded, its genre, general meaning/themes, etc.
 
-p = element p {mixed{(groupRef | group | blockQuote)*}}
+p = element p {mixed{(groupMent | group | memberMent | albumMent | compMent | blockQuote)*}}
 xmlid = attribute xml:id {xsd:ID}
 group = element group {xmlid, text}
-groupRef = element groupRef {artistRef, text}
+groupMent = element groupMent {artistRef, text}
 # Element used if a group with an existing group page is mentioned/referenced
+# CHANGED NAME: from groupRef to groupMent (Ment as in Mention)
+# Ref --> Ment change b/c it was getting confusing between elements and attributes
+# All reference ELEMENTS will now use "Ment" instead of "Ref"
+
+memberMent = element memberMent {artistRef, text}
+# Element used if a member is mentioned/referenced in bgInfo
+
+albumMent = element albumMent {albumRef, text}
+# Element used if a album with an existing xml:id is mentioned/referenced in bgInfo
+
+compMent = element compMent {labelRef, text}
+# Element used if a company with an existing xml:id is mentioned/referenced in bgInfo
 
 blockQuote = element blockQuote {text}
+meaning = element meaning {mixed{(groupMent | memberMent | albumMent | compMent | lineMent)*}}
+# This is where we can discuss possible themes/messages of the song
+
+lineMent = element lineMent {linenum, text}
+# Element used if a specific line is mentioned/referenced in the meaning element
+
 album = element album {albumRef, text}
 albumRef = attribute albumRef {text}
 # Reference the album the song comes from, pull from discography element in group page
@@ -53,11 +72,11 @@ lineRef = attribute lineRef {text}
 
 linenum = attribute linenum {xsd:integer}
 backVocal = element backVocal {lineRef, text}
-# backVocal is used when there's someone sing BEHIND someone else in a line
+# backVocal is used when there's someone singing BEHIND someone else in a line
 # Mostly used for ad-libs 
 
 sharedLine = element sharedLine {lineRef, text}
-# sharedLine is used when there's someone sing AFTER someone else in a line 
+# sharedLine is used when there's someone singing AFTER someone else in a line 
 # When in doubt, use the sharedLine element
 
 koreanLyric = element koreanLyric {text}
