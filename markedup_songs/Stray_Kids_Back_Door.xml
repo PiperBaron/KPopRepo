@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="song_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <!-- I've taken out the Schematron line, because it currently only points to the NCT 127 profile doc -->
+<!--2020-10-07 ebb: I just added back the Schematron line now that I changed the Schematron file to point to the collection. Is it working correctly? -->
+<?xml-model href="xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <song>
     <about>
         <songName xml:id="Back-Door">Back Door</songName>
