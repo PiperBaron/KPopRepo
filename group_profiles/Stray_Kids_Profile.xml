@@ -51,7 +51,7 @@
                 <position num="5" roleType="rapper">Sub Rapper</position>
             </role>
             <subunit>
-                <unit name="3RACHA">3RACHA</unit>
+                <unit unitName="ThreeRACHA">3RACHA</unit>
             </subunit>
             <height>171 cm (5’7″)</height>
             <birthday when="1997-10-03">October 3, 1997</birthday>
@@ -67,7 +67,7 @@
                 <position num="3" roleType="rapper">Sub Rapper</position>
             </role>
             <subunit>
-                <unit name="DanceRacha">Dance Racha</unit>
+                <unit unitName="DanceRacha">Dance Racha</unit>
             </subunit>
             <height>172 cm (5’8″)</height>
             <birthday when="1998-10-25">October 25, 1998</birthday>
@@ -83,7 +83,7 @@
                 <position num="3" roleType="producer">Producer</position>
             </role>
             <subunit>
-                <unit name="3RACHA">3RACHA</unit>
+                <unit unitName="ThreeRACHA">3RACHA</unit>
             </subunit>
             <height>167 cm (5’6″)</height>
             <birthday when="1999-08-11">August 11, 1999</birthday>
@@ -100,7 +100,7 @@
                 <position num="4" roleType="visual">Visual</position>
             </role>
             <subunit>
-                <unit name="DanceRacha">Dance Racha</unit>
+                <unit unitName="DanceRacha">Dance Racha</unit>
             </subunit>
             <height>179 cm (5’10.5″)</height>
             <birthday when="2000-03-15">March 20, 2000</birthday>
@@ -116,7 +116,7 @@
                 <position num="3" roleType="producer">Producer</position>
             </role>
             <subunit>
-                <unit name="3RACHA">3RACHA</unit>
+                <unit unitName="ThreeRACHA">3RACHA</unit>
             </subunit>
             <height>169 cm (5’7″)</height>
             <birthday when="2000-09-14">September 14, 2000</birthday>
@@ -133,7 +133,7 @@
                 <position num="3" roleType="vocalist">Sub Vocalist</position>
             </role>
             <subunit>
-                <unit name="DanceRacha">Dance Racha</unit>
+                <unit unitName="DanceRacha">Dance Racha</unit>
             </subunit>
             <height>171 cm (5’7″)</height>
             <birthday when="2000-09-15">September 15, 2000</birthday>
@@ -147,7 +147,7 @@
                 <position num="1" roleType="vocalist">Main Vocalist</position>
             </role>
             <subunit>
-                <unit name="VocalRacha">Vocal Racha</unit>
+                <unit unitName="VocalRacha">Vocal Racha</unit>
             </subunit>
             <height>178 cm (5’10″)</height>
             <birthday when="2000-09-22">September 22, 2000</birthday>
@@ -162,11 +162,30 @@
                 <position num="2" roleType="maknae">Maknae</position>
             </role>
             <subunit>
-                <unit name="VocalRacha">Vocal Racha</unit>
+                <unit unitName="VocalRacha">Vocal Racha</unit>
             </subunit>
             <height>172 cm (5’8″)</height>
             <birthday when="2001-02-08">February 8, 2001</birthday>
-        </member>
-        
+        </member>   
     </memberList>
+    
+    <subunitList xml:id="ThreeRACHA">
+        <subunitName unitName="ThreeRACHA">3RACHA</subunitName>
+        <subunitMembers subunitMemberName="BangChan">Bang Chan (방찬)</subunitMembers>
+        <subunitMembers subunitMemberName="Changbin">Changbin (창빈)</subunitMembers>
+        <subunitMembers subunitMemberName="Han">Han (한)</subunitMembers>
+    </subunitList>
+    
+    <subunitList xml:id="DanceRacha">
+        <subunitName unitName="DanceRacha">Dance Racha</subunitName>
+        <subunitMembers subunitMemberName="LeeKnow">Lee Know (리노)</subunitMembers>
+        <subunitMembers subunitMemberName="Hyunjin">Hyunjin (현진)</subunitMembers>
+        <subunitMembers subunitMemberName="Felix">Felix (필릭스}</subunitMembers>
+    </subunitList>
+    
+    <subunitList xml:id="VocalRacha">
+        <subunitName unitName="VocalRacha">Vocal Racha</subunitName>
+        <subunitMembers subunitMemberName="Seungmin">Seungmin (승민)</subunitMembers>
+        <subunitMembers subunitMemberName="IN">I.N (아이엔)</subunitMembers>
+    </subunitList>
 </groupPage>

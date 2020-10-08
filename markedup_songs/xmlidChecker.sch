@@ -4,28 +4,30 @@
     
     <sch:pattern id="check-refs-to-xmlids">
         <sch:let name="groupMarkupColl" value="collection('../group_profiles/?select=*.xml')"/>
-        <!--2020-10-04 ebb: This sch:let element defines a variable that points to an XML document. 
-            Notice the use of a relative file path for the value of @value. I'm just pointing "up" one directory level from where this file is saved, 
-            and then "down" into a new one to retrieve your XML document with the xml:ids.
-            If you want to define these in multiple documents, we'll change this to read a collection instead of just one XML document. -->
         <sch:rule context="*[@artistRef]">
             <sch:let name="xmlids"
-                value="($groupMarkupColl//group/@xml:id | $groupMarkupColl//groupName/@xml:id | $groupMarkupColl//member/@xml:id)"/>
+                value="($groupMarkupColl//group/@xml:id | $groupMarkupColl//groupName/@xml:id | $groupMarkupColl//member/@xml:id | $groupMarkupColl//subunitList/@xml:id)"/>
             <sch:assert test="@artistRef = $xmlids"> An artistRef value must point to an xml:id on a
-                groupName, group, or member element in the group markup document. Correct values
+                groupName, group, member, or subunitList element in the group markup collection. Correct values
                 include <sch:value-of select="string-join($xmlids, ', ')"/></sch:assert>
         </sch:rule>
         <sch:rule context="*[@labelRef]">
             <sch:let name="xmlids" value="$groupMarkupColl//company/@xml:id"/>
             <sch:assert test="@labelRef = $xmlids"> A labelRef value must point to an xml:id on a
-                company element in the group markup document. Correct values include <sch:value-of
+                company element in the group markup collection. Correct values include <sch:value-of
                     select="string-join($xmlids, ', ')"/></sch:assert>
         </sch:rule>
         <sch:rule context="*[@lineRef]">
             <sch:let name="xmlids" value="$groupMarkupColl//member/@xml:id"/>
             <sch:assert test="@lineRef = $xmlids or @lineRef = 'All'"> A lineRef value may be "All" or 
-                it must point to an xml:id on a member element in the group markup document. Correct 
+                it must point to an xml:id on a member element in the group markup collection. Correct 
                 values include <sch:value-of
+                    select="string-join($xmlids, ', ')"/></sch:assert>
+        </sch:rule>
+        <sch:rule context="*[@unitName]">
+            <sch:let name="xmlids" value="$groupMarkupColl//subunitList/@xml:id"/>
+            <sch:assert test="@unitName = $xmlids"> A unitName value must point to an xml:id on a
+                subunitList element in the group markup collection. Correct values include <sch:value-of
                     select="string-join($xmlids, ', ')"/></sch:assert>
         </sch:rule>
     </sch:pattern>

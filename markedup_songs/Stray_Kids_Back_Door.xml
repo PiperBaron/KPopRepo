@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="song_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
-<!-- I've taken out the Schematron line, because it currently only points to the NCT 127 profile doc -->
-<!--2020-10-07 ebb: I just added back the Schematron line now that I changed the Schematron file to point to the collection. Is it working correctly? -->
-<?xml-model href="xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="xmlidChecker.sch" type="application/xml" \schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <song>
     <about>
         <songName xml:id="Back-Door">Back Door</songName>
@@ -12,20 +10,20 @@
                 
                 <blockQuote>Following our well-loved track “God’s Menu,” we hope “Back Door” will be even more well-received.</blockQuote>
                 
-                The track, co-composed by <groupMent artistRef="3RACHA">3RACHA</groupMent> (<memberMent artistRef="Han">Han</memberMent>, <memberMent artistRef="Changbin">Changbin</memberMent>, and SKZ’s leader <memberMent artistRef="BangChan">Bang Chan</memberMent>), featuring the festival-like sound and “effects that will delight both the eyes and the ears” was also praised for its production by <compMent labelRef="JYPEnt">JYPE</compMent>’s J.Y. Park himself.</p>
+                The track, co-composed by <groupMent artistRef="ThreeRACHA">3RACHA</groupMent> (<memberMent artistRef="Han">Han</memberMent>, <memberMent artistRef="Changbin">Changbin</memberMent>, and SKZ’s leader <memberMent artistRef="BangChan">Bang Chan</memberMent>), featuring the festival-like sound and “effects that will delight both the eyes and the ears” was also praised for its production by <compMent labelRef="JYPEnt">JYPE</compMent>’s J.Y. Park himself.</p>
             
             <meaning>Back Door and its lyrics seem to invite the listener into a private sector, where only <lineMent linenum="15">“authorized personnel”</lineMent> are allowed -- Stray Kids are beckoning fans and non-fans alike to join them in their new-found success. Off of the back of the wildly popular God’s Menu, the title-track of their previous full album <albumMent albumRef="GOLive">GO生</albumMent>, Stray Kids are flexing their fame and presenting an invitation into their fandom to anyone with the privilege to listen.</meaning>
         </bgInfo>
-        <album albumRef="INLife"></album>
+        <album albumRef="INLife">IN生</album>
         <produceCredit>
-            <producer artistRef="3RACHA">3RACHA</producer>
+            <producer artistRef="ThreeRACHA">3RACHA</producer>
             <producer artistRef="BangChan">Bang Chan</producer>
             <producer artistRef="Changbin">Changbin</producer>
             <producer artistRef="Han">Han</producer>
             <producer>HOT SAUCE</producer>
         </produceCredit>
         <lyricCredit>
-            <writer artistRef="3RACHA">3RACHA</writer>
+            <writer artistRef="ThreeRACHA">3RACHA</writer>
             <writer artistRef="BangChan">Bang Chan</writer>
             <writer artistRef="Changbin">Changbin</writer>
             <writer artistRef="Han">Han</writer>

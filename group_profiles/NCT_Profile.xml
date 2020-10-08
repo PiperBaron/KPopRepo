@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="group_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../markedup_songs/xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<groupPage>
+    <about>
+        <groupName xml:id="NCT">NCT {엔씨티)</groupName>
+        <bgInfo>
+            <p>NCT is an abbreviation for Neo Culture Technology, which illuminates SM Entertainment’s new and “evolutionary” approach to the Korean and worldwide music industry. Tthe idea is that they're a group of infinite members who are constantly shifting into different sub-units in different cities around the world.</p>
+            
+            <p>Each member was hand-selected by their <compMent labelRef="SMEnt">company</compMent>. Before being a part of NCT, they were considered members of SM Rookies, a training program for young idols-to-be who are primed and prepared to become a part of a greater group.</p>
+            
+            <p>There are currently 4 subunits of NCT: <groupMent artistRef="NCTU">NCT U</groupMent>, <groupMent artistRef="NCT127">NCT 127</groupMent>, <groupMent artistRef="NCT-Dream">NCT Dream</groupMent>, and <groupMent artistRef="WayV">WayV</groupMent>. Within these groups, NCT also bases songs in a variety of languages, including Korean, English, Japanese, and Chinese. A new project, dubbed NCT 2020, is releasing on October 12th, and will iclude 2 new members, <memberMent artistRef="Shotaro">Shotaro</memberMent> and <memberMent artistRef="Sungchan">Sungchan</memberMent>, who will reportedly be involved in a new and currently unannounced subunit.</p>
+        </bgInfo>
+        <company xml:id="SMEnt">SM Entertainment</company>
+        <debutDate when="2016-04-08">April 8, 2016</debutDate>
+        <debutSong>The 7th Sense (일곱 번째 감각)</debutSong>
+        <discography>
+            <album>See NCT127's page for full discography</album>
+            <album>See NCT Dream's page for full discography</album>
+        </discography>
+        <fandomName>NCTzen</fandomName>
+        <fandomColor colorHex="#caff00">Pearl Neo Champagne</fandomColor>
+        <lightstick>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/lightsticks/NCT_Lightstick.png?raw=true</lightstick>
+        <currentRank>11</currentRank>
+    </about> 
+    
+    <memberList>
+        <member xml:id="Taeyong">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Taeyong_Portrait.jpg?raw=true</portrait>
+            <stageName>Taeyong (태용)</stageName>
+            <koreanName>Lee Taeyong (이태용)</koreanName>
+            <role>
+                <position num="1" roleType="leader">Leader (NCT and NCT 127)</position>
+                <position num="2" roleType="rapper">Main Rapper</position>
+                <position num="3" roleType="dancer">Main Dancer</position>
+                <position num="4" roleType="vocalist">Sub Vocalist</position>
+                <position num="5" roleType="visual">Visual</position>
+                <position num="6" roleType="center">Center</position>
+            </role>
+            <subunit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>174 cm (5’8″)</height>
+            <weight>58 kg (128 lbs)</weight>
+            <birthday when="1995-06-01">July 1, 1995</birthday>
+        </member>
+        
+        <member xml:id="Kun">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/WayV_and_NCTU/Kun_Portrait.jpg?raw=true</portrait>
+            <stageName>Kun (쿤)</stageName>
+            <koreanName>Jeon Gon (전곤)</koreanName>
+            <nkBirthName>Qian Kun (錢錕)</nkBirthName>
+            <role>
+                <position num="1" roleType="leader">Leader (WayV)</position>
+                <position num="2" roleType="vocalist">Main Vocalist</position>
+                <position num="3" roleType="rapper">Sub Rapper</position>
+            </role>
+            <subunit>
+                <unit unitName="WayV">WayV</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>176 cm (5’9″)</height>
+            <weight>60 kg (132 lbs)</weight>
+            <birthday when="1996-01-01">January 1, 1996</birthday>
+        </member>
+        
+        <member xml:id="Taeil">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Taeil_Portrait.jpg?raw=true</portrait>
+            <stageName>Taeil (태일)</stageName>
+            <koreanName>Moon Tae Il (문태일)</koreanName>
+            <role>
+                <position num="1" roleType="vocalist">Main Vocalist</position>
+            </role>
+            <subunit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>171 cm (5’7″)</height>
+            <weight>60 kg (132 lbs)</weight>
+            <birthday when="1994-05-14">June 14, 1994</birthday>
+        </member>
+        
+        <member xml:id="Johnny">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Johnny_Portrait.jpg?raw=true</portrait>
+            <stageName>Johnny (쟈니)</stageName>
+            <koreanName>Seo Young Ho (서영호)</koreanName>
+            <nkBirthName>John Suh</nkBirthName>
+            <role>
+                <position num="1" roleType="dancer">Lead Dancer</position>
+                <position num="2" roleType="vocalist">Sub Vocalist</position>
+                <position num="3" roleType="rapper">Sub Rapper</position>
+            </role>
+            <subunit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>185 cm (6’1″)</height>
+            <weight>70 kg (154 lbs)</weight>
+            <birthday when="1995-02-09">February 9, 1995</birthday>
+        </member>
+        
+        <member xml:id="Yuta">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Yuta_Portrait.jpg?raw=true</portrait>
+            <stageName>Yuta (유타)</stageName>
+            <nkBirthName>Nakamoto Yuta (中本悠太)</nkBirthName>
+            <role>
+                <position num="1" roleType="dancer">Lead Dancer</position>
+                <position num="2" roleType="vocalist">Sub Vocalist</position>
+                <position num="3" roleType="rapper">Sub Rapper</position>
+            </role>
+            <subunit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>176 cm (5’9″)</height>
+            <weight>60 kg (132 lbs)</weight>
+            <birthday when="1995-10-26">October 26, 1995</birthday>
+        </member>
+        
+        <member xml:id="Doyoung">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Doyoung_Portrait.jpg?raw=true</portrait>
+            <stageName>Doyoung (도영)</stageName>
+            <koreanName>Kim Dong Young (김동영‬)</koreanName>
+            <role>
+                <position num="1" roleType="vocalist">Main Vocalist</position>
+            </role>
+            <subunit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>178 cm (5’10″)</height>
+            <weight>60 kg (132 lbs)</weight>
+            <birthday when="1996-02-01">February 1, 1996</birthday>
+        </member>
+        
+        <member xml:id="Ten">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/WayV_and_NCTU/Ten_Portrait.jpg?raw=true</portrait>
+            <stageName>Ten (텐)</stageName>
+            <koreanName>Lee Young Heum (이영흠)</koreanName>
+            <nkBirthName>Chittaphon Leechaiyapornkul (ชิตพล ลี้ชัยพรกุล)</nkBirthName>
+            <role>
+                <position num="1" roleType="dancer">Main Dancer</position>
+                <position num="2" roleType="vocalist">Main Vocalist</position>
+                <position num="3" roleType="rapper">Sub Rapper</position>
+                <position num="4" roleType="center">Center</position>
+            </role>
+            <subunit>
+                <unit unitName="WayV">WayV</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>170 cm (5’7″)</height>
+            <weight>59 kg (130 lbs)</weight>
+            <birthday when="1996-02-27">February 27, 1996</birthday>
+        </member>
+        
+        <member xml:id="Jaehyun">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Jaehyun_Portrait.jpg?raw=true</portrait>
+            <stageName>Jaehyun (재현)</stageName>
+            <koreanName>Jung Jae Hyun, but he legalized to Jung Yoon Oh (정윤오)</koreanName>
+            <role>
+                <position num="1" roleType="vocalist">Main Vocalist</position>
+                <position num="2" roleType="dancer">Lead Dancer</position>
+                <position num="3" roleType="rapper">Sub Rapper</position>
+                <position num="4" roleType="visual">Visual</position>
+            </role>
+            <subunit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>180 cm (5’11″)</height>
+            <weight>63 kg (138 lbs)</weight>
+            <birthday when="1997-02-14">February 14, 1997</birthday>
+        </member>
+
+        <member xml:id="WinWin">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/WinWin_Portrait.jpg?raw=true</portrait>
+            <stageName>Win Win (윈윈)</stageName>
+            <koreanName>Dong Sa Sung (동사성)</koreanName>
+            <nkBirthName>Dong Si Cheng (董思成)</nkBirthName>
+            <role>
+                <position num="1" roleType="dancer">Lead Dancer</position>
+                <position num="2" roleType="vocalist">Sub Vocalist</position>
+            </role>
+            <subunit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCTU">NCT U</unit>
+                <unit unitName="WayV">WayV</unit>
+            </subunit>
+            <height>182 cm (6’0″)</height>
+            <weight>60 kg (132 lbs)</weight>
+            <birthday when="1997-10-28">October 28, 1997</birthday>
+            <note>WinWin is considered inactive in NCT 127 and is currently promoting with WayV.</note>
+        </member>
+        
+        <member xml:id="Jungwoo">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Jungwoo_Portrait.jpg?raw=true</portrait>
+            <stageName>Jungwoo (정우)</stageName>
+            <koreanName>Kim Jung-woo (김정우)</koreanName>
+            <role>
+                <position num="1" roleType="vocalist">Lead Vocalist</position>
+                <position num="2" roleType="dancer">Lead Dancer</position>
+            </role>
+            <subunit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>180 cm (5’11″)</height>
+            <weight>58 kg (128 lbs)</weight>
+            <birthday when="1998-02-19">February 19, 1998</birthday>
+        </member>
+        
+        <member xml:id="Lucas">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/WayV_and_NCTU/Lucas_Portrait.jpg?raw=true</portrait>
+            <stageName>Lucas (루카스)</stageName>
+            <koreanName>Hwang Wook-hee (황욱희)</koreanName>
+            <nkBirthName>Huang Xuxi/Wong Yuk-hei (黃旭熙)</nkBirthName>
+            <role>
+                <position num="1" roleType="rapper">Lead Rapper</position>
+                <position num="2" roleType="vocalist">Sub Vocalist</position>
+                <position num="3" roleType="visual">Visual</position>
+                <position num="4" roleType="center">Center</position>
+                <position num="5" roleType="face">Face of the Group</position>
+            </role>
+            <subunit>
+                <unit unitName="WayV">WayV</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>183 cm (6’0″)</height>
+            <weight>65 kg (143 lbs)</weight>
+            <birthday when="1999-01-25">January 25, 1999</birthday>
+        </member>
+        
+        <member xml:id="MarkLee">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Mark_Portrait.jpg?raw=true</portrait>
+            <stageName>Mark (마크)</stageName>
+            <koreanName>Mark Lee</koreanName>
+            <nkBirthName>Lee Min Hyung (이민형)</nkBirthName>
+            <role>
+                <position num="1" roleType="rapper">Main Rapper</position>
+                <position num="2" roleType="dancer">Main Dancer</position>
+                <position num="3" roleType="vocalist">Sub Vocalist</position>
+            </role>
+            <subunit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCT-Dream">NCT Dream</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>174.5 cm (5’9″)</height>
+            <weight>60 kg (132 lbs)</weight>
+            <birthday when="1999-08-02">August 2, 1999</birthday>
+        </member>
+        
+        <member xml:id="Xiaojun">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/WayV_and_NCTU/Xiaojun_Portrait.jpg?raw=true</portrait>
+            <stageName>Xiao Jun (샤오쥔)</stageName>
+            <koreanName>So Deok Jun (소덕준)</koreanName>
+            <nkBirthName>Xiao Dejun (肖德俊)</nkBirthName>
+            <role>
+                <position num="1" roleType="vocalist">Main Vocalist</position>
+                <position num="2" roleType="rapper">Sub Rapper</position>
+            </role>
+            <subunit>
+                <unit unitName="WayV">WayV</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>170 cm (5’7″)</height>
+            <birthday when="1999-08-08">August 8, 1999</birthday>
+        </member>
+        
+        <member xml:id="Hendery">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/WayV_and_NCTU/Hendery_Portrait.jpg?raw=true</portrait>
+            <stageName>Hendery (헨드리)</stageName>
+            <koreanName>Hwang Kwan Hyung (황관형)</koreanName>
+            <nkBirthName>Wong Kunhang/Huang Guanheng (黄冠亨)</nkBirthName>
+            <role>
+                <position num="1" roleType="rapper">Main Rapper</position>
+                <position num="2" roleType="dancer">Lead Dancer</position>
+                <position num="3" roleType="vocalist">Sub Vocalist</position>
+                <position num="4" roleType="visual">Visual</position>
+            </role>
+            <subunit>
+                <unit unitName="WayV">WayV</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>177 cm (5’10”)</height>
+            <birthday when="1999-09-28">September 28, 1999</birthday>
+        </member>
+        
+        <member xml:id="Renjun">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT_Dream/Renjun_Portrait.jpg?raw=true</portrait>
+            <stageName>Renjun (런쥔)</stageName>
+            <koreanName>Huang Renjun (黄仁俊)</koreanName>
+            <nkBirthName>Hwang In Joon (황인준)</nkBirthName>
+            <role>
+                <position num="1" roleType="vocalist">Main Vocalist</position>
+                <position num="2" roleType="dancer">Lead Dancer</position>
+            </role>
+            <subunit>
+                <unit unitName="NCT-Dream">NCT Dream</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>171 cm (5’7″)</height>
+            <weight>52 kg (115 lbs)</weight>
+            <birthday when="2000-03-23">March 23, 2000</birthday>
+        </member>
+        
+        <member xml:id="Jeno">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT_Dream/Jeno_Portrait.jpg?raw=true</portrait>
+            <stageName>Jeno (제노)</stageName>
+            <koreanName>Lee Je No (이제노)</koreanName>
+            <role>
+                <position num="1" roleType="dancer">Lead Dancer</position>
+                <position num="2" roleType="rapper">Lead Rapper</position>
+                <position num="3" roleType="vocalist">Sub Vocalist</position>
+                <position num="4" roleType="visual">Visual</position>
+            </role>
+            <subunit>
+                <unit unitName="NCT-Dream">NCT Dream</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>176.8 cm (5’10″)</height>
+            <weight>59 kg (130 lbs)</weight>
+            <birthday when="2000-04-23">April 23, 2000</birthday>
+        </member>
+        
+        <member xml:id="Haechan">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Haechan_Portrait.jpg?raw=true</portrait>
+            <stageName>Haechan (해찬)</stageName>
+            <koreanName>Lee Dong Hyuck (이동혁)</koreanName>
+            <role>
+                <position num="1" roleType="vocalist">Lead Vocalist</position>
+                <position num="2" roleType="dancer">Lead Dancer</position>
+                <position num="3" roleType="maknae">Maknae (NCT127)</position>
+            </role>
+            <subunit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCT-Dream">NCT Dream</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>173 cm (5’8″)</height>
+            <weight>58 kg (128 lbs)</weight>
+            <birthday when="2000-05-06">June 6, 2000</birthday>
+        </member>
+        
+        <member xml:id="Jaemin">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT_Dream/Jaemin_Portrait.jpg?raw=true</portrait>
+            <stageName>Jaemin (재민)</stageName>
+            <koreanName>Na Jae Min (나재민)</koreanName>
+            <role>
+                <position num="1" roleType="dancer">Lead Dancer</position>
+                <position num="2" roleType="rapper">Sub Rapper</position>
+                <position num="3" roleType="vocalist">Sub Vocalist</position>
+                <position num="4" roleType="visual">Visual</position>
+            </role>
+            <subunit>
+                <unit unitName="NCT-Dream">NCT Dream</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>177 cm (5’10″)</height>
+            <weight>58 kg (128 lbs)</weight>
+            <birthday when="2000-08-13">August 13, 2000</birthday>
+        </member>
+        
+        <member xml:id="YangYang">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/WayV_and_NCTU/Yangyang_Portrait.jpg?raw=true</portrait>
+            <stageName>YangYang (양양)</stageName>
+            <koreanName>Ryu YangYang (류양양)</koreanName>
+            <nkBirthName>Liu YangYang (刘扬扬/劉揚揚)</nkBirthName>
+            <role>
+                <position num="1" roleType="rapper">Main Rapper</position>
+                <position num="2" roleType="dancer">Main Dancer</position>
+                <position num="3" roleType="vocalist">Sub Vocalist</position>
+            </role>
+            <subunit>
+                <unit unitName="WayV">WayV</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>N/A</height>
+            <birthday when="2000-10-10">October 10, 2000</birthday>
+        </member>
+        
+        <member xml:id="Shotaro">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/WayV_and_NCTU/Shotaro_Portrait.jpg?raw=true</portrait>
+            <stageName>Shotaro (쇼타로)</stageName>
+            <nkBirthName>Osaki Shotaro (大崎将太郎)</nkBirthName>
+            <role>
+                <position num="1" roleType="dancer">Dancer</position>
+            </role>
+            <subunit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>178 cm (5’10”)</height>
+            <birthday when="2000-11-25">November 25, 2000</birthday>
+            <note>Shotaro and Sungchan have been announced, but will officially debut with NCT 2020 Resonance Pt. 1, which is set to come out on October 12th.</note>
+        </member>
+        
+        <member xml:id="Sungchan">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/WayV_and_NCTU/Sungchan_Portrait.jpg?raw=true</portrait>
+            <stageName>Sungchan (성찬)</stageName>
+            <koreanName>Jung Sung Chan (정성찬)</koreanName>
+            <role>
+                <position num="1" roleType="rapper">Rapper</position>
+            </role>
+            <subunit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>182 cm (6’0″)</height>
+            <birthday when="2001-09-13">September 13, 2001</birthday>
+            <note>Shotaro and Sungchan have been announced, but will officially debut with NCT 2020 Resonance Pt. 1, which is set to come out on October 12th.</note>
+        </member>
+        
+        <member xml:id="Chenle">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT_Dream/Chenle_Portrait.jpg?raw=true</portrait>
+            <stageName>Chenle (천러)</stageName>
+            <koreanName>Zhong Chenle (钟辰乐 / 鍾辰樂)</koreanName>
+            <nkBirthName>Jong Jin Rak (종진락)</nkBirthName>
+            <role>
+                <position num="1" roleType="vocalist">Main Vocalist</position>
+            </role>
+            <subunit>
+                <unit unitName="NCT-Dream">NCT Dream</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>176 cm (5’9″)</height>
+            <weight>58 kg (128 lbs)</weight>
+            <birthday when="2001-11-22">November 22, 2001</birthday>
+        </member>
+        
+        <member xml:id="Jisung">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT_Dream/Jisung_Portrait.jpg?raw=true</portrait>
+            <stageName>Jisung (지성)</stageName>
+            <koreanName>Park Ji Sung (박지성)</koreanName>
+            <role>
+                <position num="1" roleType="dancer">Main Dancer</position>
+                <position num="2" roleType="rapper">Sub Rapper</position>
+                <position num="3" roleType="vocalist">Sub Vocalist</position>
+                <position num="4" roleType="maknae">Maknae (NCT Dream)</position>
+            </role>
+            <subunit>
+                <unit unitName="NCT-Dream">NCT Dream</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>180 cm (5’11″)</height>
+            <weight>62 kg (134 lbs)</weight>
+            <birthday when="2002-02-05">February 5, 2002</birthday>
+        </member>
+    </memberList>
+    
+    <subunitList xml:id="NCT127">
+        <subunitName unitName="NCT127">NCT 127</subunitName>
+        <subunitMembers subunitMemberName="Taeyong">Taeyong (태용)</subunitMembers>
+        <subunitMembers subunitMemberName="Taeil">Taeil (태일)</subunitMembers>
+        <subunitMembers subunitMemberName="Johnny">Johnny (쟈니)</subunitMembers>
+        <subunitMembers subunitMemberName="Yuta">Yuta (유타)</subunitMembers>
+        <subunitMembers subunitMemberName="Doyoung">Doyoung (도영)</subunitMembers>
+        <subunitMembers subunitMemberName="Jaehyun">Jaehyun (재현)</subunitMembers>
+        <subunitMembers subunitMemberName="WinWin">WinWin (윈윈)</subunitMembers>
+        <subunitMembers subunitMemberName="Jungwoo">Jungwoo (정우)</subunitMembers>
+        <subunitMembers subunitMemberName="MarkLee">Mark (마크)</subunitMembers>
+        <subunitMembers subunitMemberName="Haechan">Haechan (해찬)</subunitMembers>
+    </subunitList>
+    
+    <subunitList xml:id="NCT-Dream">
+        <subunitName unitName="NCT-Dream">NCT Dream</subunitName>
+        <subunitMembers subunitMemberName="MarkLee">Mark (마크)</subunitMembers>
+        <subunitMembers subunitMemberName="Renjun">Renjun (런쥔)</subunitMembers>
+        <subunitMembers subunitMemberName="Jeno">Jeno (제노)</subunitMembers>
+        <subunitMembers subunitMemberName="Haechan">Haechan (해찬)</subunitMembers>
+        <subunitMembers subunitMemberName="Jaemin">Jaemin (재민)</subunitMembers>
+        <subunitMembers subunitMemberName="Chenle">Chenle (천러)</subunitMembers>
+        <subunitMembers subunitMemberName="Jisung">Jisung (지성)</subunitMembers>
+    </subunitList>
+    
+    <subunitList xml:id="WayV">
+        <subunitName unitName="WayV">WayV</subunitName>
+        <subunitMembers subunitMemberName="Kun">Kun (쿤)</subunitMembers>
+        <subunitMembers subunitMemberName="Ten">Ten (텐)</subunitMembers>
+        <subunitMembers subunitMemberName="WinWin">WinWin (윈윈)</subunitMembers>
+        <subunitMembers subunitMemberName="Lucas">Lucas (루카스)</subunitMembers>
+        <subunitMembers subunitMemberName="Xiaojun">Xiaojun (샤오쥔)</subunitMembers>
+        <subunitMembers subunitMemberName="Hendery">Hendery (헨드리)</subunitMembers>
+        <subunitMembers subunitMemberName="YangYang">YangYang (양양)</subunitMembers>
+    </subunitList>
+    
+    <subunitList xml:id="NCTU">
+        <!-- All members are now a part of NCT U in the upcoming NCT 2020 album. -->
+        <subunitName unitName="NCTU">NCT U</subunitName>
+        <subunitMembers subunitMemberName="Taeyong">Taeyong (태용)</subunitMembers>
+        <subunitMembers subunitMemberName="Kun">Kun (쿤)</subunitMembers>
+        <subunitMembers subunitMemberName="Taeil">Taeil (태일)</subunitMembers>
+        <subunitMembers subunitMemberName="Johnny">Johnny (쟈니)</subunitMembers>
+        <subunitMembers subunitMemberName="Yuta">Yuta (유타)</subunitMembers>
+        <subunitMembers subunitMemberName="Doyoung">Doyoung (도영)</subunitMembers>
+        <subunitMembers subunitMemberName="Ten">Ten (텐)</subunitMembers>
+        <subunitMembers subunitMemberName="Jaehyun">Jaehyun (재현)</subunitMembers>
+        <subunitMembers subunitMemberName="WinWin">WinWin (윈윈)</subunitMembers>
+        <subunitMembers subunitMemberName="Jungwoo">Jungwoo (정우)</subunitMembers>
+        <subunitMembers subunitMemberName="Lucas">Lucas (루카스)</subunitMembers>
+        <subunitMembers subunitMemberName="MarkLee">Mark (마크)</subunitMembers>
+        <subunitMembers subunitMemberName="Xiaojun">Xiaojun (샤오쥔)</subunitMembers>
+        <subunitMembers subunitMemberName="Hendery">Hendery (헨드리)</subunitMembers>
+        <subunitMembers subunitMemberName="Renjun">Renjun (런쥔)</subunitMembers>
+        <subunitMembers subunitMemberName="Jeno">Jeno (제노)</subunitMembers>
+        <subunitMembers subunitMemberName="Haechan">Haechan (해찬)</subunitMembers>
+        <subunitMembers subunitMemberName="Jaemin">Jaemin (재민)</subunitMembers>
+        <subunitMembers subunitMemberName="YangYang">YangYang (양양)</subunitMembers>
+        <subunitMembers subunitMemberName="Shotaro">Shotaro (쇼타로)</subunitMembers>
+        <subunitMembers subunitMemberName="Sungchan">Sungchan (성찬)</subunitMembers>
+        <subunitMembers subunitMemberName="Chenle">Chenle (천러)</subunitMembers>
+        <subunitMembers subunitMemberName="Jisung">Jisung (지성)</subunitMembers>
+    </subunitList>
+</groupPage>

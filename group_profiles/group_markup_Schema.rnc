@@ -1,10 +1,10 @@
 start = groupPage
-groupPage = element groupPage {about, memberList}
+groupPage = element groupPage {about, memberList, subunitList*}
 about = element about {groupName, bgInfo, company, debutDate, debutSong, discography, fandomName, fandomColor*, lightstick, currentRank?}
 # This about element is meant to store background information in a SET SEQUENCE
 # Discography typo fixed. Sorry about that! 
 
-groupName = element groupName {xmlid, text}
+groupName = element groupName {artistRef?, xmlid?, text}
 bgInfo = element bgInfo {p+}
 # Put general background info on the group in this element
 # Basically just explain the idea/origins of the group, meaning behind name, anything
@@ -27,7 +27,7 @@ discography = element discography {album*}
 # The discography lists out each major album/single for a group
 # But we only need to put an xml:id on an album with the song that we've marked up
 
-album = element album {albumType, xmlid?, text}
+album = element album {albumType?, xmlid?, text}
 albumType = attribute albumType {"mini" | "full" | "live" | "repackage" | "single"}
 albumRef = attribute albumRef {text}
 
@@ -36,7 +36,7 @@ fandomName = element fandomName {text}
 # I'm including this, because fandom culture is SO immensely important in K-Pop
 
 fandomColor = element fandomColor {colorHex, text}
-# Yes, some K-Pop groups have color(s)
+# Yes, some K-Pop groups have color(s) associated with themselves and their fandoms
 
 colorHex = attribute colorHex {text}
 # colorHex holds the html hex code for the color (with the #)
@@ -70,12 +70,13 @@ compMent = element compMent {labelRef, text}
 # Element used if a company with an existing xml:id is mentioned/referenced in bgInfo
 
 memberList = element memberList {member+}
-member = element member {xmlid, portrait, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight?, birthday, note?}
+member = element member {xmlid?, artistRef?, portrait, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight?, birthday, note?}
 # This is a lot of info (probably unnecessary)
 # I wanted to emphasize how K-Pop and its community focuses on idols 
+# Also, the artistRef is there for the NCT pages, referencing pre-established xml:ids across docs
 
 portrait = element portrait {xsd:anyURI}
-# URL for portrait images go here, for now they'll be hosted on GitHub
+# Portrait images go here, for now they'll be URLs hosted on GitHub
 
 stageName = element stageName {text}
 # stageName is the only Name element that's mandatory 
@@ -100,7 +101,7 @@ num = attribute num {xsd:integer}
 # List the roles in order of priority, e.g. Main goes before Lead, which goes before Sub, etc.
 # Just reference KProfiles if you get stuck and go with the order they use
 
-roleType = attribute roleType {"dancer" | "rapper" | "vocalist" | "leader" | "visual" | "center" | "maknae" | "producer"}
+roleType = attribute roleType {"dancer" | "rapper" | "vocalist" | "leader" | "visual" | "center" | "maknae" | "producer" | "face"}
 # These are the roles I'm familiar with, but we may need to add more as we go
 # I should mention, "maknae" = the youngest person in a group
 # Age and seniority is very important in Korean culture, so being the youngest is notable
@@ -109,8 +110,9 @@ subunit = element subunit {unit+}
 # Subunits are optional, because not all groups have subunits
 # Only use this element if it's applicable
 
-unit = element unit {name, text}
-name = attribute name {text}
+unit = element unit {unitName?, text}
+unitName = attribute unitName {text}
+
 height = element height {text}
 weight = element weight {text}
 # Changed and made optional, not all companies release this info
@@ -119,3 +121,11 @@ birthday = element birthday {when, text}
 note = element note {text}
 # Only used when there's something to note about the status of a member in a group
 # Sometimes members are considered "inactive" but still a part of a group (like Lay of EXO)
+
+subunitList = element subunitList {xmlid, subunitName, subunitMembers+}
+# Because some subunits (like 3RACHA) are credited producers/writers
+# I decided to make a dedicated subunit section
+
+subunitName = element subunitName {unitName, text}
+subunitMembers = element subunitMembers {subunitMemberName, text}
+subunitMemberName = attribute subunitMemberName {xsd:IDREF}
