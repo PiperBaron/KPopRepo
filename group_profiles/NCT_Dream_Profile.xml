@@ -36,8 +36,8 @@
         <!-- artistRef is used here instead of an xml:id, because it's referencing the xml:id established in the main NCT profile doc --> 
             <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Mark_Portrait.jpg?raw=true</portrait>
             <stageName>Mark (마크)</stageName>
-            <koreanName>Mark Lee</koreanName>
-            <nkBirthName>Lee Min Hyung (이민형)</nkBirthName>
+            <koreanName>Lee Min Hyung (이민형)</koreanName>
+            <nkBirthName>Mark Lee</nkBirthName>
             <role>
                 <position num="1" roleType="leader">Leader</position>
                 <position num="2" roleType="rapper">Main Rapper</position>
@@ -59,8 +59,8 @@
         <member artistRef="Renjun">
             <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT_Dream/Renjun_Portrait.jpg?raw=true</portrait>
             <stageName>Renjun (런쥔)</stageName>
-            <koreanName>Huang Renjun (黄仁俊)</koreanName>
-            <nkBirthName>Hwang In Joon (황인준)</nkBirthName>
+            <koreanName>Hwang In Joon (황인준)</koreanName>
+            <nkBirthName>Huang Renjun (黄仁俊)</nkBirthName>
             <role>
                 <position num="1" roleType="vocalist">Main Vocalist</position>
                 <position num="2" roleType="dancer">Lead Dancer</position>
@@ -132,8 +132,8 @@
         <member artistRef="Chenle">
             <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT_Dream/Chenle_Portrait.jpg?raw=true</portrait>
             <stageName>Chenle (천러)</stageName>
-            <koreanName>Zhong Chenle (钟辰乐 / 鍾辰樂)</koreanName>
-            <nkBirthName>Jong Jin Rak (종진락)</nkBirthName>
+            <koreanName>Jong Jin Rak (종진락)</koreanName>
+            <nkBirthName>Zhong Chenle (钟辰乐 / 鍾辰樂)</nkBirthName>
             <role>
                 <position num="1" roleType="vocalist">Main Vocalist</position>
             </role>

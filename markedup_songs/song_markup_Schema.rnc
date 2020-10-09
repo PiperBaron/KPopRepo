@@ -64,8 +64,8 @@ labelRef = attribute labelRef {text}
 
 releaseDate = element releaseDate {when, text}
 when = attribute when {xsd:date}
-koreanLyrics = element koreanLyrics {intro?, (verse | preChorus | chorus | bridge)+, outro?}
-line = element line {mixed{lineRef, linenum, backVocal*, sharedLine*}}
+koreanLyrics = element koreanLyrics {intro?, (verse | preChorus | chorus | bridge | refrain?)+, outro?}
+line = element line {mixed{lineRef, linenum, (backVocal | sharedLine)*}}
 lineRef = attribute lineRef {text}
 # Referencing (with the Schematron) a xml:id on a member element from a group page
 # OR you can use "All" if everyone is singing at once
@@ -91,5 +91,7 @@ prechorusnum = attribute prechorusnum {xsd:integer}
 chorus = element chorus {chorusnum, artistname, line+}
 chorusnum = attribute chorusnum {xsd:integer}
 bridge = element bridge {artistname, line+}
+refrain = element refrain {refrainnum, artistname, line+}
+refrainnum = attribute refrainnum {xsd:integer}
 outro = element outro {artistname, line+}
-engTrans = element engTrans {intro?, (verse | preChorus | chorus | bridge)+, outro?}
+engTrans = element engTrans {intro?, (verse | preChorus | chorus | bridge | refrain?)+, outro?}

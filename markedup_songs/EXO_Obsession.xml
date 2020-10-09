@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="song_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<song>
+    <about>
+        <songName xml:id="Obsession">Obsession (옵세션)</songName>
+        <artistName artistRef="EXO">EXO (엑소)</artistName>
+        <bgInfo>
+            <p>“Obsession” acts as the title track by the K-Pop boy group, <groupMent artistRef="EXO">EXO</groupMent> from their <albumMent albumRef="Obsession-Album">6th studio album</albumMent> by the same name.</p>
+            
+            <p>The song is a blend of trap and bass with synth-wave influences. The track interpolates a jazzy Accapella bridge much like their 2018 track, “Tempo". It also features an overarching vocal refrain that runs throughout the track.</p>
+            
+            <p>The song was named as the best song of 2019 by critics at Billboard magazine who praised the song’s unique production style.</p>
+            
+            <p>The song was released alongside a music video that fits into their album-wide storyline as a whole.</p>
+            
+            <meaning>Obsession is a dark song that expresses the group’s desire to escape the <lineMent linenum="27">nightmares</lineMent> and negativity forced on them by other people. Much of the lyrics paint a picture of a stalker that <lineMent linenum="12">creeps upon them when they’re at their most vulnerable</lineMent>. EXO has a long and painful history with a certain breed of super-fan called “sasaengs” who are so sickeningly dedicated to their favorite groups that they’ve managed to break into members’ hotel rooms and even steal their underwear. Given this greater context, it’s clear that beyond a mere surface level, the song is being spoken directly to these “fans” with a dangerous obsession, hence the name. It’s a direct message to anyone who wants to violate their privacy or break their trust: <lineMent linenum="90">“Get away from me.”</lineMent></meaning>
+        </bgInfo>
+        <album albumRef="Obsession-Album">Obsession</album>
+        <produceCredit>
+            <producer>Dem Jointz</producer>
+            <producer>Adrian McKinnon</producer>
+            <producer>Cristi “Stalone” Gallo</producer>
+            <producer>Asia’h Epperson</producer>
+            <producer>Yoo Young-jin (유영진)</producer>
+            <producer>Ryan Jeon (라이언 전)</producer>
+        </produceCredit>
+        <lyricCredit>
+            <writer>Kenzie</writer>
+        </lyricCredit>
+        <label labelRef="SMEnt">SM Entertainment</label>
+        <releaseDate when="2019-09-27">November 27, 2019</releaseDate>
+    </about>
+    
+    <koreanLyrics>    
+        
+        <intro artistname="Non-Member, Chanyeol">
+            <line linenum="1" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="2" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="3" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="4" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="5" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="6" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="7" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="8" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="9" lineRef="Chanyeol">제발 이제 그만</line>
+        </intro>
+        
+        <verse versenum="1" artistname="Baekhyun, Kai">
+            <line linenum="10" lineRef="Baekhyun">밤이 눈을 멀게 끔 하니</line>
+            <line linenum="11" lineRef="Baekhyun">넌 또 몰래 숨어들었지</line>
+            <line linenum="12" lineRef="Baekhyun">잠든 귓가 쓱 핥다 쳐다보다</line>
+            <line linenum="13" lineRef="Baekhyun">할퀴곤 웃어대</line>
+            <line linenum="14" lineRef="Kai">끝도 없이 속삭이는 목소리</line>
+            <line linenum="15" lineRef="Kai">Oh, you’re the bad dream kill</line>
+            <line linenum="16" lineRef="Kai">나를 홀려 자꾸 불러</line>
+            <line linenum="17" lineRef="Kai">너 있는 곳 그래 네게 오라고</line>
+        </verse>
+      
+        <preChorus prechorusnum="1" artistname="Suho, Chanyeol, Chen, Sehun">
+            <line linenum="18" lineRef="Suho">날 안다고? <sharedLine lineRef="Chanyeol">(I don’t think so)</sharedLine></line>
+            <line linenum="19" lineRef="Suho">뭔데 내게 파고들어 <sharedLine lineRef="Chanyeol">(I don’t think so)</sharedLine></line>
+            <line linenum="20" lineRef="Suho">넌 내 눈을 가려 <sharedLine lineRef="Chanyeol">(I don’t think so)</sharedLine></line>
+            <line linenum="21" lineRef="Suho">진실들을 덮어 <sharedLine lineRef="Chanyeol">(I don’t think so)</sharedLine></line>
+            <line linenum="22" lineRef="Chen">헛된 꿈 버려 <sharedLine lineRef="Sehun">(I don’t think so)</sharedLine></line>
+            <line linenum="23" lineRef="Chen">독을 뱉게 하지 마 <sharedLine lineRef="Sehun">(I don’t think so)</sharedLine></line>
+            <line linenum="24" lineRef="Chen">넌 날 다신 못 가져 <sharedLine lineRef="Sehun">(I don’t think so)</sharedLine></line>
+            <line linenum="25" lineRef="Chen">Shut up and go away</line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname="Kai, Baekhyun, Non-Member">
+            <line linenum="26" lineRef="Kai">Thousand nights 지겹도록 말했어</line>
+            <line linenum="27" lineRef="Kai">쫓고 쫓는 악몽 이젠 끝낼게</line>
+            <line linenum="28" lineRef="Baekhyun"><sharedLine lineRef="Non-Member">(불이 꺼진 exit light)</sharedLine> 불이 꺼진 exit light</line>
+            <line linenum="29" lineRef="Baekhyun">이제 그만 꺼져 줄래 내게서</line>
+        </chorus>
+        
+        <refrain refrainnum="1" artistname="Non-Member, Chanyeol">
+            <line linenum="30" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="31" lineRef="Non-Member">I want ya, I want ya, want ya <backVocal lineRef="Chanyeol">(Yeah)</backVocal></line>
+            <line linenum="32" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="33" lineRef="Non-Member">I want ya, I want ya, want ya <backVocal lineRef="Chanyeol">(Hoo, 지겨워)</backVocal></line>
+        </refrain>
+        
+        <verse versenum="2" artistname="Chanyeol, Chen">
+            <line linenum="34" lineRef="Chanyeol">Ha! 그만해 둬 <backVocal lineRef="Chanyeol">(Bang)</backVocal></line>
+            <line linenum="35" lineRef="Chanyeol">내 귓속에 쏟아대는 소리 I'ma let it blow</line>
+            <line linenum="36" lineRef="Chanyeol">오감은 그것으로 쏠리고 곤두서고</line>
+            <line linenum="37" lineRef="Chanyeol">들어온 너는 제멋대로 휘저어</line>
+            <line linenum="38" lineRef="Chanyeol">한눈을 뜬 채로 잠들면</line>
+            <line linenum="39" lineRef="Chanyeol">소리 없이 스며드는 the phantom</line>
+            <line linenum="40" lineRef="Chen">I’m so sick and tired of it</line>
+            <line linenum="41" lineRef="Chen">불이 켜지면 네가 사라져 있길</line>
+        </verse>
+        
+        <preChorus prechorusnum="2" artistname="Sehun, Baekhyun, Kai, Suho">
+            <line linenum="42" lineRef="Sehun">날 위한다고? <sharedLine lineRef="Baekhyun">(I don’t think so)</sharedLine></line>
+            <line linenum="43" lineRef="Sehun">뭔데 내게 파고들어 <sharedLine lineRef="Baekhyun">(I don’t think so)</sharedLine></line>
+            <line linenum="44" lineRef="Sehun">깊게 스며들어 <sharedLine lineRef="Baekhyun">(I don’t think so)</sharedLine></line>
+            <line linenum="45" lineRef="Sehun">혼란스러워 <sharedLine lineRef="Baekhyun">(I don’t think so)</sharedLine></line>
+            <line linenum="46" lineRef="Kai">Take whatever <sharedLine lineRef="Suho">(I don’t think so)</sharedLine></line>
+            <line linenum="47" lineRef="Kai">보이지도 마라 <sharedLine lineRef="Suho">(I don’t think so)</sharedLine></line>
+            <line linenum="48" lineRef="Kai">넌 날 다신 못 가져 <sharedLine lineRef="Suho">(I don’t think so)</sharedLine></line>
+            <line linenum="49" lineRef="Kai">집착하지 좀 마</line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname="Baekhyun, Suho, Non-Member">
+            <line linenum="50" lineRef="Baekhyun">Thousand nights 지겹도록 말했어</line>
+            <line linenum="51" lineRef="Baekhyun">쫓고 쫓는 악몽 이젠 끝낼게</line>
+            <line linenum="52" lineRef="Suho"><sharedLine lineRef="Non-Member">(불이 꺼진 exit light)</sharedLine> 불이 꺼진 exit light</line>
+            <line linenum="53" lineRef="Suho">이제 그만 꺼져 줄래 내게서</line>
+        </chorus>
+
+        <verse versenum="3" artistname="Sehun, Chanyeol, Suhp">
+            <line linenum="54" lineRef="Sehun">Blacken my heart</line>
+            <line linenum="55" lineRef="Sehun">Creepin’ dark night</line>
+            <line linenum="56" lineRef="Sehun">Stainin’ my soul</line>
+            <line linenum="57" lineRef="Sehun">잠든 듯 눈을 뜨면 거친 소름과</line>
+            <line linenum="58" lineRef="Chanyeol">선명한 그것의 흔적과</line>
+            <line linenum="59" lineRef="Sehun">주인 없는 names on the ground</line>
+            <line linenum="60" lineRef="Chanyeol"><backVocal lineRef="Suho">불러내 춤을 춰 tonight</backVocal></line>
+            <!-- Chanyeol and Suho were singing together for line 60, so I thought I'd mark it up like this. -->
+            <line linenum="61" lineRef="Chanyeol">Say it what you like</line>
+        </verse>
+        
+        <bridge artistname="Suho, Chen">
+            <line linenum="62" lineRef="Suho">그래 너와 행복했었던</line>
+            <line linenum="63" lineRef="Suho">시간들을 알아</line>
+            <line linenum="64" lineRef="Chen">이젠 끝내야 한다는 걸</line>
+            <line linenum="65" lineRef="Chen">Forget everything, yeah</line>
+        </bridge>
+
+        <preChorus prechorusnum="3" artistname="Chanyeol, Sehun, Baekhyun, Kai, Suho">
+            <line linenum="66" lineRef="Chanyeol">날 안다고? <sharedLine lineRef="Sehun">(I don’t think so)</sharedLine></line>
+            <line linenum="67" lineRef="Chanyeol">뭔데 내게 파고들어 <sharedLine lineRef="Sehun">(I don’t think so)</sharedLine></line>
+            <line linenum="68" lineRef="Chanyeol">넌 내 눈을 가려 <sharedLine lineRef="Sehun">(I don’t think so)</sharedLine></line>
+            <line linenum="69" lineRef="Chanyeol">진실들을 덮어 <sharedLine lineRef="Sehun">(I don’t think so)</sharedLine></line>
+            <line linenum="70" lineRef="Baekhyun">헛된 꿈 버려 <sharedLine lineRef="Kai">(I don’t think so)</sharedLine></line>
+            <line linenum="71" lineRef="Baekhyun">독을 뱉게 하지 마 <sharedLine lineRef="Kai">(I don’t think so)</sharedLine></line>
+            <line linenum="72" lineRef="Baekhyun">넌 날 다신 못 가져 <sharedLine lineRef="Kai">(I don’t think so)</sharedLine></line>
+            <line linenum="73" lineRef="Baekhyun"><backVocal lineRef="Suho">Shut up and go away</backVocal></line>
+        </preChorus>
+
+        <chorus chorusnum="3" artistname="Sehun, Chen, Suho, Chanyeol, Baekhyun, Non-Member">
+            <line linenum="74" lineRef="Sehun"><backVocal lineRef="Chen">Thousand nights 지겹도록 말했어</backVocal></line>
+            <line linenum="75" lineRef="Sehun"><backVocal lineRef="Chen">쫓고 쫓는 악몽 이젠 끝낼게</backVocal></line>
+            <line linenum="76" lineRef="Suho"><sharedLine lineRef="Non-Member">(불이 꺼진 exit light)</sharedLine> <backVocal lineRef="Chen">불이 꺼진 exit light</backVocal></line>
+            <line linenum="77" lineRef="Chanyeol"><backVocal lineRef="Chen">이제 그만 꺼져 줄래 내게서 (yeah, yeah)</backVocal></line>
+            <line linenum="78" lineRef="Chanyeol"><backVocal lineRef="Baekhyun">One night 어둠 속에 보인 건</backVocal></line>
+            <line linenum="79" lineRef="Chanyeol"><backVocal lineRef="Baekhyun">나를 쫓던 기묘했던 그림자</backVocal></line>
+            <line linenum="80" lineRef="Suho"><sharedLine lineRef="Non-Member">(불이 꺼진 exit light)</sharedLine> <backVocal lineRef="Chen">불이 꺼진 exit light</backVocal></line>
+            <line linenum="81" lineRef="Suho"><backVocal lineRef="Chen">거울 속의 나를 보고 있는 나</backVocal></line>
+        </chorus>
+
+        <outro artistname="Non-Member, Kai, Baekhyun, Sehun">
+            <line linenum="82" lineRef="Non-Member">I want ya, I want ya, want ya <backVocal lineRef="Kai">(Yeah)</backVocal></line>
+            <line linenum="83" lineRef="Non-Member">I want ya, I want ya, want ya <backVocal lineRef="Baekhyun">(Yeah, yeah, yeah, yeah)</backVocal></line>
+            <line linenum="84" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="85" lineRef="Non-Member">I want ya, I want ya, want ya <backVocal lineRef="Kai">내게서 사라져</backVocal></line>
+            <line linenum="86" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="87" lineRef="Non-Member">I want ya, I want ya, want ya <backVocal lineRef="Sehun">꺼져</backVocal> <backVocal lineRef="Baekhyun">(Oh, woah)</backVocal></line>
+            <line linenum="88" lineRef="Non-Member">I want ya, I want ya, want ya Uh, yeah</line>
+            <line linenum="89" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="90" lineRef="Sehun">내게서 사라져</line>
+        </outro>
+    </koreanLyrics>
+    
+    
+    <engTrans>
+        
+        <intro artistname="Non-Member, Chanyeol">
+            <line linenum="1" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="2" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="3" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="4" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="5" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="6" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="7" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="8" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="9" lineRef="Chanyeol">Please stop it now</line>
+        </intro>
+        
+        <verse versenum="1" artistname="Baekhyun, Kai">
+            <line linenum="10" lineRef="Baekhyun">As the night makes me blind</line>
+            <line linenum="11" lineRef="Baekhyun">You snuck in again</line>
+            <line linenum="12" lineRef="Baekhyun">You lick around my ears while I'm asleep, stare</line>
+            <line linenum="13" lineRef="Baekhyun">Then you scratch and laugh</line>
+            <line linenum="14" lineRef="Kai">Your voice whispers endlessly</line>
+            <line linenum="15" lineRef="Kai">Oh, you’re the bad dream kill</line>
+            <line linenum="16" lineRef="Kai">You keep possessing and calling me</line>
+            <line linenum="17" lineRef="Kai">To come where you are, Yes, to come to you</line>
+        </verse>
+        
+        <preChorus prechorusnum="1" artistname="Suho, Chanyeol, Chen, Sehun">
+            <line linenum="18" lineRef="Suho">You say you know me? <sharedLine lineRef="Chanyeol">(I don’t think so)</sharedLine></line>
+            <line linenum="19" lineRef="Suho">Who are you to snuggle in? <sharedLine lineRef="Chanyeol">(I don’t think so)</sharedLine></line>
+            <line linenum="20" lineRef="Suho">You cover my eyes <sharedLine lineRef="Chanyeol">(I don’t think so)</sharedLine></line>
+            <line linenum="21" lineRef="Suho">You cover up the truths <sharedLine lineRef="Chanyeol">(I don’t think so)</sharedLine></line>
+            <line linenum="22" lineRef="Chen">Let go of the empty dreams <sharedLine lineRef="Sehun">(I don’t think so)</sharedLine></line>
+            <line linenum="23" lineRef="Chen">Don't make me spit out the poison <sharedLine lineRef="Sehun">(I don’t think so)</sharedLine></line>
+            <line linenum="24" lineRef="Chen">You'll never have me again <sharedLine lineRef="Sehun">(I don’t think so)</sharedLine></line>
+            <line linenum="25" lineRef="Chen">Shut up and go away</line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname="Kai, Baekhyun, Non-Member">
+            <line linenum="26" lineRef="Kai">Thousand nights, I repeated so many times</line>
+            <line linenum="27" lineRef="Kai">A vicious cycle of nightmares, I'll end it now</line>
+            <line linenum="28" lineRef="Baekhyun"><sharedLine lineRef="Non-Member">(The turned-off exit light)</sharedLine> The turned-off exit light</line>
+            <line linenum="29" lineRef="Baekhyun">Get away from me now</line>
+        </chorus>
+        
+        <refrain refrainnum="1" artistname="Non-Member, Chanyeol">
+            <line linenum="30" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="31" lineRef="Non-Member">I want ya, I want ya, want ya <backVocal lineRef="Chanyeol">(Yeah)</backVocal></line>
+            <line linenum="32" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="33" lineRef="Non-Member">I want ya, I want ya, want ya <backVocal lineRef="Chanyeol">(Hoo, I'm sick of it)</backVocal></line>
+        </refrain>
+        
+        <verse versenum="2" artistname="Chanyeol, Chen">
+            <line linenum="34" lineRef="Chanyeol">Ha! It's enough <backVocal lineRef="Chanyeol">(Bang)</backVocal></line>
+            <line linenum="35" lineRef="Chanyeol">All the gibberish on my ear, I'ma let it blow</line>
+            <line linenum="36" lineRef="Chanyeol">My five senses are focused on it, on edge</line>
+            <line linenum="37" lineRef="Chanyeol">You come in and stir it up recklessly</line>
+            <line linenum="38" lineRef="Chanyeol">When I fall asleep with one eye open</line>
+            <line linenum="39" lineRef="Chanyeol">You permeate without a sound, the phantom</line>
+            <line linenum="40" lineRef="Chen">I’m so sick and tired of it</line>
+            <line linenum="41" lineRef="Chen">When the light turns on, I hope you're gone</line>
+        </verse>
+        
+        <preChorus prechorusnum="2" artistname="Sehun, Baekhyun, Kai, Suho">
+            <line linenum="42" lineRef="Sehun">You say it's for me? <sharedLine lineRef="Baekhyun">(I don’t think so)</sharedLine></line>
+            <line linenum="43" lineRef="Sehun">Who are you to snuggle in? <sharedLine lineRef="Baekhyun">(I don’t think so)</sharedLine></line>
+            <line linenum="44" lineRef="Sehun">Permeating deeply <sharedLine lineRef="Baekhyun">(I don’t think so)</sharedLine></line>
+            <line linenum="45" lineRef="Sehun">I'm confused <sharedLine lineRef="Baekhyun">(I don’t think so)</sharedLine></line>
+            <line linenum="46" lineRef="Kai">Take whatever <sharedLine lineRef="Suho">(I don’t think so)</sharedLine></line>
+            <line linenum="47" lineRef="Kai">Don't even be seen <sharedLine lineRef="Suho">(I don’t think so)</sharedLine></line>
+            <line linenum="48" lineRef="Kai">You'll never have me again <sharedLine lineRef="Suho">(I don’t think so)</sharedLine></line>
+            <line linenum="49" lineRef="Kai">Stop your obssesion</line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname="Baekhyun, Suho, Non-Member">
+            <line linenum="50" lineRef="Baekhyun">Thousand nights, I repeated so many times</line>
+            <line linenum="51" lineRef="Baekhyun">A vicious cycle of nightmares, I'll end it now</line>
+            <line linenum="52" lineRef="Suho"><sharedLine lineRef="Non-Member">(The turned-off exit light)</sharedLine> The turned-off exit light</line>
+            <line linenum="53" lineRef="Suho">Get away from me now</line>
+        </chorus>
+        
+        <verse versenum="3" artistname="Sehun, Chanyeol, Suhp">
+            <line linenum="54" lineRef="Sehun">Blacken my heart</line>
+            <line linenum="55" lineRef="Sehun">Creepin’ dark night</line>
+            <line linenum="56" lineRef="Sehun">Stainin’ my soul</line>
+            <line linenum="57" lineRef="Sehun">When I open my eyes like yet I'm still asleep, The sudden goosebumps</line>
+            <line linenum="58" lineRef="Chanyeol">And its clear traces</line>
+            <line linenum="59" lineRef="Sehun">And the names on the ground that are owned by no one</line>
+            <line linenum="60" lineRef="Chanyeol"><backVocal lineRef="Suho">Call out, dance tonight</backVocal></line>
+            <!-- Chanyeol and Suho were singing together for line 60, so I thought I'd mark it up like this. -->
+            <line linenum="61" lineRef="Chanyeol">Say it what you like</line>
+        </verse>
+        
+        <bridge artistname="Suho, Chen">
+            <line linenum="62" lineRef="Suho">The time we were happy together</line>
+            <line linenum="63" lineRef="Suho">I know</line>
+            <line linenum="64" lineRef="Chen">I have to end them now</line>
+            <line linenum="65" lineRef="Chen">Forget everything, yeah</line>
+        </bridge>
+        
+        <preChorus prechorusnum="3" artistname="Chanyeol, Sehun, Baekhyun, Kai, Suho">
+            <line linenum="66" lineRef="Chanyeol">You say you know me? <sharedLine lineRef="Sehun">(I don’t think so)</sharedLine></line>
+            <line linenum="67" lineRef="Chanyeol">Who are you to snuggle in? <sharedLine lineRef="Sehun">(I don’t think so)</sharedLine></line>
+            <line linenum="68" lineRef="Chanyeol">You cover my eyes <sharedLine lineRef="Sehun">(I don’t think so)</sharedLine></line>
+            <line linenum="69" lineRef="Chanyeol">You cover up the truths <sharedLine lineRef="Sehun">(I don’t think so)</sharedLine></line>
+            <line linenum="70" lineRef="Baekhyun">Let go of the empty dreams <sharedLine lineRef="Kai">(I don’t think so)</sharedLine></line>
+            <line linenum="71" lineRef="Baekhyun">Don't make me spit out the poison <sharedLine lineRef="Kai">(I don’t think so)</sharedLine></line>
+            <line linenum="72" lineRef="Baekhyun">You'll never have me again <sharedLine lineRef="Kai">(I don’t think so)</sharedLine></line>
+            <line linenum="73" lineRef="Baekhyun"><backVocal lineRef="Suho">Shut up and go away</backVocal></line>
+        </preChorus>
+        
+        <chorus chorusnum="3" artistname="Sehun, Chen, Suho, Chanyeol, Baekhyun, Non-Member">
+            <line linenum="74" lineRef="Sehun"><backVocal lineRef="Chen">Thousand nights, I repeated so many times</backVocal></line>
+            <line linenum="75" lineRef="Sehun"><backVocal lineRef="Chen">A vicious cycle of nightmares, I'll end it now</backVocal></line>
+            <line linenum="76" lineRef="Suho"><sharedLine lineRef="Non-Member">(The turned-off exit light)</sharedLine> <backVocal lineRef="Chen">The turned-off exit light</backVocal></line>
+            <line linenum="77" lineRef="Chanyeol"><backVocal lineRef="Chen">Get away from me now (yeah, yeah)</backVocal></line>
+            <line linenum="78" lineRef="Chanyeol"><backVocal lineRef="Baekhyun">One night, What I saw in the darkness</backVocal></line>
+            <line linenum="79" lineRef="Chanyeol"><backVocal lineRef="Baekhyun">Was the strange shadow that chased after me</backVocal></line>
+            <line linenum="80" lineRef="Suho"><sharedLine lineRef="Non-Member">(The turned-off exit light)</sharedLine> <backVocal lineRef="Chen">The turned-off exit light</backVocal></line>
+            <line linenum="81" lineRef="Suho"><backVocal lineRef="Chen">It's me looking at myself in the mirror</backVocal></line>
+        </chorus>
+        
+        <outro artistname="Non-Member, Kai, Baekhyun, Sehun">
+            <line linenum="82" lineRef="Non-Member">I want ya, I want ya, want ya <backVocal lineRef="Kai">(Yeah)</backVocal></line>
+            <line linenum="83" lineRef="Non-Member">I want ya, I want ya, want ya <backVocal lineRef="Baekhyun">(Yeah, yeah, yeah, yeah)</backVocal></line>
+            <line linenum="84" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="85" lineRef="Non-Member">I want ya, I want ya, want ya <backVocal lineRef="Kai">Get away from me</backVocal></line>
+            <line linenum="86" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="87" lineRef="Non-Member">I want ya, I want ya, want ya <backVocal lineRef="Sehun">Disappear</backVocal> <backVocal lineRef="Baekhyun">(Oh, woah)</backVocal></line>
+            <line linenum="88" lineRef="Non-Member">I want ya, I want ya, want ya Uh, yeah</line>
+            <line linenum="89" lineRef="Non-Member">I want ya, I want ya, want ya</line>
+            <line linenum="90" lineRef="Sehun">Get away from me</line>
+        </outro>
+    </engTrans>
+</song>

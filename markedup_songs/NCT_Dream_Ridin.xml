@@ -9,6 +9,7 @@
             <p>“Ridin'” is the urban trap lead single from <group xml:id="NCT-Dream">NCT Dream</group>’s Reload. The lyrics express the group’s passion and newfound aspiration as they walk toward a new road.</p>
             
             <p>In an interview with TV Report (originally in Korean), the members have described it as a song “full of heat” that has a “hip charm and strong energy” and is a good song to listen to while driving. </p>   
+            
             <meaning>Ridin’ is a high-energy song that conveys a sense of achievement and a desire to <lineMent linenum="3">“break the boundary.”</lineMent> NCT Dream is a very youthful group with mostly cute and young concepts, and it seems that with this song, they’ve moved on from their past and want to declare their maturity.</meaning>
         </bgInfo>
         <album albumRef="Reload">Reload</album>
@@ -30,13 +31,13 @@
     
     <koreanLyrics>
         
-        <intro artistname="All, Jeno">
+        <refrain  refrainnum="1" artistname="All, Jeno">
             <line linenum="1" lineRef="All">거리 위 텅 빈 듯한 이 느낌 <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
             <line linenum="2" lineRef="All">열기로 가득 채워 Reloading <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
             <line linenum="3" lineRef="Jeno">경계를 Break break out</line>
             <line linenum="4" lineRef="Jeno">어디든지 겨눠 봐</line>
             <line linenum="5" lineRef="Jeno">이젠 우리가 방아쇨 당겨 잘 봐</line>
-        </intro>
+        </refrain>
         
         <verse versenum="1" artistname="Jaemin, Haechan, Jisung, Chenle, All">
             <line linenum="6" lineRef="Jaemin">We're back, no more brakes</line>

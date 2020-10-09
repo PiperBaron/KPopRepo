@@ -19,9 +19,9 @@
         </sch:rule>
         <sch:rule context="*[@lineRef]">
             <sch:let name="xmlids" value="$groupMarkupColl//member/@xml:id"/>
-            <sch:assert test="@lineRef = $xmlids or @lineRef = 'All'"> A lineRef value may be "All" or 
-                it must point to an xml:id on a member element in the group markup collection. Correct 
-                values include <sch:value-of
+            <sch:assert test="@lineRef = $xmlids or @lineRef = 'All' or @lineRef = 'Non-Member'"> A lineRef value 
+                may be "All," may be "Non-Member," or it must point to an xml:id on a member element in the group 
+                markup collection. Correct values include <sch:value-of
                     select="string-join($xmlids, ', ')"/></sch:assert>
         </sch:rule>
         <sch:rule context="*[@unitName]">

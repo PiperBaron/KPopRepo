@@ -3,7 +3,7 @@
 <?xml-model href="../markedup_songs/xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <groupPage>
     <about>
-        <groupName xml:id="NCT">NCT {엔씨티)</groupName>
+        <groupName xml:id="NCT">NCT (엔씨티)</groupName>
         <bgInfo>
             <p>NCT is an abbreviation for Neo Culture Technology, which illuminates SM Entertainment’s new and “evolutionary” approach to the Korean and worldwide music industry. Tthe idea is that they're a group of infinite members who are constantly shifting into different sub-units in different cities around the world.</p>
             
@@ -234,8 +234,8 @@
         <member xml:id="MarkLee">
             <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Mark_Portrait.jpg?raw=true</portrait>
             <stageName>Mark (마크)</stageName>
-            <koreanName>Mark Lee</koreanName>
-            <nkBirthName>Lee Min Hyung (이민형)</nkBirthName>
+            <koreanName>Lee Min Hyung (이민형)</koreanName>
+            <nkBirthName>Mark Lee</nkBirthName>
             <role>
                 <position num="1" roleType="rapper">Main Rapper</position>
                 <position num="2" roleType="dancer">Main Dancer</position>
@@ -290,8 +290,8 @@
         <member xml:id="Renjun">
             <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT_Dream/Renjun_Portrait.jpg?raw=true</portrait>
             <stageName>Renjun (런쥔)</stageName>
-            <koreanName>Huang Renjun (黄仁俊)</koreanName>
-            <nkBirthName>Hwang In Joon (황인준)</nkBirthName>
+            <koreanName>Hwang In Joon (황인준)</koreanName>
+            <nkBirthName>Huang Renjun (黄仁俊)</nkBirthName>
             <role>
                 <position num="1" roleType="vocalist">Main Vocalist</position>
                 <position num="2" roleType="dancer">Lead Dancer</position>
@@ -413,8 +413,8 @@
         <member xml:id="Chenle">
             <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT_Dream/Chenle_Portrait.jpg?raw=true</portrait>
             <stageName>Chenle (천러)</stageName>
-            <koreanName>Zhong Chenle (钟辰乐 / 鍾辰樂)</koreanName>
-            <nkBirthName>Jong Jin Rak (종진락)</nkBirthName>
+            <koreanName>Jong Jin Rak (종진락)</koreanName>
+            <nkBirthName>Zhong Chenle (钟辰乐 / 鍾辰樂)</nkBirthName>
             <role>
                 <position num="1" roleType="vocalist">Main Vocalist</position>
             </role>
