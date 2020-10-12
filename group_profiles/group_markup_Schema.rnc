@@ -18,7 +18,7 @@ labelRef = attribute labelRef {xsd:IDREF}
 # 1. Specifying the label/company in the company element
 # 2. Acting as a reference for compMent whenever a company is mentioned (like in bgInfo)
 
-p = element p {mixed{(groupMent | group | memberMent | albumMent | compMent)*}}
+p = element p {mixed{(groupMent | group | memberMent | albumMent | compMent | quote)*}}
 xmlid = attribute xml:id {xsd:ID}
 debutDate = element debutDate {when, text}
 when = attribute when {xsd:date}
@@ -69,6 +69,8 @@ albumMent = element albumMent {albumRef, text}
 compMent = element compMent {labelRef, text}
 # Element used if a company with an existing xml:id is mentioned/referenced in bgInfo
 
+quote = element quote {quoteURL?, text}
+quoteURL = attribute quoteURL {xsd:anyURI}
 memberList = element memberList {member+}
 member = element member {xmlid?, artistRef?, portrait, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight?, birthday, note?}
 # This is a lot of info (probably unnecessary)

@@ -5,11 +5,11 @@
     <about>
         <groupName xml:id="NCT">NCT (엔씨티)</groupName>
         <bgInfo>
-            <p>NCT is an abbreviation for Neo Culture Technology, which illuminates SM Entertainment’s new and “evolutionary” approach to the Korean and worldwide music industry. Tthe idea is that they're a group of infinite members who are constantly shifting into different sub-units in different cities around the world.</p>
+            <p>NCT is an abbreviation for Neo Culture Technology, which, to quote Genius, <quote quoteURL="https://genius.com/artists/Nct">"illuminates SM Entertainment’s new and 'evolutionary' approach to the Korean and worldwide music industry."</quote> <compMent labelRef="SMEnt">SM Entertainment</compMent>, NCT’s company and label, has stated the idea of the group is to be infinite, with constantly shifting subunits and arrangements, based in different cities around the world. </p>
             
             <p>Each member was hand-selected by their <compMent labelRef="SMEnt">company</compMent>. Before being a part of NCT, they were considered members of SM Rookies, a training program for young idols-to-be who are primed and prepared to become a part of a greater group.</p>
             
-            <p>There are currently 4 subunits of NCT: <groupMent artistRef="NCTU">NCT U</groupMent>, <groupMent artistRef="NCT127">NCT 127</groupMent>, <groupMent artistRef="NCT-Dream">NCT Dream</groupMent>, and <groupMent artistRef="WayV">WayV</groupMent>. Within these groups, NCT also bases songs in a variety of languages, including Korean, English, Japanese, and Chinese. A new project, dubbed NCT 2020, is releasing on October 12th, and will iclude 2 new members, <memberMent artistRef="Shotaro">Shotaro</memberMent> and <memberMent artistRef="Sungchan">Sungchan</memberMent>, who will reportedly be involved in a new and currently unannounced subunit.</p>
+            <p>There are currently 4 subunits of NCT: <groupMent artistRef="NCTU">NCT U</groupMent>, <groupMent artistRef="NCT127">NCT 127</groupMent>, <groupMent artistRef="NCT-Dream">NCT Dream</groupMent>, and <groupMent artistRef="WayV">WayV</groupMent>. Within these groups, NCT also bases songs in a variety of languages, including Korean, English, Japanese, and Chinese. A new project, dubbed NCT 2020, is releasing on October 12th, and will include 2 new members, <memberMent artistRef="Shotaro">Shotaro</memberMent> and <memberMent artistRef="Sungchan">Sungchan</memberMent>, who will reportedly be involved in a new and currently unannounced subunit.</p>
         </bgInfo>
         <company xml:id="SMEnt">SM Entertainment</company>
         <debutDate when="2016-04-08">April 8, 2016</debutDate>

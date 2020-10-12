@@ -4,7 +4,7 @@
     <about>
         <groupName xml:id="EXO">EXO (엑소)</groupName>
         <bgInfo>
-            <p></p> 
+            <p></p>
         </bgInfo>
         <company xml:id="SMEnt">SM Entertainment</company>
         <debutDate when="2012-04-08">April 8, 2012</debutDate>
@@ -35,7 +35,7 @@
     <memberList>
         
         <member xml:id="Suho">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/EXO/Suho_Portrait.jpg?raw=true</portrait>
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/EXO/Suho_Portrait.jpeg?raw=true</portrait>
             <stageName>Suho (수호)</stageName>
             <koreanName>Kim Jun Myeon (김준면)</koreanName>
             <role>
@@ -123,7 +123,7 @@
         </member>
         
         <member xml:id="Chanyeol">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/EXO/Chanyeol_Portrait.jpg?raw=true</portrait>
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/EXO/Chanyeol_Portrait.jpeg?raw=true</portrait>
             <stageName>Chanyeol (찬열)</stageName>
             <koreanName>Park Chan Yeol (박찬열)</koreanName>
             <role>
@@ -141,7 +141,7 @@
         </member>
         
         <member xml:id="DO">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/EXO/DO_Portrait.jpg?raw=true</portrait>
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/EXO/DO_Portrait.jpeg?raw=true</portrait>
             <stageName>D.O. (디오)</stageName>
             <koreanName>Do Kyung Soo (도경수)</koreanName>
             <role>
@@ -177,7 +177,7 @@
         </member>
         
         <member xml:id="Sehun">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/EXO/Sehun_Portrait.jpg?raw=true</portrait>
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/EXO/Sehun_Portrait.jpeg?raw=true</portrait>
             <stageName>Sehun (세훈)</stageName>
             <koreanName></koreanName>
             <role>

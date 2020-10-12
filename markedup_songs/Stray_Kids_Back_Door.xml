@@ -6,11 +6,9 @@
         <songName xml:id="Back-Door">Back Door</songName>
         <artistName artistRef="StrayKids">Stray Kids</artistName>
         <bgInfo>
-            <p>“Back Door” was released as the title track off of <groupMent artistRef="StrayKids">Stray Kids</groupMent>' first repackaged album, <albumMent albumRef="INLife">IN生</albumMent> (a reissue of their debut studio album, 2020’s GO生) along with its official M/V, teased on September 9. The group revealed about their anticipation for song before its final completion, as also they added:
-                
-                <blockQuote>Following our well-loved track “God’s Menu,” we hope “Back Door” will be even more well-received.</blockQuote>
-                
-                The track, co-composed by <groupMent artistRef="ThreeRACHA">3RACHA</groupMent> (<memberMent artistRef="Han">Han</memberMent>, <memberMent artistRef="Changbin">Changbin</memberMent>, and SKZ’s leader <memberMent artistRef="BangChan">Bang Chan</memberMent>), featuring the festival-like sound and “effects that will delight both the eyes and the ears” was also praised for its production by <compMent labelRef="JYPEnt">JYPE</compMent>’s J.Y. Park himself.</p>
+            <p>Back Door was released as the title track off of <groupMent artistRef="StrayKids">Stray Kids</groupMent>' first repackaged album, <albumMent albumRef="INLife">IN生</albumMent>.</p>
+            
+            <p>The track was co-composed by members of the group's own subunit <groupMent artistRef="ThreeRACHA">3RACHA</groupMent> (<memberMent artistRef="Han">Han</memberMent>, <memberMent artistRef="Changbin">Changbin</memberMent>, and leader <memberMent artistRef="BangChan">Bang Chan</memberMent>), and was apparently praised for its production by <compMent labelRef="JYPEnt">JYP Entertainment</compMent>’s J.Y. Park himself.</p>
             
             <meaning>Back Door and its lyrics seem to invite the listener into a private sector, where only <lineMent linenum="15">“authorized personnel”</lineMent> are allowed -- Stray Kids are beckoning fans and non-fans alike to join them in their new-found success. Off of the back of the wildly popular God’s Menu, the title-track of their previous full album <albumMent albumRef="GOLive">GO生</albumMent>, Stray Kids are flexing their fame and presenting an invitation into their fandom to anyone with the privilege to listen.</meaning>
         </bgInfo>

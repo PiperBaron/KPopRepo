@@ -5,9 +5,11 @@
     <about>
         <groupName artistRef="NCT-Dream">NCT Dream (엔씨티 Dream)</groupName>
         <bgInfo>
-            <p>The subunit NCT Dream is part of the larger group <groupMent artistRef="NCT">NCT</groupMent>. NCT stands for Neo Culture Technology, and the idea is that they're a group of infinite members who are constantly shifting into different sub-units in different cities around the world.</p> 
+            <p>NCT is an abbreviation for Neo Culture Technology, which, to quote Genius, <quote quoteURL="https://genius.com/artists/Nct">"illuminates SM Entertainment’s new and 'evolutionary' approach to the Korean and worldwide music industry."</quote> <compMent labelRef="SMEnt">SM Entertainment</compMent>, NCT’s company and label, has stated the idea of the group is to be infinite, with constantly shifting subunits and arrangements, based in different cities around the world. </p>
             
             <p>Each member was hand-selected by their <compMent labelRef="SMEnt">company</compMent>. Before being a part of NCT, they were considered members of SM Rookies, a training program for young idols-to-be who are primed and prepared to become a part of a greater group.</p>
+            
+            <p>NCT Dream is the third subunit of <groupMent artistRef="NCT">NCT</groupMent>, based around the themes of youth and innocence. The members are among the youngest of all of NCT, with member <memberMent artistRef="Jisung">Jisung</memberMent> being the “maknae” or youngest out of the current 23-person lineup. Dream previously had a stated “graduation” system, where members would leave the group once they turn 20 (the adult age in Korea). <memberMent artistRef="MarkLee">Mark</memberMent> had graduated in December of 2018, though this and the whole graduation system has been revoked by SM Entertainment due to fan backlash.</p>
         </bgInfo>
         <company xml:id="SMEnt">SM Entertainment</company>
         <debutDate when="2016-08-24">August 24, 2016</debutDate>
