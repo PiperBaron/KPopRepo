@@ -98,3 +98,72 @@ li.dropdown {
   color: #F9F5FB;
   font-size: 18px;
 }
+
+.profile_link_holder {
+  padding: 25px;
+  display: grid; 
+  grid-template-columns: auto auto;
+  grid-gap: 50px 0px;
+  justify-items: center;
+}
+
+.profile_link {
+  color: #DCCAFE;
+  height: 200px;
+  width: 600px;
+  background: hsla(282, 76%, 18%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(282, 76%, 18%, 1) 6%,
+    hsla(282, 69%, 25%, 1) 35%,
+    hsla(225, 49%, 51%, 1) 85%
+  );
+  border-style: solid;
+  border-color: #A173F5;
+  text-align: center;
+}
+
+.group_name {
+  margin: 20px 0px 0px 0px;
+}
+
+.group_name a {
+  text-decoration: none;
+  font-style: italic;
+  color: #DCCAFE;
+  font-size: 32px;
+}
+
+.group_name a:hover {
+  text-decoration: none;
+  color: #B666FF;
+}
+
+.song_name a {
+  text-decoration: none;
+  color: #DCCAFE;
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.song_name_small a {
+  text-decoration: none;
+  color: #DCCAFE;
+  font-size: 70px;
+}
+
+.song_name a:hover {
+  text-decoration: none;
+  color: #B666FF;
+}
+
+.song_name_small a:hover {
+  text-decoration: none;
+  color: #B666FF;
+}
+
+.korean_name {
+  margin: -10px;
+  color: #DCCAFE;
+  font-size: 18px;
+}
