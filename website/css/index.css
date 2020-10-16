@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: #F3E9FC;
-  color: #f2f2f2;;  
+  color: #f2f2f2;  
 }
 
 .header {
@@ -94,4 +94,53 @@ li.dropdown {
   background-color: #282728;
   color: #F9F5FB;
   font-size: 18px;
+}
+
+.member_link_holder {
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.member_link {
+  color: #DCCAFE;
+  height: 350px;
+  width: 250px;
+  margin: 30px;
+  line-height: 150px;
+  border-style: solid;
+  border-color: #B38CFA;
+  text-align: center;
+}
+
+.member_name {
+  margin: 0px;
+  vertical-align: top;
+  background-color: #6207B2;
+  height: 50px;
+  line-height: 50px;
+}
+
+.member_name a {
+  text-decoration: none;
+  color: #DCCAFE;
+  font-size: 35px;
+}
+
+.member_name a:hover {
+  text-decoration: none;
+  color: #B666FF;
+}
+
+.member_link:hover {
+   background-color: #3B026E;
+   box-shadow:
+     1px 1px #B38CFA,
+     2px 2px #B38CFA,
+     3px 3px #B38CFA,
+     4px 4px #B38CFA,
+     5px 5px #B38CFA,
+     6px 6px #B38CFA;
+     transition: .5s ease;
 }
