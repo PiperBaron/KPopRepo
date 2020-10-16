@@ -98,17 +98,16 @@ li.dropdown {
 
 .profile_link_holder {
   padding: 25px;
-  display: grid; 
-  grid-template-columns: auto auto auto auto auto;
-  grid-gap: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
 }
 
 .profile_link {
   color: #DCCAFE;
   height: 350px;
   width: 250px;
+  margin: 30px;
   line-height: 150px;
   border-style: solid;
   border-color: #B38CFA;
