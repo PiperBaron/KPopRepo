@@ -4,7 +4,12 @@
     <about>
         <groupName xml:id="EXO">EXO (엑소)</groupName>
         <bgInfo>
-            <p></p>
+            <p>EXO is a 9-member group under <compMent labelRef="SMEnt">SM Entertainment</compMent>. They debuted with 12 people, but 3 of the Chinese members (Kris, Tao, and Luhan) terminated their contracts with <compMent labelRef="SMEnt">SM</compMent> with a lawsuit in 2014/2015, citing mistreatment and a failure to meet their health needs. </p>
+            
+            <p>The group has a “story” attached to themselves, lore detailed across music videos, lyrics, and official statements by the <compMent labelRef="SMEnt">company</compMent>. The group is from a distant planet and has been chased across the galaxy by those who want their “powers,” unique abilities that each member possesses (<memberMent artistRef="Suho">Suho</memberMent> has a water power, <memberMent artistRef="Kai">Chanyeol</memberMent> has fire, <memberMent artistRef="Kai">Kai</memberMent> has teleportation, etc.) EXO has come to Earth to hide from their pursuers and live in peace. They’re one of the few K-Pop groups to have a full, fictional story that describes their origin/backstory.</p>
+            
+            <p>There are numerous subunits within EXO, including two that were established at release: <groupMent artistRef="EXO-K">EXO-K</groupMent> and <groupMent artistRef="EXO-K">EXO-M</groupMent>, which would perform songs in Korean and Mandarin respectively. <groupMent artistRef="EXO-CBX">EXO-CBX</groupMent> is a vocal-focused subunit that formed later in the group’s life, with <groupMent artistRef="EXO-SC">EXO-SC</groupMent> following shortly after and going for a rip/hip-hop sound.</p>
+            
         </bgInfo>
         <company xml:id="SMEnt">SM Entertainment</company>
         <debutDate when="2012-04-08">April 8, 2012</debutDate>
