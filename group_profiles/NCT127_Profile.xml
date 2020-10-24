@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="group_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../markedup_songs/xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <groupPage>
     <about>
-        <groupName xml:id="NCT127">NCT 127 (엔씨티 127)</groupName>
+        <groupName artistRef="NCT127">NCT 127 (엔씨티 127)</groupName>
         <bgInfo>
-            <p>The subunit NCT127 is part of the larger group <group xml:id="NCT">NCT</group>. NCT stands for Neo Culture Technology, and the idea is that they're a group of infinite members who are constantly shifting into different sub-units in different cities around the world.</p> 
+            <p>NCT is an abbreviation for Neo Culture Technology, which, to quote Genius, <quote quoteURL="https://genius.com/artists/Nct">"illuminates SM Entertainment’s new and 'evolutionary' approach to the Korean and worldwide music industry."</quote> <compMent labelRef="SMEnt">SM Entertainment</compMent>, NCT’s company and label, has stated the idea of the group is to be infinite, with constantly shifting subunits and arrangements, based in different cities around the world. </p>
             
             <p>Each member was hand-selected by their <compMent labelRef="SMEnt">company</compMent>. Before being a part of NCT, they were considered members of SM Rookies, a training program for young idols-to-be who are primed and prepared to become a part of a greater group.</p>
+           
+            <p>NCT 127 is a subunit of <groupMent artistRef="NCT">NCT</groupMent> based in the capital of South Korea, Seoul, the number “127” being the longitude coordinate of the city. The group began as seven with their debut Fire Truck, with members <memberMent artistRef="Johnny">Johnny</memberMent> and <memberMent artistRef="Doyoung">Doyoung</memberMent> being added in late 2016 with the title track Limitless, and <memberMent artistRef="Jungwoo">Jungwoo</memberMent> added with the NCT U release Boss.</p>
         </bgInfo>
         <company xml:id="SMEnt">SM Entertainment</company>
-        <debutDate when="2018-06-07">July 7, 2016 </debutDate>
+        <debutDate when="2016-06-07">July 7, 2016</debutDate>
         <debutSong>Fire Truck (소방차)</debutSong>
         <discography>
             <album albumType="mini">NCT #127</album>
@@ -30,8 +33,11 @@
     </about> 
     
     <memberList>
-        <member xml:id="Taeyong">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT127/Taeyong_Portrait.jpg?raw=true</portrait>
+        
+        <member artistRef="Taeyong">
+        <!-- artistRef is used here instead of an xml:id, because it's referencing the xml:id established in the main NCT profile doc -->
+            
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Taeyong_Portrait.jpg?raw=true</portrait>
             <stageName>Taeyong (태용)</stageName>
             <koreanName>Lee Taeyong (이태용)</koreanName>
             <role>
@@ -43,32 +49,32 @@
                 <position num="6" roleType="center">Center</position>
             </role>
             <subunit>
-                <unit name="NCT127">NCT 127</unit>
-                <unit name="NCTU">NCT U</unit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCTU">NCT U</unit>
             </subunit>
             <height>174 cm (5’8″)</height>
             <weight>58 kg (128 lbs)</weight>
             <birthday when="1995-06-01">July 1, 1995</birthday>
         </member>
         
-        <member xml:id="Taeil">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT127/Taeil_Portrait.jpg?raw=true</portrait>
+        <member artistRef="Taeil">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Taeil_Portrait.jpg?raw=true</portrait>
             <stageName>Taeil (태일)</stageName>
             <koreanName>Moon Tae Il (문태일)</koreanName>
             <role>
                 <position num="1" roleType="vocalist">Main Vocalist</position>
             </role>
             <subunit>
-                <unit name="NCT127">NCT 127</unit>
-                <unit name="NCTU">NCT U</unit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCTU">NCT U</unit>
             </subunit>
             <height>171 cm (5’7″)</height>
             <weight>60 kg (132 lbs)</weight>
             <birthday when="1994-05-14">June 14, 1994</birthday>
         </member>
         
-        <member xml:id="Johnny">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT127/Johnny_Portrait.jpg?raw=true</portrait>
+        <member artistRef="Johnny">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Johnny_Portrait.jpg?raw=true</portrait>
             <stageName>Johnny (쟈니)</stageName>
             <koreanName>Seo Young Ho (서영호)</koreanName>
             <nkBirthName>John Suh</nkBirthName>
@@ -78,16 +84,16 @@
                 <position num="3" roleType="rapper">Sub Rapper</position>
             </role>
             <subunit>
-                <unit name="NCT127">NCT 127</unit>
-                <unit name="NCTU">NCT U</unit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCTU">NCT U</unit>
             </subunit>
             <height>185 cm (6’1″)</height>
             <weight>70 kg (154 lbs)</weight>
             <birthday when="1995-02-09">February 9, 1995</birthday>
         </member>
         
-        <member xml:id="Yuta">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT127/Yuta_Portrait.jpg?raw=true</portrait>
+        <member artistRef="Yuta">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Yuta_Portrait.jpg?raw=true</portrait>
             <stageName>Yuta (유타)</stageName>
             <nkBirthName>Nakamoto Yuta (中本悠太)</nkBirthName>
             <role>
@@ -96,32 +102,32 @@
                 <position num="3" roleType="rapper">Sub Rapper</position>
             </role>
             <subunit>
-                <unit name="NCT127">NCT 127</unit>
-                <unit name="NCTU">NCT U</unit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCTU">NCT U</unit>
             </subunit>
             <height>176 cm (5’9″)</height>
             <weight>60 kg (132 lbs)</weight>
             <birthday when="1995-10-26">October 26, 1995</birthday>
         </member>
         
-        <member xml:id="Doyoung">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT127/Doyoung_Portrait.jpg?raw=true</portrait>
+        <member artistRef="Doyoung">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Doyoung_Portrait.jpg?raw=true</portrait>
             <stageName>Doyoung (도영)</stageName>
             <koreanName>Kim Dong Young (김동영‬)</koreanName>
             <role>
                 <position num="1" roleType="vocalist">Main Vocalist</position>
             </role>
             <subunit>
-                <unit name="NCT127">NCT 127</unit>
-                <unit name="NCTU">NCT U</unit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCTU">NCT U</unit>
             </subunit>
             <height>178 cm (5’10″)</height>
             <weight>60 kg (132 lbs)</weight>
             <birthday when="1996-02-01">February 1, 1996</birthday>
         </member>
         
-        <member xml:id="Jaehyun">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT127/Jaehyun_Portrait.jpg?raw=true</portrait>
+        <member artistRef="Jaehyun">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Jaehyun_Portrait.jpg?raw=true</portrait>
             <stageName>Jaehyun (재현)</stageName>
             <koreanName>Jung Jae Hyun, but he legalized to Jung Yoon Oh (정윤오)</koreanName>
             <role>
@@ -131,33 +137,16 @@
                 <position num="4" roleType="visual">Visual</position>
             </role>
             <subunit>
-                <unit name="NCT127">NCT 127</unit>
-                <unit name="NCTU">NCT U</unit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCTU">NCT U</unit>
             </subunit>
             <height>180 cm (5’11″)</height>
             <weight>63 kg (138 lbs)</weight>
             <birthday when="1997-02-14">February 14, 1997</birthday>
         </member>
-        
-        <member xml:id="Jungwoo">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT127/Jungwoo_Portrait.jpg?raw=true</portrait>
-            <stageName>Jungwoo (정우)</stageName>
-            <koreanName>Kim Jung-woo (김정우)</koreanName>
-            <role>
-                <position num="1" roleType="vocalist">Lead Vocalist</position>
-                <position num="2" roleType="dancer">Lead Dancer</position>
-            </role>
-            <subunit>
-                <unit name="NCT127">NCT 127</unit>
-                <unit name="NCTU">NCT U</unit>
-            </subunit>
-            <height>180 cm (5’11″)</height>
-            <weight>58 kg (128 lbs)</weight>
-            <birthday when="1998-02-19">February 19, 1998</birthday>
-        </member>
-        
-        <member xml:id="WinWin">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT127/WinWin_Portrait.jpg?raw=true</portrait>
+
+        <member artistRef="WinWin">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/WinWin_Portrait.jpg?raw=true</portrait>
             <stageName>Win Win (윈윈)</stageName>
             <koreanName>Dong Sa Sung (동사성)</koreanName>
             <nkBirthName>Dong Si Cheng (董思成)</nkBirthName>
@@ -166,9 +155,9 @@
                 <position num="2" roleType="vocalist">Sub Vocalist</position>
             </role>
             <subunit>
-                <unit name="NCT127">NCT 127</unit>
-                <unit name="NCTU">NCT U</unit>
-                <unit name="WayV">WayV</unit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="WayV">WayV</unit>
+                <unit unitName="NCTU">NCT U</unit>
             </subunit>
             <height>182 cm (6’0″)</height>
             <weight>60 kg (132 lbs)</weight>
@@ -176,28 +165,45 @@
             <note>WinWin is considered inactive in NCT 127 and is currently promoting with WayV.</note>
         </member>
         
-        <member xml:id="MarkLee">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT127/Mark_Portrait.jpg?raw=true</portrait>
+        <member artistRef="Jungwoo">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Jungwoo_Portrait.jpg?raw=true</portrait>
+            <stageName>Jungwoo (정우)</stageName>
+            <koreanName>Kim Jung-woo (김정우)</koreanName>
+            <role>
+                <position num="1" roleType="vocalist">Lead Vocalist</position>
+                <position num="2" roleType="dancer">Lead Dancer</position>
+            </role>
+            <subunit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCTU">NCT U</unit>
+            </subunit>
+            <height>180 cm (5’11″)</height>
+            <weight>58 kg (128 lbs)</weight>
+            <birthday when="1998-02-19">February 19, 1998</birthday>
+        </member>
+        
+        <member artistRef="MarkLee">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Mark_Portrait.jpg?raw=true</portrait>
             <stageName>Mark (마크)</stageName>
-            <koreanName>Mark Lee</koreanName>
-            <nkBirthName>Lee Min Hyung (이민형)</nkBirthName>
+            <koreanName>Lee Min Hyung (이민형)</koreanName>
+            <nkBirthName>Mark Lee</nkBirthName>
             <role>
                 <position num="1" roleType="rapper">Main Rapper</position>
                 <position num="2" roleType="dancer">Main Dancer</position>
                 <position num="3" roleType="vocalist">Sub Vocalist</position>
             </role>
             <subunit>
-                <unit name="NCT127">NCT 127</unit>
-                <unit name="NCTU">NCT U</unit>
-                <unit name="NCTDream">NCT Dream</unit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCT-Dream">NCT Dream</unit>
+                <unit unitName="NCTU">NCT U</unit>
             </subunit>
             <height>174.5 cm (5’9″)</height>
             <weight>60 kg (132 lbs)</weight>
             <birthday when="1999-08-02">August 2, 1999</birthday>
         </member>
         
-        <member xml:id="Haechan">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT127/Haechan_Portrait.jpg?raw=true</portrait>
+        <member artistRef="Haechan">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/NCT/NCT127/Haechan_Portrait.jpg?raw=true</portrait>
             <stageName>Haechan (해찬)</stageName>
             <koreanName>Lee Dong Hyuck (이동혁)</koreanName>
             <role>
@@ -206,9 +212,9 @@
                 <position num="3" roleType="maknae">Maknae</position>
             </role>
             <subunit>
-                <unit name="NCT127">NCT 127</unit>
-                <unit name="NCTU">NCT U</unit>
-                <unit name="NCTDream">NCT Dream</unit>
+                <unit unitName="NCT127">NCT 127</unit>
+                <unit unitName="NCT-Dream">NCT Dream</unit>
+                <unit unitName="NCTU">NCT U</unit>
             </subunit>
             <height>173 cm (5’8″)</height>
             <weight>58 kg (128 lbs)</weight>

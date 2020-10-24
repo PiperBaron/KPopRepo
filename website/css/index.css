@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  background-color: #F3E9FC;
+  color: #f2f2f2;  
+}
+
+.header {
+  background-image: url("../images/header_tile_bg.png");
+  background-repeat: repeat;
+  padding: 20px;
+  height: 52px;
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+  font-size: 28px;
+}
+
+h2{
+ font-size: 55px;
+ margin: auto;
+}
+
+ul.nav {
+  list-style-type: none;
+  text-align:center;
+  margin: 0;
+  padding: 0;
+  background-color: #282728;
+  border: 1px solid white;
+}
+
+li {
+  display: inline-block;
+  margin: 0 75px 0 75px;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #E1A5FB;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #A859CA;
+  color: #f2f2f2;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #282728;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #f2f2f2;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  border: 1px solid white;
+}
+
+.dropdown-content a:hover {
+  background-color: #000;
+  color: #E1A5FB;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.active {
+  background-color: #480D62;
+}
+
+.main {
+  margin: 55px;
+  padding: 15px;
+  background-color: #282728;
+  color: #F9F5FB;
+  font-size: 18px;
+}
+
+.member_link_holder {
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.member_link {
+  color: #DCCAFE;
+  height: 350px;
+  width: 250px;
+  margin: 30px;
+  line-height: 150px;
+  border-style: solid;
+  border-color: #B38CFA;
+  text-align: center;
+}
+
+.member_name {
+  margin: 0px;
+  vertical-align: top;
+  background-color: #6207B2;
+  height: 50px;
+  line-height: 50px;
+}
+
+.member_name a {
+  text-decoration: none;
+  color: #DCCAFE;
+  font-size: 35px;
+}
+
+.member_name a:hover {
+  text-decoration: none;
+  color: #B666FF;
+}
+
+.member_link:hover {
+   background-color: #3B026E;
+   box-shadow:
+     1px 1px #B38CFA,
+     2px 2px #B38CFA,
+     3px 3px #B38CFA,
+     4px 4px #B38CFA,
+     5px 5px #B38CFA,
+     6px 6px #B38CFA;
+     transition: .5s ease;
+}

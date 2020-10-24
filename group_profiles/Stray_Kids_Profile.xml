@@ -4,11 +4,11 @@
     <about>
         <groupName xml:id="StrayKids">Stray Kids (스트레이 키즈)</groupName>
         <bgInfo>
-            <p>Stray Kids is a K-pop group formed by <compMent labelRef="JYPEnt">JYP Entertainment</compMent> through the 2017 reality show of the same name. It is composed of eight members. <compMent labelRef="JYPEnt">JYPE</compMent> announced the departure of (now) former member Woojin from the group on October 28th 2019.</p>
+            <p>Stray Kids is an 8-member group under <compMent labelRef="JYPEnt">JYP Entertainment</compMent> and were formed through a survival-type competition show of the same name. <memberMent artistRef="Felix">Felix</memberMent> and <memberMent artistRef="LeeKnow">Lee Know</memberMent> were almost voted off, but were given a second chance and rejoined the group by the finale. Member Woojin left the group in October of 2019.</p>
             
-            <p>Prior to the show’s premiere, <compMent labelRef="JYPEnt">JYP Entertainment</compMent> released Stray Kids' first music video for the song titled <albumMent albumRef="Hellevator">“Hellevator”</albumMent>, and later released the track as a digital single. After confirming the line-up, the 9-members released a pre-debut EP in January 2018 titled <albumMent albumRef="Mixtape">“Mixtape”</albumMent> which debuted at #2 on Gaon Album Chart and Billboard World Albums Chart.</p>
+            <p>The group officially debuted with their mini album <albumMent albumRef="I-Am-NOT">I am NOT</albumMent>, though they had released the single <albumMent albumRef="Hellevator">Hellavtor</albumMent>, the music video for which had been dropped prior to the show’s airing, and the album <albumMent albumRef="Mixtape">Mixtape</albumMent> before debut.</p>
             
-            <p>On March 26, 2018, Stray Kids officially debuted with <albumMent albumRef="I-Am-NOT">“I am NOT.”</albumMent> They were met with widespread success and subsequently released two more EPs in 2018, each outselling the last.</p>
+            <p>There are three subunits that focus on different aspects of their music and performance: rapping (<groupMent artistRef="ThreeRACHA">3RACHA</groupMent>), dancing (<groupMent artistRef="DanceRacha">Dance Racha</groupMent>), and singing (<groupMent artistRef="VocalRacha">Vocal Racha</groupMent>). <groupMent artistRef="ThreeRACHA">3RACHA</groupMent> (whose naming scheme obviously influenced the other two units) was the first subunit formed and is responsible for the writing, composing, and producing for most of Stray Kids’ music</p>
         </bgInfo>
         <company xml:id="JYPEnt">JYP Entertainment</company>
         <debutDate when="2018-03-25">March 25, 2018</debutDate>
@@ -51,7 +51,7 @@
                 <position num="5" roleType="rapper">Sub Rapper</position>
             </role>
             <subunit>
-                <unit name="3RACHA">3RACHA</unit>
+                <unit unitName="ThreeRACHA">3RACHA</unit>
             </subunit>
             <height>171 cm (5’7″)</height>
             <birthday when="1997-10-03">October 3, 1997</birthday>
@@ -67,7 +67,7 @@
                 <position num="3" roleType="rapper">Sub Rapper</position>
             </role>
             <subunit>
-                <unit name="DanceRacha">Dance Racha</unit>
+                <unit unitName="DanceRacha">Dance Racha</unit>
             </subunit>
             <height>172 cm (5’8″)</height>
             <birthday when="1998-10-25">October 25, 1998</birthday>
@@ -83,7 +83,7 @@
                 <position num="3" roleType="producer">Producer</position>
             </role>
             <subunit>
-                <unit name="3RACHA">3RACHA</unit>
+                <unit unitName="ThreeRACHA">3RACHA</unit>
             </subunit>
             <height>167 cm (5’6″)</height>
             <birthday when="1999-08-11">August 11, 1999</birthday>
@@ -100,7 +100,7 @@
                 <position num="4" roleType="visual">Visual</position>
             </role>
             <subunit>
-                <unit name="DanceRacha">Dance Racha</unit>
+                <unit unitName="DanceRacha">Dance Racha</unit>
             </subunit>
             <height>179 cm (5’10.5″)</height>
             <birthday when="2000-03-15">March 20, 2000</birthday>
@@ -116,7 +116,7 @@
                 <position num="3" roleType="producer">Producer</position>
             </role>
             <subunit>
-                <unit name="3RACHA">3RACHA</unit>
+                <unit unitName="ThreeRACHA">3RACHA</unit>
             </subunit>
             <height>169 cm (5’7″)</height>
             <birthday when="2000-09-14">September 14, 2000</birthday>
@@ -126,14 +126,14 @@
             <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Stray_Kids/Felix_Portrait.jpg?raw=true</portrait>
             <stageName>Felix (필릭스)</stageName>
             <koreanName>Lee Yong Bok (이용복)</koreanName>
-            <nkBirthName>Felix Lee (이 필릭스)</nkBirthName>
+            <nkBirthName>Felix Lee</nkBirthName>
             <role>
                 <position num="1" roleType="dancer">Lead Dancer</position>
                 <position num="2" roleType="rapper">Lead Rapper</position>
                 <position num="3" roleType="vocalist">Sub Vocalist</position>
             </role>
             <subunit>
-                <unit name="DanceRacha">Dance Racha</unit>
+                <unit unitName="DanceRacha">Dance Racha</unit>
             </subunit>
             <height>171 cm (5’7″)</height>
             <birthday when="2000-09-15">September 15, 2000</birthday>
@@ -147,7 +147,7 @@
                 <position num="1" roleType="vocalist">Main Vocalist</position>
             </role>
             <subunit>
-                <unit name="VocalRacha">Vocal Racha</unit>
+                <unit unitName="VocalRacha">Vocal Racha</unit>
             </subunit>
             <height>178 cm (5’10″)</height>
             <birthday when="2000-09-22">September 22, 2000</birthday>
@@ -162,11 +162,30 @@
                 <position num="2" roleType="maknae">Maknae</position>
             </role>
             <subunit>
-                <unit name="VocalRacha">Vocal Racha</unit>
+                <unit unitName="VocalRacha">Vocal Racha</unit>
             </subunit>
             <height>172 cm (5’8″)</height>
             <birthday when="2001-02-08">February 8, 2001</birthday>
-        </member>
-        
+        </member>   
     </memberList>
+    
+    <subunitList xml:id="ThreeRACHA">
+        <subunitName unitName="ThreeRACHA">3RACHA</subunitName>
+        <subunitMembers subunitMemberName="BangChan">Bang Chan (방찬)</subunitMembers>
+        <subunitMembers subunitMemberName="Changbin">Changbin (창빈)</subunitMembers>
+        <subunitMembers subunitMemberName="Han">Han (한)</subunitMembers>
+    </subunitList>
+    
+    <subunitList xml:id="DanceRacha">
+        <subunitName unitName="DanceRacha">Dance Racha</subunitName>
+        <subunitMembers subunitMemberName="LeeKnow">Lee Know (리노)</subunitMembers>
+        <subunitMembers subunitMemberName="Hyunjin">Hyunjin (현진)</subunitMembers>
+        <subunitMembers subunitMemberName="Felix">Felix (필릭스}</subunitMembers>
+    </subunitList>
+    
+    <subunitList xml:id="VocalRacha">
+        <subunitName unitName="VocalRacha">Vocal Racha</subunitName>
+        <subunitMembers subunitMemberName="Seungmin">Seungmin (승민)</subunitMembers>
+        <subunitMembers subunitMemberName="IN">I.N (아이엔)</subunitMembers>
+    </subunitList>
 </groupPage>

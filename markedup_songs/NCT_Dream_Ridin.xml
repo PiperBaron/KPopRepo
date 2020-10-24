@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="song_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<song>
+    <about>
+        <songName xml:id="Ridin">Ridin’</songName>
+        <artistName artistRef="NCT-Dream">NCT Dream</artistName>
+        <bgInfo>
+            <p>Ridin' is the title track from <group xml:id="NCT-Dream">NCT Dream</group>’s newest album <albumMent albumRef="Reload">Reload</albumMent>. It's an urban-trap song, a sound that's rather unique to the group with a more overwhelmingly youthful pop sound.</p>
+            
+            <p>According to Genius: <quote quoteURL="https://genius.com/Nct-dream-ridin-lyrics">"In an interview with TV Report (originally in Korean), the members have described it as a song “full of heat” that has a “hip charm and strong energy” and is a good song to listen to while driving."</quote></p>   
+            
+            <meaning>Ridin’ is a high-energy song that conveys a sense of achievement and a desire to <lineMent linenum="3">“break the boundary.”</lineMent> NCT Dream is a very youthful group with mostly cute and young concepts, and it seems that with this song, they’ve moved on from their past and want to declare their maturity.</meaning>
+        </bgInfo>
+        <album albumRef="Reload">Reload</album>
+        <produceCredit>
+            <producer>Hautboi Rich</producer>
+            <producer>Darius Martin</producer>
+            <producer>Adrian McKinnon</producer>
+            <producer>Tay Jasper</producer>
+            <producer>Maurice Moore</producer>
+            <producer>Moonshine</producer>
+        </produceCredit>
+        <lyricCredit>
+            <writer>Jang Jeon Won (장정원)</writer>
+            <writer>Rick Bridges</writer>
+        </lyricCredit>
+        <label labelRef="SMEnt">SM Entertainment</label>
+        <releaseDate when="2020-04-29">April 29, 2020</releaseDate>
+    </about>
+    
+    <koreanLyrics>
+        
+        <refrain  refrainnum="1" artistname="All, Jeno">
+            <line linenum="1" lineRef="All">거리 위 텅 빈 듯한 이 느낌 <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="2" lineRef="All">열기로 가득 채워 Reloading <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="3" lineRef="Jeno">경계를 Break break out</line>
+            <line linenum="4" lineRef="Jeno">어디든지 겨눠 봐</line>
+            <line linenum="5" lineRef="Jeno">이젠 우리가 방아쇨 당겨 잘 봐</line>
+        </refrain>
+        
+        <verse versenum="1" artistname="Jaemin, Haechan, Jisung, Chenle, All">
+            <line linenum="6" lineRef="Jaemin">We're back, no more brakes</line>
+            <line linenum="7" lineRef="Jaemin">모두 다 Sit back</line>
+            <line linenum="8" lineRef="Jaemin">이젠 마주해 날 향한 Scream</line>
+            <line linenum="9" lineRef="Haechan">오랜 기다림의 끝에 불을 붙여</line>
+            <line linenum="10" lineRef="Haechan">시동 거는 순간 It's game over, ya</line>
+            <line linenum="11" lineRef="Jisung">Talk talk 어딜 가도</line>
+            <line linenum="12" lineRef="Jisung">Talk talk 내 얘기로</line>
+            <line linenum="13" lineRef="Jisung">다들 떠들썩해 <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="14" lineRef="Chenle">찢어지는 듯한 마찰음 위로 난</line>
+            <line linenum="15" lineRef="Chenle">선을 넘어서</line>
+            <line linenum="16" lineRef="Chenle">시간을 자유롭게 <backVocal lineRef="Haechan">(Ah)</backVocal></line>
+        </verse>
+       
+        <preChorus prechorusnum="1" artistname="Renjun, Haechan">
+            <line linenum="17" lineRef="Renjun">더 뜨겁게 이 순간을 달궈</line>
+            <line linenum="18" lineRef="Renjun">Burn up the road</line>
+            <line linenum="19" lineRef="Haechan">날 넘어설 <sharedLine lineRef="Renjun">그때까지</sharedLine></line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname="All, Jaemin">
+            <line linenum="20" lineRef="All">거리 위 텅 빈 듯한 이 느낌 <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="21" lineRef="All">열기로 가득 채워 Reloading <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="22" lineRef="Jaemin">경계를 Break break out</line>
+            <line linenum="23" lineRef="Jaemin">어디든지 겨눠 봐</line>
+            <line linenum="24" lineRef="Jaemin">이젠 우리가 방아쇨 당겨 잘 봐</line>
+            <line linenum="25" lineRef="All">Ridin' and Rollin' oh baby</line>
+            <line linenum="26" lineRef="All">Reloading</line>
+            <line linenum="27" lineRef="All">Ridin' and Rollin' oh baby</line>
+            <line linenum="28" lineRef="All">Reloading</line>
+            <line linenum="29" lineRef="All">지금 우린 Running <backVocal lineRef="All">(지금 우린 Running)</backVocal></line>
+            <line linenum="30" lineRef="All">Reloading oh yea</line>
+            <line linenum="31" lineRef="All">새롭게 날 채워 다시</line>
+        </chorus>
+        
+        <verse versenum="2" artistname="Jeno, Chenle, Jaemin, Renjun, Haechan, All">
+            <line linenum="32" lineRef="Jeno">Whip fast 거침없이 핸들 더 꺾어</line>
+            <line linenum="33" lineRef="Jeno">붕 뜨는 몸은 마치</line>
+            <line linenum="34" lineRef="Jeno">Like a roller coaster</line>
+            <line linenum="35" lineRef="Chenle">터질 듯 엑셀을 밟아봐</line>
+            <line linenum="36" lineRef="Chenle">We outta control, ya, ya</line>
+            <line linenum="37" lineRef="Chenle">We won't stop the race</line>
+            <line linenum="38" lineRef="Chenle">Until it's over, ya</line>
+            <line linenum="39" lineRef="Jaemin">Talk talk 어떤 말도</line>
+            <line linenum="40" lineRef="Jaemin">Talk talk 이 순간 속</line>
+            <line linenum="41" lineRef="Jaemin">우릴 설명 못 해 <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="42" lineRef="Renjun">가장 눈부신 이 속도에 올라타</line>
+            <line linenum="43" lineRef="Renjun">모두 놀랄 그 장면 속 우릴 향해 <backVocal lineRef="Haechan">oh-oh-oh-oh</backVocal></line>
+        </verse>
+        
+        <preChorus prechorusnum="2" artistname="Haechan, Chenle">
+            <line linenum="44" lineRef="Haechan">몇 번이고 한곌 뛰어넘어</line>
+            <line linenum="45" lineRef="Haechan">Burn up the road</line>
+            <line linenum="46" lineRef="Chenle">다시 내일이 <sharedLine lineRef="Haechan">올 때까지</sharedLine></line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname="All, Jisung">
+            <line linenum="47" lineRef="All">심장 속 터질 듯한 Energy <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="48" lineRef="All">끝까지 나를 던져 Reloading <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="49" lineRef="Jisung">기록은 Break break out</line>
+            <line linenum="50" lineRef="Jisung">매번 갈아치워 가</line>
+            <line linenum="51" lineRef="Jisung">이젠 세상에 우릴 쏴 올려 잘 봐</line>
+            <line linenum="52" lineRef="All">Ridin' and Rollin' oh baby</line>
+            <line linenum="53" lineRef="All">Reloading</line>
+            <line linenum="54" lineRef="All">Ridin' and Rollin' oh baby</line>
+            <line linenum="55" lineRef="All">Reloading</line>
+            <line linenum="56" lineRef="All">지금 우린 Running <backVocal lineRef="All">(지금 우린 Running)</backVocal></line>
+            <line linenum="57" lineRef="All">Reloading oh yea</line>
+            <line linenum="58" lineRef="All">새롭게 날 채워 다시</line>
+        </chorus>
+        
+        <bridge artistname="Chenle, Renjun, Jaemin, Jisung, Jeno, Haechan">
+            <line linenum="59" lineRef="Chenle">눈 앞에 펼쳐진 세상을 봐</line>
+            <line linenum="60" lineRef="Chenle">꿈꿔왔던 Story 더는 꿈이 아냐</line>
+            <line linenum="61" lineRef="Renjun">새롭게 뜬 태양을 마주 봐</line>
+            <line linenum="62" lineRef="Renjun">Flying down the road</line>
+            <line linenum="63" lineRef="Jaemin">Let's roll</line>
+            <line linenum="64" lineRef="Jisung">도로 위로 가득한</line>
+            <line linenum="65" lineRef="Jisung">붉은 불빛들은 날</line>
+            <line linenum="66" lineRef="Jisung"> 멈춰 있으라지만</line>
+            <line linenum="67" lineRef="Jisung">Woah woah woah woah</line>
+            <line linenum="68" lineRef="Jeno">더는 같은 길을 향해</line>
+            <line linenum="69" lineRef="Jeno">가지 않아 이젠 Switch my lane</line>
+            <line linenum="70" lineRef="Jeno">나만의 새로운 길을 만들어</line>
+            <line linenum="71" lineRef="Haechan">벗어나 Rush hour</line>
+        </bridge>
+        
+        <chorus chorusnum="3" artistname="All, Jaemin">
+            <line linenum="72" lineRef="All">심장 속 터질 듯한 Energy <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="73" lineRef="All">끝까지 나를 던져 Reloading <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="74" lineRef="Jaemin">기록은 Break break out</line>
+            <line linenum="75" lineRef="Jaemin">매번 갈아치워 가</line>
+            <line linenum="76" lineRef="Jaemin">이젠 세상에 우릴 쏴 올려 잘 봐</line>
+            <line linenum="77" lineRef="All">Ridin' and Rollin' oh baby</line>
+            <line linenum="78" lineRef="All">Reloading</line>
+            <line linenum="79" lineRef="All">Ridin' and Rollin' oh baby</line>
+            <line linenum="80" lineRef="All">Reloading</line>
+            <line linenum="81" lineRef="All">지금 우린 Running <backVocal lineRef="All">(지금 우린 Running)</backVocal></line>
+            <line linenum="82" lineRef="All">Reloading oh yea</line>
+            <line linenum="83" lineRef="All">새롭게 날 채워 다시</line>
+            <line linenum="84" lineRef="All">새롭게 날 채워 다시</line>
+        </chorus>
+    </koreanLyrics>
+    
+    
+    <engTrans>
+        
+        <intro artistname="All, Jeno">
+            <line linenum="1" lineRef="All">This empty feeling on the street <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="2" lineRef="All">Fill it with heat, Reloading <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="3" lineRef="Jeno">Break break out, Break the boundary</line>
+            <line linenum="4" lineRef="Jeno">Target anywhere</line>
+            <line linenum="5" lineRef="Jeno">Now we be pullin' the trigger, Watch us</line>
+        </intro>
+        
+        <verse versenum="1" artistname="Jaemin, Haechan, Jisung, Chenle, All">
+            <line linenum="6" lineRef="Jaemin">We're back, No more brakes</line>
+            <line linenum="7" lineRef="Jaemin">Everyone, sit back</line>
+            <line linenum="8" lineRef="Jaemin">Now I'm gonna face the screams towards me</line>
+            <line linenum="9" lineRef="Haechan">After a long wait, I light the fire</line>
+            <line linenum="10" lineRef="Haechan">When I crank up the engine, It's game over, ya</line>
+            <line linenum="11" lineRef="Jisung">Talk talk anywhere</line>
+            <line linenum="12" lineRef="Jisung">Talk talk about me</line>
+            <line linenum="13" lineRef="Jisung">Everyone is busy talking <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="14" lineRef="Chenle">Up on the clanking noise</line>
+            <line linenum="15" lineRef="Chenle">I cross the line </line>
+            <line linenum="16" lineRef="Chenle">And use the time freely<backVocal lineRef="Haechan">(Ah)</backVocal></line>
+        </verse>
+        
+        <preChorus prechorusnum="1" artistname="Renjun, Haechan">
+            <line linenum="17" lineRef="Renjun">Heat up this moment, Make it hotter</line>
+            <line linenum="18" lineRef="Renjun">Burn up the road</line>
+            <line linenum="19" lineRef="Haechan">Until I  <sharedLine lineRef="Renjun">surpass myself</sharedLine></line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname="All, Jaemin">
+            <line linenum="20" lineRef="All">This empty feeling on the street <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="21" lineRef="All">Fill it with heat, Reloading <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="22" lineRef="Jaemin">Break break out, Break the boundary</line>
+            <line linenum="23" lineRef="Jaemin">Target anywhere</line>
+            <line linenum="24" lineRef="Jaemin">Now we be pullin' the trigger, Watch us</line>
+            <line linenum="25" lineRef="All">Ridin' and Rollin' oh baby</line>
+            <line linenum="26" lineRef="All">Reloading</line>
+            <line linenum="27" lineRef="All">Ridin' and Rollin' oh baby</line>
+            <line linenum="28" lineRef="All">Reloading</line>
+            <line linenum="29" lineRef="All">Now we're running <backVocal lineRef="All">(Now we're running)</backVocal></line>
+            <line linenum="30" lineRef="All">Reloading oh yea</line>
+            <line linenum="31" lineRef="All">Fill me up refresh me again</line>
+        </chorus>
+        
+        <verse versenum="2" artistname="Jeno, Chenle, Jaemin, Renjun, Haechan, All">
+            <line linenum="32" lineRef="Jeno">Whip fast without hesitation, Turn the steering wheel more</line>
+            <line linenum="33" lineRef="Jeno">Floating body is</line>
+            <line linenum="34" lineRef="Jeno">Like a roller coaster</line>
+            <line linenum="35" lineRef="Chenle">Press the accelerator like exploding</line>
+            <line linenum="36" lineRef="Chenle">We outta control, ya, ya</line>
+            <line linenum="37" lineRef="Chenle">We won't stop the race</line>
+            <line linenum="38" lineRef="Chenle">Until it's over, ya</line>
+            <line linenum="39" lineRef="Jaemin">Talk talk anything</line>
+            <line linenum="40" lineRef="Jaemin">Talk talk in this moment</line>
+            <line linenum="41" lineRef="Jaemin">We can't be explained <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="42" lineRef="Renjun">Get on this most dazzling speed</line>
+            <line linenum="43" lineRef="Renjun">Towards us in the scene where everyone will be amazed <backVocal lineRef="Haechan">oh-oh-oh-oh</backVocal></line>
+        </verse>
+        
+        <preChorus prechorusnum="2" artistname="Haechan, Chenle">
+            <line linenum="44" lineRef="Haechan">So many times I go beyond the limit</line>
+            <line linenum="45" lineRef="Haechan">Burn up the road</line>
+            <line linenum="46" lineRef="Chenle">Until tomorrow <sharedLine lineRef="Haechan">comes again</sharedLine></line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname="All, Jisung">
+            <line linenum="47" lineRef="All">In my heart exploding energy <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="48" lineRef="All">Until the end throw, Reloading <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="49" lineRef="Jisung">Break the record, Break out</line>
+            <line linenum="50" lineRef="Jisung">We break the record every time</line>
+            <line linenum="51" lineRef="Jisung">Now take us up to the world watch us</line>
+            <line linenum="52" lineRef="All">Ridin' and Rollin' oh baby</line>
+            <line linenum="53" lineRef="All">Reloading</line>
+            <line linenum="54" lineRef="All">Ridin' and Rollin' oh baby</line>
+            <line linenum="55" lineRef="All">Reloading</line>
+            <line linenum="56" lineRef="All">Now we're running <backVocal lineRef="All">(Now we're running)</backVocal></line>
+            <line linenum="57" lineRef="All">Reloading oh yea</line>
+            <line linenum="58" lineRef="All">Fill me up refresh me again
+            </line>
+        </chorus>
+        
+        <bridge artistname="Chenle, Renjun, Jaemin, Jisung, Jeno, Haechan">
+            <line linenum="59" lineRef="Chenle">Look at the world in front of you</line>
+            <line linenum="60" lineRef="Chenle">The story you dreamed is not a dream anymore</line>
+            <line linenum="61" lineRef="Renjun">Face the newly rising sun</line>
+            <line linenum="62" lineRef="Renjun">Flying down the road</line>
+            <line linenum="63" lineRef="Jaemin">Let's roll</line>
+            <line linenum="64" lineRef="Jisung">Red lights</line>
+            <line linenum="65" lineRef="Jisung">Full on the road</line>
+            <line linenum="66" lineRef="Jisung">Tell me to stop</line>
+            <line linenum="67" lineRef="Jisung">Woah woah woah woah</line>
+            <line linenum="68" lineRef="Jeno">I don't go toward the same path anymore</line>
+            <line linenum="69" lineRef="Jeno">Now I switch my lane</line>
+            <line linenum="70" lineRef="Jeno">I make my new path</line>
+            <line linenum="71" lineRef="Haechan">Get out of rush hour</line>
+        </bridge>
+        
+        <chorus chorusnum="3" artistname="All, Jaemin">
+            <line linenum="72" lineRef="All">In my heart exploding energy <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="73" lineRef="All">Until the end throw, Reloading <backVocal lineRef="All">(ridin' and rollin' oh baby)</backVocal></line>
+            <line linenum="74" lineRef="Jaemin">Break the record, Break out</line>
+            <line linenum="75" lineRef="Jaemin">We break the record every time</line>
+            <line linenum="76" lineRef="Jaemin">Now take us up to the world watch us</line>
+            <line linenum="77" lineRef="All">Ridin' and Rollin' oh baby</line>
+            <line linenum="78" lineRef="All">Reloading</line>
+            <line linenum="79" lineRef="All">Ridin' and Rollin' oh baby</line>
+            <line linenum="80" lineRef="All">Reloading</line>
+            <line linenum="81" lineRef="All">Now we're running <backVocal lineRef="All">(Now we're running)</backVocal></line>
+            <line linenum="82" lineRef="All">Reloading oh yea</line>
+            <line linenum="83" lineRef="All">Fill me up refresh me again</line>
+            <line linenum="84" lineRef="All">Fill me up refresh me again</line>
+        </chorus>
+    </engTrans>
+</song>

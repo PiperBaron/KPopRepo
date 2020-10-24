@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="song_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<song>
+    <about>
+        <songName xml:id="Dont-Wanna-Cry">Don't Wanna Cry (울고 싶지 않아)</songName>
+        <artistName artistRef="Seventeen">Seventeen (세븐틴)</artistName>
+        <bgInfo>
+            <p>Don’t Wanna Cry is the title track off of Seventeen’s mini album <albumMent albumRef="Al1">Al1</albumMent>. It was co-produced (and partially written) by member and producer <memberMent artistRef="Woozi">Woozi</memberMent>, featuring lyrics by members <memberMent artistRef="Jeonghan">Jeonghan</memberMent>, <memberMent artistRef="Jeonghan">Hoshi</memberMent>, and <memberMent artistRef="SCoups">S.Coups</memberMent>.</p>
+            
+            <p>There was controversy when the song was first released when fans of The Chainsmokers alleged that Don’t Wanna Cry plagiarized the song “Something Just Like This.” Seventeen eventually decided to add The Chainsmokers to copyright of the single.</p>
+            
+            <meaning>Don’t Wanna Cry is a deeply emotional song that tells the story of a person who has lost someone important to them, whether through a breakup or a disappearance, as they search for their missing half -- lamenting that they’re <lineMent linenum="32">half-gone</lineMent>, but refusing to give in to the tears. The lyrics explore the feeling of battling with yourself and not letting yourself move on, as seen in the bridge, with the lines <lineMent linenum="27">“I’m okay (I’m not okay)”</lineMent> and <lineMent linenum="28">“I don‘t want to see you (I really want to see you).”</lineMent> It’s a melancholy song that communicates the emotions of longing and grief well.</meaning>
+        </bgInfo>
+        <album albumRef="Al1">Al1</album>
+        <produceCredit>
+            <producer>BUMZU</producer>
+            <producer artistRef="Woozi">Woozi (우지)</producer>
+        </produceCredit>
+        <lyricCredit>
+            <writer artistRef="Jeonghan">Jeonghan (정한)</writer>
+            <writer artistRef="Hoshi">Hoshi (호시)</writer>
+            <writer artistRef="SCoups">S.Coups (에스쿱스)</writer>
+            <writer>BUMZU</writer>
+            <writer artistRef="Woozi">Woozi (우지)</writer>
+        </lyricCredit>
+        <label labelRef="PledisEnt">Pledis Entertainment</label>
+        <releaseDate when="2017-05-22">May 22, 2017</releaseDate>
+    </about>
+    
+    <koreanLyrics>    
+        
+        <intro artistname="Wonwoo, Mingyu">
+            <line linenum="1" lineRef="Wonwoo">울고 싶지 않아</line>
+            <line linenum="2" lineRef="Mingyu">울고 싶지 않아</line>
+        </intro>
+        
+        <verse versenum="1" artistname="Vernon, Hoshi">
+            <line linenum="3" lineRef="Vernon">사랑해서, 사랑한다는 말이</line>
+            <line linenum="4" lineRef="Vernon">부족해서, 그 어떤 말을 꺼내봐도</line>
+            <line linenum="5" lineRef="Hoshi">너 하나만 아끼던 날 두고서 어디 간 거니</line>
+            <line linenum="6" lineRef="Hoshi">내가 싫어 어어 져서 멀리 간 거니</line>
+        </verse>
+        
+        <preChorus prechorusnum="1" artistname="Woozi, DK">
+            <line linenum="7" lineRef="Woozi">장난치지 마, 거기 있는 거 알아</line>
+            <line linenum="8" lineRef="Woozi">나타날 거 같아, 마냥 기다리다</line>
+            <line linenum="9" lineRef="DK">널 찾아가야 돼 찾아가야 돼</line>
+            <line linenum="10" lineRef="DK">지금 울면 못 볼지 모르니까</line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname="Jun, Dino, All">
+            <line linenum="11" lineRef="Jun">울고 싶지 않아 <backVocal lineRef="All">(Ay, Ay)</backVocal></line>
+            <line linenum="12" lineRef="Jun">울고 싶지 않아 <backVocal lineRef="All">(Ay, Ay)</backVocal></line>
+            <line linenum="13" lineRef="Dino">눈물은 많지만 <backVocal lineRef="All">(Ay, Ay)</backVocal></line>
+            <line linenum="14" lineRef="Dino">울고 싶지 않아 <backVocal lineRef="All">(Ay, Ay, Ay, Ay)</backVocal></line>
+        </chorus>
+        
+        <verse versenum="2" artistname="SCoups, Jeonghan">
+            <line linenum="15" lineRef="SCoups">낯설지 않은 길, 이 길이 낯설다</line>
+            <line linenum="16" lineRef="SCoups">아는 길 맞는지 내게 또 묻지요</line>
+            <line linenum="17" lineRef="Jeonghan">혹시나 그 사람 날 찾고 있지 않을까</line>
+            <line linenum="18" lineRef="Jeonghan">나는 지금 널 찾고 있어요</line>
+        </verse>
+        
+        <preChorus prechorusnum="2" artistname="Joshua, Seungkwan">
+            <line linenum="19" lineRef="Joshua">장난치지 마, 거기 있는 거 알아</line>
+            <line linenum="20" lineRef="Joshua">나타날 거 같아, 마냥 기다리다</line>
+            <line linenum="21" lineRef="Seungkwan">널 찾아가야 돼 가야 하는데</line>
+            <line linenum="22" lineRef="Seungkwan">눈물 고여 점점 흐려져</line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname="Hoshi, The8, All">
+            <line linenum="23" lineRef="Hoshi">울고 싶지 않아 <backVocal lineRef="All">(Ay, Ay)</backVocal></line>
+            <line linenum="24" lineRef="Hoshi">울고 싶지 않아 <backVocal lineRef="All">(Ay, Ay)</backVocal></line>
+            <line linenum="25" lineRef="The8">눈물은 많지만 <backVocal lineRef="All">(Ay, Ay)</backVocal></line>
+            <line linenum="26" lineRef="The8">울고 싶지 않아 <backVocal lineRef="All">(Ay, Ay, Ay, Ay)</backVocal></line>
+        </chorus>
+        
+        <bridge artistname="Wonwoo, Mingyu, Jeonghan">
+            <line linenum="27" lineRef="Wonwoo">난 괜찮아 <backVocal lineRef="Mingyu">(안 괜찮아)</backVocal></line>
+            <line linenum="28" lineRef="Wonwoo">너 보고 싶지 않아 <backVocal lineRef="Mingyu">(너무 보고 싶어)</backVocal></line>
+            <line linenum="29" lineRef="Mingyu">맘에 없는 말들로 거짓말이라도 해야 돼 해야 돼</line>
+            <line linenum="30" lineRef="Jeonghan">생각처럼 맘이 말을 듣지 않으니까</line>
+            <line linenum="31" lineRef="Seungkwan">돌아와 돌아와 돌아와</line>
+            <line linenum="32" lineRef="Wonwoo">절반이 없는데 어떻게 하나로 살아</line>
+        </bridge>
+        
+        <outro artistname="Non-Member, DK, Jun, Dino, The8, SCoups, Woozi, All">
+            <line linenum="33" lineRef="Non-Member">(울고 싶지 않아)</line>
+            <line linenum="34" lineRef="DK">울고 싶지 않아 <backVocal lineRef="All">(Hey, Ay, Hey)</backVocal></line>
+            <line linenum="35" lineRef="Jun">울고 싶지 않아 <backVocal lineRef="DK">(Ohh ouu-u, Ohh ouu-u, yeah)</backVocal></line>
+            <line linenum="36" lineRef="Dino">눈물은 많지만 <backVocal lineRef="DK">(Woah ouu-u, woah ouu-u, woah ouu-u, yeah)</backVocal></line>
+            <line linenum="37" lineRef="Dino">울고 싶지 않아 <backVocal lineRef="All">(Ay, Ay, Ay, Ay)</backVocal></line>
+            <line linenum="38" lineRef="The8">울고 싶지 <backVocal lineRef="DK">않아</backVocal></line>
+            <line linenum="39" lineRef="SCoups">우리 다시 볼 때 (Ay, Ay, Ay, Ay)</line>
+            <line linenum="40" lineRef="Woozi">울고 싶지 않아</line>
+        </outro>
+    </koreanLyrics>
+    
+    
+    <engTrans>
+        
+        <intro artistname="Wonwoo, Mingyu">
+            <line linenum="1" lineRef="Wonwoo">I don‘t want to cry</line>
+            <line linenum="2" lineRef="Mingyu">I don‘t want to cry</line>
+        </intro>
+        
+        <verse versenum="1" artistname="Vernon, Hoshi">
+            <line linenum="3" lineRef="Vernon">Because I love you, because saying I love you</line>
+            <line linenum="4" lineRef="Vernon">Isn’t enough, no matter what word I say</line>
+            <line linenum="5" lineRef="Hoshi">Leaving me, who cherished only you, Where did you go</line>
+            <line linenum="6" lineRef="Hoshi">Did you go far away, Because you didn’t like me any more</line>
+        </verse>
+        
+        <preChorus prechorusnum="1" artistname="Woozi, DK">
+            <line linenum="7" lineRef="Woozi">Don’t play around, I know you’re there</line>
+            <line linenum="8" lineRef="Woozi">I feel like you’ll appear, so I wait aimlessly</line>
+            <line linenum="9" lineRef="DK">I need to go find you, go find you</line>
+            <line linenum="10" lineRef="DK">If I cry now, I might not be able to see you so</line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname="Jun, Dino, All">
+            <line linenum="11" lineRef="Jun">I don‘t want to cry <backVocal lineRef="All">(Ay, Ay)</backVocal></line>
+            <line linenum="12" lineRef="Jun">I don‘t want to cry <backVocal lineRef="All">(Ay, Ay)</backVocal></line>
+            <line linenum="13" lineRef="Dino">Although I have a lot of tears <backVocal lineRef="All">(Ay, Ay)</backVocal></line>
+            <line linenum="14" lineRef="Dino">I don’t want to cry <backVocal lineRef="All">(Ay, Ay, Ay, Ay)</backVocal></line>
+        </chorus>
+        
+        <verse versenum="2" artistname="SCoups, Jeonghan">
+            <line linenum="15" lineRef="SCoups">This road that doesn’t seem unfamiliar, feels unfamiliar</line>
+            <line linenum="16" lineRef="SCoups">Asking me once again if this is a road I know of</line>
+            <line linenum="17" lineRef="Jeonghan">Could that person be looking for me</line>
+            <line linenum="18" lineRef="Jeonghan">I’m looking for you right now</line>
+        </verse>
+        
+        <preChorus prechorusnum="2" artistname="Joshua, Seungkwan">
+            <line linenum="19" lineRef="Joshua">Don’t play around, I know you’re there</line>
+            <line linenum="20" lineRef="Joshua">I feel like you’ll appear. so I wait aimlessly</line>
+            <line linenum="21" lineRef="Seungkwan">I need to go find you, go find you</line>
+            <line linenum="22" lineRef="Seungkwan">Tears are building up and start to blur my vision</line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname="Hoshi, The8, All">
+            <line linenum="23" lineRef="Hoshi">I don‘t want to cry <backVocal lineRef="All">(Ay, Ay)</backVocal></line>
+            <line linenum="24" lineRef="Hoshi">I don‘t want to cry <backVocal lineRef="All">(Ay, Ay)</backVocal></line>
+            <line linenum="25" lineRef="The8">Although I have a lot of tears <backVocal lineRef="All">(Ay, Ay)</backVocal></line>
+            <line linenum="26" lineRef="The8">I don‘t want to cry <backVocal lineRef="All">(Ay, Ay, Ay, Ay)</backVocal></line>
+        </chorus>
+        
+        <bridge artistname="Wonwoo, Mingyu, Jeonghan">
+            <line linenum="27" lineRef="Wonwoo">I’m okay <backVocal lineRef="Mingyu">(I’m not okay)</backVocal></line>
+            <line linenum="28" lineRef="Wonwoo">I don‘t want to see you <backVocal lineRef="Mingyu">(I really want to see you)</backVocal></line>
+            <line linenum="29" lineRef="Mingyu">I have to say, Say these lies that don’t even come from my heart</line>
+            <line linenum="30" lineRef="Jeonghan">Because my heart won‘t listen to these words as I thought</line>
+            <line linenum="31" lineRef="Seungkwan">Come back, come back, come back</line>
+            <line linenum="32" lineRef="Wonwoo">When half of me is gone, how can I live as one</line>
+        </bridge>
+        
+        <outro artistname="Non-Member, DK, Jun, Dino, The8, SCoups, Woozi, All">
+            <line linenum="33" lineRef="Non-Member">(I don‘t want to cry)</line>
+            <line linenum="34" lineRef="DK">I don‘t want to cry <backVocal lineRef="All">(Hey, Ay, Hey)</backVocal></line>
+            <line linenum="35" lineRef="Jun">I don‘t want to cry <backVocal lineRef="DK">(Ohh ouu-u, Ohh ouu-u, yeah)</backVocal></line>
+            <line linenum="36" lineRef="Dino">Although I have a lot of tears <backVocal lineRef="DK">(Woah ouu-u, woah ouu-u, woah ouu-u, yeah)</backVocal></line>
+            <line linenum="37" lineRef="Dino">I don‘t want to cry <backVocal lineRef="All">(Ay, Ay, Ay, Ay)</backVocal></line>
+            <line linenum="38" lineRef="The8"><backVocal lineRef="DK">I don’t</backVocal> want to cry</line>
+            <line linenum="39" lineRef="SCoups">When we see each other again (Ay, Ay, Ay, Ay)</line>
+            <line linenum="40" lineRef="Woozi">I don‘t want to cry</line>
+        </outro>
+    </engTrans>
+</song>
