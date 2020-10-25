@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="song_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<song>
+    <about>
+        <songName xml:id="D4">DDU-DU DDU-DU (뚜두뚜두)</songName>
+        <artistName artistRef="BLACKPINK">BLACKPINK</artistName>
+        <bgInfo>
+            <p>DDU-DU DDU-DU (often shortened to D4) is the title track of <groupMent artistRef="BLACKPINK">BLACKPINK</groupMent>’s first Korean mini-album, <albumMent albumRef="Square-Up">Square Up</albumMent>. It was in-part produced by the prolific in-house producer Teddy Park, well-known for his work across many of the most popular groups within YG Entertainment.</p> 
+            
+            <p>The music video became the most viewed video online (and the second most watched music video of all time) within the first 24 hours of its release. It remains to be the most watched K-Pop music video of all time on YouTube.</p>
+            
+            <meaning>DDU-DU DDU-DU is a fun and uncomplicated song about being <lineMent linenum="8">savage</lineMent> and enjoying their success. <compMent labelRef="YGEnt">YG Entertainment</compMent> groups have always had a more grandiose attitude and “harder” concept, and with this song, <groupMent artistRef="BLACKPINK">BLACKPINK</groupMent> are keeping the company tradition alive.</meaning>
+        </bgInfo>
+        <album albumRef="Square-Up">Square Up</album>
+        <produceCredit>
+            <producer>Teddy Park</producer>
+            <producer>R.Tee</producer>
+        </produceCredit>
+        <lyricCredit>
+            <writer>Bekuh BOOM</writer>
+            <writer>R.Tee</writer>
+            <writer>24</writer>
+            <writer>Teddy Park</writer>
+        </lyricCredit>
+        <label labelRef="YGEnt">YG Entertainment</label>
+        <releaseDate when="2018-06-15">June 15, 2018</releaseDate>
+    </about>
+    
+    <koreanLyrics>    
+        <intro artistname="All, Rose">
+            <line linenum="1" lineRef="All">BLACKPINK!</line>
+            <line linenum="2" lineRef="Rose">(Ah yeah, ah yeah!)</line>
+            <line linenum="3" lineRef="All">BLACKPINK!</line>
+            <line linenum="4" lineRef="Rose">(Ah yeah, ah yeah!)</line>
+        </intro>
+        
+        <verse versenum="1" artistname="Jennie, Lisa, All">
+            <line linenum="5" lineRef="Jennie">Eh 착한 얼굴에 그렇지 못한 태도 <backVocal lineRef="Lisa">(Huh)</backVocal></line>
+            <line linenum="6" lineRef="Jennie">가녀린 몸매 속 가려진 volume은 두 배로 <backVocal lineRef="Lisa">(Yah, yah, double up)</backVocal></line>
+            <line linenum="7" lineRef="Jennie">거침없이 직진 굳이 보진 않지 눈치 <backVocal lineRef="Lisa">(Woo!)</backVocal></line>
+            <line linenum="8" lineRef="Jennie">Black 하면 Pink 우린 예쁘장한 Savage <backVocal lineRef="All">(BLACKPINK!)</backVocal></line>
+            <line linenum="9" lineRef="Lisa">원할 땐 대놓고 뺏지 <backVocal lineRef="Lisa">(Uh)</backVocal></line>
+            <line linenum="10" lineRef="Lisa">넌 뭘 해도 칼로 물 베기 <backVocal lineRef="Lisa">(Uh)</backVocal></line>
+            <line linenum="11" lineRef="Lisa">두 손엔 가득한 fat check</line>
+            <line linenum="12" lineRef="Lisa">궁금하면 해봐 fact check</line>
+            <line linenum="13" lineRef="Lisa">눈 높인 꼭대기</line>
+            <line linenum="14" lineRef="Lisa">물 만난 물고기</line>
+            <line linenum="15" lineRef="Lisa">좀 독해 난 Toxic</line>
+            <line linenum="16" lineRef="Lisa">You 혹해 I'm Foxy</line>
+        </verse>
+        
+        <preChorus prechorusnum="1" artistname="Rose, Jisoo">
+            <line linenum="17" lineRef="Rose">두 번 생각해</line>
+            <line linenum="18" lineRef="Rose">흔한 남들처럼 착한 척은 못 하니까</line>
+            <line linenum="19" lineRef="Rose">착각하지 마</line>
+            <line linenum="20" lineRef="Rose">쉽게 웃어주는 건 날 위한 거야</line>
+            <line linenum="21" lineRef="Jisoo">아직은 잘 모르겠지</line>
+            <line linenum="22" lineRef="Jisoo">굳이 원하면 test me</line>
+            <line linenum="23" lineRef="Jisoo">넌 불 보듯이 뻔해</line>
+            <line linenum="24" lineRef="Jisoo">만만한 걸 원했다면</line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname="Jennie, Jisoo">
+            <line linenum="25" lineRef="Jennie">Oh, wait 'til I do what I do</line>
+            <line linenum="26" lineRef="Jennie">Hit you with that ddu-du, ddu-du, du</line>
+            <line linenum="27" lineRef="Jennie">(Ah yeah, ah yeah!)</line>
+            <line linenum="28" lineRef="Jennie">Hit you with that ddu-du, ddu-du, du</line>
+            <line linenum="29" lineRef="Jennie">(Ah yeah, ah yeah!)</line>
+            <line linenum="30" lineRef="Jisoo">Ddu-du, ddu-du, du</line>
+        </chorus>
+        
+        <verse versenum="2" artistname="Jennie, All">
+            <line linenum="31" lineRef="All">BLACKPINK!</line>
+            <line linenum="32" lineRef="Jennie">지금 내가 걸어가는 거린</line>
+            <line linenum="33" lineRef="Jennie">BLACKPINK 4 way 사거리</line>
+            <line linenum="34" lineRef="Jennie">동서남북 사방으로 run it</line>
+            <line linenum="35" lineRef="Jennie">너네 버킷리스트 싹 다 I bought it</line>
+            <line linenum="36" lineRef="Jennie">널 당기는 것도 멀리 밀치는 것도</line>
+            <line linenum="37" lineRef="Jennie">제멋대로 하는 bad girl</line>
+            <line linenum="38" lineRef="Jennie">좋건 싫어하건 누가 뭐라 하던</line>
+            <line linenum="39" lineRef="Jennie">When the bass drop, it's another banger</line>
+        </verse>
+        
+        <preChorus prechorusnum="2" artistname="Jisoo, Rose">
+            <line linenum="40" lineRef="Jisoo">두 번 생각해</line>
+            <line linenum="41" lineRef="Jisoo">흔한 남들처럼 착한 척은 못 하니까</line>
+            <line linenum="42" lineRef="Jisoo">착각하지 마</line>
+            <line linenum="43" lineRef="Jisoo">쉽게 웃어주는 건 날 위한 거야</line>
+            <line linenum="44" lineRef="Rose">아직은 잘 모르겠지</line>
+            <line linenum="45" lineRef="Rose">굳이 원하면 test me</line>
+            <line linenum="46" lineRef="Rose">넌 불 보듯이 뻔해</line>
+            <line linenum="47" lineRef="Rose">만만한 걸 원했다면</line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname="Lisa, Rose">
+            <line linenum="48" lineRef="Lisa">Oh, wait 'til I do what I do</line>
+            <line linenum="49" lineRef="Lisa">Hit you with that ddu-du, ddu-du, du</line>
+            <line linenum="50" lineRef="Rose">(Ah yeah, ah yeah)</line>
+            <line linenum="51" lineRef="Lisa">Hit you with that ddu-du, ddu-du, du</line>
+            <line linenum="52" lineRef="Rose">(Ah yeah, ah yeah)</line>
+            <line linenum="53" lineRef="Jisoo">Ddu-du, ddu-du, du</line>
+        </chorus>
+        
+        <bridge artistname="Rose, Lisa">
+            <line linenum="54" lineRef="Rose">What you gonna do when I</line>
+            <line linenum="55" lineRef="Rose">Come, come through with that, that, uh, Uh-huh</line>
+            <line linenum="56" lineRef="Rose">What you gonna do when I</line>
+            <line linenum="57" lineRef="Rose">Come, come through with that, that, uh, Uh-huh</line>
+            <line linenum="58" lineRef="Lisa">뜨거워, 뜨거워, 뜨거워 like fire</line>
+            <line linenum="59" lineRef="Lisa">뜨거워, 뜨거워, 뜨거워 like fire</line>
+        </bridge>
+        
+        <refrain refrainnum="1" artistname="All, Rose, Jisoo">
+            <line linenum="60" lineRef="All">BLACKPINK!</line>
+            <line linenum="61" lineRef="All">Hey!</line>
+            <line linenum="62" lineRef="Rose">(Ah yeah, ah yeah, ah yeah, ah yeah!)</line>
+            <line linenum="63" lineRef="Jisoo">뜨거워, 뜨거워, 뜨거워 like fire <backVocal lineRef="Rose">(Hey!)</backVocal></line>
+            <line linenum="64" lineRef="Rose">뜨거워, 뜨거워, 뜨거워 like fire</line>
+        </refrain>
+        
+        <outro artistname="Jennie">
+            <line linenum="65" lineRef="Jennie">Hit you with that ddu-du, ddu-du, du</line>
+        </outro>
+    </koreanLyrics>
+    
+    
+    <engTrans>
+        <intro artistname="All, Rose">
+            <line linenum="1" lineRef="All">BLACKPINK!</line>
+            <line linenum="2" lineRef="Rose">(Ah yeah, ah yeah!)</line>
+            <line linenum="3" lineRef="All">BLACKPINK!</line>
+            <line linenum="4" lineRef="Rose">(Ah yeah, ah yeah!)</line>
+        </intro>
+        
+        <verse versenum="1" artistname="Jennie, Lisa, All">
+            <line linenum="5" lineRef="Jennie">Eh, I may look sweet, but I don't act like it <backVocal lineRef="Lisa">(Huh)</backVocal></line>
+            <line linenum="6" lineRef="Jennie">My slender figure hides twice the volume <backVocal lineRef="Lisa">(Yah, yah, double up)</backVocal></line>
+            <line linenum="7" lineRef="Jennie">I give it to them straight, I don't care what people think <backVocal lineRef="Lisa">(Woo!)</backVocal></line>
+            <line linenum="8" lineRef="Jennie">If it's black, then it's pink, we are pretty savage <backVocal lineRef="All">(BLACKPINK!)</backVocal></line>
+            <line linenum="9" lineRef="Lisa">When we want, we'll steal outright <backVocal lineRef="Lisa">(Uh)</backVocal></line>
+            <line linenum="10" lineRef="Lisa">Whatever you do, it's like cutting water with a knife <backVocal lineRef="Lisa">(Uh)</backVocal></line>
+            <line linenum="11" lineRef="Lisa">Our hands are full with a fat check</line>
+            <line linenum="12" lineRef="Lisa">If you're curious, fact check</line>
+            <line linenum="13" lineRef="Lisa">Expectations higher</line>
+            <line linenum="14" lineRef="Lisa">Just like fish in the water</line>
+            <line linenum="15" lineRef="Lisa">I'm a little toxic</line>
+            <line linenum="16" lineRef="Lisa">You've fallen for me, I'm Foxy</line>
+        </verse>
+        
+        <preChorus prechorusnum="1" artistname="Rose, Jisoo">
+            <line linenum="17" lineRef="Rose">Think twice</line>
+            <line linenum="18" lineRef="Rose">I can't act nice like other people</line>
+            <line linenum="19" lineRef="Rose">Don't be mistaken</line>
+            <line linenum="20" lineRef="Rose">I only smile easily for myself</line>
+            <line linenum="21" lineRef="Jisoo">You may not know well yet</line>
+            <line linenum="22" lineRef="Jisoo">If you want, then test me</line>
+            <line linenum="23" lineRef="Jisoo">You're so predictable</line>
+            <line linenum="24" lineRef="Jisoo">If you wanted something easy</line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname="Jennie, Jisoo">
+            <line linenum="25" lineRef="Jennie">Oh, wait 'til I do what I do</line>
+            <line linenum="26" lineRef="Jennie">Hit you with that ddu-du, ddu-du, du</line>
+            <line linenum="27" lineRef="Jennie">(Ah yeah, ah yeah!)</line>
+            <line linenum="28" lineRef="Jennie">Hit you with that ddu-du, ddu-du, du</line>
+            <line linenum="29" lineRef="Jennie">(Ah yeah, ah yeah!)</line>
+            <line linenum="30" lineRef="Jisoo">Ddu-du, ddu-du, du</line>
+        </chorus>
+        
+        <verse versenum="2" artistname="Jennie, All">
+            <line linenum="31" lineRef="All">BLACKPINK!</line>
+            <line linenum="32" lineRef="Jennie">The path I walk now</line>
+            <line linenum="33" lineRef="Jennie">BLACKPINK 4 way intersection</line>
+            <line linenum="34" lineRef="Jennie">North, South, East, West, All ways run it</line>
+            <line linenum="35" lineRef="Jennie">All of your bucket list, I bought it</line>
+            <line linenum="36" lineRef="Jennie">Pulling you and pushing you far away</line>
+            <line linenum="37" lineRef="Jennie">I do it however I want, because I'm a bad girl</line>
+            <line linenum="38" lineRef="Jennie">Whether you like me or hate me or whatever anyone says</line>
+            <line linenum="39" lineRef="Jennie">When the bass drop, it's another banger</line>
+        </verse>
+        
+        <preChorus prechorusnum="2" artistname="Jisoo, Rose">
+            <line linenum="40" lineRef="Jisoo">Think twice</line>
+            <line linenum="41" lineRef="Jisoo">I can't act nice like other people</line>
+            <line linenum="42" lineRef="Jisoo">Don't be mistaken</line>
+            <line linenum="43" lineRef="Jisoo">I only smile easily for myself</line>
+            <line linenum="44" lineRef="Rose">You may not know well yet</line>
+            <line linenum="45" lineRef="Rose">If you want, then test me</line>
+            <line linenum="46" lineRef="Rose">You're so predictable</line>
+            <line linenum="47" lineRef="Rose">If you wanted something easy</line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname="Lisa, Rose">
+            <line linenum="48" lineRef="Lisa">Oh, wait 'til I do what I do</line>
+            <line linenum="49" lineRef="Lisa">Hit you with that ddu-du, ddu-du, du</line>
+            <line linenum="50" lineRef="Rose">(Ah yeah, ah yeah)</line>
+            <line linenum="51" lineRef="Lisa">Hit you with that ddu-du, ddu-du, du</line>
+            <line linenum="52" lineRef="Rose">(Ah yeah, ah yeah)</line>
+            <line linenum="53" lineRef="Jisoo">Ddu-du, ddu-du, du</line>
+        </chorus>
+        
+        <bridge artistname="Rose, Lisa">
+            <line linenum="54" lineRef="Rose">What you gonna do when I</line>
+            <line linenum="55" lineRef="Rose">Come, come through with that, that, uh, Uh-huh</line>
+            <line linenum="56" lineRef="Rose">What you gonna do when I</line>
+            <line linenum="57" lineRef="Rose">Come, come through with that, that, uh, Uh-huh</line>
+            <line linenum="58" lineRef="Lisa">Hot, hot, hot like fire</line>
+            <line linenum="59" lineRef="Lisa">Hot, hot, hot like fire</line>
+        </bridge>
+        
+        <refrain refrainnum="1" artistname="All, Rose, Jisoo">
+            <line linenum="60" lineRef="All">BLACKPINK!</line>
+            <line linenum="61" lineRef="All">Hey!</line>
+            <line linenum="62" lineRef="Rose">(Ah yeah, ah yeah, ah yeah, ah yeah!)</line>
+            <line linenum="63" lineRef="Jisoo">Hot, hot, hot like fire <backVocal lineRef="Rose">(Hey!)</backVocal></line>
+            <line linenum="64" lineRef="Rose">Hot, hot, hot like fire</line>
+        </refrain>
+        
+        <outro artistname="Jennie">
+            <line linenum="65" lineRef="Jennie">Hit you with that ddu-du, ddu-du, du</line>
+        </outro>
+    </engTrans>
+</song>
