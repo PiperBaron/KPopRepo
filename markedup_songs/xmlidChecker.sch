@@ -3,7 +3,7 @@
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
     
     <sch:pattern id="check-refs-to-xmlids">
-        <sch:let name="groupMarkupColl" value="collection('../group_profiles/?select=*.xml')"/>
+        <sch:let name="groupMarkupColl" value="collection('../group_profiles/?select=*.xml')"/>        
         <sch:rule context="*[@artistRef]">
             <sch:let name="xmlids"
                 value="($groupMarkupColl//group/@xml:id | $groupMarkupColl//groupName/@xml:id | $groupMarkupColl//member/@xml:id | $groupMarkupColl//subunitList/@xml:id)"/>
@@ -11,6 +11,17 @@
                 groupName, group, member, or subunitList element in the group markup collection. Correct values
                 include <sch:value-of select="string-join($xmlids, ', ')"/></sch:assert>
         </sch:rule>
+        <sch:rule context="*[@artistname]">
+            <sch:let name="xmlids"
+                value="($groupMarkupColl//group/@xml:id | $groupMarkupColl//groupName/@xml:id | $groupMarkupColl//member/@xml:id | $groupMarkupColl//subunitList/@xml:id)"/>
+            <sch:let name="nameTokens" value="tokenize(@artistname, ',\s*')"/>
+            <sch:assert test="every $nt in $nameTokens satisfies $nt = $xmlids or $nt = 'All'">
+                An values coded in artistname may be in a list form, but each member of the list must point to anxml:id on a groupName, group, member, or subunitList element
+                in the group markup collection Correct values include <sch:value-of select="string-join($xmlids, ', ')"/>
+            </sch:assert>
+
+        </sch:rule>
+        
         <sch:rule context="*[@labelRef]">
             <sch:let name="xmlids" value="$groupMarkupColl//company/@xml:id"/>
             <sch:assert test="@labelRef = $xmlids"> A labelRef value must point to an xml:id on a
