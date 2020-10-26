@@ -16,7 +16,7 @@ bgInfo = element bgInfo {p+, meaning?}
 # Put general background info on the group in this element
 # How the song was recorded, its genre, general meaning/themes, etc.
 
-p = element p {mixed{(groupMent | group | memberMent | albumMent | compMent | quote)*}}
+p = element p {mixed{(groupMent | group | memberMent | albumMent | compMent | quote | link)*}}
 xmlid = attribute xml:id {xsd:ID}
 group = element group {xmlid, text}
 groupMent = element groupMent {artistRef, text}
@@ -36,6 +36,8 @@ compMent = element compMent {labelRef, text}
 
 quote = element quote {quoteURL?, text}
 quoteURL = attribute quoteURL {xsd:anyURI}
+link = element link {linkURL, text}
+linkURL = attribute linkURL {xsd:anyURI}
 meaning = element meaning {mixed{(groupMent | memberMent | albumMent | compMent | lineMent)*}}
 # This is where we can discuss possible themes/messages of the song
 
@@ -65,7 +67,7 @@ labelRef = attribute labelRef {text}
 
 releaseDate = element releaseDate {when, text}
 when = attribute when {xsd:date}
-koreanLyrics = element koreanLyrics {intro?, (verse | preChorus | chorus | bridge | refrain?)+, outro?}
+koreanLyrics = element koreanLyrics {intro?, (verse | preChorus | chorus | bridge | postChorus? | refrain?)+, outro?}
 line = element line {mixed{lineRef, linenum, (backVocal | sharedLine)*}}
 lineRef = attribute lineRef {text}
 # Referencing (with the Schematron) a xml:id on a member element from a group page
@@ -91,8 +93,10 @@ preChorus = element preChorus {prechorusnum, artistname, line+}
 prechorusnum = attribute prechorusnum {xsd:integer}
 chorus = element chorus {chorusnum, artistname, line+}
 chorusnum = attribute chorusnum {xsd:integer}
+postChorus = element postChorus {postchorusnum, artistname, line+}
+postchorusnum = attribute postchorusnum {xsd:integer}
 bridge = element bridge {artistname, line+}
 refrain = element refrain {refrainnum, artistname, line+}
 refrainnum = attribute refrainnum {xsd:integer}
 outro = element outro {artistname, line+}
-engTrans = element engTrans {intro?, (verse | preChorus | chorus | bridge | refrain?)+, outro?}
+engTrans = element engTrans {intro?, (verse | preChorus | chorus | bridge | postChorus? | refrain?)+, outro?}

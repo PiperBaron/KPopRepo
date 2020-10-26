@@ -13,12 +13,12 @@ company = element company {xmlid, text}
 # Companies are BIG in K-Pop (lots of drama relating to the Big 3)
 # Companies /usually/ double as labels for their groups
 
-labelRef = attribute labelRef {xsd:IDREF}
+labelRef = attribute labelRef {text}
 # labelRef is used in two different ways:
 # 1. Specifying the label/company in the company element
 # 2. Acting as a reference for compMent whenever a company is mentioned (like in bgInfo)
 
-p = element p {mixed{(groupMent | group | memberMent | albumMent | compMent | quote)*}}
+p = element p {mixed{(groupMent | group | memberMent | albumMent | compMent | quote | link)*}}
 xmlid = attribute xml:id {xsd:ID}
 debutDate = element debutDate {when, text}
 when = attribute when {xsd:date}
@@ -71,6 +71,8 @@ compMent = element compMent {labelRef, text}
 
 quote = element quote {quoteURL?, text}
 quoteURL = attribute quoteURL {xsd:anyURI}
+link = element link {linkURL, text}
+linkURL = attribute linkURL {xsd:anyURI}
 memberList = element memberList {member+}
 member = element member {xmlid?, artistRef?, portrait, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight?, birthday, note?}
 # This is a lot of info (probably unnecessary)

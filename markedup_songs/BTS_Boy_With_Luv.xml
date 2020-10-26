@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="song_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<song>
+    <about>
+        <songName xml:id="Boy-With-Luv">Boy With Luv (작은 것들을 위한 시)</songName>
+        <artistName artistRef="BTS">BTS (방탄소년단)</artistName>
+        <bgInfo>
+            <p>Boy With Luv is the title track off of the mini album <albumMent albumRef="MOTS-Persona">Map of the Soul: Persona</albumMent>.</p>
+            
+            <p>BTS collaborated on this song with singer/song-wrtier <link linkURL="https://genius.com/artists/Halsey">Halsey</link>, with whom the group has become fast friends. The song broke several records when it was released, both in the US market and internationally, including fastest video to hit 100 million views. The only song s that has been able to beat Boy With Luv’s impressive feats is BTS’s newest single, <albumMent albumRef="Dynamite">Dynamite</albumMent>.</p>            
+            <meaning>Boy With Luv is a very sweet kind of song that focuses on the strength of love and how it’s one of the strongest forces in one’s life. The whole song is full of loving references to the group’s past songs and to their fanbase; one big reference is the title and chorus of the song. One of BTS’s most popular songs  in their early days was Boy in Luv, which was about unrequited love and changing oneself to fit another person’s needs. Now, in the present, BTS is signalling to their fans and the world at large that they’ve grown, no longer willing to compromise on themselves and instead finding love and inspiration from within.</meaning>
+        </bgInfo>
+        <album albumRef="MOTS-Persona">Map of the Soul: Persona</album>
+        <produceCredit>
+            <producer>Pdogg</producer>
+        </produceCredit>
+        <lyricCredit>
+            <writer>Melanie Joy Fontana</writer>
+            <writer>Michel “Lindgren” Schulz</writer>
+            <writer>Halsey</writer>
+            <writer artistRef="J-Hope">J-Hope</writer>
+            <writer>Emily Weisband</writer>
+            <writer artistRef="Suga">Suga</writer>
+            <writer>”hitman” Bang</writer>
+            <writer artistRef="RM">RM</writer>
+            <writer>Pdogg</writer>
+        </lyricCredit>
+        <label labelRef="BigHitEnt">Big Hit Entertainment</label>
+        <releaseDate when="2019-04-12">April 12, 2019</releaseDate>
+    </about>
+    
+    <koreanLyrics>    
+        
+        <intro artistname="Non-Member">
+            <line linenum="1" lineRef="Non-Member">(워워워워워)</line>
+            <line linenum="2" lineRef="Non-Member">(워워워워워)</line>
+            <line linenum="3" lineRef="Non-Member">(워워워워워)</line>
+            <line linenum="4" lineRef="Non-Member">(워워워워워)</line>
+        </intro>
+        
+        <verse versenum="1" artistname="Jimin">
+            <line linenum="5" lineRef="Jimin">모든 게 궁금해 how's your day?</line>
+            <line linenum="6" lineRef="Jimin">Oh, tell me, <backVocal lineRef="Non-Member">Oh yeah, oh yeah, ah yeah, ah yeah</backVocal></line>
+            <line linenum="7" lineRef="Jimin">뭐가 널 행복하게 하는지</line>
+            <line linenum="8" lineRef="Jimin">Oh, text me, <backVocal lineRef="Non-Member">Oh yeah, oh yeah, oh yeah, oh yeah</backVocal></line>
+        </verse>
+        
+        <verse versenum="2" artistname="V, Jin">
+            <line linenum="9" lineRef="V">Your every picture</line>
+            <line linenum="10" lineRef="V">내 머리맡에 두고 싶어, oh bae</line>
+            <line linenum="11" lineRef="Jin">Come be my teacher</line>
+            <line linenum="12" lineRef="Jin">네 모든 걸 다 가르쳐줘</line>
+            <line linenum="13" lineRef="Jin">Your one, your two</line>
+        </verse>
+        
+        <preChorus prechorusnum="1" artistname="Jungkook, J-Hope, Jimin">
+            <line linenum="14" lineRef="Jungkook">Listen my my baby 나는</line>
+            <line linenum="15" lineRef="Jungkook">저 하늘을 높이 날고 있어</line>
+            <line linenum="16" lineRef="Jungkook"><backVocal lineRef="J-Hope">(그때 니가 내게 줬던 두 날개로)</backVocal></line>
+            <line linenum="17" lineRef="Jimin">이제 여긴 너무 높아</line>
+            <line linenum="19" lineRef="Jimin">난 내 눈에 널 맞추고 싶어</line>
+            <line linenum="19" lineRef="Jimin">Yeah, you makin' me a boy with love</line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname="Non-Member, Jungkook, Jimin">
+            <line linenum="20" lineRef="Non-Member">Oh my, my, my, <backVocal lineRef="Jungkook">(Uh)</backVocal> oh my, my, my</line>
+            <line linenum="21" lineRef="Non-Member">I've waited all my life</line>
+            <line linenum="22" lineRef="Jungkook">네 전부를 함께하고 싶어</line>
+            <line linenum="23" lineRef="Non-Member">Oh my, my, my, <backVocal lineRef="Jungkook">(Yeah)</backVocal> oh my, my, my</line>
+            <line linenum="24" lineRef="Non-Member">Looking for something right</line>
+            <line linenum="25" lineRef="Jimin">이제 조금은 나 알겠어</line>
+        </chorus>
+        
+        <postChorus postchorusnum="1" artistname="Non-Member">
+            <line linenum="26" lineRef="Non-Member">(워워워워워)</line>
+            <line linenum="27" lineRef="Non-Member">I want something stronger <backVocal lineRef="Non-Member">(I want it)</backVocal></line>
+            <line linenum="28" lineRef="Non-Member">(워워워워워)</line>
+            <line linenum="29" lineRef="Non-Member">Than a moment, than a moment, love</line>
+            <line linenum="30" lineRef="Non-Member">(워워워워워)</line>
+            <line linenum="31" lineRef="Non-Member">I have waited longer</line>
+            <line linenum="32" lineRef="Non-Member">(워워워워워)</line>
+            <line linenum="33" lineRef="Non-Member">For a boy with, for a boy with love</line>
+        </postChorus>
+        
+        <verse versenum="3" artistname="Suga">
+            <line linenum="34" lineRef="Suga">널 알게 된 이후 ya <backVocal lineRef="Suga">(Oh)</backVocal></line>
+            <line linenum="35" lineRef="Suga">내 삶은 온통 너 ya <backVocal lineRef="Suga">(Ya, ya)</backVocal></line>
+            <line linenum="36" lineRef="Suga">사소한 게 사소하지 않게 만들어버린 너라는 별 <backVocal lineRef="Suga">(Alright)</backVocal></line>
+            <line linenum="37" lineRef="Suga">하나부터 열까지 ay, ay</line>
+            <line linenum="38" lineRef="Suga">모든 게 특별하지 ay, ay</line>
+            <line linenum="39" lineRef="Suga">너의 관심사 걸음걸이 말투와 사소한 작은 습관들까지, ayy</line>
+        </verse>
+       
+        <verse versenum="4" artistname="J-Hope, V">
+            <line linenum="40" lineRef="J-Hope">(Hope world)</line>
+            <line linenum="41" lineRef="J-Hope">다 말하지 너무 작던 내가 영웅이 된 거라고 <backVocal lineRef="J-Hope">(Oh no)</backVocal></line>
+            <line linenum="42" lineRef="J-Hope">난 말하지 운명 따윈 처음부터 내 게 아니었다고 <backVocal lineRef="J-Hope">(Oh no)</backVocal></line>
+            <line linenum="43" lineRef="J-Hope">세계의 평화 <backVocal lineRef="J-Hope">(No way)</backVocal></line>
+            <line linenum="44" lineRef="J-Hope">거대한 질서 <backVocal lineRef="J-Hope">(No way)</backVocal></line>
+            <line linenum="45" lineRef="J-Hope">그저 널 지킬 거야 난</line>
+            <line linenum="46" lineRef="V">(Boy with love)</line>
+        </verse>
+       
+        <preChorus prechorusnum="2" artistname="V, Jungkook, J-Hope, Jin">
+            <line linenum="47" lineRef="V">Listen my my baby 나는</line>
+            <line linenum="48" lineRef="V">저 하늘을 높이 날고 있어</line>
+            <line linenum="49" lineRef="Jungkook"><backVocal lineRef="J-Hope">(그때 니가 내게 줬던 두 날개로)</backVocal></line>
+            <line linenum="50" lineRef="Jin">이제 여긴 너무 높아</line>
+            <line linenum="51" lineRef="Jin">난 내 눈에 널 맞추고 싶어</line>
+            <line linenum="52" lineRef="Jin">Yeah, you makin' me a boy with love</line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname="Non-Member, Jungkook, Jimin">
+            <line linenum="53" lineRef="Non-Member">Oh my, my, my, <backVocal lineRef="Jungkook">(Uh)</backVocal> oh my, my, my</line>
+            <line linenum="54" lineRef="Jungkook">You got me high so fast</line>
+            <line linenum="55" lineRef="Jungkook">네 전부를 함께하고 싶어</line>
+            <line linenum="56" lineRef="Non-Member">Oh my, my, my, oh my, my, my</line>
+            <line linenum="57" lineRef="Jimin">You got me fly so fast</line>
+            <line linenum="58" lineRef="Jimin">이제 조금은 나 알겠어</line>
+        </chorus>
+        
+        <postChorus postchorusnum="2" artistname="Non-Member, Jin, V">
+            <line linenum="59" lineRef="Non-Member">(워워워워워)</line>
+            <line linenum="60" lineRef="Jin">Love is nothing stronger <backVocal lineRef="Non-Member">(I want it)</backVocal></line>
+            <line linenum="61" lineRef="Non-Member">(워워워워워)</line>
+            <line linenum="62" lineRef="Jin"><backVocal lineRef="Jin">(Than a boy with)</backVocal> Than a boy with love</line>
+            <line linenum="63" lineRef="Non-Member">(워워워워워)</line>
+            <line linenum="64" lineRef="V">Love is nothing stronger</line>
+            <line linenum="65" lineRef="Non-Member">(워워워워워)</line>
+            <line linenum="66" lineRef="V"><backVocal lineRef="V">(Than a boy with)</backVocal> Than a boy with love</line>
+        </postChorus>
+        
+        <bridge artistname="RM">
+            <line linenum="67" lineRef="RM">툭 까놓고 말할게</line>
+            <line linenum="68" lineRef="RM">나도 모르게 힘이 들어가기도 했어</line>
+            <line linenum="69" lineRef="RM">높아버린 sky, 커져버린 hall</line>
+            <line linenum="70" lineRef="RM">때론 도망치게 해달라며 기도했어</line>
+            <line linenum="71" lineRef="RM">But 너의 상처는 나의 상처</line>
+            <line linenum="72" lineRef="RM">깨달았을 때 나 다짐했던걸 <backVocal lineRef="RM">(Yeah)</backVocal></line>
+            <line linenum="73" lineRef="RM">니가 준 이카루스의 날개로 <backVocal lineRef="RM">(Uh)</backVocal></line>
+            <line linenum="74" lineRef="RM">태양이 아닌 너에게로</line>
+            <line linenum="75" lineRef="RM">Let me fly</line>
+        </bridge>
+        
+        <chorus chorusnum="3" artistname="Non-Member, Jin, V">
+            <line linenum="76" lineRef="Non-Member">Oh my my my, oh my my my</line>
+            <line linenum="77" lineRef="Jin"><backVocal lineRef="Non-Member">I've waited all my life</backVocal></line>
+            <line linenum="78" lineRef="Jin">네 전부를 함께하고 싶어</line>
+            <line linenum="79" lineRef="Non-Member">Oh my my my, oh my my my <backVocal lineRef="Non-Member">(Oh, oh)</backVocal></line>
+            <line linenum="80" lineRef="V"><backVocal lineRef="Non-Member">Looking for something right</backVocal> <backVocal lineRef="Non-Member">(Right)</backVocal></line>
+            <line linenum="81" lineRef="V">이제 조금은 나 알겠어</line>
+        </chorus>
+        
+        <postChorus postchorusnum="3" artistname="Non-Member, Jimin, Jungkook">
+            <line linenum="82" lineRef="Non-Member">(워워워워워)</line>
+            <line linenum="83" lineRef="Jimin"><backVocal lineRef="Non-Member">I want something stronger</backVocal> <backVocal lineRef="Non-Member">(I want it)</backVocal></line>
+            <line linenum="84" lineRef="Non-Member">(워워워워워)</line>
+            <line linenum="85" lineRef="Jimin"><backVocal lineRef="Non-Member">Than a moment, than a moment, love</backVocal> <backVocal lineRef="Non-Member">(Mo-moment, love)</backVocal></line>
+            <line linenum="86" lineRef="Non-Member">(워워워워워)</line>
+            <line linenum="87" lineRef="Jungkook">Love is nothing stronger <backVocal lineRef="Non-Member">(Ooh ooh, oh yeah)</backVocal></line>
+            <line linenum="88" lineRef="Non-Member">(워워워워워)</line>
+            <line linenum="89" lineRef="Jungkook"><backVocal lineRef="Jungkook">(Than a boy with)</backVocal> Than a boy with love</line>
+        </postChorus>
+    </koreanLyrics>
+    
+    
+    <engTrans>
+        
+        <intro artistname="Non-Member">
+            <line linenum="1" lineRef="Non-Member">(Oh-oh-oh-oh-oh)</line>
+            <line linenum="2" lineRef="Non-Member">(Oh-oh-oh-oh-oh)</line>
+            <line linenum="3" lineRef="Non-Member">(Oh-oh-oh-oh-oh)</line>
+            <line linenum="4" lineRef="Non-Member">(Oh-oh-oh-oh-oh)</line>
+        </intro>
+        
+        <verse versenum="1" artistname="Jimin">
+            <line linenum="5" lineRef="Jimin">I'm curious about you, how's your day?</line>
+            <line linenum="6" lineRef="Jimin">Oh, tell me, <backVocal lineRef="Non-Member">Oh yeah, oh yeah, ah yeah, ah yeah</backVocal></line>
+            <line linenum="7" lineRef="Jimin">What makes you happy?</line>
+            <line linenum="8" lineRef="Jimin">Oh, text me, <backVocal lineRef="Non-Member">Oh yeah, oh yeah, oh yeah, oh yeah</backVocal></line>
+        </verse>
+        
+        <verse versenum="2" artistname="V, Jin">
+            <line linenum="9" lineRef="V">Your every picture</line>
+            <line linenum="10" lineRef="V">I wanna have under my pillow, oh bae</line>
+            <line linenum="11" lineRef="Jin">Come be my teacher</line>
+            <line linenum="12" lineRef="Jin">Teach me everything about you</line>
+            <line linenum="13" lineRef="Jin">Your one, your two</line>
+        </verse>
+        
+        <preChorus prechorusnum="1" artistname="Jungkook, J-Hope, Jimin">
+            <line linenum="14" lineRef="Jungkook">Listen my my baby, I'm</line>
+            <line linenum="15" lineRef="Jungkook">Flying high up in the sky</line>
+            <line linenum="16" lineRef="Jungkook"><backVocal lineRef="J-Hope">(With the two wings that you gave me back then)</backVocal></line>
+            <line linenum="17" lineRef="Jimin">Now it's so high up here</line>
+            <line linenum="19" lineRef="Jimin">I want you tuned in to my eyes</line>
+            <line linenum="19" lineRef="Jimin">Yeah, you makin' me a boy with love</line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname="Non-Member, Jungkook, Jimin">
+            <line linenum="20" lineRef="Non-Member">Oh my, my, my, <backVocal lineRef="Jungkook">(Uh)</backVocal> oh my, my, my</line>
+            <line linenum="21" lineRef="Non-Member">I've waited all my life</line>
+            <line linenum="22" lineRef="Jungkook">I want to be with you through everything</line>
+            <line linenum="23" lineRef="Non-Member">Oh my, my, my, <backVocal lineRef="Jungkook">(Yeah)</backVocal> oh my, my, my</line>
+            <line linenum="24" lineRef="Non-Member">Looking for something right</line>
+            <line linenum="25" lineRef="Jimin">Okay, now, I kinda get it</line>
+        </chorus>
+        
+        <postChorus postchorusnum="1" artistname="Non-Member">
+            <line linenum="26" lineRef="Non-Member">(Oh-oh-oh-oh-oh)</line>
+            <line linenum="27" lineRef="Non-Member">I want something stronger <backVocal lineRef="Non-Member">(I want it)</backVocal></line>
+            <line linenum="28" lineRef="Non-Member">(Oh-oh-oh-oh-oh)</line>
+            <line linenum="29" lineRef="Non-Member">Than a moment, than a moment, love</line>
+            <line linenum="30" lineRef="Non-Member">(oh-oh-oh-oh-oh)</line>
+            <line linenum="31" lineRef="Non-Member">I have waited longer</line>
+            <line linenum="32" lineRef="Non-Member">(Oh-oh-oh-oh-oh)</line>
+            <line linenum="33" lineRef="Non-Member">For a boy with, for a boy with love</line>
+        </postChorus>
+        
+        <verse versenum="3" artistname="Suga">
+            <line linenum="34" lineRef="Suga">From the moment I met you, ya <backVocal lineRef="Suga">(Oh)</backVocal></line>
+            <line linenum="35" lineRef="Suga">My life was all you, ya <backVocal lineRef="Suga">(Ya, ya)</backVocal></line>
+            <line linenum="36" lineRef="Suga">You’re the star that turns ordinaries into extraordinaries <backVocal lineRef="Suga">(Alright)</backVocal></line>
+            <line linenum="37" lineRef="Suga">One after another, ay, ay</line>
+            <line linenum="38" lineRef="Suga">Everything is special, ay, ay</line>
+            <line linenum="39" lineRef="Suga">The things you’re interested in, the way you walk or talk, and every little trivial habit of yours, ayy</line>
+        </verse>
+        
+        <verse versenum="4" artistname="J-Hope, V">
+            <line linenum="40" lineRef="J-Hope">(Hope world)</line>
+            <line linenum="41" lineRef="J-Hope">Everyone says that I used to be so little, and now I became a hero <backVocal lineRef="J-Hope">(Oh no)</backVocal></line>
+            <line linenum="42" lineRef="J-Hope">I say that something like destiny was never my thing <backVocal lineRef="J-Hope">(Oh no)</backVocal></line>
+            <line linenum="43" lineRef="J-Hope">World peace <backVocal lineRef="J-Hope">(No way)</backVocal></line>
+            <line linenum="44" lineRef="J-Hope">A great order <backVocal lineRef="J-Hope">(No way)</backVocal></line>
+            <line linenum="45" lineRef="J-Hope">I just want to keep you safe</line>
+            <line linenum="46" lineRef="V">(Boy with love)</line>
+        </verse>
+        
+        <preChorus prechorusnum="2" artistname="V, Jungkook, J-Hope, Jin">
+            <line linenum="47" lineRef="V">Listen my my baby, I'm</line>
+            <line linenum="48" lineRef="V">Flying high up in the sky</line>
+            <line linenum="49" lineRef="Jungkook"><backVocal lineRef="J-Hope">(With the two wings that you gave me back then)</backVocal></line>
+            <line linenum="50" lineRef="Jin">Now, it's so high up here</line>
+            <line linenum="51" lineRef="Jin">I want you tuned in to my eyes</line>
+            <line linenum="52" lineRef="Jin">Yeah, you makin' me a boy with love</line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname="Non-Member, Jungkook, Jimin">
+            <line linenum="53" lineRef="Non-Member">Oh my, my, my, <backVocal lineRef="Jungkook">(Uh)</backVocal> oh my, my, my</line>
+            <line linenum="54" lineRef="Jungkook">You got me high so fast</line>
+            <line linenum="55" lineRef="Jungkook">I want to be with you through everything</line>
+            <line linenum="56" lineRef="Non-Member">Oh my, my, my, oh my, my, my</line>
+            <line linenum="57" lineRef="Jimin">You got me fly so fast</line>
+            <line linenum="58" lineRef="Jimin">Okay, now, I kinda get it</line>
+        </chorus>
+        
+        <postChorus postchorusnum="2" artistname="Non-Member, Jin, V">
+            <line linenum="59" lineRef="Non-Member">(Oh-oh-oh-oh-oh)</line>
+            <line linenum="60" lineRef="Jin">Love is nothing stronger <backVocal lineRef="Non-Member">(I want it)</backVocal></line>
+            <line linenum="61" lineRef="Non-Member">(Oh-oh-oh-oh-oh)</line>
+            <line linenum="62" lineRef="Jin"><backVocal lineRef="Jin">(Than a boy with)</backVocal> Than a boy with love</line>
+            <line linenum="63" lineRef="Non-Member">(Oh-oh-oh-oh-oh)</line>
+            <line linenum="64" lineRef="V">Love is nothing stronger</line>
+            <line linenum="65" lineRef="Non-Member">(Oh-oh-oh-oh-oh)</line>
+            <line linenum="66" lineRef="V"><backVocal lineRef="V">(Than a boy with)</backVocal> Than a boy with love</line>
+        </postChorus>
+        
+        <bridge artistname="RM">
+            <line linenum="67" lineRef="RM">I'll tell you frankly</line>
+            <line linenum="68" lineRef="RM">Sometimes I was a little stuck up</line>
+            <line linenum="69" lineRef="RM">Elevated sky, expanded halls</line>
+            <line linenum="70" lineRef="RM">Sometimes I prayed, let me run away</line>
+            <line linenum="71" lineRef="RM">But your pain is my pain</line>
+            <line linenum="72" lineRef="RM">When I realised that, I vowed to myself <backVocal lineRef="RM">(Yeah)</backVocal></line>
+            <line linenum="73" lineRef="RM">With the wings of Icarus you gave me <backVocal lineRef="RM">(Uh)</backVocal></line>
+            <line linenum="74" lineRef="RM">Not towards the sun, but towards you</line>
+            <line linenum="75" lineRef="RM">Let me fly</line>
+        </bridge>
+        
+        <chorus chorusnum="3" artistname="Non-Member, Jin, V">
+            <line linenum="76" lineRef="Non-Member">Oh my my my, oh my my my</line>
+            <line linenum="77" lineRef="Jin"><backVocal lineRef="Non-Member">I've waited all my life</backVocal></line>
+            <line linenum="78" lineRef="Jin">I want to be with you through everything</line>
+            <line linenum="79" lineRef="Non-Member">Oh my my my, oh my my my <backVocal lineRef="Non-Member">(Oh, oh)</backVocal></line>
+            <line linenum="80" lineRef="V"><backVocal lineRef="Non-Member">Looking for something right</backVocal> <backVocal lineRef="Non-Member">(Right)</backVocal></line>
+            <line linenum="81" lineRef="V">Okay, now, I kinda get it</line>
+        </chorus>
+        
+        <postChorus postchorusnum="3" artistname="Non-Member, Jimin, Jungkook">
+            <line linenum="82" lineRef="Non-Member">(Oh-oh-oh-oh-oh)</line>
+            <line linenum="83" lineRef="Jimin"><backVocal lineRef="Non-Member">I want something stronger</backVocal> <backVocal lineRef="Non-Member">(I want it)</backVocal></line>
+            <line linenum="84" lineRef="Non-Member">(Oh-oh-oh-oh-oh)</line>
+            <line linenum="85" lineRef="Jimin"><backVocal lineRef="Non-Member">Than a moment, than a moment, love</backVocal> <backVocal lineRef="Non-Member">(Mo-moment, love)</backVocal></line>
+            <line linenum="86" lineRef="Non-Member">(Oh-oh-oh-oh-oh)</line>
+            <line linenum="87" lineRef="Jungkook">Love is nothing stronger <backVocal lineRef="Non-Member">(Ooh ooh, oh yeah)</backVocal></line>
+            <line linenum="88" lineRef="Non-Member">(Oh-oh-oh-oh-oh)</line>
+            <line linenum="89" lineRef="Jungkook"><backVocal lineRef="Jungkook">(Than a boy with)</backVocal> Than a boy with love</line>
+        </postChorus>
+    </engTrans>
+</song>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="group_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../markedup_songs/xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <groupPage>
     <about>
         <groupName xml:id="Seventeen">Seventeen (세븐틴)</groupName>
         <bgInfo>
-            <p>Seventeen is a 13-member group under <compMent labelRef="PledisEnt">Pledis Entertainment</compMent>, which was recently bought by BigHit (notable for being BTS’s company), though they currently operate independently. They were originally intended to debut with 17 members, hence the name, but 4 members dropped out or were deemed unfit for debut; the name “Seventeen” now signifies the 13 members + 3 subunits + 1 fandom. </p>
+            <p>Seventeen is a 13-member group under <compMent labelRef="PledisEnt">Pledis Entertainment</compMent>, which was recently bought by <compMent labelRef="BigHitEnt">Big Hit</compMent> (notable for being BTS’s company), though they currently operate independently. They were originally intended to debut with 17 members, hence the name, but 4 members dropped out or were deemed unfit for debut; the name “Seventeen” now signifies the 13 members + 3 subunits + 1 fandom.</p>
             
             <p>They’re well-known for being a self-producing group, meaning many of the members themselves write, compose, and produce much of the music and even design the choreography to go with the songs. </p>
             
