@@ -19,7 +19,7 @@ h1 {
 }
 
 h2{
- font-size: 55px;
+ font-size: 40px;
  margin: auto;
 }
 
@@ -89,7 +89,7 @@ li.dropdown {
 }
 
 .main {
-  margin: 55px;
+  margin: 15px 55px 15px 55px;
   padding: 15px;
   background-color: #282728;
   color: #F9F5FB;
@@ -97,7 +97,6 @@ li.dropdown {
 }
 
 .profile_link_holder {
-  padding: 25px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -105,8 +104,8 @@ li.dropdown {
 
 .profile_link {
   color: #DCCAFE;
-  height: 350px;
-  width: 250px;
+  height: 300px;
+  width: 200px;
   margin: 30px;
   line-height: 150px;
   border-style: solid;
@@ -119,7 +118,7 @@ li.dropdown {
   background-color: #6207B2;
   height: 50px;
   line-height: 50px;
-  margin-top: -67px;
+  margin-top: -78px;
 }
 
 .group_name a {
@@ -139,13 +138,13 @@ li.dropdown {
   vertical-align: top;
   background-color: #6207B2;
   height: 100px;
-  line-height: 50px;
+  line-height: 60px;
 }
 
 .song_name a {
   text-decoration: none;
   color: #DCCAFE;
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .song_name_small {
@@ -153,13 +152,13 @@ li.dropdown {
   vertical-align: top;
   background-color: #6207B2;
   height: 100px;
-  line-height: 50px;
+  line-height: 60px;
 }
 
 .song_name_small a {
   text-decoration: none;
   color: #DCCAFE;
-  font-size: 29px;
+  font-size: 24px;
 }
 
 .song_name a:hover {
@@ -173,9 +172,9 @@ li.dropdown {
 }
 
 .korean_name {
-  margin: -15px;
+  margin: -27px;
   color: #DCCAFE;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .profile_link:hover {
@@ -193,4 +192,5 @@ li.dropdown {
 .group_image img {
     max-width: 65%;
     max-height: 65%;
+    margin-top: -7px;
 }

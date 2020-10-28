@@ -19,7 +19,7 @@ h1 {
 }
 
 h2{
- font-size: 55px;
+ font-size: 40px;
  margin: auto;
 }
 
@@ -89,7 +89,7 @@ li.dropdown {
 }
 
 .main {
-  margin: 55px;
+  margin: 15px 55px 15px 55px;
   padding: 15px;
   background-color: #282728;
   color: #F9F5FB;
@@ -97,7 +97,6 @@ li.dropdown {
 }
 
 .profile_link_holder {
-  padding: 25px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -105,8 +104,8 @@ li.dropdown {
 
 .profile_link {
   color: #DCCAFE;
-  height: 350px;
-  width: 250px;
+  height: 300px;
+  width: 200px;
   margin: 30px;
   line-height: 150px;
   border-style: solid;
@@ -125,7 +124,7 @@ li.dropdown {
 .group_name a {
   text-decoration: none;
   color: #DCCAFE;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .group_name a:hover {
@@ -145,10 +144,30 @@ li.dropdown {
 .group_name_small a {
   text-decoration: none;
   color: #DCCAFE;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .group_name_small a:hover {
+  text-decoration: none;
+  color: #B666FF;
+}
+
+.group_name_smaller {
+  margin: 0px;
+  vertical-align: top;
+  background-color: #6207B2;
+  height: 50px;
+  line-height: 50px;
+}
+
+
+.group_name_smaller a {
+  text-decoration: none;
+  color: #DCCAFE;
+  font-size: 22px;
+}
+
+.group_name_smaller a:hover {
   text-decoration: none;
   color: #B666FF;
 }
