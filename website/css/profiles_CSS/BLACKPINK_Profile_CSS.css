@@ -30,13 +30,15 @@ h2{
  text-align: center;
 }
 
+
 ul.nav {
   list-style-type: none;
-  text-align:center;
+  text-align: center;
   margin: 0;
   padding: 0;
   background-color: #282728;
   border: 1px solid white;
+  max-height: 500px;
 }
 
 li {
@@ -80,6 +82,7 @@ li.dropdown {
   text-align: left;
   font-size: 15px;
   border: 1px solid white;
+  
 }
 
 .dropdown-content a:hover {
@@ -89,6 +92,8 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+  columns: 2;
+  column-gap: 0px;  
 }
 
 .active {
