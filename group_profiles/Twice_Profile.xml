@@ -46,7 +46,7 @@
         <fandomColor colorHex="#eb8038">Apricot</fandomColor>
         <fandomColor colorHex="#ff00ff">Neon Magenta</fandomColor>
         <lightstick>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/lightsticks/Twice_Lightstick.png?raw=true</lightstick>
-        <!--currentRank-->
+        <currentRank>10</currentRank>
     </about>
     <memberList>
         
