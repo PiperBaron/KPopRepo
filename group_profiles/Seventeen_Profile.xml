@@ -33,8 +33,10 @@
             <album albumType="mini">Heng:garæ</album>
         </discography>
         <fandomName>Carat</fandomName>
-        <fandomColor colorHex="#f6cac9">Rose Quartz</fandomColor>
-        <fandomColor colorHex="#93a9ce">Serenity</fandomColor>
+        <fandomColor>
+            <color colorHex="#f6cac9">Rose Quartz</color>
+            <color colorHex="#93a9ce">Serenity</color>
+        </fandomColor>
         <lightstick>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/lightsticks/Seventeen_Lightstick.png?raw=true</lightstick>
         <currentRank>8</currentRank>
     </about> 

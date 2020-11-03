@@ -43,8 +43,10 @@
             <album albumType="full">#TWICE3</album>
         </discography>
         <fandomName>Once</fandomName>
-        <fandomColor colorHex="#eb8038">Apricot</fandomColor>
-        <fandomColor colorHex="#ff00ff">Neon Magenta</fandomColor>
+        <fandomColor>
+            <color colorHex="#eb8038">Apricot</color>
+            <color colorHex="#ff00ff">Neon Magenta</color>
+        </fandomColor>
         <lightstick>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/lightsticks/Twice_Lightstick.png?raw=true</lightstick>
         <currentRank>10</currentRank>
     </about>

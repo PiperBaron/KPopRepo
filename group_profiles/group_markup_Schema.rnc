@@ -1,6 +1,6 @@
 start = groupPage
 groupPage = element groupPage {about, memberList, subunitList*}
-about = element about {groupName, bgInfo, company, debutDate, debutSong, discography, fandomName, fandomColor*, lightstick, currentRank?}
+about = element about {groupName, bgInfo, company, debutDate, debutSong, discography, fandomName, fandomColor?, lightstick, currentRank?}
 # This about element is meant to store background information in a SET SEQUENCE
 # Discography typo fixed. Sorry about that! 
 
@@ -35,8 +35,10 @@ fandomName = element fandomName {text}
 # Basically every group has a special name they call their fans
 # I'm including this, because fandom culture is SO immensely important in K-Pop
 
-fandomColor = element fandomColor {colorHex, text}
+fandomColor = element fandomColor {color+}
+color = element color {colorHex, text}
 # Yes, some K-Pop groups have color(s) associated with themselves and their fandoms
+# I'm adding a new child element, color, to make the XSLT run a lot smoother
 
 colorHex = attribute colorHex {text}
 # colorHex holds the html hex code for the color (with the #)

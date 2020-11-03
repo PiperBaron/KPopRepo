@@ -32,7 +32,9 @@
             <album albumType="full" xml:id="Obsession-Album">Obsession</album>
         </discography>
         <fandomName>EXO-L</fandomName>
-        <fandomColor colorHex="#c9cac5">Cosmic Latte</fandomColor>
+        <fandomColor>
+            <color colorHex="#c9cac5">Cosmic Latte</color>
+        </fandomColor>
         <lightstick>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/lightsticks/EXO_Lightstick.jpg?raw=true</lightstick>
         <currentRank>4</currentRank>
     </about> 

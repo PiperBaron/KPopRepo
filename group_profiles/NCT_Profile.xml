@@ -19,7 +19,9 @@
             <album>See NCT Dream's page for full discography</album>
         </discography>
         <fandomName>NCTzen</fandomName>
-        <fandomColor colorHex="#caff00">Pearl Neo Champagne</fandomColor>
+        <fandomColor>
+            <color colorHex="#caff00">Pearl Neo Champagne</color>
+        </fandomColor>
         <lightstick>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/lightsticks/NCT_Lightstick.png?raw=true</lightstick>
         <currentRank>11</currentRank>
     </about> 
