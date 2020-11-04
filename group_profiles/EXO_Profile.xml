@@ -52,7 +52,7 @@
             </role>
             <subunit>
                 <unit unitName="EXO-K">EXO-K</unit>
-                <unit unitName="EXO-Main-Vocal">EXO-Main-Vocal</unit>
+                <unit unitName="EXO-Main-Vocal">EXO Main Vocal Line</unit>
             </subunit>
             <height>173 cm (5’8″)</height>
             <weight>60 kg (132 lbs)</weight>
@@ -105,7 +105,7 @@
             <subunit>
                 <unit unitName="EXO-K">EXO-K</unit>
                 <unit unitName="EXO-CBX">EXO-CBX</unit>
-                <unit unitName="EXO-Main-Vocal">EXO-Main-Vocal</unit>
+                <unit unitName="EXO-Main-Vocal">EXO Main Vocal Line</unit>
             </subunit>
             <height>175 cm (5’9″)</height>
             <weight>64 kg (141 lbs)</weight>
@@ -122,7 +122,7 @@
             <subunit>
                 <unit unitName="EXO-M">EXO-M</unit>
                 <unit unitName="EXO-CBX">EXO-CBX</unit>
-                <unit unitName="EXO-Main-Vocal">EXO-Main-Vocal</unit>
+                <unit unitName="EXO-Main-Vocal">EXO Main Vocal Line</unit>
             </subunit>
             <height>172.5 cm (5’8”)</height>
             <weight>60 kg (132 lbs)</weight>
@@ -156,7 +156,7 @@
             </role>
             <subunit>
                 <unit unitName="EXO-K">EXO-K</unit>
-                <unit unitName="EXO-Main-Vocal">EXO-Main-Vocal</unit>
+                <unit unitName="EXO-Main-Vocal">EXO Main Vocal Line</unit>
             </subunit>
             <height>172 cm (5’8″)</height>
             <weight>60 kg (132 lbs)</weight>
@@ -201,7 +201,9 @@
             <weight>66 kg (145 lbs)</weight>
             <birthday when="1994-04-12">April 12, 1994</birthday>
         </member>
-        
+    </memberList>
+    
+    <formerMemberList>
         <formerMember xml:id="Kris">
             <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/EXO/Kris_Portrait.jpg?raw=true</portrait>
             <stageName>Kris (크리스)</stageName>
@@ -252,46 +254,48 @@
             <weight>68 kg (149 lbs)</weight>
             <birthday when="1993-05-02">May 2, 1993</birthday>
         </formerMember>
-    </memberList>
+    </formerMemberList>
     
-    <subunitList xml:id="EXO-K">
-        <subunitName unitName="EXO-K">EXO-K</subunitName>
-        <subunitMembers subunitMemberName="Suho">Suho (수호)</subunitMembers>
-        <subunitMembers subunitMemberName="Baekhyun">Baekhyun (백현)</subunitMembers>
-        <subunitMembers subunitMemberName="Chanyeol">Chanyeol (찬열)</subunitMembers>
-        <subunitMembers subunitMemberName="DO">D.O. (디오)</subunitMembers>
-        <subunitMembers subunitMemberName="Kai">Kai (카이)</subunitMembers>
-        <subunitMembers subunitMemberName="Sehun">Sehun (세훈)</subunitMembers>
-    </subunitList>
-    
-    <subunitList xml:id="EXO-M">
-        <subunitName unitName="EXO-M">EXO-M</subunitName>
-        <subunitMembers subunitMemberName="Xiumin">Xiumin (시우민)</subunitMembers>
-        <subunitMembers subunitMemberName="Lay">Lay (레이)</subunitMembers>
-        <subunitMembers subunitMemberName="Chen">Chen (첸)</subunitMembers>
-        <subunitMembers subunitMemberName="Kris">(Former Member) Kris (크리스)</subunitMembers>
-        <subunitMembers subunitMemberName="Luhan">(Former Member) Luhan (루한)</subunitMembers>
-        <subunitMembers subunitMemberName="Tao">(Former Member) Tao (타오)</subunitMembers>
-    </subunitList>
-    
-    <subunitList xml:id="EXO-Main-Vocal">
-        <subunitName unitName="EXO-Main-Vocal">EXO-Main-Vocal</subunitName>
-        <subunitMembers subunitMemberName="Suho">Suho (수호)</subunitMembers>
-        <subunitMembers subunitMemberName="Baekhyun">Baekhyun (백현)</subunitMembers>
-        <subunitMembers subunitMemberName="Chen">Chen (첸)</subunitMembers>
-        <subunitMembers subunitMemberName="DO">D.O. (디오)</subunitMembers>
-    </subunitList>
-    
-    <subunitList xml:id="EXO-CBX">
-        <subunitName unitName="EXO-CBX">EXO-CBX</subunitName>
-        <subunitMembers subunitMemberName="Chen">Chen (첸)</subunitMembers>
-        <subunitMembers subunitMemberName="Baekhyun">Baekhyun (백현)</subunitMembers>
-        <subunitMembers subunitMemberName="Xiumin">Xiumin (시우민)</subunitMembers>
-    </subunitList>
-    
-    <subunitList xml:id="EXO-SC">
-        <subunitName unitName="EXO-SC">EXO-SC</subunitName>
-        <subunitMembers subunitMemberName="Sehun">Sehun (세훈)</subunitMembers>
-        <subunitMembers subunitMemberName="Chanyeol">Chanyeol (찬열)</subunitMembers>
+    <subunitList>
+        <groupSubunit xml:id="EXO-K">
+            <subunitName unitName="EXO-K">EXO-K</subunitName>
+            <subunitMembers subunitMemberName="Suho">Suho (수호)</subunitMembers>
+            <subunitMembers subunitMemberName="Baekhyun">Baekhyun (백현)</subunitMembers>
+            <subunitMembers subunitMemberName="Chanyeol">Chanyeol (찬열)</subunitMembers>
+            <subunitMembers subunitMemberName="DO">D.O. (디오)</subunitMembers>
+            <subunitMembers subunitMemberName="Kai">Kai (카이)</subunitMembers>
+            <subunitMembers subunitMemberName="Sehun">Sehun (세훈)</subunitMembers>
+        </groupSubunit>
+        
+        <groupSubunit xml:id="EXO-M">
+            <subunitName unitName="EXO-M">EXO-M</subunitName>
+            <subunitMembers subunitMemberName="Xiumin">Xiumin (시우민)</subunitMembers>
+            <subunitMembers subunitMemberName="Lay">Lay (레이)</subunitMembers>
+            <subunitMembers subunitMemberName="Chen">Chen (첸)</subunitMembers>
+            <subunitMembers subunitMemberName="Kris">(Former Member) Kris (크리스)</subunitMembers>
+            <subunitMembers subunitMemberName="Luhan">(Former Member) Luhan (루한)</subunitMembers>
+            <subunitMembers subunitMemberName="Tao">(Former Member) Tao (타오)</subunitMembers>
+        </groupSubunit>
+        
+        <groupSubunit xml:id="EXO-Main-Vocal">
+            <subunitName unitName="EXO-Main-Vocal">EXO Main Vocal Line</subunitName>
+            <subunitMembers subunitMemberName="Suho">Suho (수호)</subunitMembers>
+            <subunitMembers subunitMemberName="Baekhyun">Baekhyun (백현)</subunitMembers>
+            <subunitMembers subunitMemberName="Chen">Chen (첸)</subunitMembers>
+            <subunitMembers subunitMemberName="DO">D.O. (디오)</subunitMembers>
+        </groupSubunit>
+        
+        <groupSubunit xml:id="EXO-CBX">
+            <subunitName unitName="EXO-CBX">EXO-CBX</subunitName>
+            <subunitMembers subunitMemberName="Chen">Chen (첸)</subunitMembers>
+            <subunitMembers subunitMemberName="Baekhyun">Baekhyun (백현)</subunitMembers>
+            <subunitMembers subunitMemberName="Xiumin">Xiumin (시우민)</subunitMembers>
+        </groupSubunit>
+        
+        <groupSubunit xml:id="EXO-SC">
+            <subunitName unitName="EXO-SC">EXO-SC</subunitName>
+            <subunitMembers subunitMemberName="Sehun">Sehun (세훈)</subunitMembers>
+            <subunitMembers subunitMemberName="Chanyeol">Chanyeol (찬열)</subunitMembers>
+        </groupSubunit>
     </subunitList>
 </groupPage>

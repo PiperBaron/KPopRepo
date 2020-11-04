@@ -271,42 +271,44 @@
         </member>
     </memberList>
     
-    <subunitList xml:id="Hip-Hop-Team">
-        <subunitName unitName="Hip-Hop-Team">Hip-Hop Team</subunitName>
-        <subunitMembers subunitMemberName="SCoups">S.Coups (에스.쿱스)</subunitMembers>
-        <subunitMembers subunitMemberName="Wonwoo">Wonwoo (원우)</subunitMembers>
-        <subunitMembers subunitMemberName="Mingyu">Mingyu (민규)</subunitMembers>
-        <subunitMembers subunitMemberName="Vernon">Vernon (버논)</subunitMembers>
-    </subunitList>
-    
-    <subunitList xml:id="Vocal-Team">
-        <subunitName unitName="Vocal-Team">Vocal Team</subunitName>
-        <subunitMembers subunitMemberName="Woozi">Woozi (우지)</subunitMembers>
-        <subunitMembers subunitMemberName="Jeonghan">Jeonghan (정한)</subunitMembers>
-        <subunitMembers subunitMemberName="Joshua">Joshua (조슈아)</subunitMembers>
-        <subunitMembers subunitMemberName="DK">DK (도겸)</subunitMembers>
-        <subunitMembers subunitMemberName="Seungkwan">Seungkwan (승관)</subunitMembers>
-    </subunitList>
-    
-    <subunitList xml:id="Performance-Team">
-        <subunitName unitName="Performance-Team">Performance Team</subunitName>
-        <subunitMembers subunitMemberName="Hoshi">Hoshi (호시)</subunitMembers>
-        <subunitMembers subunitMemberName="Jun">Jun (준)</subunitMembers>
-        <subunitMembers subunitMemberName="The8">The8 (디에잇)</subunitMembers>
-        <subunitMembers subunitMemberName="Dino">Dino (디노)</subunitMembers>
-    </subunitList>
-    
-    <subunitList xml:id="SVT-Leaders">
-        <subunitName unitName="SVT-Leaders">SVT Leaders</subunitName>
-        <subunitMembers subunitMemberName="SCoups">S.Coups (에스.쿱스)</subunitMembers>
-        <subunitMembers subunitMemberName="Hoshi">Hoshi (호시)</subunitMembers>
-        <subunitMembers subunitMemberName="Woozi">Woozi (우지)</subunitMembers>
-    </subunitList>
-    
-    <subunitList xml:id="BSS">
-        <subunitName unitName="BSS">BooSeokSoon</subunitName>
-        <subunitMembers subunitMemberName="DK">DK (도겸)</subunitMembers>
-        <subunitMembers subunitMemberName="Hoshi">Hoshi (호시)</subunitMembers>
-        <subunitMembers subunitMemberName="Seungkwan">Seungkwan (승관)</subunitMembers>
+    <subunitList>
+        <groupSubunit xml:id="Hip-Hop-Team">
+            <subunitName unitName="Hip-Hop-Team">Hip-Hop Team</subunitName>
+            <subunitMembers subunitMemberName="SCoups">S.Coups (에스.쿱스)</subunitMembers>
+            <subunitMembers subunitMemberName="Wonwoo">Wonwoo (원우)</subunitMembers>
+            <subunitMembers subunitMemberName="Mingyu">Mingyu (민규)</subunitMembers>
+            <subunitMembers subunitMemberName="Vernon">Vernon (버논)</subunitMembers>
+        </groupSubunit>
+        
+        <groupSubunit xml:id="Vocal-Team">
+            <subunitName unitName="Vocal-Team">Vocal Team</subunitName>
+            <subunitMembers subunitMemberName="Woozi">Woozi (우지)</subunitMembers>
+            <subunitMembers subunitMemberName="Jeonghan">Jeonghan (정한)</subunitMembers>
+            <subunitMembers subunitMemberName="Joshua">Joshua (조슈아)</subunitMembers>
+            <subunitMembers subunitMemberName="DK">DK (도겸)</subunitMembers>
+            <subunitMembers subunitMemberName="Seungkwan">Seungkwan (승관)</subunitMembers>
+        </groupSubunit>
+        
+        <groupSubunit xml:id="Performance-Team">
+            <subunitName unitName="Performance-Team">Performance Team</subunitName>
+            <subunitMembers subunitMemberName="Hoshi">Hoshi (호시)</subunitMembers>
+            <subunitMembers subunitMemberName="Jun">Jun (준)</subunitMembers>
+            <subunitMembers subunitMemberName="The8">The8 (디에잇)</subunitMembers>
+            <subunitMembers subunitMemberName="Dino">Dino (디노)</subunitMembers>
+        </groupSubunit>
+        
+        <groupSubunit xml:id="SVT-Leaders">
+            <subunitName unitName="SVT-Leaders">SVT Leaders</subunitName>
+            <subunitMembers subunitMemberName="SCoups">S.Coups (에스.쿱스)</subunitMembers>
+            <subunitMembers subunitMemberName="Hoshi">Hoshi (호시)</subunitMembers>
+            <subunitMembers subunitMemberName="Woozi">Woozi (우지)</subunitMembers>
+        </groupSubunit>
+        
+        <groupSubunit xml:id="BSS">
+            <subunitName unitName="BSS">BooSeokSoon</subunitName>
+            <subunitMembers subunitMemberName="DK">DK (도겸)</subunitMembers>
+            <subunitMembers subunitMemberName="Hoshi">Hoshi (호시)</subunitMembers>
+            <subunitMembers subunitMemberName="Seungkwan">Seungkwan (승관)</subunitMembers>
+        </groupSubunit>
     </subunitList>
 </groupPage>

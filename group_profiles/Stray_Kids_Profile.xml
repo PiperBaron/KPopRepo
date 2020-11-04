@@ -167,7 +167,9 @@
             <height>172 cm (5’8″)</height>
             <birthday when="2001-02-08">February 8, 2001</birthday>
         </member>   
-        
+    </memberList>
+    
+    <formerMemberList>
         <formerMember xml:id="Woojin">
             <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Stray_Kids/Woojin_Portrait.jpg?raw=true</portrait>
             <stageName>Woojin (우진)</stageName>
@@ -181,26 +183,29 @@
             <height>176 cm (5’9″)</height>
             <birthday when="1997-04-08">April 8, 1997</birthday>
         </formerMember>
-    </memberList>
+    </formerMemberList>
     
-    <subunitList xml:id="ThreeRACHA">
-        <subunitName unitName="ThreeRACHA">3RACHA</subunitName>
-        <subunitMembers subunitMemberName="BangChan">Bang Chan (방찬)</subunitMembers>
-        <subunitMembers subunitMemberName="Changbin">Changbin (창빈)</subunitMembers>
-        <subunitMembers subunitMemberName="Han">Han (한)</subunitMembers>
-    </subunitList>
-    
-    <subunitList xml:id="DanceRacha">
-        <subunitName unitName="DanceRacha">Dance Racha</subunitName>
-        <subunitMembers subunitMemberName="LeeKnow">Lee Know (리노)</subunitMembers>
-        <subunitMembers subunitMemberName="Hyunjin">Hyunjin (현진)</subunitMembers>
-        <subunitMembers subunitMemberName="Felix">Felix (필릭스}</subunitMembers>
-    </subunitList>
-    
-    <subunitList xml:id="VocalRacha">
-        <subunitName unitName="VocalRacha">Vocal Racha</subunitName>
-        <subunitMembers subunitMemberName="Seungmin">Seungmin (승민)</subunitMembers>
-        <subunitMembers subunitMemberName="IN">I.N (아이엔)</subunitMembers>
-        <subunitMembers subunitMemberName="Woojin">(Former Member) Woojin (우진)</subunitMembers>
+    <subunitList>
+        <groupSubunit xml:id="ThreeRACHA">
+            <subunitName unitName="ThreeRACHA">3RACHA</subunitName>
+            <subunitMembers subunitMemberName="BangChan">Bang Chan (방찬)</subunitMembers>
+            <subunitMembers subunitMemberName="Changbin">Changbin (창빈)</subunitMembers>
+            <subunitMembers subunitMemberName="Han">Han (한)</subunitMembers>
+        </groupSubunit>
+        
+        <groupSubunit xml:id="DanceRacha">
+            <subunitName unitName="DanceRacha">Dance Racha</subunitName>
+            <subunitMembers subunitMemberName="LeeKnow">Lee Know (리노)</subunitMembers>
+            <subunitMembers subunitMemberName="Hyunjin">Hyunjin (현진)</subunitMembers>
+            <subunitMembers subunitMemberName="Felix">Felix (필릭스}</subunitMembers>
+        </groupSubunit>
+        
+        <groupSubunit xml:id="VocalRacha">
+            <subunitName unitName="VocalRacha">Vocal Racha</subunitName>
+            <subunitMembers subunitMemberName="Seungmin">Seungmin (승민)</subunitMembers>
+            <subunitMembers subunitMemberName="IN">I.N (아이엔)</subunitMembers>
+            <subunitMembers subunitMemberName="Woojin">(Former Member) Woojin (우진)</subunitMembers>
+        </groupSubunit>
+        
     </subunitList>
 </groupPage>

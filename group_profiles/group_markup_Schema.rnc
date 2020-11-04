@@ -1,5 +1,5 @@
 start = groupPage
-groupPage = element groupPage {about, memberList, subunitList*}
+groupPage = element groupPage {about, memberList, formerMemberList?, subunitList?}
 about = element about {groupName, bgInfo, company, debutDate, debutSong, discography, fandomName, fandomColor?, lightstick, currentRank?}
 # This about element is meant to store background information in a SET SEQUENCE
 # Discography typo fixed. Sorry about that! 
@@ -75,7 +75,8 @@ quote = element quote {quoteURL?, text}
 quoteURL = attribute quoteURL {xsd:anyURI}
 link = element link {linkURL, text}
 linkURL = attribute linkURL {xsd:anyURI}
-memberList = element memberList {member+, formerMember*}
+memberList = element memberList {member+}
+formerMemberList = element formerMemberList {formerMember+}
 member = element member {xmlid?, artistRef?, portrait, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight?, birthday, note?}
 # This is a lot of info (probably unnecessary)
 # I wanted to emphasize how K-Pop and its community focuses on idols 
@@ -131,10 +132,11 @@ note = element note {text}
 formerMember = element formerMember {xmlid?, artistRef?, portrait, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight?, birthday, note?}
 # I decided to add a former member item for the memberList
 
-subunitList = element subunitList {xmlid, subunitName, subunitMembers+}
+subunitList = element subunitList {groupSubunit+}
 # Because some subunits (like 3RACHA) are credited producers/writers
 # I decided to make a dedicated subunit section
 
+groupSubunit = element groupSubunit {xmlid, subunitName, subunitMembers+, text}
 subunitName = element subunitName {unitName, text}
 subunitMembers = element subunitMembers {subunitMemberName, text}
 subunitMemberName = attribute subunitMemberName {xsd:IDREF}

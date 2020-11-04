@@ -130,7 +130,9 @@
             <weight>63 kg (139 lbs)</weight>
             <birthday when="1996-01-26">January 26, 1996</birthday>
         </member>
-
+    </memberList>
+    
+    <formerMemberList>
         <formerMember xml:id="Wonho">
             <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Monsta_X/Wonho_Portrait.jpg?raw=true</portrait>
             <stageName> Wonho (원호)</stageName>
@@ -144,5 +146,5 @@
             <weight>78 kg (168 lbs)</weight>
             <birthday when="1993-03-01">March 1, 1993</birthday>
         </formerMember>
-    </memberList>
+    </formerMemberList>
 </groupPage>

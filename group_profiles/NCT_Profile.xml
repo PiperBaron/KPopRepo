@@ -449,67 +449,69 @@
         </member>
     </memberList>
     
-    <subunitList xml:id="NCT127">
-        <subunitName unitName="NCT127">NCT 127</subunitName>
-        <subunitMembers subunitMemberName="Taeyong">Taeyong (태용)</subunitMembers>
-        <subunitMembers subunitMemberName="Taeil">Taeil (태일)</subunitMembers>
-        <subunitMembers subunitMemberName="Johnny">Johnny (쟈니)</subunitMembers>
-        <subunitMembers subunitMemberName="Yuta">Yuta (유타)</subunitMembers>
-        <subunitMembers subunitMemberName="Doyoung">Doyoung (도영)</subunitMembers>
-        <subunitMembers subunitMemberName="Jaehyun">Jaehyun (재현)</subunitMembers>
-        <subunitMembers subunitMemberName="WinWin">WinWin (윈윈)</subunitMembers>
-        <subunitMembers subunitMemberName="Jungwoo">Jungwoo (정우)</subunitMembers>
-        <subunitMembers subunitMemberName="MarkLee">Mark (마크)</subunitMembers>
-        <subunitMembers subunitMemberName="Haechan">Haechan (해찬)</subunitMembers>
-    </subunitList>
-    
-    <subunitList xml:id="NCT-Dream">
-        <subunitName unitName="NCT-Dream">NCT Dream</subunitName>
-        <subunitMembers subunitMemberName="MarkLee">Mark (마크)</subunitMembers>
-        <subunitMembers subunitMemberName="Renjun">Renjun (런쥔)</subunitMembers>
-        <subunitMembers subunitMemberName="Jeno">Jeno (제노)</subunitMembers>
-        <subunitMembers subunitMemberName="Haechan">Haechan (해찬)</subunitMembers>
-        <subunitMembers subunitMemberName="Jaemin">Jaemin (재민)</subunitMembers>
-        <subunitMembers subunitMemberName="Chenle">Chenle (천러)</subunitMembers>
-        <subunitMembers subunitMemberName="Jisung">Jisung (지성)</subunitMembers>
-    </subunitList>
-    
-    <subunitList xml:id="WayV">
-        <subunitName unitName="WayV">WayV</subunitName>
-        <subunitMembers subunitMemberName="Kun">Kun (쿤)</subunitMembers>
-        <subunitMembers subunitMemberName="Ten">Ten (텐)</subunitMembers>
-        <subunitMembers subunitMemberName="WinWin">WinWin (윈윈)</subunitMembers>
-        <subunitMembers subunitMemberName="Lucas">Lucas (루카스)</subunitMembers>
-        <subunitMembers subunitMemberName="Xiaojun">Xiaojun (샤오쥔)</subunitMembers>
-        <subunitMembers subunitMemberName="Hendery">Hendery (헨드리)</subunitMembers>
-        <subunitMembers subunitMemberName="YangYang">YangYang (양양)</subunitMembers>
-    </subunitList>
-    
-    <subunitList xml:id="NCTU">
-        <!-- All members are now a part of NCT U in the upcoming NCT 2020 album. -->
-        <subunitName unitName="NCTU">NCT U</subunitName>
-        <subunitMembers subunitMemberName="Taeyong">Taeyong (태용)</subunitMembers>
-        <subunitMembers subunitMemberName="Kun">Kun (쿤)</subunitMembers>
-        <subunitMembers subunitMemberName="Taeil">Taeil (태일)</subunitMembers>
-        <subunitMembers subunitMemberName="Johnny">Johnny (쟈니)</subunitMembers>
-        <subunitMembers subunitMemberName="Yuta">Yuta (유타)</subunitMembers>
-        <subunitMembers subunitMemberName="Doyoung">Doyoung (도영)</subunitMembers>
-        <subunitMembers subunitMemberName="Ten">Ten (텐)</subunitMembers>
-        <subunitMembers subunitMemberName="Jaehyun">Jaehyun (재현)</subunitMembers>
-        <subunitMembers subunitMemberName="WinWin">WinWin (윈윈)</subunitMembers>
-        <subunitMembers subunitMemberName="Jungwoo">Jungwoo (정우)</subunitMembers>
-        <subunitMembers subunitMemberName="Lucas">Lucas (루카스)</subunitMembers>
-        <subunitMembers subunitMemberName="MarkLee">Mark (마크)</subunitMembers>
-        <subunitMembers subunitMemberName="Xiaojun">Xiaojun (샤오쥔)</subunitMembers>
-        <subunitMembers subunitMemberName="Hendery">Hendery (헨드리)</subunitMembers>
-        <subunitMembers subunitMemberName="Renjun">Renjun (런쥔)</subunitMembers>
-        <subunitMembers subunitMemberName="Jeno">Jeno (제노)</subunitMembers>
-        <subunitMembers subunitMemberName="Haechan">Haechan (해찬)</subunitMembers>
-        <subunitMembers subunitMemberName="Jaemin">Jaemin (재민)</subunitMembers>
-        <subunitMembers subunitMemberName="YangYang">YangYang (양양)</subunitMembers>
-        <subunitMembers subunitMemberName="Shotaro">Shotaro (쇼타로)</subunitMembers>
-        <subunitMembers subunitMemberName="Sungchan">Sungchan (성찬)</subunitMembers>
-        <subunitMembers subunitMemberName="Chenle">Chenle (천러)</subunitMembers>
-        <subunitMembers subunitMemberName="Jisung">Jisung (지성)</subunitMembers>
+    <subunitList>
+        <groupSubunit xml:id="NCT127">
+            <subunitName unitName="NCT127">NCT 127</subunitName>
+            <subunitMembers subunitMemberName="Taeyong">Taeyong (태용)</subunitMembers>
+            <subunitMembers subunitMemberName="Taeil">Taeil (태일)</subunitMembers>
+            <subunitMembers subunitMemberName="Johnny">Johnny (쟈니)</subunitMembers>
+            <subunitMembers subunitMemberName="Yuta">Yuta (유타)</subunitMembers>
+            <subunitMembers subunitMemberName="Doyoung">Doyoung (도영)</subunitMembers>
+            <subunitMembers subunitMemberName="Jaehyun">Jaehyun (재현)</subunitMembers>
+            <subunitMembers subunitMemberName="WinWin">WinWin (윈윈)</subunitMembers>
+            <subunitMembers subunitMemberName="Jungwoo">Jungwoo (정우)</subunitMembers>
+            <subunitMembers subunitMemberName="MarkLee">Mark (마크)</subunitMembers>
+            <subunitMembers subunitMemberName="Haechan">Haechan (해찬)</subunitMembers>
+        </groupSubunit>
+        
+        <groupSubunit xml:id="NCT-Dream">
+            <subunitName unitName="NCT-Dream">NCT Dream</subunitName>
+            <subunitMembers subunitMemberName="MarkLee">Mark (마크)</subunitMembers>
+            <subunitMembers subunitMemberName="Renjun">Renjun (런쥔)</subunitMembers>
+            <subunitMembers subunitMemberName="Jeno">Jeno (제노)</subunitMembers>
+            <subunitMembers subunitMemberName="Haechan">Haechan (해찬)</subunitMembers>
+            <subunitMembers subunitMemberName="Jaemin">Jaemin (재민)</subunitMembers>
+            <subunitMembers subunitMemberName="Chenle">Chenle (천러)</subunitMembers>
+            <subunitMembers subunitMemberName="Jisung">Jisung (지성)</subunitMembers>
+        </groupSubunit>
+        
+        <groupSubunit xml:id="WayV">
+            <subunitName unitName="WayV">WayV</subunitName>
+            <subunitMembers subunitMemberName="Kun">Kun (쿤)</subunitMembers>
+            <subunitMembers subunitMemberName="Ten">Ten (텐)</subunitMembers>
+            <subunitMembers subunitMemberName="WinWin">WinWin (윈윈)</subunitMembers>
+            <subunitMembers subunitMemberName="Lucas">Lucas (루카스)</subunitMembers>
+            <subunitMembers subunitMemberName="Xiaojun">Xiaojun (샤오쥔)</subunitMembers>
+            <subunitMembers subunitMemberName="Hendery">Hendery (헨드리)</subunitMembers>
+            <subunitMembers subunitMemberName="YangYang">YangYang (양양)</subunitMembers>
+        </groupSubunit>
+        
+        <groupSubunit xml:id="NCTU">
+            <!-- All members are now a part of NCT U in the upcoming NCT 2020 album. -->
+            <subunitName unitName="NCTU">NCT U</subunitName>
+            <subunitMembers subunitMemberName="Taeyong">Taeyong (태용)</subunitMembers>
+            <subunitMembers subunitMemberName="Kun">Kun (쿤)</subunitMembers>
+            <subunitMembers subunitMemberName="Taeil">Taeil (태일)</subunitMembers>
+            <subunitMembers subunitMemberName="Johnny">Johnny (쟈니)</subunitMembers>
+            <subunitMembers subunitMemberName="Yuta">Yuta (유타)</subunitMembers>
+            <subunitMembers subunitMemberName="Doyoung">Doyoung (도영)</subunitMembers>
+            <subunitMembers subunitMemberName="Ten">Ten (텐)</subunitMembers>
+            <subunitMembers subunitMemberName="Jaehyun">Jaehyun (재현)</subunitMembers>
+            <subunitMembers subunitMemberName="WinWin">WinWin (윈윈)</subunitMembers>
+            <subunitMembers subunitMemberName="Jungwoo">Jungwoo (정우)</subunitMembers>
+            <subunitMembers subunitMemberName="Lucas">Lucas (루카스)</subunitMembers>
+            <subunitMembers subunitMemberName="MarkLee">Mark (마크)</subunitMembers>
+            <subunitMembers subunitMemberName="Xiaojun">Xiaojun (샤오쥔)</subunitMembers>
+            <subunitMembers subunitMemberName="Hendery">Hendery (헨드리)</subunitMembers>
+            <subunitMembers subunitMemberName="Renjun">Renjun (런쥔)</subunitMembers>
+            <subunitMembers subunitMemberName="Jeno">Jeno (제노)</subunitMembers>
+            <subunitMembers subunitMemberName="Haechan">Haechan (해찬)</subunitMembers>
+            <subunitMembers subunitMemberName="Jaemin">Jaemin (재민)</subunitMembers>
+            <subunitMembers subunitMemberName="YangYang">YangYang (양양)</subunitMembers>
+            <subunitMembers subunitMemberName="Shotaro">Shotaro (쇼타로)</subunitMembers>
+            <subunitMembers subunitMemberName="Sungchan">Sungchan (성찬)</subunitMembers>
+            <subunitMembers subunitMemberName="Chenle">Chenle (천러)</subunitMembers>
+            <subunitMembers subunitMemberName="Jisung">Jisung (지성)</subunitMembers>
+        </groupSubunit>
     </subunitList>
 </groupPage>
