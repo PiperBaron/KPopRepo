@@ -30,6 +30,16 @@ h2{
  text-align: center;
 }
 
+p a {
+    text-decoration: none;
+    color: #E1A5FB;
+}
+
+p a:hover {
+    text-decoration: none;
+    color: #93a9ce;
+}
+
 
 ul.nav {
   list-style-type: none;
@@ -41,7 +51,7 @@ ul.nav {
   max-height: 500px;
 }
 
-li {
+li.nav_li {
   display: inline-block;
   margin: 0 75px 0 75px;
 }
@@ -56,12 +66,12 @@ li a, .dropbtn {
   color: #E1A5FB;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li.nav_li a:hover, .dropdown:hover .dropbtn {
   background-color: #A859CA;
   color: #f2f2f2;
 }
 
-li.dropdown {
+li.nav_li.dropdown {
   display: inline-block;
 }
 
@@ -108,98 +118,123 @@ li.dropdown {
   font-size: 18px;
 }
 
-.profile_link_holder {
-  padding: 25px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.fandom_info {
+   font-size: 25px;
+   font-weight: bold;
+   margin: 5px;
+   color: #E1A5FB;
 }
 
-.profile_link {
-  color: #DCCAFE;
-  height: 350px;
-  width: 250px;
-  margin: 30px;
-  line-height: 150px;
-  border-style: solid;
-  border-color: #B38CFA;
-  text-align: center;
+#lightstick_img {
+    width: 200px;
 }
 
-.group_name {
-  margin: 0px;
-  vertical-align: top;
-  background-color: #6207B2;
-  height: 50px;
-  line-height: 50px;
+#discography {
+  margin: 15px 0px;
 }
 
-.group_name a {
-  text-decoration: none;
-  color: #DCCAFE;
-  font-size: 35px;
+.members_header {
+ font-size: 40px;
+ margin: auto;
+ text-align: center;
+ margin-bottom: 35px;
 }
 
-.group_name a:hover {
-  text-decoration: none;
-  color: #B666FF;
+#members {
+    text-align: center;
+    margin: auto;
 }
 
-.group_name_small {
-  margin: 0px;
-  vertical-align: top;
-  background-color: #6207B2;
-  height: 50px;
-  line-height: 50px;
+#stage_name_top {
+    color: #93a9ce;
+    font-size: 30px;
 }
 
-
-.group_name_small a {
-  text-decoration: none;
-  color: #DCCAFE;
-  font-size: 30px;
+.member_img {
+    width: 450px;
 }
 
-.group_name_small a:hover {
-  text-decoration: none;
-  color: #B666FF;
+#member_profile_list {
+    display: table;
+    margin: 0 auto;
+    list-style: none;
+    padding-left: 0;
 }
 
-.group_name_empty {
-  display: none;
+#roles_list {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 0;
 }
 
-
-.song_name a {
-  text-decoration: none;
-  color: #DCCAFE;
-  font-size: 25px;
+#member_subunit_list {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 0;
 }
 
-.song_name a:hover {
-  text-decoration: none;
-  color: #B666FF;
+.member_small_headers {
+    font-size: 20px;
+    font-weight: bold;
+    color: #93a9ce; 
+    margin: 22px 0px 5px 0px;
 }
 
-small {
-  text-decoration: none;
-  color: #DCCAFE;
-  font-size: 12px;
+.member_div {
+    background-color: black;
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 28px;
 }
 
-.profile_link:hover {
-   background-color: #3B026E;
-   box-shadow:
-     1px 1px #B38CFA,
-     2px 2px #B38CFA,
-     3px 3px #B38CFA,
-     4px 4px #B38CFA,
-     5px 5px #B38CFA,
-     6px 6px #B38CFA;
-     transition: .5s ease;
+#names {
+    font-size: 20px;
+    font-weight: bold;
+    color: #93a9ce; 
 }
 
-.group_image img {
-    max-width: 90%;
-    max-height: 80%;
+#subunits {
+    text-align:center
+}
+
+#subunit_div {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#group_subunit_div {
+    background-color: black;
+    text-align: center;
+    margin: 50px;
+    width: 300px;
+}
+
+#subunit_list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#subunit_list a {
+    text-decoration: none;
+    color: #E1A5FB;
+}
+
+#subunit_list a:hover {
+    text-decoration: none;
+    color: #93a9ce;
+}
+
+.subunit_name_header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #93a9ce; 
+    margin: 0px 0px 5px 0px;
+    background-color: purple;
+    vertical-align: top;
+    padding: 10px;
 }

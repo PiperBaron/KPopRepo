@@ -25,14 +25,14 @@
             <album albumType="full">Ice Cream (with Selena Gomez)</album>
         </discography>
         <fandomName>BLINK</fandomName>
-        <lightstick>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/lightsticks/Blackpink_Lightstick.jpg</lightstick>
+        <lightstick>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/lightsticks/Blackpink_Lightstick.jpg?raw=true</lightstick>
         <currentRank>2</currentRank>
     </about> 
     
     <memberList>
         
         <member xml:id="Jisoo">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Blackpink/Jisoo_Portrait.jpg</portrait>
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Blackpink/Jisoo_Portrait.jpg?raw=true</portrait>
             <stageName>Jisoo (지수)</stageName>
             <koreanName>Kim Ji Soo (김지수)</koreanName>
             <role>
@@ -45,7 +45,7 @@
         </member>
         
         <member xml:id="Jennie">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Blackpink/Jennie_Portrait.jpeg</portrait>
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Blackpink/Jennie_Portrait.jpg?raw=true</portrait>
             <stageName>Jennie (제니)</stageName>
             <koreanName>Kim Jennie (김제니)</koreanName>
             <role>
@@ -58,7 +58,7 @@
         </member>
         
         <member xml:id="Rose">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Blackpink/Rose_Portrait.jpg</portrait>
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Blackpink/Rose_Portrait.jpg?raw=true</portrait>
             <stageName>Rosé (로제)</stageName>
             <koreanName>Park Chae Young (박채영)</koreanName>
             <nkBirthName>Roseanne Park</nkBirthName>
@@ -72,7 +72,7 @@
         </member>
         
         <member xml:id="Lisa">
-            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Blackpink/Lisa_Portrait.jpg</portrait>
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Blackpink/Lisa_Portrait.jpg?raw=true</portrait>
             <stageName>Lisa (리사)</stageName>
             <nkBirthName>Lalisa Manoban (ลลิสา มโนบาล) / Pranpriya Manoban (ปราณปริยา มโนบาล)</nkBirthName>
             <role>
