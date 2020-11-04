@@ -19,7 +19,7 @@ h1 {
 }
 
 h2{
- font-size: 55px;
+ font-size: 45px;
  margin: auto;
  text-align: center;
 }
@@ -118,123 +118,38 @@ li.nav_li.dropdown {
   font-size: 18px;
 }
 
-.fandom_info {
+.song_info {
    font-size: 25px;
    font-weight: bold;
-   margin: 5px;
+   margin: 15px;
    color: #E1A5FB;
 }
 
-#lightstick_img {
-    width: 200px;
-}
-
-#discography {
-  margin: 15px 0px;
-}
-
-.members_header {
+.lyrics_header {
  font-size: 40px;
  margin: auto;
  text-align: center;
  margin-bottom: 35px;
+    
 }
 
-#members {
-    text-align: center;
-    margin: auto;
-}
-
-.stage_name_top {
-    color: #93a9ce;
-    font-size: 30px;
-}
-
-.member_img {
-    width: 450px;
-}
-
-.member_profile_list {
-    display: table;
-    margin: 0 auto;
-    list-style: none;
-    padding-left: 0;
-}
-
-.roles_list {
-    display: table;
-    margin: 0 auto;
-    text-align: left;
-    padding-left: 0;
-}
-
-.member_subunit_list {
-    display: table;
-    margin: 0 auto;
-    text-align: left;
-    padding-left: 0;
-}
-
-.member_small_headers {
-    font-size: 20px;
-    font-weight: bold;
-    color: #93a9ce; 
-    margin: 22px 0px 5px 0px;
-}
-
-.member_div {
+#korean_lyrics_div {
     background-color: black;
-    width: 60%;
+    margin: 15px;
+    width: 75%;
     padding: 20px;
     margin: auto;
-    margin-bottom: 28px;
+    margin-bottom: 25px;
 }
 
-.names {
-    font-size: 20px;
-    font-weight: bold;
-    color: #93a9ce; 
-}
-
-#subunits {
-    text-align:center
-}
-
-.subunit_div {
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.group_subunit_div {
+#english_trans_div {
     background-color: black;
-    text-align: center;
-    margin: 50px;
-    width: 300px;
+    margin: 15px;
+    width: 75%;
+    padding: 20px;
+    margin: auto;
 }
 
-.subunit_list {
-    list-style: none;
-    padding-left: 0;
-}
-
-.subunit_list a {
-    text-decoration: none;
-    color: #E1A5FB;
-}
-
-.subunit_list a:hover {
-    text-decoration: none;
-    color: #93a9ce;
-}
-
-.subunit_name_header {
-    font-size: 20px;
-    font-weight: bold;
-    color: #93a9ce; 
-    margin: 0px 0px 5px 0px;
-    background-color: purple;
-    vertical-align: top;
+.song_section {
     padding: 10px;
 }

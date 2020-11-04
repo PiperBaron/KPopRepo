@@ -145,7 +145,7 @@ li.nav_li.dropdown {
     margin: auto;
 }
 
-#stage_name_top {
+.stage_name_top {
     color: #93a9ce;
     font-size: 30px;
 }
@@ -154,21 +154,21 @@ li.nav_li.dropdown {
     width: 450px;
 }
 
-#member_profile_list {
+.member_profile_list {
     display: table;
     margin: 0 auto;
     list-style: none;
     padding-left: 0;
 }
 
-#roles_list {
+.roles_list {
     display: table;
     margin: 0 auto;
     text-align: left;
     padding-left: 0;
 }
 
-#member_subunit_list {
+.member_subunit_list {
     display: table;
     margin: 0 auto;
     text-align: left;
@@ -190,7 +190,7 @@ li.nav_li.dropdown {
     margin-bottom: 28px;
 }
 
-#names {
+.names {
     font-size: 20px;
     font-weight: bold;
     color: #93a9ce; 
@@ -200,31 +200,31 @@ li.nav_li.dropdown {
     text-align:center
 }
 
-#subunit_div {
+.subunit_div {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-#group_subunit_div {
+.group_subunit_div {
     background-color: black;
     text-align: center;
     margin: 50px;
     width: 300px;
 }
 
-#subunit_list {
+.subunit_list {
     list-style: none;
     padding-left: 0;
 }
 
-#subunit_list a {
+.subunit_list a {
     text-decoration: none;
     color: #E1A5FB;
 }
 
-#subunit_list a:hover {
+.subunit_list a:hover {
     text-decoration: none;
     color: #93a9ce;
 }

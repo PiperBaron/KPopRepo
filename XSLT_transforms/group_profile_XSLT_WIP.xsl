@@ -20,46 +20,14 @@
         <html>
             <head>
                 <title>K-Pop Project: <xsl:apply-templates select="descendant::groupName"/></title>
-                <link rel="stylesheet" type="text/css" href="../website/css/profiles_CSS/All_Group_Profiles_Starter_CSS.css"/>
+                <link rel="stylesheet" type="text/css" href="../css/profiles_CSS/EXO_Profile_CSS.css"/>
             </head>
             <body>
                 <div class="header">
                     <h1>K-Pop Songs, Translations, and Profiles</h1>
                 </div>
                 
-                <ul class="nav">
-                    <li class="nav_li"><a href="../index.html">About</a></li>
-                    <li class="nav_li dropdown">
-                        <a href="../group_profiles.html" class="dropbtn">Group Profiles</a>
-                        <div class="dropdown-content">
-                            <a href="BTS_Profile.html">BTS</a>
-                            <a href="BLACKPINK_Profile.html">BLAƆKPIИK</a>
-                            <a href="EXO_Profile.html">EXO</a>
-                            <a href="#">Twice</a>
-                            <a href="#">NCT 127</a>
-                            <a href="#">NCT Dream</a>
-                            <a href="#">GOT7</a>
-                            <a href="#">Seventeen</a>
-                            <a href="#">Stray Kids</a>
-                            <a href="#">Monsta X</a>
-                        </div>
-                    </li>
-                    <li class="nav_li dropdown">
-                        <a href="../songs.html" class="dropbtn">Songs</a>
-                        <div class="dropdown-content">
-                            <a href="#">BTS - Boy with Luv</a>
-                            <a href="#">BLAƆKPIИK - DDU-DU DDU-DU</a>
-                            <a href="#">EXO - Obsession</a>
-                            <a href="#">Twice - Likey</a>
-                            <a href="#">NCT 127 - Simon Says</a>
-                            <a href="#">NCT Dream - Ridin'</a>
-                            <a href="#">GOT7 - Lullaby</a>
-                            <a href="#">Seventeen- Don't Wanna Cry</a>
-                            <a href="#">Stray Kids - Back Door</a>
-                            <a href="#">Monsta X - From Zero</a>
-                        </div>
-                    </li>
-                </ul>
+                <!--#include virtual="navigation_menu_profiles.html" -->
                 
                 <div class="main" id="{descendant::groupName/[@xml:id]}">
                     <h2><xsl:apply-templates select="descendant::groupName"/> Profile</h2>
@@ -107,24 +75,28 @@
         <li><mark style="background-color:{@colorHex};"><xsl:apply-templates/></mark></li>
     </xsl:template>
     
-    <xsl:template match="album">
+    <xsl:template match="album[count(@*)=1]">
+        <li><xsl:apply-templates/></li>
+    </xsl:template>
+    
+    <xsl:template match="album[@xml:id]">
         <li id="{@xml:id}"><xsl:apply-templates/></li>
     </xsl:template>
     
     <xsl:template match="member">
         <div class="member_div" id="{@xml:id}">
-            <div id="stage_name_top"><xsl:apply-templates select="substring-before(descendant::stageName, ' (')"/></div>
+            <div class="stage_name_top"><xsl:apply-templates select="substring-before(descendant::stageName, ' (')"/></div>
             <br/>
             <img class="member_img" src="{portrait}" alt="Portait of {descendant::stageName} or {descendant::koreanName}"></img>
             <div class="member_small_headers">Names:</div>
-            <ul id="member_profile_list">
-                <li><span id="names">Stage name: </span><xsl:apply-templates select="descendant::stageName"/></li>
+            <ul class="member_profile_list">
+                <li><span class="names">Stage name: </span><xsl:apply-templates select="descendant::stageName"/></li>
                 <xsl:apply-templates select="descendant::koreanName"/>
                 <xsl:apply-templates select="descendant::nkBirthName"/>
             </ul>
             
             <div class="member_small_headers">Roles:</div>
-            <ol id="roles_list">
+            <ol class="roles_list">
                 <xsl:apply-templates select="descendant::role"/>
             </ol>
             
@@ -142,18 +114,18 @@
     
     <xsl:template match="formerMember">
         <div class="member_div" id="{@xml:id}">
-            <div id="stage_name_top"><xsl:apply-templates select="substring-before(descendant::stageName, ' (')"/></div>
+            <div class="stage_name_top"><xsl:apply-templates select="substring-before(descendant::stageName, ' (')"/></div>
             <br/>
             <img class="member_img" src="{portrait}" alt="Portait of former member {descendant::stageName} or {descendant::koreanName}" width="200"></img>
             <div class="member_small_headers">Names:</div>
-            <ul id="member_profile_list">
-                <li><span id="names">Stage name: </span><xsl:apply-templates select="descendant::stageName"/></li>
+            <ul class="member_profile_list">
+                <li><span class="names">Stage name: </span><xsl:apply-templates select="descendant::stageName"/></li>
                 <xsl:apply-templates select="descendant::koreanName"/>
                 <xsl:apply-templates select="descendant::nkBirthName"/>
             </ul>
             
             <div class="member_small_headers">Roles:</div>
-            <ol id="roles_list">
+            <ol class="roles_list">
                 <xsl:apply-templates select="descendant::role"/>
             </ol>
             
@@ -165,11 +137,11 @@
     </xsl:template>
     
     <xsl:template match="koreanName">
-        <li><span id="names">Korean Name: </span><xsl:apply-templates/></li>
+        <li><span class="names">Korean Name: </span><xsl:apply-templates/></li>
     </xsl:template>
     
     <xsl:template match="nkBirthName">
-        <li><span id="names">Non-Korean Birth Name: </span><xsl:apply-templates/></li>
+        <li><span class="names">Non-Korean Birth Name: </span><xsl:apply-templates/></li>
     </xsl:template>
     
     <xsl:template match="position">
@@ -178,7 +150,7 @@
     
     <xsl:template match="subunit">
         <div class="member_small_headers">Subunits:</div>
-        <ul id="member_subunit_list">
+        <ul class="member_subunit_list">
             <xsl:apply-templates/>
         </ul>
     </xsl:template>
@@ -193,15 +165,15 @@
     
     <xsl:template match="subunitList">
         <div class="members_header">Subunits:</div>
-        <div id="subunit_div">
+        <div class="subunit_div">
           <xsl:apply-templates/>
         </div>
     </xsl:template>
     
     <xsl:template match="groupSubunit">
-        <div id="group_subunit_div">
+        <div class="group_subunit_div">
             <div id="{@xml:id}" class="subunit_name_header"><xsl:apply-templates select="subunitName"/>:</div>
-            <ul id="subunit_list">
+            <ul class="subunit_list">
                 <xsl:apply-templates select="subunitMembers"/>
             </ul>
         </div>
