@@ -201,6 +201,57 @@
             <weight>66 kg (145 lbs)</weight>
             <birthday when="1994-04-12">April 12, 1994</birthday>
         </member>
+        
+        <formerMember xml:id="Kris">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/EXO/Kris_Portrait.jpg?raw=true</portrait>
+            <stageName>Kris (크리스)</stageName>
+            <nkBirthName>Li Jiaheng, but his name was changed to Wu Yifan (吴亦凡)</nkBirthName>
+            <role>
+                <position num="1" roleType="leader">Former leader of EXO-M</position>
+                <position num="2" roleType="rapper">Main Rapper</position>
+            </role>
+            <subunit>
+                <unit unitName="EXO-M">Formerly in EXO-M</unit>
+            </subunit>
+            <height>186.6 cm (6’1″)</height>
+            <weight>73 kg (160 lbs)</weight>
+            <birthday when="1990-04-06">November 6, 1990</birthday>
+        </formerMember>
+        
+        <formerMember xml:id="Luhan">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/EXO/Luhan_Portrait.jpg?raw=true</portrait>
+            <stageName>Luhan (루한)</stageName>
+            <nkBirthName>Lu Han (鹿晗)</nkBirthName>
+            <role>
+                <position num="1" roleType="vocalist">Lead Vocalist</position>
+                <position num="2" roleType="dancer">Lead Dancer</position>
+                <position num="3" roleType="visual">Visual</position>
+                <position num="4" roleType="face">Former Face of The Group</position>
+            </role>
+            <subunit>
+                <unit unitName="EXO-M">Formerly in EXO-M</unit>
+            </subunit>
+            <height>175 cm (5’9″)</height>
+            <weight>52 kg (114 lbs)</weight>
+            <birthday when="1990-04-20">April 20, 1990</birthday>
+        </formerMember>
+        
+        <formerMember xml:id="Tao">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/EXO/Tao_Portrait.jpg?raw=true</portrait>
+            <stageName>Tao (타오)</stageName>
+            <nkBirthName>Huang Zitao (黄子韬)</nkBirthName>
+            <role>
+                <position num="1" roleType="rapper">Lead Rapper</position>
+                <position num="2" roleType="dancer">Lead Dancer</position>
+                <position num="3" roleType="vocalist">Sub Vocalist</position>
+            </role>
+            <subunit>
+                <unit unitName="EXO-M">Formerly in EXO-M</unit>
+            </subunit>
+            <height>184 cm (6’0″)</height>
+            <weight>68 kg (149 lbs)</weight>
+            <birthday when="1993-05-02">May 2, 1993</birthday>
+        </formerMember>
     </memberList>
     
     <subunitList xml:id="EXO-K">
@@ -218,6 +269,9 @@
         <subunitMembers subunitMemberName="Xiumin">Xiumin (시우민)</subunitMembers>
         <subunitMembers subunitMemberName="Lay">Lay (레이)</subunitMembers>
         <subunitMembers subunitMemberName="Chen">Chen (첸)</subunitMembers>
+        <subunitMembers subunitMemberName="Kris">(Former Member) Kris (크리스)</subunitMembers>
+        <subunitMembers subunitMemberName="Luhan">(Former Member) Luhan (루한)</subunitMembers>
+        <subunitMembers subunitMemberName="Tao">(Former Member) Tao (타오)</subunitMembers>
     </subunitList>
     
     <subunitList xml:id="EXO-Main-Vocal">

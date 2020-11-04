@@ -167,6 +167,20 @@
             <height>172 cm (5’8″)</height>
             <birthday when="2001-02-08">February 8, 2001</birthday>
         </member>   
+        
+        <formerMember xml:id="Woojin">
+            <portrait>https://github.com/PiperBaron/KPopRepo/blob/master/website/images/member_portraits/Stray_Kids/Woojin_Portrait.jpg?raw=true</portrait>
+            <stageName>Woojin (우진)</stageName>
+            <koreanName>Kim Woo Jin (김우진)</koreanName>
+            <role>
+                <position num="1" roleType="vocalist">Main Vocalist</position>
+            </role>
+            <subunit>
+                <unit unitName="VocalRacha">Formerly in Vocal Racha</unit>
+            </subunit>
+            <height>176 cm (5’9″)</height>
+            <birthday when="1997-04-08">April 8, 1997</birthday>
+        </formerMember>
     </memberList>
     
     <subunitList xml:id="ThreeRACHA">
@@ -187,5 +201,6 @@
         <subunitName unitName="VocalRacha">Vocal Racha</subunitName>
         <subunitMembers subunitMemberName="Seungmin">Seungmin (승민)</subunitMembers>
         <subunitMembers subunitMemberName="IN">I.N (아이엔)</subunitMembers>
+        <subunitMembers subunitMemberName="Woojin">(Former Member) Woojin (우진)</subunitMembers>
     </subunitList>
 </groupPage>

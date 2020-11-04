@@ -28,7 +28,7 @@ discography = element discography {album*}
 # But we only need to put an xml:id on an album with the song that we've marked up
 
 album = element album {albumType?, xmlid?, text}
-albumType = attribute albumType {"mini" | "full" | "live" | "repackage" | "single"}
+albumType = attribute albumType {"mini" | "full" | "live" | "repackage" | "single" | "extended"}
 albumRef = attribute albumRef {text}
 
 fandomName = element fandomName {text}
@@ -75,7 +75,7 @@ quote = element quote {quoteURL?, text}
 quoteURL = attribute quoteURL {xsd:anyURI}
 link = element link {linkURL, text}
 linkURL = attribute linkURL {xsd:anyURI}
-memberList = element memberList {member+}
+memberList = element memberList {member+, formerMember*}
 member = element member {xmlid?, artistRef?, portrait, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight?, birthday, note?}
 # This is a lot of info (probably unnecessary)
 # I wanted to emphasize how K-Pop and its community focuses on idols 
@@ -127,6 +127,9 @@ birthday = element birthday {when, text}
 note = element note {text}
 # Only used when there's something to note about the status of a member in a group
 # Sometimes members are considered "inactive" but still a part of a group (like Lay of EXO)
+
+formerMember = element formerMember {xmlid?, artistRef?, portrait, stageName, koreanName?, nkBirthName?, role, subunit?, height, weight?, birthday, note?}
+# I decided to add a former member item for the memberList
 
 subunitList = element subunitList {xmlid, subunitName, subunitMembers+}
 # Because some subunits (like 3RACHA) are credited producers/writers
