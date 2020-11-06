@@ -125,8 +125,15 @@ li.nav_li.dropdown {
    color: #E1A5FB;
 }
 
+#lyrics_holder {
+    margin: 45px 15px 15px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .lyrics_header {
- font-size: 40px;
+ font-size: 35px;
  margin: auto;
  text-align: center;
  margin-bottom: 35px;
@@ -135,19 +142,19 @@ li.nav_li.dropdown {
 
 #korean_lyrics_div {
     background-color: black;
-    margin: 15px;
-    width: 75%;
+    width: 45%;
     padding: 20px;
-    margin: auto;
-    margin-bottom: 25px;
+    margin: 0 auto;
+    font-size: 17px;
 }
 
 #english_trans_div {
+    vertical-align: top;
     background-color: black;
-    margin: 15px;
-    width: 75%;
+    width: 45%;
     padding: 20px;
-    margin: auto;
+    margin: 0 auto;
+    font-size: 17px;
 }
 
 .song_section {

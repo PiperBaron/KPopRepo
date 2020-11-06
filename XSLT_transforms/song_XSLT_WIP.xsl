@@ -65,6 +65,7 @@
                     <h2><xsl:apply-templates select="descendant::songName"/> Lyrics and Translation</h2>
                     
                     <section id="about">
+                        <div class="song_info">Background Info:</div>
                         <xsl:apply-templates select="descendant::bgInfo"/>
                         <div class="song_info">Album:</div><xsl:apply-templates select="descendant::album"/>
                         <div class="song_info">Producers:</div>
@@ -77,25 +78,28 @@
                         <xsl:apply-templates select="descendant::releaseDate"/>
                     </section>
                     
-                    <section id="korean_lyrics">
-                        <div class="lyrics_header">Original Korean Lyrics:</div>
+                    <div id="lyrics_holder">
                         <div id="korean_lyrics_div">
+                            <div class="lyrics_header">Original Korean Lyrics:</div>
                             <xsl:apply-templates select="descendant::koreanLyrics"/>
                         </div>
-                    </section>
-                    
-                    <section id="english_trans">
-                        <div class="lyrics_header">English Translation:</div>
+                        
                         <div id="english_trans_div">
+                            <div class="lyrics_header">English Translation:</div>
                             <xsl:apply-templates select="descendant::engTrans"/>
                         </div>
-                    </section>
+                    </div>
                 </div>
             </body>
         </html>
     </xsl:template>
     
     <xsl:template match="p">
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
+    
+    <xsl:template match="meaning">
+        <div class="song_info">Song Meaning:</div>
         <p><xsl:apply-templates/></p>
     </xsl:template>
     
@@ -153,6 +157,14 @@
         <div class="song_line lineNumber{@linenum} {@lineRef}">
             <xsl:apply-templates/>
         </div>
+    </xsl:template>
+    
+    <xsl:template match="backVocal">
+        <span class="backing_vocal {@lineRef}"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="sharedLine">
+        <span class="shared_line {@lineRef}"><xsl:apply-templates/></span>
     </xsl:template>
     
     <xsl:template match="outro">
