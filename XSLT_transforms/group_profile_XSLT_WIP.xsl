@@ -20,7 +20,7 @@
         <html>
             <head>
                 <title>K-Pop Project: <xsl:apply-templates select="descendant::groupName"/></title>
-                <link rel="stylesheet" type="text/css" href="../css/profiles_CSS/EXO_Profile_CSS.css"/>
+                <link rel="stylesheet" type="text/css" href="../css/profiles_CSS/All_Group_Profiles_Starter_CSS.css"/>
             </head>
             <body>
                 <div class="header">
@@ -33,6 +33,7 @@
                     <h2><xsl:apply-templates select="descendant::groupName"/> Profile</h2>
                     
                     <section id="about">
+                        <div class="fandom_info">Background Info:</div>
                         <xsl:apply-templates select="descendant::bgInfo"/>
                         <div class="fandom_info">Fandom Name:</div><xsl:apply-templates select="descendant::fandomName"/>
                         <br/>

@@ -27,39 +27,7 @@
                     <h1>K-Pop Songs, Translations, and Profiles</h1>
                 </div>
                 
-                <ul class="nav">
-                    <li class="nav_li"><a href="../index.html">About</a></li>
-                    <li class="nav_li dropdown">
-                        <a href="../group_profiles.html" class="dropbtn">Group Profiles</a>
-                        <div class="dropdown-content">
-                            <a href="BTS_Profile.html">BTS</a>
-                            <a href="BLACKPINK_Profile.html">BLAƆKPIИK</a>
-                            <a href="EXO_Profile.html">EXO</a>
-                            <a href="#">Twice</a>
-                            <a href="#">NCT 127</a>
-                            <a href="#">NCT Dream</a>
-                            <a href="#">GOT7</a>
-                            <a href="#">Seventeen</a>
-                            <a href="#">Stray Kids</a>
-                            <a href="#">Monsta X</a>
-                        </div>
-                    </li>
-                    <li class="nav_li dropdown">
-                        <a href="../songs.html" class="dropbtn">Songs</a>
-                        <div class="dropdown-content">
-                            <a href="#">BTS - Boy with Luv</a>
-                            <a href="#">BLAƆKPIИK - DDU-DU DDU-DU</a>
-                            <a href="#">EXO - Obsession</a>
-                            <a href="#">Twice - Likey</a>
-                            <a href="#">NCT 127 - Simon Says</a>
-                            <a href="#">NCT Dream - Ridin'</a>
-                            <a href="#">GOT7 - Lullaby</a>
-                            <a href="#">Seventeen- Don't Wanna Cry</a>
-                            <a href="#">Stray Kids - Back Door</a>
-                            <a href="#">Monsta X - From Zero</a>
-                        </div>
-                    </li>
-                </ul>
+                <!--#include virtual="navigation_menu_profiles.html" -->
                 
                 <div class="main" id="{descendant::songName/[@xml:id]}">
                     <h2><xsl:apply-templates select="descendant::songName"/> Lyrics and Translation</h2>
@@ -103,12 +71,20 @@
         <p><xsl:apply-templates/></p>
     </xsl:template>
     
-    <xsl:template match="producer">
+    <xsl:template match="producer[count(@artistRef)=0]">
         <li><xsl:apply-templates/></li>
     </xsl:template>
     
-    <xsl:template match="writer">
+    <xsl:template match="producer[@artistRef]">
+        <li><a href="#{@artistRef}"><xsl:apply-templates/></a></li>
+    </xsl:template>
+    
+    <xsl:template match="writer[count(@artistRef)=0]">
         <li><xsl:apply-templates/></li>
+    </xsl:template>
+    
+    <xsl:template match="writer[@artistRef]">
+        <li><a href="#{@artistRef}"><xsl:apply-templates/></a></li>
     </xsl:template>
 
     <xsl:template match="intro">
@@ -153,8 +129,14 @@
         </div>
     </xsl:template>
     
-    <xsl:template match="line">
-        <div class="song_line lineNumber{@linenum} {@lineRef}">
+    <xsl:template match="koreanLyrics/descendant::line">
+        <div class="song_line {@lineRef}" id="korLineNumber{@linenum}">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="engTrans/descendant::line">
+        <div class="song_line {@lineRef}" id="engLineNumber{@linenum}">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
@@ -187,6 +169,18 @@
     
     <xsl:template match="compMent">
         <a href="#{@labelRef}"><xsl:apply-templates/></a>
+    </xsl:template>
+    
+    <xsl:template match="lineMent">
+        <span class="line_mention"><a href="#engLineNumber{@linenum}"><xsl:apply-templates/></a></span>
+    </xsl:template>
+    
+    <xsl:template match="link">
+        <a href="{@linkURL}"><xsl:apply-templates/></a>
+    </xsl:template>
+    
+    <xsl:template match="quote">
+       <a href="{@quoteURL}"><xsl:apply-templates/></a>
     </xsl:template>
     
 </xsl:stylesheet>
