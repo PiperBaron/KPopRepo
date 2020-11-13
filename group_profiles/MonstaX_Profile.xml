@@ -33,7 +33,7 @@
             <album albumType="full">All About Luv</album>
             <album albumType="single">Wish On The Same Sky</album>
             <album albumType="extended ">Fantasia X</album>
-            <album albumType="full">Fatal Love</album>
+            <album albumType="full" xml:id="Fatal-Love">Fatal Love</album>
         </discography>
         <fandomName>Monbebe</fandomName>
         <fandomColor>

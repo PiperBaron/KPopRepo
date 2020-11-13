@@ -125,6 +125,34 @@ li.nav_li.dropdown {
    color: #E1A5FB;
 }
 
+#producers_list a {
+    text-decoration: none;
+    color: #E1A5FB;
+    display: inline;
+    padding: 0px;
+}
+
+#producers_list a:hover {
+    text-decoration: none;
+    color: #93a9ce;
+    display: inline;
+    padding: 0px;
+}
+
+#writers_list a {
+    text-decoration: none;
+    color: #E1A5FB;
+    display: inline;
+    padding: 0px;
+}
+
+#writers_list a:hover {
+    text-decoration: none;
+    color: #93a9ce;
+    display: inline;
+    padding: 0px;
+}
+
 #lyrics_holder {
     margin: 45px 15px 15px 15px;
   display: flex;
@@ -155,6 +183,7 @@ li.nav_li.dropdown {
     padding: 20px;
     margin: 0 auto;
     font-size: 17px;
+    line-height:  132%;
 }
 
 .song_section {

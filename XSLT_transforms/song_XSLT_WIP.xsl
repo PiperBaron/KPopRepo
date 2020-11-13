@@ -37,9 +37,13 @@
                         <xsl:apply-templates select="descendant::bgInfo"/>
                         <div class="song_info">Album:</div><xsl:apply-templates select="descendant::album"/>
                         <div class="song_info">Producers:</div>
-                        <ul><xsl:apply-templates select="descendant::produceCredit"/></ul>
+                        <ul id="producers_list">
+                            <xsl:apply-templates select="descendant::produceCredit"/>
+                        </ul>
                         <div class="song_info">Writers:</div>
-                        <ul><xsl:apply-templates select="descendant::lyricCredit"/></ul>
+                        <ul id="writers_list">
+                            <xsl:apply-templates select="descendant::lyricCredit"/>
+                        </ul>
                         <div class="song_info">Label:</div>
                         <xsl:apply-templates select="descendant::label"/>
                         <div class="song_info">Release Date:</div>
