@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="song_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<song>
+    <about>
+        <songName xml:id="Likey">Likey(라이키)</songName>
+        <artistName artistRef="Twice">Twice(트와이스)</artistName>
+        <bgInfo>
+            <p>The first title song for their first real big album <albumMent albumRef="Twicetagram">twicetagram</albumMent>.</p>
+            
+            <meaning>The song explores love and how a girl wants her crush/boyfriend to like her and her picture on social media and how she feels frustrated that he doesn’t press the ‘like button’. The subject is similar to some of their older songs.</meaning>
+        </bgInfo>
+        <album albumRef="Twicetagram">Twicetagram</album>
+        <produceCredit>
+            <producer> Black Eyed Pilseung </producer>
+            <producer>Jun Goon (전군)</producer>
+        </produceCredit>
+        <lyricCredit>
+            <writer>Black Eyed Pilseung</writer>
+            <writer> Jun Goon (전군)</writer>
+        </lyricCredit>
+        <label labelRef="JYPEnt">JYP Entertainment</label>
+        <releaseDate when="2017-10-30">October 30, 2017</releaseDate>
+    </about>
+    
+    <koreanLyrics>    
+        
+        <intro artistname="All">
+        <line linenum="1" lineRef="All"> Hey!</line>
+        <line linenum="2" lineRef="All"> TWICE!</line>
+        <line linenum="3" lineRef="All">Yay!</line>
+        <line linenum="4" lineRef="All">Hey!</line>
+        </intro>
+        
+        <refrain refrainnum="1" artistname="Sana, Dahyun, Jihyo, (Chaeyoung)">
+            <line linenum="5" lineRef="Sana"> 설렌다 me likey</line>
+            <line linenum="6" lineRef="Sana"> Me likey, likey, likey</line>
+            <line linenum="7" lineRef="Sana"> Me likey, likey, likey</line>
+            <line linenum="8" lineRef="Dahyun, Chaeyoung"> 두근두근두근 (Heart, heart)</line>
+            <line linenum="9" lineRef="jihyo"> Me likey</line>
+            <line linenum="10" lineRef="jihyo"> Me likey, likey, likey</line>
+            <line linenum="11" lineRef="jihyo"> Me likey, likey, likey</line>
+            <line linenum="12" lineRef="Chaeyoung"> (두근두근두근)</line>
+        </refrain>
+        
+        <verse versenum="1" artistname=" Nayeon, Jihyo, Jeongyeon, Tzuyu">
+            <line linenum="13" lineRef="Nayeon"> 자꾸 드러내고 싶지 (싶지) 자꾸만</line>
+            <line linenum="14" lineRef="Nayeon"> 사소한 것 하나까지 (까지) 전부다</line>
+            <line linenum="15" lineRef="Jihyo"> 작은 화면 속에 내가 제일 예뻐 보이고파</line>
+            <line linenum="16" lineRef="Jihyo"> 아직은 감춰 이런 내 마음 꾹꾹</line>
+            <line linenum="17" lineRef="Jeongyeon"> 멋 부린다는 건 정말 귀찮은 거</line>
+            <line linenum="18" lineRef="Jeongyeon"> 그렇다고 절대 대충할 수가 없는걸, oh</line>
+            <line linenum="19" lineRef="Tzuyu"> 매일 가슴 뛰게 해 이건 네가 몰라야만 돼</line>
+            <line linenum="20" lineRef="Nayeon"> 그러면서 뻔뻔하게</line>
+        </verse>
+        
+        <preChorus prechorusnum="1" artistname="Momo, Tzuyu,(Chaeyoung)">
+            <line linenum="21" lineRef="Momo"> BB cream 파파파</line>
+            <line linenum="22" lineRef="Momo"> 립스틱을 맘맘마</line>
+            <line linenum="23" lineRef="Momo"> 카메라에 담아볼까 예쁘게 (쁘게)</line>
+            <line linenum="24" lineRef="Tzuyu"> 이거 보면 웃어줘</line>
+            <line linenum="25" lineRef="Tzuyu"> 그리고 꼭 눌러줘</line>
+            <line linenum="26" lineRef="Tzuyu, Chaeyoung"> 저 밑에 앙증맞고 새빨간 (Heart, heart)</line>
+        </preChorus>
+        
+       <chorus chorusnum="1" artistname=" Mina, Nayeon">
+           <line linenum="27" lineRef="Mina"> 근데 좋아요란 말은 뻔해</line>
+           <line linenum="28" lineRef="Mina"> 내 맘 표현하기엔 부족한데</line>
+           <line linenum="29" lineRef=" Nayeon"> 근데 좋아요 잠도 못 자도</line>
+           <line linenum="30" lineRef=" Nayeon"> 지각하게 돼도 좋은걸</line>
+        </chorus>
+        
+        <refrain refrainnum="2" artistname="Sana, Dahyun, Jihyo, (Chaeyoung)">
+            <line linenum="31" lineRef="Sana"> 설렌다 me likey</line>
+            <line linenum="32" lineRef="Sana"> Me likey, likey, likey</line>
+            <line linenum="33" lineRef="Sana"> Me likey, likey, likey</line>
+            <line linenum="34" lineRef="Dahyun, Chaeyoung"> 두근두근두근 (Heart, heart)</line>
+            <line linenum="35" lineRef="Jihyo"> Me likey</line>
+            <line linenum="36" lineRef="Jihyo"> Me likey, likey, likey</line>
+            <line linenum="37" lineRef="Jihyo"> Me likey, likey, likey</line>
+            <line linenum="38" lineRef="Chaeyoung"> (두근두근두근)(Heart, heart)</line>
+        </refrain>
+            
+        <verse versenum="2" artistname=" Jihyo, Jeongyeon, All">
+            <line linenum="39" lineRef=" Jihyo"> 숨을 훕 참아 지퍼를 올리게</line>
+            <line linenum="40" lineRef="Jeongyeon"> 다시 한번 허리를 훕</line>
+            <line linenum="41" lineRef="Jihyo"> 으라차차차 다 입었다, baby</line>
+            <line linenum="42" lineRef="Jeongyeon"> 세상엔 예쁜 옷이</line>
+            <line linenum="43" lineRef="Jeongyeon, All">  너무나도 많고 많아 (Whoa, oh-oh-oh)</line>
+        </verse>
+        
+            <preChorus prechorusnum="2" artistname=" Momo, Tzuyu, (Chaeyoung)">
+            <line linenum="44" lineRef="Momo"> BB cream 파파파</line>
+            <line linenum="45" lineRef="Momo"> 립스틱을 맘맘마</line>
+            <line linenum="46" lineRef="Momo"> 카메라에 담아볼까 예쁘게 (쁘게)</line>
+            <line linenum="47" lineRef="Tzuyu"> 이거 보면 웃어줘</line>
+            <line linenum="48" lineRef="Tzuyu"> 그리고 꼭 눌러줘</line>
+            <line linenum="49" lineRef="Tzuyu, Chaeyoung"> 저 밑에 앙증맞고 새빨간 (Heart, heart)</line>
+        </preChorus>
+            
+        <chorus chorusnum="2" artistname=" Mina, Nayeon">
+            <line linenum="50" lineRef="Mina"> 근데 좋아요란 말은 뻔해</line>
+            <line linenum="51" lineRef="Mina"> 내 맘 표현하기엔 부족한데</line>
+            <line linenum="52" lineRef="Nayeon"> 근데 좋아요 잠도 못 자도</line>
+            <line linenum="53" lineRef="Nayeon"> 지각하게 돼도 좋은걸</line>
+        </chorus>
+        
+            <bridge artistname=" Jihyo, Nayeon">
+                <line linenum="54" lineRef="Jihyo"> 그저 바라보고 있지</line>
+                <line linenum="55" lineRef="Jihyo"> 아무 말도 할 수 없지, oh-oh</line>
+                <line linenum="56" lineRef="Nayeon"> 조금만 더 다가와요 내 맘 알아줘요</line>
+                <line linenum="57" lineRef="Nayeon"> 더 이상 감추고만 싶지 않아</line>
+        </bridge>
+            
+       <verse versenum="3" artistname="Dahyun, Chaeyoung">
+           <line linenum="58" lineRef="Dahyun"> Uh, 오늘따라 기분이 꿀꿀해</line>
+           <line linenum="59" lineRef="Dahyun"> 안 그런척해 봐도 슬프냬</line>
+           <line linenum="60" lineRef="Chaeyoung"> 아무 반응 없는 너 땜에 삐졌는데</line>
+           <line linenum="61" lineRef="Chaeyoung"> 눈치 없이 친구들이 나오라고 부르네</line>
+           <line linenum="62" lineRef="Dahyun"> Ooh, 잠깐만 잠깐만</line>
+           <line linenum="63" lineRef="Dahyun"> 연락이 이제야 오는걸, woo!</line>
+           <line linenum="64" lineRef="Chaeyoung">하루종일 기분이 왔다 갔다</line>
+           <line linenum="65" lineRef="Chaeyoung">울다가도 다시 신나서 춤추네</line>
+        </verse>
+         
+        
+        <refrain refrainnum="3" artistname=" Sana, Dahyun, Jihyo ,(Chaeyoung)">
+            <line linenum="66" lineRef="Sana"> 설렌다 me likey</line>
+            <line linenum="67" lineRef="Sana">Me likey, likey, likey</line>
+            <line linenum="68" lineRef="Sana">  Me likey, likey, likey</line>
+            <line linenum="69" lineRef="Dahyun, Chaeyoung"> 두근두근두근 (Heart, heart)</line>
+            <line linenum="70" lineRef="Jihyo"> Me likey</line>
+            <line linenum="71" lineRef="Jihyo"> Me likey, likey, likey</line>
+            <line linenum="72" lineRef="Jihyo">Me likey, likey, likey</line>
+            <line linenum="73" lineRef="Chaeyoung">(두근두근두근) (Heart, heart)</line>
+        </refrain>
+            
+    </koreanLyrics>
+    
+    <engTrans>
+        <intro artistname="All">
+            <line linenum="1" lineRef="All"> Hey!</line>
+            <line linenum="2" lineRef="All"> TWICE!</line>
+            <line linenum="3" lineRef="All">Yay!</line>
+            <line linenum="4" lineRef="All">Hey!</line>
+        </intro>
+        
+        <refrain refrainnum="1" artistname="Sana, Dahyun, Jihyo, (Chaeyoung)">
+            <line linenum="5" lineRef="Sana"> Fluttering heart me likey</line>
+            <line linenum="6" lineRef="Sana"> Me likey, likey, likey</line>
+            <line linenum="7" lineRef="Sana"> Me likey, likey, likey</line>
+            <line linenum="8" lineRef="Dahyun, Chaeyoung"> Pit-a-pat Pit-a-pat (heart heart)</line>
+            <line linenum="9" lineRef="jihyo"> Me likey</line>
+            <line linenum="10" lineRef="jihyo"> Me likey, likey, likey</line>
+            <line linenum="11" lineRef="jihyo"> Me likey, likey, likey</line>
+            <line linenum="12" lineRef="Chaeyoung"> (Pit-a-pat Pit-a-pat)</line>
+        </refrain>
+        
+        <verse versenum="1" artistname=" Nayeon, Jihyo, Jeongyeon, Tzuyu">
+            <line linenum="13" lineRef="Nayeon"> Keep wanting to show it all again and again</line>
+            <line linenum="14" lineRef="Nayeon"> Every single little thing</line>
+            <line linenum="15" lineRef="Jihyo"> Inside the small screen,I wanna be the prettiest</line>
+            <line linenum="16" lineRef="Jihyo"> Yet still, I hide my feelings deep inside</line>
+            <line linenum="17" lineRef="Jeongyeon">It takes so much effort to get the perfect look</line>
+            <line linenum="18" lineRef="Jeongyeon"> But it is something I can never give up</line>
+            <line linenum="19" lineRef="Tzuyu"> Makes my heart beat every day, It's something you must never know</line>
+            <line linenum="20" lineRef="Nayeon"> Then I go on pretending</line>
+        </verse>
+        
+        <preChorus prechorusnum="1" artistname="Momo, Tzuyu,(Chaeyoung)">
+            <line linenum="21" lineRef="Momo"> BB cream pa-pa-pa</line>
+            <line linenum="22" lineRef="Momo"> put on some lipstick mam-mam-ma</line>
+            <line linenum="23" lineRef="Momo"> Pose for the camera, aren't I pretty (pretty)</line>
+            <line linenum="24" lineRef="Tzuyu"> When you see this</line>
+            <line linenum="25" lineRef="Tzuyu"> make a smile and press hard</line>
+            <line linenum="26" lineRef="Tzuyu, Chaeyoung"> On that cute red heart heart down there (Heart, heart)</line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname=" Mina, Nayeon">
+            <line linenum="27" lineRef="Mina"> Like is such a common word</line>
+            <line linenum="28" lineRef="Mina"> not enough to express my feelings</line>
+            <line linenum="29" lineRef=" Nayeon"> But I like it, even if I can’t sleep</line>
+            <line linenum="30" lineRef=" Nayeon">  even if I run late, like it anyway</line>
+        </chorus>
+        
+        <refrain refrainnum="2" artistname="Sana, Dahyun, Jihyo, (Chaeyoung)">
+            <line linenum="31" lineRef="Sana"> Fluttering heart Me Likey Me Likey</line>
+            <line linenum="32" lineRef="Sana"> Me likey, likey, likey</line>
+            <line linenum="33" lineRef="Sana"> Me likey, likey, likey</line>
+            <line linenum="34" lineRef="Dahyun, Chaeyoung"> Pit-a-pat Pit-a-pat (Heart, heart)</line>
+            <line linenum="35" lineRef="Jihyo"> Me likey</line>
+            <line linenum="36" lineRef="Jihyo"> Me likey, likey, likey</line>
+            <line linenum="37" lineRef="Jihyo"> Me likey, likey, likey</line>
+            <line linenum="38" lineRef="Chaeyoung"> (Pit-a-pat Pit-a-pat )(Heart, heart)</line>
+        </refrain>
+        
+        <verse versenum="2" artistname=" Jihyo, Jeongyeon, All">
+            <line linenum="39" lineRef=" Jihyo"> I hold my breath to pull up the zipper</line>
+            <line linenum="40" lineRef="Jeongyeon">tighten the waist again</line>
+            <line linenum="41" lineRef="Jihyo"> Cheer me up I’m done dressing up Baby</line>
+            <line linenum="42" lineRef="Jeongyeon"> There are so many </line>
+            <line linenum="43" lineRef="Jeongyeon, All"> pretty things to wear (Whoa, oh-oh-oh)</line>
+        </verse>
+        
+        <preChorus prechorusnum="2" artistname=" Momo, Tzuyu, (Chaeyoung)">
+            <line linenum="44" lineRef="Momo"> BB cream pa-pa-pa</line>
+            <line linenum="45" lineRef="Momo"> put on some lipstick mam-mam-ma</line>
+            <line linenum="46" lineRef="Momo"> Pose for the camera, aren’t I pretty(pretty)</line>
+            <line linenum="47" lineRef="Tzuyu"> When you see this, make a smile</line>
+            <line linenum="48" lineRef="Tzuyu">  and press hard</line>
+            <line linenum="49" lineRef="Tzuyu, Chaeyoung"> On that cute red (Heart, heart)down there</line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname=" Mina, Nayeon">
+            <line linenum="50" lineRef="Mina"> Like is such a common word</line>
+            <line linenum="51" lineRef="Mina"> not enough to express my feelings</line>
+            <line linenum="52" lineRef="Nayeon"> But I like it, even if I can’t sleep</line>
+            <line linenum="53" lineRef="Nayeon"> even if I run late, like it anyway</line>
+        </chorus>
+        
+        <bridge artistname=" Jihyo, Nayeon">
+            <line linenum="54" lineRef="Jihyo"> I just keep staring</line>
+            <line linenum="55" lineRef="Jihyo">  can’t say anything, oh-oh</line>
+            <line linenum="56" lineRef="Nayeon"> Come a little closer, see how I feel</line>
+            <line linenum="57" lineRef="Nayeon"> Don’t wanna hide it anymore</line>
+        </bridge>
+        
+        <verse versenum="3" artistname="Dahyun, Chaeyoung">
+            <line linenum="58" lineRef="Dahyun"> Uh, I feel melancholy today</line>
+            <line linenum="59" lineRef="Dahyun"> pretend I’m not, but I still feel sad</line>
+            <line linenum="60" lineRef="Chaeyoung"> I’m Stalking cuz you’re not responding</line>
+            <line linenum="61" lineRef="Chaeyoung"> My insensitive friends are asking me to hang out</line>
+            <line linenum="62" lineRef="Dahyun"> Ooh, wait wait </line>
+            <line linenum="63" lineRef="Dahyun"> I finally got an answer, woo!</line>
+            <line linenum="64" lineRef="Chaeyoung">My mind is swaying all day long</line>
+            <line linenum="65" lineRef="Chaeyoung">울One moment I’m crying, then I’m dancing with excitement again</line>
+        </verse>
+        
+        
+        <refrain refrainnum="3" artistname=" Sana, Dahyun, Jihyo ,(Chaeyoung)">
+            <line linenum="66" lineRef="Sana"> Fluttering heart Me Likey Me Likey</line>
+            <line linenum="67" lineRef="Sana">Me likey, likey, likey</line>
+            <line linenum="68" lineRef="Sana">  Me likey, likey, likey</line>
+            <line linenum="69" lineRef="Dahyun, Chaeyoung"> Pit-a-pat Pit-a-pat (Heart, heart)</line>
+            <line linenum="70" lineRef="Jihyo"> Me likey</line>
+            <line linenum="71" lineRef="Jihyo"> Me likey, likey, likey</line>
+            <line linenum="72" lineRef="Jihyo">Me likey, likey, likey</line>
+            <line linenum="73" lineRef="Chaeyoung">(Pit-a-pat Pit-a-pat) (Heart, heart)</line>
+        </refrain> 
+    </engTrans>
+</song>

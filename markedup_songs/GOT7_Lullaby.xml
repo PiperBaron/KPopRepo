@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="song_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<song>
+    <about>
+        <songName xml:id="Lullaby">Lullaby(럴러바이)</songName>
+        <artistName artistRef="GOT7">GOT7(갓세븐)</artistName>
+        <bgInfo>
+            <p>“Lullaby” is the title track of <groupMent artistRef="GOT7">GOT7</groupMent>’s third studio album “<albumMent albumRef="Present: YOU">Present: YOU</albumMent>”. With groovy verses and a fairly heavy bass in the chorus.</p>
+            <meaning>this album is meant to show that the group’s most beautiful and the best present is their fans.</meaning>
+        </bgInfo>
+        <album albumRef="Present: YOU">Present: YOU</album>
+        <produceCredit>
+            <producer>Jake K</producer>
+            <producer> 영광의 얼굴들 (Glory Face)</producer>
+        </produceCredit>
+        <lyricCredit>
+            <writer> 영광의 얼굴들 (Glory Face)</writer>
+            <writer> 진리 (Jinli)</writer>
+            <writer> Jake K </writer>
+        </lyricCredit>
+        <label labelRef="JYPEnt, IRI">JYP Entertainment, IRIVER</label>
+        <releaseDate when="2018-09-17">September 17, 2018</releaseDate>
+    </about>
+
+    <koreanLyrics>    
+        
+        <verse versenum="1" artistname="Jackson, Yugyeom">
+            <line linenum="2" lineRef="Jackson"> 한낮에 꾸는 꿈</line>
+            <line linenum="3" lineRef="Jackson">믿기지 않을 뿐</line>
+            <line linenum="4" lineRef="Jackson"> 여전히 난 거짓말 같아</line>
+            <line linenum="5" lineRef="Jackson">눈 떠보면 너의 품</line>
+            <line linenum="6" lineRef="Yugyeom">(안도의 한숨)</line>
+        </verse>
+        
+        <verse versenum="2" artistname="Mark">
+            <line linenum="7" lineRef="Mark">Girl 네가 부르는 내 이름</line>
+            <line linenum="8" lineRef="Mark"> 뭐든 널 거치면 아름다워져</line>
+            <line linenum="9" lineRef="Mark"> 새로 피어나 I bloom</line>
+        </verse>
+        <verse versenum="3" artistname="Jinyoung, Yugyeom">
+            <line linenum="10" lineRef="Jinyoung"> Bloom 놀라워 넌 뭘 좀 알아</line>
+            <line linenum="11" lineRef="Yugyeom">갈수록 더 더 Fallin’</line>
+            <line linenum="12" lineRef="Jinyoung"> 두근거림은 멈추지 않아 매일 더 해</line>
+        </verse>
+        
+            <verse versenum="4" artistname="Bambam, Youngjae">
+                <line linenum="13" lineRef="Bambam"> Girl 속삭이는 모든 언어들</line>
+                <line linenum="14" lineRef="Youngjae">감미롭게 날 파고들어</line>
+                <line linenum="15" lineRef="Youngjae"> 막을 수 없어</line>
+        </verse>
+            
+        <preChorus prechorusnum="3" artistname="JB">
+            <line linenum="16" lineRef="JB"> 막을 생각 없어</line>
+            <line linenum="17" lineRef="JB">계속해서 널 찾고 있는 건 나야</line>
+        </preChorus>
+        
+         <preChorus prechorusnum="3" artistname=" Jinyoung">
+             <line linenum="18" lineRef="Jinyoung">  한시도 떨어질 수 없어</line>
+             <line linenum="19" lineRef="Jinyoung"> 계속해서 널 곁에 두고 싶어</line>
+        </preChorus>
+                
+          <chorus chorusnum="1"  artistname=" Youngjae, Yugyeom">
+              <line linenum="20" lineRef="Youngjae">Sweet talk to me babe</line>
+              <line linenum="21" lineRef="Youngjae">It’s magical</line>
+              <line linenum="22" lineRef="Youngjae">Sweet lullaby</line>
+              <line linenum="23" lineRef="Yugyeom">(매일매일 더 원해)</line>
+        </chorus>
+                
+         <chorus chorusnum="2" artistname=" JB">
+             <line linenum="24" lineRef="JB">Sweet talk to me babe</line>
+             <line linenum="25" lineRef="JB">It’s magical</line>
+             <line linenum="26" lineRef="JB">헤어날 수 없어 너에게서</line>
+        </chorus>
+                    
+        <chorus chorusnum="3" artistname="Yugyeom">
+            <line linenum="27" lineRef="Yugyeom">네게 취한 듯이 끌려 이 기분이</line>
+            <line linenum="28" lineRef="Yugyeom">계속될 수 있게 I want it, I want it</line>
+        </chorus>
+            
+            <chorus chorusnum="4" artistname="Jinyoung">
+            <line linenum="29" lineRef="Jinyoung"> 무거워진 눈이 감겨 이 순간이</line>
+            <line linenum="30" lineRef="Jinyoung">영원할 수 있게 I want it, I want it</line>
+            </chorus>
+        
+           <chorus chorusnum="5" artistname="Bambam, Yugyeom">
+            <line linenum="31" lineRef="Bambam">You make me ay, ay, ay</line>
+            <line linenum="32" lineRef="Yugyeom">You make me 스르르 천천히 잠들어</line>
+           </chorus>
+        
+          <chorus chorusnum="6" artistname="Jackson, Jinyoung">
+            <line linenum="33" lineRef="Jackson"> You make me ay, ay, ay</line>
+            <line linenum="34" lineRef="Jinyoung"> 다정히 불어오는 바람처럼</line>
+          </chorus>
+        
+        <verse versenum="5" artistname=" Bambam, Youngjae">
+            <line linenum="35" lineRef="Bambam">머릴 쓰다듬는 손길</line>
+            <line linenum="36" lineRef="Bambam"> 조금 날이 선 햇빛</line>
+            <line linenum="37" lineRef="Bambam">나른한 이 분위기 완벽해</line>
+            <line linenum="38" lineRef="Youngjae">(두근거림은 멈추지 않아 매일 더 해)</line>
+        </verse>
+                        
+        <verse versenum="6" artistname=" Mark">
+            <line linenum="39" lineRef="Mark">네가 가린 손에 어두워져도 It’s okay</line>
+            <line linenum="40" lineRef="Mark">어둠도 밝게 느껴지는 이유 그건 It’s you</line>
+        </verse>
+                
+         <preChorus prechorusnum="3" artistname=" Youngjae">
+             <line linenum="41" lineRef="Youngjae">막을 생각 없어</line>
+             <line linenum="42" lineRef="Youngjae"> 계속해서 널 찾고 있는 건 나야</line>
+        </preChorus>
+                
+        <preChorus prechorusnum="4" artistname="Yugyeom">
+            <line linenum="43" lineRef="Yugyeom">한시도 떨어질 수 없어</line>
+            <line linenum="44" lineRef="Yugyeom"> 계속해서 널 곁에 두고 싶어</line>
+        </preChorus>
+                
+         <chorus chorusnum="7" artistname="Jinyoung, Yugyeom">
+             <line linenum="45" lineRef="Jinyoung">Sweet talk to me babe</line>
+             <line linenum="46" lineRef="Jinyoung"> It’s magical</line>
+             <line linenum="47" lineRef="Jinyoung">Sweet lullaby</line>
+             <line linenum="48" lineRef="Yugyeom">(매일매일 더 원해)</line>
+        </chorus>
+        
+        <chorus chorusnum="7" artistname="JB">
+            <line linenum="49" lineRef="JB"> Sweet talk to me babe</line>
+            <line linenum="50" lineRef="JB">It’s magical</line>
+            <line linenum="51" lineRef="JB"> 헤어날 수 없어 너에게서</line>
+        </chorus>
+                    
+              <chorus chorusnum="8" artistname="Youngjae">
+            <line linenum="52" lineRef="Youngjae"> 네게 취한 듯이 끌려 이 기분이</line>
+            <line linenum="53" lineRef="Youngjae">계속될 수 있게 I want it, I want it</line>
+              </chorus>
+        
+             <chorus chorusnum="9" artistname="Youngjae">
+                <line linenum="54" lineRef="Youngjae"> 무거워진 눈이 감겨 이 순간이</line>
+                <line linenum="55" lineRef="Youngjae">영원할 수 있게 I want it, I want it</line>
+             </chorus>
+        
+         <bridge artistname="Jinyoung, Jackson">
+             <line linenum="56" lineRef="Jinyoung">꿈이라면 날 깨우지 말아줘</line>
+             <line linenum="57" lineRef="Jackson">철없이 영원을 바래 끝없이 너를 원해</line>
+        </bridge>
+                        
+          <bridge artistname="Youngjae, JB">
+              <line linenum="58" lineRef="Youngjae"> 달콤한 목소리로 가득 채워줘</line>
+              <line linenum="59" lineRef="JB"> 지금 이 순간 Stay with me</line>
+        </bridge>
+                            
+          <chorus chorusnum="10" artistname=" Jinyoung, JB">
+              <line linenum="60" lineRef="Jinyoung"> Sweet talk to me babe</line>
+              <line linenum="61" lineRef="Jinyoung">  It’s magical</line>
+              <line linenum="62" lineRef="Jinyoung">Sweet lullaby</line>
+                  <line linenum="63" lineRef="JB">(매일매일 더 원해)</line>
+        </chorus>
+                            
+       <chorus chorusnum="11" artistname="JB">
+           <line linenum="64" lineRef="JB">Sweet talk to me babe</line>
+           <line linenum="65" lineRef="JB">It’s magical</line>
+           <line linenum="66" lineRef="JB">깨어날 수 없어 너에게서</line>
+        </chorus>
+                            
+        <chorus chorusnum="12" artistname="Jinyoung">
+            <line linenum="67" lineRef="Jinyoung">Sweet talk to me babe</line>
+            <line linenum="68" lineRef="Jinyoung">It’s magical</line>
+        </chorus>
+    </koreanLyrics>
+    
+        <engTrans>
+            <verse versenum="1" artistname="Jackson, Yugyeom">
+                <line linenum="2" lineRef="Jackson"> This girl is like a dream</line>
+                <line linenum="3" lineRef="Jackson">My wildest fantasy</line>
+                <line linenum="4" lineRef="Jackson"> And right when I think I’m gon’ wake up</line>
+                <line linenum="5" lineRef="Jackson">She’s pullin’ me right back in</line>
+                <line linenum="6" lineRef="Yugyeom">(To serenity)</line>
+            </verse>
+            
+            <verse versenum="2" artistname="Mark">
+                <line linenum="7" lineRef="Mark">Girl I can’t believe you’re so unreal</line>
+                <line linenum="8" lineRef="Mark"> Oh it’s just somethin’ about the way you move</line>
+                <line linenum="9" lineRef="Mark"> You’re like a flower in bloom</line>
+            </verse>
+            <verse versenum="3" artistname="Jinyoung, Yugyeom">
+                <line linenum="10" lineRef="Jinyoung"> Bloom It’s crazy how you can make me</line>
+                <line linenum="11" lineRef="Yugyeom">Forget what I’ve been doin’</line>
+                <line linenum="12" lineRef="Jinyoung"> Oh it’s a problem and growin’ more and more each day</line>
+            </verse>
+            
+            <verse versenum="4" artistname="Bambam, Youngjae">
+                <line linenum="13" lineRef="Bambam"> Girl whisper your sweet nothings in my ear</line>
+                <line linenum="14" lineRef="Youngjae">‘Cause every word can speak to my soul</line>
+                <line linenum="15" lineRef="Youngjae"> It’s outta my control</line>
+            </verse>
+            
+            <preChorus prechorusnum="3" artistname="JB">
+                <line linenum="16" lineRef="JB">Oh when you say my name</line>
+                <line linenum="17" lineRef="JB">It sounds like a song And I’d listen all day long</line>
+            </preChorus>
+            
+            <preChorus prechorusnum="3" artistname=" Jinyoung">
+                <line linenum="18" lineRef="Jinyoung"> Oh I don’t understand it But I can’t turn it off</line>
+                <line linenum="19" lineRef="Jinyoung">Baby don’t ever stop</line>
+            </preChorus>
+            
+            <chorus chorusnum="1"  artistname=" Youngjae, Yugyeom">
+                <line linenum="20" lineRef="Youngjae">Sweet talk to me babe</line>
+                <line linenum="21" lineRef="Youngjae">It’s magical</line>
+                <line linenum="22" lineRef="Youngjae">Sweet lullaby</line>
+                <line linenum="23" lineRef="Yugyeom">(Oh it’s so hypnotizin’)</line>
+            </chorus>
+            
+            <chorus chorusnum="2" artistname=" JB">
+                <line linenum="24" lineRef="JB">Sweet talk to me babe</line>
+                <line linenum="25" lineRef="JB">It’s magical</line>
+                <line linenum="26" lineRef="JB">I wanna hear you sing it every night</line>
+            </chorus>
+            
+            <chorus chorusnum="3" artistname="Yugyeom">
+                <line linenum="27" lineRef="Yugyeom">I can’t help this feelin’</line>
+                <line linenum="28" lineRef="Yugyeom">Like I know your secrets</line>
+                <line linenum="29" lineRef="Yugyeom">Hope it lasts forever, I want it, I want it</line>
+            </chorus>
+            
+            <chorus chorusnum="4" artistname="Jinyoung">
+                <line linenum="30" lineRef="Jinyoung"> Whisperin’ so gently Eyelids gettin’ heavy</line>
+                <line linenum="31" lineRef="Jinyoung">Make it last forever, I want it, I want it</line>
+            </chorus>
+            
+            <chorus chorusnum="5" artistname="Bambam, Yugyeom">
+                <line linenum="32" lineRef="Bambam">You make me ay, ay, ay</line>
+                <line linenum="33" lineRef="Yugyeom">You got me driftin’ in and out of this slumber</line>
+            </chorus>
+            
+            <chorus chorusnum="6" artistname="Jackson, Jinyoung">
+                <line linenum="34" lineRef="Jackson"> You make me ay, ay, ay</line>
+                <line linenum="35" lineRef="Jinyoung"> I know for sure I never wanna wake up</line>
+            </chorus>
+            
+            <verse versenum="5" artistname=" Bambam, Youngjae">
+                <line linenum="36" lineRef="Bambam">Lovin’ the touch of your fingers</line>
+                <line linenum="37" lineRef="Bambam"> In my hair it still lingers</line>
+                <line linenum="38" lineRef="Bambam">Tell me is it truth or fiction baby</line>
+                <line linenum="39" lineRef="Youngjae">(Still can’t believe you and me are makin’ music each day)</line>
+            </verse>
+            
+            <verse versenum="6" artistname=" Mark">
+                <line linenum="40" lineRef="Mark">Anythin’ from your lips got me thinkin’ it’s all okay</line>
+                <line linenum="41" lineRef="Mark">I don’t need fortune or the fameAs long as I’m with you </line>
+            </verse>
+            
+            <preChorus prechorusnum="3" artistname=" Youngjae">
+                <line linenum="42" lineRef="Youngjae">Oh when you say my name </line>
+                <line linenum="43" lineRef="Youngjae"> It sounds like a song And I’d listen all day long</line>
+            </preChorus>
+            
+            <preChorus prechorusnum="4" artistname="Yugyeom">
+                <line linenum="44" lineRef="Yugyeom">Oh I don’t understand it But I can’t turn it off</line>
+                <line linenum="45" lineRef="Yugyeom"> Baby don’t ever stop</line>
+            </preChorus>
+            
+            <chorus chorusnum="7" artistname="Jinyoung, Yugyeom">
+                <line linenum="46" lineRef="Jinyoung">Sweet talk to me babe</line>
+                <line linenum="47" lineRef="Jinyoung"> It’s magical</line>
+                <line linenum="48" lineRef="Jinyoung">Sweet lullaby</line>
+                <line linenum="49" lineRef="Yugyeom">(Oh it’s so hypnotizin’)</line>
+            </chorus>
+            
+            <chorus chorusnum="7" artistname="JB">
+                <line linenum="50" lineRef="JB"> Sweet talk to me babe</line>
+                <line linenum="51" lineRef="JB">It’s magical</line>
+                <line linenum="52" lineRef="JB"> I wanna hear you sing it every night</line>
+            </chorus>
+            
+            <chorus chorusnum="8" artistname="Yugyeom, JB">
+                <line linenum="53" lineRef="Yugyeom"> I can’t help this feelin<backVocal lineRef="JB"> help this feelin</backVocal></line>
+                <line linenum="54" lineRef="Yugyeom">Like I know your secrets<backVocal lineRef="JB">know your secrets</backVocal></line>
+                <line linenum="55" lineRef="Yugyeom">Hope it lasts forever, I want it, I want it</line>
+            </chorus>
+            
+            <chorus chorusnum="9" artistname="Youngjae">
+                <line linenum="56" lineRef="Youngjae"> Whisperin’ so gently, Eyelids gettin’ heavy </line>
+                <line linenum="57" lineRef="Youngjae"> Make it last forever, I want it, I want it</line>      
+            </chorus>
+            
+            <bridge artistname="Jinyoung, Jackson">
+                <line linenum="58" lineRef="Jinyoung">If I’m dreaming, don’t ever wake me up</line>
+                <line linenum="59" lineRef="Jackson">I wanna hear your melody, the only thing I could need</line>
+            </bridge>
+            
+            <bridge artistname="Youngjae, JB">
+                <line linenum="60" lineRef="Youngjae"> ‘Cause if I had to live without you I’d be lost</line>
+                <line linenum="61" lineRef="JB"> And in this moment, I want more</line>
+            </bridge>
+            
+            <chorus chorusnum="10" artistname=" Jinyoung, JB">
+                <line linenum="62" lineRef="Jinyoung"> Sweet talk to me babe</line>
+                <line linenum="63" lineRef="Jinyoung">  It’s magical</line>
+                <line linenum="64" lineRef="Jinyoung">Sweet lullaby</line>
+                <line linenum="65" lineRef="JB">(Oh it’s so hypnotizin’)</line>
+            </chorus>
+            
+            <chorus chorusnum="11" artistname="JB">
+                <line linenum="66" lineRef="JB">Sweet talk to me babe</line>
+                <line linenum="67" lineRef="JB">It’s magical</line>
+                <line linenum="68" lineRef="JB">I wanna hear you sing it every night</line>
+            </chorus>
+            
+            <chorus chorusnum="12" artistname="Jinyoung">
+                <line linenum="69" lineRef="Jinyoung">Sweet talk to me babe</line>
+                <line linenum="70" lineRef="Jinyoung">It’s magical</line>
+            </chorus> 
+        </engTrans>
+</song>
+        
+        
