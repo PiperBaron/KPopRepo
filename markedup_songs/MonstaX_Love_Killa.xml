@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="song_markup_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="xmlidChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<song>
+    <about>
+        <songName xml:id="Love-Killa">Love Killa</songName>
+        <artistName artistRef="MonstaX">Monsta X (몬스타엑스)</artistName>
+        <bgInfo>
+            <p></p>
+        </bgInfo>
+        <album albumRef="Fatal-Love">Fatal Love</album>
+        <produceCredit>
+            <producer>Willie Weeks</producer>
+            <producer>Kyler Niko</producer>
+            <producer>Brother Su (브라더수)</producer>
+        </produceCredit>
+        <lyricCredit>
+            <writer>Andy Love</writer>
+            <writer>Jeff Lewis</writer>
+            <writer artistRef="IM">I.M</writer>
+            <writer>Seo Ji Eum (서지음)</writer>
+            <writer artistRef="Joohoney">Joohoney</writer>
+        </lyricCredit>
+        <label labelRef="StarshipEnt">Starship Entertainment</label>
+        <releaseDate when="2020-09-02">November 2, 2020</releaseDate>
+    </about>
+    
+    <koreanLyrics>    
+        <intro artistname="IM, Joohoney">
+            <line linenum="1" lineRef="IM">Got room for one more</line>
+            <line linenum="2" lineRef="Joohoney">Oh, I'm sorry, did I make you anxious?</line>
+        </intro>
+        
+        <verse versenum="1" artistname="Joohoney">
+            <line linenum="3" lineRef="Joohoney">오묘하게 움직여 like swish</line>
+            <line linenum="4" lineRef="Joohoney">숨죽여 먹잇감을 사냥하듯이</line>
+            <line linenum="5" lineRef="Joohoney">반복되는 기싸움 속 우린 비상</line>
+            <line linenum="6" lineRef="Joohoney">빨간 사이렌도 꺼 이제 너와 나 <backVocal lineRef="Joohoney">(shhh)</backVocal></line>
+        </verse>
+        
+        <refrain refrainnum="1" artistname="Minhyuk, Joohoney">
+            <line linenum="7" lineRef="Minhyuk">감각 따윈 없어 no more pain</line>
+            <line linenum="8" lineRef="Minhyuk">어차피 너와 나는 love or hate</line>
+            <line linenum="9" lineRef="Minhyuk">미친 듯이 원하고 증오해</line>
+            <line linenum="10" lineRef="Joohoney">I'ma slay, I'ma chill, I'ma kill</line>
+        </refrain>
+        
+        <preChorus prechorusnum="1" artistname="Shownu, Minhyuk, All">
+            <line linenum="11" lineRef="Shownu">지금부터가 반전</line>
+            <line linenum="12" lineRef="Minhyuk">Pull the trigger, yeah, 땡겨 땡겨</line>
+            <line linenum="13" lineRef="Shownu">우린 전부 psycho, 반쯤은 나 미쳐</line>
+            <line linenum="14" lineRef="All">Dudududu dudududu dudududu</line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname="Kihyun, All, Shownu">
+            <line linenum="15" lineRef="Kihyun">모든 걸 다 던져 <backVocal lineRef="All">(ya)</backVocal> <sharedLine lineRef="All">(끝을 봐 끝을 봐)</sharedLine></line>
+            <line linenum="16" lineRef="Kihyun">Now take a shot <backVocal lineRef="All">(Take a shot)</backVocal></line>
+            <line linenum="17" lineRef="Kihyun">Take a shot</line>
+            <line linenum="18" lineRef="Kihyun">악감정은 없어 <sharedLine lineRef="All">(Check ‘em out, check ‘em out)</sharedLine></line>
+            <line linenum="19" lineRef="Kihyun">Now take a shot</line>
+            <line linenum="20" lineRef="Shownu">충분해 충분해</line>
+        </chorus>
+
+        <postChorus postchorusnum="1" artistname="Hyungwon, IM, Joohoney">
+            <line linenum="21" lineRef="Hyungwon">잔인하고 아름다워 love killa, love killa <backVocal lineRef="IM">(love killa)</backVocal></line>
+            <line linenum="22" lineRef="Hyungwon">아름다워 love killa, love killa</line>
+            <line linenum="23" lineRef="Hyungwon">아름다워 love killa, love killa</line>
+            <line linenum="24" lineRef="Hyungwon">아름다워 love killa, love killa</line>
+            <line linenum="25" lineRef="IM"><backVocal lineRef="Joohoney">(빠져들어 난)</backVocal></line>
+        </postChorus>
+        
+        <verse versenum="2" artistname="IM">
+            <line linenum="26" lineRef="IM">That's right, you look at my eyes</line>
+            <line linenum="27" lineRef="IM">Straight into my eyes and just say</line>
+            <line linenum="28" lineRef="IM">I want you, eat me like a main dish</line>
+            <line linenum="29" lineRef="IM">뜨거워 데일듯해 hottish</line>
+            <line linenum="30" lineRef="IM">It ain't clićhe, 뻔한 결말 pass it</line>
+            <line linenum="31" lineRef="IM">난 좀 더 자극적인걸 원해 hot, shh</line>
+        </verse>
+        
+        <refrain refrainnum="2" artistname="Joohoney, IM">
+            <line linenum="32" lineRef="Joohoney">더 날카롭게 갈기 세워</line>
+            <line linenum="33" lineRef="Joohoney">I'm a savage, savage, your love is rare</line>
+            <line linenum="34" lineRef="IM">가뿐히 널 만족시키지, 넌 비슷하지도 mm</line>
+            <line linenum="35" lineRef="IM">I'ma slay, I'ma chill, I'ma kill</line>
+        </refrain>
+
+        <preChorus prechorusnum="2" artistname="Shownu, Minhyuk, All">
+            <line linenum="36" lineRef="Shownu">지금부터가 반전</line>
+            <line linenum="37" lineRef="Minhyuk">Pull the trigger, yeah, 땡겨 땡겨</line>
+            <line linenum="38" lineRef="Shownu">우린 전부 psycho, 환상적인 fighter</line>
+            <line linenum="39" lineRef="All">Dudududu dudududu dudududu</line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname="Kihyun, All, Minhyuk">
+            <line linenum="40" lineRef="Kihyun">모든 걸 다 던져 <backVocal lineRef="All">(ya)</backVocal> <sharedLine lineRef="All">(끝을 봐 끝을 봐)</sharedLine></line>
+            <line linenum="41" lineRef="Kihyun">Now takе a shot <backVocal lineRef="All">(Take a shot)</backVocal></line>
+            <line linenum="42" lineRef="Kihyun">Take a shot</line>
+            <line linenum="43" lineRef="Kihyun">악감정은 없어 <sharedLine lineRef="All">(Check ‘еm out, check ‘em out)</sharedLine></line>
+            <line linenum="44" lineRef="Kihyun">Now take a shot</line>
+            <line linenum="45" lineRef="Minhyuk">충분해 충분해</line>
+        </chorus>
+        
+        <postChorus postchorusnum="2" artistname="Hyungwon, IM, Joohoney">
+            <line linenum="46" lineRef="Hyungwon">잔인하고 아름다워 love killa, love killa <backVocal lineRef="IM">(love killa)</backVocal></line>
+            <line linenum="47" lineRef="Hyungwon">아름다워 love killa, love killa</line>
+            <line linenum="48" lineRef="Hyungwon">아름다워 love killa, love killa</line>
+            <line linenum="49" lineRef="Hyungwon">서로를 향해 겨눈 순간</line>
+            <line linenum="50" lineRef="IM"><backVocal lineRef="Joohoney">(빠져들어 난)</backVocal></line>
+        </postChorus>
+        
+        <bridge artistname="Minhyuk, Shownu">
+            <line linenum="51" lineRef="Minhyuk">알다시피 우린 절대 서로를 놓지 못해</line>
+            <line linenum="52" lineRef="Shownu">이런 사랑 이런 상황 감당할 수 있는 사람</line>
+            <line linenum="53" lineRef="Minhyuk"><backVocal lineRef="Shownu">You know that</backVocal></line>
+        </bridge>
+        
+        <chorus chorusnum="3" artistname="Kihyun">
+            <line linenum="54" lineRef="Kihyun">넌 언제나 <sharedLine lineRef="All">(끝을 봐 끝을 봐)</sharedLine></line>
+            <line linenum="55" lineRef="Kihyun">난 그것도 나쁘진 않아</line>
+            <line linenum="56" lineRef="Kihyun">악감정은 없어 <sharedLine lineRef="All">(Check ‘em out, check ‘em out)</sharedLine></line>
+            <line linenum="57" lineRef="Kihyun">자, 이다음엔 뭐야</line>
+        </chorus>
+        
+        <postChorus postchorusnum="3" artistname="Shownu, Joohoney, IM">
+            <line linenum="58" lineRef="Shownu">잔인하고 아름다워 love killa, love killa <backVocal lineRef="IM">(love killa)</backVocal></line>
+            <line linenum="59" lineRef="Shownu">아름다워 love killa, love killa</line>
+            <line linenum="60" lineRef="Shownu">아름다워 love killa, love killa</line>
+            <line linenum="61" lineRef="Shownu">서로를 향해 겨눈 순간</line>
+            <line linenum="62" lineRef="Joohoney"><backVocal lineRef="IM">잔인하고 아름다워 love killa, love killa</backVocal></line>
+            <line linenum="63" lineRef="Joohoney"><backVocal lineRef="IM">아름다워 love killa, love killa</backVocal></line>
+            <line linenum="64" lineRef="Joohoney"><backVocal lineRef="IM">아름다워 love killa, love killa</backVocal></line>
+            <line linenum="65" lineRef="Joohoney"><backVocal lineRef="IM">아름다워 love killa, love killa</backVocal></line>
+            <line linenum="66" lineRef="Joohoney"><backVocal lineRef="IM">(빠져들어 난)</backVocal></line>
+        </postChorus>
+
+        <outro artistname="IM, Joohoney">
+            <line linenum="67" lineRef="IM">Hush, hush, I'ma take you down</line>
+            <line linenum="68" lineRef="Joohoney">Oh, I'm sorry, did I make you anxious?</line>
+        </outro>
+    </koreanLyrics>
+    
+    
+    <engTrans>
+        <intro artistname="IM, Joohoney">
+            <line linenum="1" lineRef="IM">Got room for one more</line>
+            <line linenum="2" lineRef="Joohoney">Oh, I'm sorry, did I make you anxious?</line>
+        </intro>
+        
+        <verse versenum="1" artistname="Joohoney">
+            <line linenum="3" lineRef="Joohoney">Move in a subtle way like swish</line>
+            <line linenum="4" lineRef="Joohoney">Like hunting for prey by holding his breath</line>
+            <line linenum="5" lineRef="Joohoney">We are flying in the repeated fights</line>
+            <line linenum="6" lineRef="Joohoney">Turn off the red siren, now you and me <backVocal lineRef="Joohoney">(shhh)</backVocal></line>
+        </verse>
+        
+        <refrain refrainnum="1" artistname="Minhyuk, Joohoney">
+            <line linenum="7" lineRef="Minhyuk">I have no senses, no more pain</line>
+            <line linenum="8" lineRef="Minhyuk">Anyway you and I love or hate</line>
+            <line linenum="9" lineRef="Minhyuk">I want and hate like crazy</line>
+            <line linenum="10" lineRef="Joohoney">I'ma slay, I'ma chill, I'ma kill</line>
+        </refrain>
+        
+        <preChorus prechorusnum="1" artistname="Shownu, Minhyuk, All">
+            <line linenum="11" lineRef="Shownu">From now on</line>
+            <line linenum="12" lineRef="Minhyuk">Pull the trigger, yeah, pull it up</line>
+            <line linenum="13" lineRef="Shownu">We're all psycho, halfway I'm crazy</line>
+            <line linenum="14" lineRef="All">Dudududu dudududu dudududu</line>
+        </preChorus>
+        
+        <chorus chorusnum="1" artistname="Kihyun, All, Shownu">
+            <line linenum="15" lineRef="Kihyun">Throw everything <backVocal lineRef="All">(ya)</backVocal> <sharedLine lineRef="All">(See the end, see the end)</sharedLine></line>
+            <line linenum="16" lineRef="Kihyun">Now take a shot <backVocal lineRef="All">(Take a shot)</backVocal></line>
+            <line linenum="17" lineRef="Kihyun">Take a shot</line>
+            <line linenum="18" lineRef="Kihyun">No bad feelings <sharedLine lineRef="All">(Check ‘em out, check ‘em out)</sharedLine></line>
+            <line linenum="19" lineRef="Kihyun">Now take a shot</line>
+            <line linenum="20" lineRef="Shownu">Enough, enough</line>
+        </chorus>
+        
+        <postChorus postchorusnum="1" artistname="Hyungwon, IM, Joohoney">
+            <line linenum="21" lineRef="Hyungwon">It's cruel and beautiful, love killa, love killa <backVocal lineRef="IM">(love killa)</backVocal></line>
+            <line linenum="22" lineRef="Hyungwon">Beautiful love killa, love killa</line>
+            <line linenum="23" lineRef="Hyungwon">Beautiful love killa, love killa</line>
+            <line linenum="24" lineRef="Hyungwon">Beautiful love killa, love killa</line>
+            <line linenum="25" lineRef="IM"><backVocal lineRef="Joohoney">(I fall in)</backVocal></line>
+        </postChorus>
+        
+        <verse versenum="2" artistname="IM">
+            <line linenum="26" lineRef="IM">That's right, you look at my eyes</line>
+            <line linenum="27" lineRef="IM">Straight into my eyes and just say</line>
+            <line linenum="28" lineRef="IM">I want you, eat me like a main dish</line>
+            <line linenum="29" lineRef="IM">It's hot, it looks like it's hot, hottish</line>
+            <line linenum="30" lineRef="IM">It ain't clićhe, the obvious ending, pass it</line>
+            <line linenum="31" lineRef="IM">I want something more provocative hot, shh</line>
+        </verse>
+        
+        <refrain refrainnum="2" artistname="Joohoney, IM">
+            <line linenum="32" lineRef="Joohoney">Sharpen it sharper</line>
+            <line linenum="33" lineRef="Joohoney">I'm a savage, savage, your love is rare</line>
+            <line linenum="34" lineRef="IM">Easily satisfy you, mm, even if you're similar</line>
+            <line linenum="35" lineRef="IM">I'ma slay, I'ma chill, I'ma kill</line>
+        </refrain>
+        
+        <preChorus prechorusnum="2" artistname="Shownu, Minhyuk, All">
+            <line linenum="36" lineRef="Shownu">From now on</line>
+            <line linenum="37" lineRef="Minhyuk">Pull the trigger, yeah, pull it up</line>
+            <line linenum="38" lineRef="Shownu">We're all psycho, fantastic fighter</line>
+            <line linenum="39" lineRef="All">Dudududu dudududu dudududu</line>
+        </preChorus>
+        
+        <chorus chorusnum="2" artistname="Kihyun, All, Minhyuk">
+            <line linenum="40" lineRef="Kihyun">Throw everything <backVocal lineRef="All">(ya)</backVocal> <sharedLine lineRef="All">(See the end, see the end)</sharedLine></line>
+            <line linenum="41" lineRef="Kihyun">Now takе a shot <backVocal lineRef="All">(Take a shot)</backVocal></line>
+            <line linenum="42" lineRef="Kihyun">Take a shot</line>
+            <line linenum="43" lineRef="Kihyun">No bad feelings <sharedLine lineRef="All">(Check ‘еm out, check ‘em out)</sharedLine></line>
+            <line linenum="44" lineRef="Kihyun">Now take a shot</line>
+            <line linenum="45" lineRef="Minhyuk">Enough, enough</line>
+        </chorus>
+        
+        <postChorus postchorusnum="2" artistname="Hyungwon, IM, Joohoney">
+            <line linenum="46" lineRef="Hyungwon">It's cruel and beautiful, love killa, love killa <backVocal lineRef="IM">(love killa)</backVocal></line>
+            <line linenum="47" lineRef="Hyungwon">Beautiful love killa, love killa</line>
+            <line linenum="48" lineRef="Hyungwon">Beautiful love killa, love killa</line>
+            <line linenum="49" lineRef="Hyungwon">The moment we aim at each other</line>
+            <line linenum="50" lineRef="IM"><backVocal lineRef="Joohoney">(I fall in)</backVocal></line>
+        </postChorus>
+        
+        <bridge artistname="Minhyuk, Shownu">
+            <line linenum="51" lineRef="Minhyuk">You know we never let each other go</line>
+            <line linenum="52" lineRef="Shownu">Someone who can handle this kind of love</line>
+            <line linenum="53" lineRef="Minhyuk"><backVocal lineRef="Shownu">You know that</backVocal></line>
+        </bridge>
+        
+        <chorus chorusnum="3" artistname="Kihyun">
+            <line linenum="54" lineRef="Kihyun">You always <sharedLine lineRef="All">(See the end, see the end)</sharedLine></line>
+            <line linenum="55" lineRef="Kihyun">I'm not bad either</line>
+            <line linenum="56" lineRef="Kihyun">No bad feelings <sharedLine lineRef="All">(Check ‘em out, check ‘em out)</sharedLine></line>
+            <line linenum="57" lineRef="Kihyun">Now, what's next</line>
+        </chorus>
+        
+        <postChorus postchorusnum="3" artistname="Shownu, Joohoney, IM">
+            <line linenum="58" lineRef="Shownu">It's cruel and beautiful, love killa, love killa <backVocal lineRef="IM">(love killa)</backVocal></line>
+            <line linenum="59" lineRef="Shownu">Beautiful love killa, love killa</line>
+            <line linenum="60" lineRef="Shownu">Beautiful love killa, love killa</line>
+            <line linenum="61" lineRef="Shownu">The moment we aim at each other</line>
+            <line linenum="62" lineRef="Joohoney"><backVocal lineRef="IM">It's cruel and beautiful, love killa, love killa</backVocal></line>
+            <line linenum="63" lineRef="Joohoney"><backVocal lineRef="IM">Beautiful love killa, love killa</backVocal></line>
+            <line linenum="64" lineRef="Joohoney"><backVocal lineRef="IM">Beautiful love killa, love killa</backVocal></line>
+            <line linenum="65" lineRef="Joohoney"><backVocal lineRef="IM">Beautiful love killa, love killa</backVocal></line>
+            <line linenum="66" lineRef="Joohoney"><backVocal lineRef="IM">(I fall in)</backVocal></line>
+        </postChorus>
+        
+        <outro artistname="IM, Joohoney">
+            <line linenum="67" lineRef="IM">Hush, hush, I'ma take you down</line>
+            <line linenum="68" lineRef="Joohoney">Oh, I'm sorry, did I make you anxious?</line>
+        </outro>
+    </engTrans>
+</song>
