@@ -100,8 +100,29 @@ li.dropdown {
   font-size: 18px;
 }
 
+.button_container {
+    text-align: center;
+}
+
+button {
+  background-color: #B38CFA;
+  border: none;
+  color: white;
+  padding: 10px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#member_toggle {
+    display: none;
+}
+
 .member_link_holder {
-  padding: 25px;
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
