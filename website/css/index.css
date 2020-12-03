@@ -118,11 +118,10 @@ button {
 }
 
 #member_toggle {
-    display: none;
+    visibility: hidden;
 }
 
 .member_link_holder {
-  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

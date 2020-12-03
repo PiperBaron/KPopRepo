@@ -7,10 +7,10 @@ function init() {
 }
 
 function show_hide() {
-    var tog = document.getElementById("member_toggle");
-    if (tog.style.display === "none") {
-    tog.style.display = "block";
+  var tog = document.getElementById('member_toggle');
+  if (tog.style.visibility === 'hidden') {
+    tog.style.visibility = 'visible';
   } else {
-    tog.style.display = "none";
+    tog.style.visibility = 'hidden';
   }
 }
