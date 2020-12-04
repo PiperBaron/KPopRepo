@@ -70,9 +70,9 @@
             <stageName>Nayeon (나연)</stageName>
             <koreanName>Im Na Yeon (임나연)</koreanName>
             <role>
-            <position num="1" roleType="vocalist">Lead Vocalist</position>
-            <position num="2" roleType="dancer">Lead Dancer</position>
-            <position num="3" roleType="center">Center</position>    
+                <position num="1" roleType="vocalist">Lead Vocalist</position>
+                <position num="2" roleType="dancer">Lead Dancer</position>
+                <position num="3" roleType="center">Center</position>    
             </role>
             <height>163 cm (5’4″)</height>
             <weight>47 kg (104 lbs)</weight>
@@ -173,5 +173,5 @@
             <birthday when="1999-06-14">June 14, 1999</birthday>
         </member>
     </memberList>
-     
+    
 </groupPage>
