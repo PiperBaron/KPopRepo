@@ -170,11 +170,27 @@ div.song_line.RM.on {
     color: #E72121;
 }
 
+span.backing_vocal.RM.on {
+    color: #E72121;
+}
+
+span.shared_vocal.RM.on {
+    color: #E72121;
+}
+
 span.TestJin {
     color: #E78421;
 }
 
 div.song_line.Jin.on {
+    color: #E78421;
+}
+
+span.backing_vocal.Jin.on {
+    color: #E78421;
+}
+
+span.shared_vocal.Jin.on {
     color: #E78421;
 }
 
@@ -187,11 +203,27 @@ div.song_line.Suga.on {
     color: #D4C92E;
 }
 
+span.backing_vocal.Suga.on {
+    color: #D4C92E;
+}
+
+span.shared_vocal.Suga.on {
+    color: #D4C92E;
+}
+
 span.TestJHope {
     color: #82E721;
 }
 
 div.song_line.J-Hope.on {
+    color: #82E721;
+}
+
+span.backing_vocal.J-Hope.on {
+    color: #82E721;
+}
+
+span.shared_vocal.J-Hope.on {
     color: #82E721;
 }
 
@@ -203,11 +235,27 @@ div.song_line.Jimin.on {
     color: #21E7BF;
 }
 
+span.backing_vocal.Jimin.on {
+    color: #21E7BF;
+}
+
+span.shared_vocal.Jimin.on {
+    color: #21E7BF;
+}
+
 span.TestV {
     color: #215FE7;
 }
 
 div.song_line.V.on {
+    color: #215FE7;
+}
+
+span.backing_vocal.V.on {
+    color: #215FE7;
+}
+
+span.shared_vocal.V.on {
     color: #215FE7;
 }
 
@@ -219,6 +267,14 @@ div.song_line.Jungkook.on {
     color: #8E21E7;
 }
 
+span.backing_vocal.Jungkook.on {
+    color: #8E21E7;
+}
+
+span.shared_vocal.Jungkook.on {
+    color: #8E21E7;
+}
+
 span.TestNonMember {
     color: #E95FF2;
 }
@@ -227,6 +283,13 @@ div.song_line.Non-Member.on {
     color: #E95FF2;
 }
 
+span.backing_vocal.Non-Member.on {
+    color: #E95FF2;
+}
+
+span.shared_vocal.Non-Member.on {
+    color: #E95FF2;
+}
 
 #lyrics_holder {
     margin: 45px 15px 15px 15px;
