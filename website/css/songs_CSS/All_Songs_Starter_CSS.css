@@ -153,6 +153,14 @@ li.nav_li.dropdown {
     padding: 0px;
 }
 
+#legend {
+    display: flex;
+    margin: auto;
+    float: right;
+    padding: 25px 45px;
+    margin-top: -50px;
+}
+
 #lyrics_holder {
     margin: 45px 15px 15px 15px;
   display: flex;

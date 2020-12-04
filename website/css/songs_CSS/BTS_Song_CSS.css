@@ -125,8 +125,118 @@ li.nav_li.dropdown {
    color: #E1A5FB;
 }
 
+#producers_list a {
+    text-decoration: none;
+    color: #E1A5FB;
+    display: inline;
+    padding: 0px;
+}
+
+#producers_list a:hover {
+    text-decoration: none;
+    color: #93a9ce;
+    display: inline;
+    padding: 0px;
+}
+
+#writers_list a {
+    text-decoration: none;
+    color: #E1A5FB;
+    display: inline;
+    padding: 0px;
+}
+
+#writers_list a:hover {
+    text-decoration: none;
+    color: #93a9ce;
+    display: inline;
+    padding: 0px;
+}
+
+#legend {
+    display: flex;
+    margin: auto;
+    float: right;
+    padding: 15px 45px;
+    margin-top: -50px;
+    margin-right: 25px;
+}
+
+span.TestRM {
+    color: #E72121;
+}
+
+div.song_line.RM.on {
+    color: #E72121;
+}
+
+span.TestJin {
+    color: #E78421;
+}
+
+div.song_line.Jin.on {
+    color: #E78421;
+}
+
+
+span.TestSuga {
+    color: #D4C92E;
+}
+
+div.song_line.Suga.on {
+    color: #D4C92E;
+}
+
+span.TestJHope {
+    color: #82E721;
+}
+
+div.song_line.J-Hope.on {
+    color: #82E721;
+}
+
+span.TestJimin {
+    color: #21E7BF;
+}
+
+div.song_line.Jimin.on {
+    color: #21E7BF;
+}
+
+span.TestV {
+    color: #215FE7;
+}
+
+div.song_line.V.on {
+    color: #215FE7;
+}
+
+span.TestJungkook {
+    color: #8E21E7;
+}
+
+div.song_line.Jungkook.on {
+    color: #8E21E7;
+}
+
+span.TestNonMember {
+    color: #E95FF2;
+}
+
+div.song_line.Non-Member.on {
+    color: #E95FF2;
+}
+
+
+#lyrics_holder {
+    margin: 45px 15px 15px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .lyrics_header {
- font-size: 40px;
+ font-size: 35px;
  margin: auto;
  text-align: center;
  margin-bottom: 35px;
@@ -135,19 +245,20 @@ li.nav_li.dropdown {
 
 #korean_lyrics_div {
     background-color: black;
-    margin: 15px;
-    width: 75%;
+    width: 45%;
     padding: 20px;
-    margin: auto;
-    margin-bottom: 25px;
+    margin: 0 auto;
+    font-size: 17px;
 }
 
 #english_trans_div {
+    vertical-align: top;
     background-color: black;
-    margin: 15px;
-    width: 75%;
+    width: 45%;
     padding: 20px;
-    margin: auto;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height:  132%;
 }
 
 .song_section {
