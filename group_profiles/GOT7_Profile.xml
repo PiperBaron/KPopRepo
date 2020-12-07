@@ -4,20 +4,19 @@
     <about>
         <groupName xml:id="GOT7">GOT7 (갓세븐)</groupName>
         <bgInfo>
-            <p>GOT7 is a 7-member boy group, formed by <compMent labelRef="JYPEnt">JYP
-                    Entertainment</compMent></p>
-            <p>They’re well-known for being a self-producing group, meaning many of the members
-                themselves write, compose, and produce much of the music and even design the
-                choreography to go with the songs. </p>
-            <p>Debuted in January 2014 with the single Girls Girls Girls featuring some female JYPE
-                trainees, including Nayeon and Jeongyeon who would debut with Twice.</p>
+            <p>GOT7 is a 7-member boy group, formed by <compMent labelRef="JYPEnt">JYP Entertainment</compMent>. They debuted in January of 2014 with the promoted single <albumMent albumRef="GotIt">Girls, Girls, Girls</albumMent>, the video for which featured some female JYPE trainees, including Nayeon and Jeongyeon who would debut with Twice.</p>
+            
+            <p>The group began as the smaller group JJ Project, consisting of members <memberMent artistRef="JB">JB</memberMent> and <memberMent artistRef="Jinyoung">Jinyoung</memberMent> (then known under the stage name Junior) who debuted as actors in 2012, as the other members were still in training. GOT7 are known for their international fame, having a bigger audience in the West, China, and Thailand due to members <memberMent artistRef="MarkTuan">Mark</memberMent>, <memberMent artistRef="Jackson">Jackson</memberMent>, and <memberMent artistRef="BamBam">BamBam</memberMent>’s origins in those regions. </p>
+            
+            <p>They’re also known for having a fair amount of creative input on their songs, each member being credited for writing and/or composing on many songs throughout their discography.</p>
+            
         </bgInfo>
 
         <company xml:id="JYPEnt">JYP Entertainment</company>
         <debutDate when="2014-01-16">January 16, 2014</debutDate>
         <debutSong>Girls Girls Girls</debutSong>
         <discography>
-            <album albumType="mini">Got it?</album>
+            <album albumType="mini" xml:id="GotIt">Got it?</album>
             <album albumType="mini">Got love</album>
             <album albumType="single">Around the World</album>
             <album albumType="full">Identify</album>

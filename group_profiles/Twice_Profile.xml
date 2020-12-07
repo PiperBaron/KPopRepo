@@ -4,14 +4,15 @@
     <about>
         <groupName xml:id="Twice">Twice (트와이스)</groupName>
         <bgInfo>
-            <p>Twice is a 9 member girl group formed by<compMent labelRef="JYPEnt"> JYP Entertainment</compMent></p>
-            <p>Twice members were decided through SIXTEEN, a survival show.</p>
+            <p>Twice is a 9 member girl group formed by <compMent labelRef="JYPEnt">JYP Entertainment</compMent>. Twice members were selected through a survival show called SIXTEEN. They debuted with the single Like OOH-AHH from the EP <albumMent albumRef="TheStoryBegins">The Story Begins</albumMent> on October 20, 2015. Then-trainees at JYPE can be seen in the background of the music video, including Stray Kids’ Bang Chan.</p>
+            
+            <p>Twice are among the most popular K-Pop groups in the genre’s history, steadily rising to the top of Korea’s popularity and sales charts throughout their career. The group became the best selling Korean girl-group of all time in 2019. They’ve even been given the title of “Nation’s Girl Group” by multiple news outlets and variety shows, <link linkURL="https://www.koreaboo.com/stories/twice-officially-declared-nations-girl-group/">according to K-Pop news site Koreaboo</link>.</p>
         </bgInfo>
         <company xml:id="JYPEnt">JYP Entertainment</company>
         <debutDate when="2015-10-20">October 20, 2015</debutDate>
         <debutSong>Like OOH-AHH</debutSong>
         <discography>
-            <album albumType="mini">The Story Begins</album>
+            <album albumType="mini" xml:id="TheStoryBegins">The Story Begins</album>
             <album albumType="mini">Page Two</album>
             <album albumType="mini">TWICEcoaster: Lane 1</album>
             <album albumType="mini">TWICEcoaster: Lane 2e</album>

@@ -4,15 +4,15 @@
     <about>
         <groupName xml:id="MonstaX">Monsta X (몬스타엑스)</groupName>
         <bgInfo>
-            <p>MONSTA X (몬스타엑스) is a 6-member boy group from <compMent labelRef="Starship">Starship
-                    Entertainment</compMent></p>
-            <p>They debuted as 7 members, with member Wonho who left on October 2019. </p>
+            <p>Monsta X is a 6-member boy group from <compMent labelRef="StarshipEnt">Starship Entertainment</compMent>. They were formed through a survival show named No.Mercy. They debuted as 7 members with the EP <albumMent albumRef="Trespass">Trespass</albumMent> on May 14, 2015, though member <memberMent artistRef="Wonho">Wonho</memberMent> left the group in October of 2019.</p>
+            
+            <p>The group is known for having a larger following outside of South Korea, finding a large audience in the West, often argued due to their sound and styling. In 2019 <link linkURL="https://www.youtube.com/watch?v=J9dQ8T2VQEo">the group guest-starred as themselves in an America cartoon called We Bare Bears</link>, which gained them even more interest within the U.S. They released their full-English album <albumMent albumRef="AllAboutLuv">All About Luv</albumMent> in early 2020 to great success for the group, with the song Who Do U Love? Hitting number 5 on the Billboard 100.</p>
         </bgInfo>
         <company xml:id="StarshipEnt">Starship Entertainment</company>
         <debutDate when="2015-05-14">May 14, 2015</debutDate>
         <debutSong>Trespass</debutSong>
         <discography>
-            <album albumType="extended">Trespass</album>
+            <album albumType="extended" xml:id="Trespass">Trespass</album>
             <album albumType="extended">Rush</album>
             <album albumType="extended">The Clan Pt.1 Lost</album>
             <album albumType="extended">The Clan Pt. 2 Guilty</album>
@@ -30,7 +30,7 @@
             <album albumType="single">Someone’s Someone</album>
             <album albumType="extended">Follow – Find You</album>
             <album albumType="single">Magnetic</album>
-            <album albumType="full">All About Luv</album>
+            <album albumType="full" xml:id="AllAboutLuv">All About Luv</album>
             <album albumType="single">Wish On The Same Sky</album>
             <album albumType="extended ">Fantasia X</album>
             <album albumType="full" xml:id="Fatal-Love">Fatal Love</album>
