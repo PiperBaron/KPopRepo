@@ -7,8 +7,7 @@ function init() {
 }
 
 
-function toggle()
-{   
+function toggle() {   
     var id = this.id;
     var RM = document.getElementsByClassName("RM");
     var Jin = document.getElementsByClassName("Jin");
@@ -18,6 +17,8 @@ function toggle()
     var V = document.getElementsByClassName("V");
     var Jungkook = document.getElementsByClassName("Jungkook");
     var NonMember = document.getElementsByClassName("Non-Member");
+    var AllLines = document.getElementsByClassName("song_line");
+    var checkboxes = document.getElementsByTagName('input');
     
     switch (id) {
      case "RMtoggle": {
@@ -66,6 +67,14 @@ function toggle()
       var e;
       for (e=0; e < NonMember.length; e++)
       {NonMember[e].classList.toggle("on")}
+       };
+      break;
+            case "Alltoggle": {
+      var e;
+      for (e=0; e < AllLines.length; e++)
+      {AllLines[e].classList.toggle("on")}
+      for (var checkbox of checkboxes) {
+       checkbox.checked = this.checked;}
        };
       break;
       }

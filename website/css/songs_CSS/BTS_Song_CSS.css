@@ -154,13 +154,20 @@ li.nav_li.dropdown {
 }
 
 #legend {
-    display: flex;
+    
     margin: auto;
     float: right;
     padding: 15px 45px;
     margin-top: -100px;
     margin-right: 25px;
+    width: 290px;
 }
+
+.fieldsetCol1, .fieldsetCol2 {
+  float: left;
+  width: 49%;
+}
+
 
 span.TestRM {
     color: #E72121;
