@@ -158,141 +158,88 @@ li.nav_li.dropdown {
     margin: auto;
     float: right;
     padding: 15px 45px;
-    margin-top: -100px;
+    margin-top: -90px;
     margin-right: 25px;
-    width: 290px;
+    width: 200px;
 }
 
-.fieldsetCol1, .fieldsetCol2 {
-  float: left;
-  width: 49%;
-}
-
-span.TestRM {
+span.TestJisoo {
     color: #E72121;
 }
 
-div.song_line.RM.on {
+div.song_line.Jisoo.on {
     color: #E72121;
 }
 
-span.backing_vocal.RM.on {
+span.backing_vocal.Jisoo.on {
     color: #E72121;
 }
 
-span.shared_vocal.RM.on {
+span.shared_vocal.Jisoo.on {
     color: #E72121;
 }
 
-span.TestJin {
+span.TestJennie {
     color: #E78421;
 }
 
-div.song_line.Jin.on {
+div.song_line.Jennie.on {
     color: #E78421;
 }
 
-span.backing_vocal.Jin.on {
+span.backing_vocal.Jennie.on {
     color: #E78421;
 }
 
-span.shared_vocal.Jin.on {
+span.shared_vocal.Jennie.on {
     color: #E78421;
 }
 
-span.TestSuga {
+span.TestRose {
     color: #D4C92E;
 }
 
-div.song_line.Suga.on {
+div.song_line.Rose.on {
     color: #D4C92E;
 }
 
-span.backing_vocal.Suga.on {
+span.backing_vocal.Rose.on {
     color: #D4C92E;
 }
 
-span.shared_vocal.Suga.on {
+span.shared_vocal.Rose.on {
     color: #D4C92E;
 }
 
-span.TestJHope {
+span.TestLisa {
     color: #82E721;
 }
 
-div.song_line.J-Hope.on {
+div.song_line.Lisa.on {
     color: #82E721;
 }
 
-span.backing_vocal.J-Hope.on {
+span.backing_vocal.Lisa.on {
     color: #82E721;
 }
 
-span.shared_vocal.J-Hope.on {
+span.shared_vocal.Lisa.on {
     color: #82E721;
 }
 
-span.TestJimin {
-    color: #21E7BF;
-}
-
-div.song_line.Jimin.on {
-    color: #21E7BF;
-}
-
-span.backing_vocal.Jimin.on {
-    color: #21E7BF;
-}
-
-span.shared_vocal.Jimin.on {
-    color: #21E7BF;
-}
-
-span.TestV {
-    color: #215FE7;
-}
-
-div.song_line.V.on {
-    color: #215FE7;
-}
-
-span.backing_vocal.V.on {
-    color: #215FE7;
-}
-
-span.shared_vocal.V.on {
-    color: #215FE7;
-}
-
-span.TestJungkook {
-    color: #8E21E7;
-}
-
-div.song_line.Jungkook.on {
-    color: #8E21E7;
-}
-
-span.backing_vocal.Jungkook.on {
-    color: #8E21E7;
-}
-
-span.shared_vocal.Jungkook.on {
-    color: #8E21E7;
-}
-
-span.TestNonMember {
+span.TestAllMembers {
     color: #E95FF2;
 }
 
-div.song_line.Non-Member.on {
+div.song_line.All.on {
     color: #E95FF2;
 }
 
-span.backing_vocal.Non-Member.on {
+span.backing_vocal.All.on {
     color: #E95FF2;
 }
 
-span.shared_vocal.Non-Member.on {
+span.shared_vocal.All.on {
     color: #E95FF2;
 }
 
