@@ -168,117 +168,228 @@ li.nav_li.dropdown {
   width: 49%;
 }
 
-
-span.TestSuho {
-    color: #E72121;
+span.TestSCoups {
+    color: #E54E03;
 }
 
-div.song_line.Suho.on {
-    color: #E72121;
+div.song_line.SCoups.on {
+    color: #E54E03;
 }
 
-.song_section > span.backing_vocal.Suho.on {
-    color: #E72121;
+span.backing_vocal.SCoups.on {
+    color: #E54E03;
 }
 
-.song_section > span.shared_vocal.Suho.on {
-    color: #E72121;
+span.shared_vocal.SCoups.on {
+    color: #E54E03;
 }
 
-span.TestBaekhyun {
-    color: #E78421;
+span.TestJeonghan {
+    color: #FF9A00;
 }
 
-div.song_line.Baekhyun.on {
-    color: #E78421;
+div.song_line.Jeonghan.on {
+    color: #FF9A00;
 }
 
-.song_section > span.backing_vocal.Baekhyun.on {
-    color: #E78421;
+span.backing_vocal.Jeonghan.on {
+    color: #FF9A00;
 }
 
-.song_section > span.shared_vocal.Baekhyun.on {
-    color: #E78421;
+span.shared_vocal.Jeonghan.on {
+    color: #FF9A00;
 }
 
-span.TestChen {
+span.TestJoshua {
     color: #D4C92E;
 }
 
-div.song_line.Chen.on {
+div.song_line.Joshua.on {
     color: #D4C92E;
 }
 
-.song_section > span.backing_vocal.Chen.on {
+span.backing_vocal.Joshua.on {
     color: #D4C92E;
 }
 
-.song_section > span.shared_vocal.Chen.on {
+span.shared_vocal.Joshua.on {
     color: #D4C92E;
 }
 
-span.TestChanyeol {
-    color: #82E721;
+span.TestJun {
+    color: #A6F531;
 }
 
-div.song_line.Chanyeol.on {
-    color: #82E721;
+div.song_line.Jun.on {
+    color: #A6F531;
 }
 
-.song_section > span.backing_vocal.Chanyeol.on {
-    color: #82E721;
+span.backing_vocal.Jun.on {
+    color: #A6F531;
 }
 
-.song_section > span.shared_vocal.Chanyeol.on {
-    color: #82E721;
+span.shared_vocal.Jun.on {
+    color: #A6F531;
 }
 
-span.TestKai {
+span.TestHoshi {
+    color: #03B31F;
+}
+
+div.song_line.Hoshi.on {
+    color: #03B31F;
+}
+
+span.backing_vocal.Hoshi.on {
+    color: #03B31F;
+}
+
+span.shared_vocal.Hoshi.on {
+    color: #03B31F;
+}
+
+span.TestWonwoo {
     color: #21E7BF;
 }
 
-div.song_line.Kai.on {
+div.song_line.Wonwoo.on {
     color: #21E7BF;
 }
 
-span.backing_vocal.Kai.on {
+span.backing_vocal.Wonwoo.on {
     color: #21E7BF;
 }
 
-span.shared_vocal.Kai.on {
+span.shared_vocal.Wonwoo.on {
     color: #21E7BF;
 }
 
-span.TestSehun {
+span.TestWoozi {
+    color: #21A7E7;
+}
+
+div.song_line.Woozi.on {
+    color: #21A7E7;
+}
+
+span.backing_vocal.Woozi.on {
+    color: #21A7E7;
+}
+
+span.shared_vocal.Woozi.on {
+    color: #21A7E7;
+}
+
+span.TestDK {
     color: #215FE7;
 }
 
-div.song_line.Sehun.on {
+div.song_line.DK.on {
     color: #215FE7;
 }
 
-span.backing_vocal.Sehun.on {
+span.backing_vocal.DK.on {
     color: #215FE7;
 }
 
-span.shared_vocal.Sehun.on {
+span.shared_vocal.DK.on {
     color: #215FE7;
 }
 
-span.TestNonMember {
-    color: #E95FF2;
+span.TestMingyu {
+    color: #CBB4FC;
 }
 
-div.song_line.Non-Member.on {
-    color: #E95FF2;
+div.song_line.Mingyu.on {
+    color: #CBB4FC;
 }
 
-span.backing_vocal.Non-Member.on {
-    color: #E95FF2;
+span.backing_vocal.Mingyu.on {
+    color: #CBB4FC;
 }
 
-span.shared_vocal.Non-Member.on {
-    color: #E95FF2;
+span.shared_vocal.Mingyu.on {
+    color: #CBB4FC;
+}
+
+span.TestThe8 {
+    color: #8E21E7;
+}
+
+div.song_line.The8.on {
+    color: #8E21E7;
+}
+
+span.backing_vocal.The8.on {
+    color: #8E21E7;
+}
+
+span.shared_vocal.The8.on {
+    color: #8E21E7;
+}
+
+span.TestSeungkwan {
+    color: #EE85F6;
+}
+
+div.song_line.Seungkwan.on {
+    color: #EE85F6;
+}
+
+span.backing_vocal.Seungkwan.on {
+    color: #EE85F6;
+}
+
+span.shared_vocal.Seungkwan.on {
+    color: #EE85F6;
+}
+
+span.TestVernon {
+    color: #CA0284;
+}
+
+div.song_line.Vernon.on {
+    color: #CA0284;
+}
+
+span.backing_vocal.Vernon.on {
+    color: #CA0284;
+}
+
+span.shared_vocal.Vernon.on {
+    color: #CA0284;
+}
+
+span.TestDino {
+    color: #FF408E;
+}
+
+div.song_line.Dino.on {
+    color: #FF408E;
+}
+
+span.backing_vocal.Dino.on {
+    color: #FF408E;
+}
+
+span.shared_vocal.Dino.on {
+    color: #FF408E;
+}
+
+span.TestAllMembers {
+    color: #A5A3A3;
+}
+
+div.song_line.All.on {
+    color: #A5A3A3;
+}
+
+span.backing_vocal.All.on {
+    color: #A5A3A3;
+}
+
+span.shared_vocal.All.on {
+    color: #A5A3A3;
 }
 
 #lyrics_holder {

@@ -168,117 +168,180 @@ li.nav_li.dropdown {
   width: 49%;
 }
 
-
-span.TestSuho {
+span.TestTaeyong {
     color: #E72121;
 }
 
-div.song_line.Suho.on {
+div.song_line.Taeyong.on {
     color: #E72121;
 }
 
-.song_section > span.backing_vocal.Suho.on {
+span.backing_vocal.Taeyong.on {
     color: #E72121;
 }
 
-.song_section > span.shared_vocal.Suho.on {
+span.shared_vocal.Taeyong.on {
     color: #E72121;
 }
 
-span.TestBaekhyun {
+span.TestTaeil {
     color: #E78421;
 }
 
-div.song_line.Baekhyun.on {
+div.song_line.Taeil.on {
     color: #E78421;
 }
 
-.song_section > span.backing_vocal.Baekhyun.on {
+span.backing_vocal.Taeil.on {
     color: #E78421;
 }
 
-.song_section > span.shared_vocal.Baekhyun.on {
+span.shared_vocal.Taeil.on {
     color: #E78421;
 }
 
-span.TestChen {
+span.TestJohnny {
     color: #D4C92E;
 }
 
-div.song_line.Chen.on {
+div.song_line.Johnny.on {
     color: #D4C92E;
 }
 
-.song_section > span.backing_vocal.Chen.on {
+span.backing_vocal.Johnny.on {
     color: #D4C92E;
 }
 
-.song_section > span.shared_vocal.Chen.on {
+span.shared_vocal.Johnny.on {
     color: #D4C92E;
 }
 
-span.TestChanyeol {
+span.TestYuta {
     color: #82E721;
 }
 
-div.song_line.Chanyeol.on {
+div.song_line.Yuta.on {
     color: #82E721;
 }
 
-.song_section > span.backing_vocal.Chanyeol.on {
+span.backing_vocal.Yuta.on {
     color: #82E721;
 }
 
-.song_section > span.shared_vocal.Chanyeol.on {
+span.shared_vocal.Yuta.on {
     color: #82E721;
 }
 
-span.TestKai {
+span.TestDoyoung {
     color: #21E7BF;
 }
 
-div.song_line.Kai.on {
+div.song_line.Doyoung.on {
     color: #21E7BF;
 }
 
-span.backing_vocal.Kai.on {
+span.backing_vocal.Doyoung.on {
     color: #21E7BF;
 }
 
-span.shared_vocal.Kai.on {
+span.shared_vocal.Doyoung.on {
     color: #21E7BF;
 }
 
-span.TestSehun {
+span.TestJaehyun {
+    color: #21A7E7;
+}
+
+div.song_line.Jaehyun.on {
+    color: #21A7E7;
+}
+
+span.backing_vocal.Jaehyun.on {
+    color: #21A7E7;
+}
+
+span.shared_vocal.Jaehyun.on {
+    color: #21A7E7;
+}
+
+span.TestWinWin {
     color: #215FE7;
 }
 
-div.song_line.Sehun.on {
+div.song_line.WinWin.on {
     color: #215FE7;
 }
 
-span.backing_vocal.Sehun.on {
+span.backing_vocal.WinWin.on {
     color: #215FE7;
 }
 
-span.shared_vocal.Sehun.on {
+span.shared_vocal.WinWin.on {
     color: #215FE7;
 }
 
-span.TestNonMember {
-    color: #E95FF2;
+span.TestJungwoo {
+    color: #8E21E7;
 }
 
-div.song_line.Non-Member.on {
-    color: #E95FF2;
+div.song_line.Jungwoo.on {
+    color: #8E21E7;
 }
 
-span.backing_vocal.Non-Member.on {
-    color: #E95FF2;
+span.backing_vocal.Jungwoo.on {
+    color: #8E21E7;
 }
 
-span.shared_vocal.Non-Member.on {
-    color: #E95FF2;
+span.shared_vocal.Jungwoo.on {
+    color: #8E21E7;
+}
+
+span.TestMarkLee {
+    color: #EE85F6;
+}
+
+div.song_line.MarkLee.on {
+    color: #EE85F6;
+}
+
+span.backing_vocal.MarkLee.on {
+    color: #EE85F6;
+}
+
+span.shared_vocal.MarkLee.on {
+    color: #EE85F6;
+}
+
+span.TestHaechan {
+    color: #CA0284;
+}
+
+div.song_line.Haechan.on {
+    color: #CA0284;
+}
+
+span.backing_vocal.Haechan.on {
+    color: #CA0284;
+}
+
+span.shared_vocal.Haechan.on {
+    color: #CA0284;
+}
+
+span.TestAllMembers {
+    color: #A5A3A3;
+}
+
+div.song_line.All.on {
+    color: #A5A3A3;
+}
+
+span.backing_vocal.All.on {
+    color: #A5A3A3;
+}
+
+span.shared_vocal.All.on {
+    color: #A5A3A3;
 }
 
 #lyrics_holder {

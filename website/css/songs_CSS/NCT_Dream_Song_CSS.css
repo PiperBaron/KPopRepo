@@ -168,116 +168,115 @@ li.nav_li.dropdown {
   width: 49%;
 }
 
-
-span.TestSuho {
+span.TestRenjun {
     color: #E72121;
 }
 
-div.song_line.Suho.on {
+div.song_line.Renjun.on {
     color: #E72121;
 }
 
-.song_section > span.backing_vocal.Suho.on {
+span.backing_vocal.Renjun.on {
     color: #E72121;
 }
 
-.song_section > span.shared_vocal.Suho.on {
+span.shared_vocal.Renjun.on {
     color: #E72121;
 }
 
-span.TestBaekhyun {
+span.TestJeno {
     color: #E78421;
 }
 
-div.song_line.Baekhyun.on {
+div.song_line.Jeno.on {
     color: #E78421;
 }
 
-.song_section > span.backing_vocal.Baekhyun.on {
+span.backing_vocal.Jeno.on {
     color: #E78421;
 }
 
-.song_section > span.shared_vocal.Baekhyun.on {
+span.shared_vocal.Jeno.on {
     color: #E78421;
 }
 
-span.TestChen {
+span.TestHaechan {
     color: #D4C92E;
 }
 
-div.song_line.Chen.on {
+div.song_line.Haechan.on {
     color: #D4C92E;
 }
 
-.song_section > span.backing_vocal.Chen.on {
+span.backing_vocal.Haechan.on {
     color: #D4C92E;
 }
 
-.song_section > span.shared_vocal.Chen.on {
+span.shared_vocal.Haechan.on {
     color: #D4C92E;
 }
 
-span.TestChanyeol {
+span.TestJaemin {
     color: #82E721;
 }
 
-div.song_line.Chanyeol.on {
+div.song_line.Jaemin.on {
     color: #82E721;
 }
 
-.song_section > span.backing_vocal.Chanyeol.on {
+span.backing_vocal.Jaemin.on {
     color: #82E721;
 }
 
-.song_section > span.shared_vocal.Chanyeol.on {
+span.shared_vocal.Jaemin.on {
     color: #82E721;
 }
 
-span.TestKai {
+span.TestChenle {
     color: #21E7BF;
 }
 
-div.song_line.Kai.on {
+div.song_line.Chenle.on {
     color: #21E7BF;
 }
 
-span.backing_vocal.Kai.on {
+span.backing_vocal.Chenle.on {
     color: #21E7BF;
 }
 
-span.shared_vocal.Kai.on {
+span.shared_vocal.Chenle.on {
     color: #21E7BF;
 }
 
-span.TestSehun {
+span.TestJisung {
     color: #215FE7;
 }
 
-div.song_line.Sehun.on {
+div.song_line.Jisung.on {
     color: #215FE7;
 }
 
-span.backing_vocal.Sehun.on {
+span.backing_vocal.Jisung.on {
     color: #215FE7;
 }
 
-span.shared_vocal.Sehun.on {
+span.shared_vocal.Jisung.on {
     color: #215FE7;
 }
 
-span.TestNonMember {
+span.TestAllMembers {
     color: #E95FF2;
 }
 
-div.song_line.Non-Member.on {
+div.song_line.All.on {
     color: #E95FF2;
 }
 
-span.backing_vocal.Non-Member.on {
+span.backing_vocal.All.on {
     color: #E95FF2;
 }
 
-span.shared_vocal.Non-Member.on {
+span.shared_vocal.All.on {
     color: #E95FF2;
 }
 
