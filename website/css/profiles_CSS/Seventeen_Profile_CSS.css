@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  background-color: #F3E9FC;
+  color: #f2f2f2;  
+}
+
+.header {
+  background-image: url("../../images/header_tile_bg.png");
+  background-repeat: repeat;
+  padding: 20px;
+  height: 52px;
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+  font-size: 28px;
+}
+
+h2{
+ font-size: 55px;
+ margin: auto;
+ text-align: center;
+}
+
+.kor_group_name {
+ font-size: 35px;
+ margin: auto;
+ text-align: center;
+}
+
+p a {
+    text-decoration: none;
+    color: #A5C1FB;
+}
+
+p a:hover {
+    text-decoration: none;
+    color: #BE6AFF;
+}
+
+
+ul.nav {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #282728;
+  border: 1px solid white;
+  max-height: 500px;
+}
+
+li.nav_li {
+  display: inline-block;
+  margin: 0 75px 0 75px;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #E1A5FB;
+}
+
+li.nav_li a:hover, .dropdown:hover .dropbtn {
+  background-color: #A859CA;
+  color: #f2f2f2;
+}
+
+li.nav_li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #282728;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #f2f2f2;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  border: 1px solid white;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #000;
+  color: #E1A5FB;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  columns: 2;
+  column-gap: 0px;  
+}
+
+.active {
+  background-color: #480D62;
+}
+
+.main {
+  margin: 15px 55px 15px 55px;
+  padding: 15px;
+  background-color: #282728;
+  color: #F9F5FB;
+  font-size: 18px;
+}
+
+.fandom_info {
+   font-size: 25px;
+   font-weight: bold;
+   margin: 5px;
+   color: #E1A5FB;
+}
+
+#lightstick_img {
+    width: 200px;
+}
+
+#discography {
+  margin: 15px 0px;
+}
+
+#song_link {
+    text-decoration: none;
+    color: #A5C1FB;
+    font-size: 26px;
+}
+
+#song_link:hover {
+    text-decoration: none;
+    color: #BE6AFF;
+    font-size: 26px;
+}
+
+.members_header {
+ font-size: 40px;
+ margin: auto;
+ text-align: center;
+ margin-bottom: 35px;
+}
+
+#members {
+    text-align: center;
+    margin: auto;
+}
+
+.stage_name_top {
+    color: #C376FF;
+    font-size: 30px;
+}
+
+.member_img {
+    width: 450px;
+}
+
+.member_profile_list {
+    display: table;
+    margin: 0 auto;
+    list-style: none;
+    padding-left: 0;
+}
+
+.roles_list {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 0;
+}
+
+.member_subunit_list {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 0;
+}
+
+.member_small_headers {
+    font-size: 20px;
+    font-weight: bold;
+    color: #C376FF; 
+    margin: 22px 0px 5px 0px;
+}
+
+.member_div {
+    background-color: black;
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 28px;
+}
+
+.names {
+    font-size: 20px;
+    font-weight: bold;
+    color: #C376FF; 
+}
+#subunits {
+    text-align:center
+}
+
+.subunit_div {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.group_subunit_div {
+    background-color: black;
+    text-align: center;
+    margin: 50px;
+    width: 300px;
+}
+
+.subunit_list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.subunit_list a {
+    text-decoration: none;
+    color: #E1A5FB;
+}
+
+.subunit_list a:hover {
+    text-decoration: none;
+    color: #93a9ce;
+}
+
+.subunit_name_header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #93a9ce; 
+    margin: 0px 0px 5px 0px;
+    background-color: purple;
+    vertical-align: top;
+    padding: 10px;
+}
