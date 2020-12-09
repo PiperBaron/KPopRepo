@@ -32,12 +32,12 @@ h2{
 
 p a {
     text-decoration: none;
-    color: #E1A5FB;
+    color: #A5C1FB;
 }
 
 p a:hover {
     text-decoration: none;
-    color: #93a9ce;
+    color: #BE6AFF;
 }
 
 
@@ -133,6 +133,18 @@ li.nav_li.dropdown {
   margin: 15px 0px;
 }
 
+#song_link {
+    text-decoration: none;
+    color: #A5C1FB;
+    font-size: 26px;
+}
+
+#song_link:hover {
+    text-decoration: none;
+    color: #BE6AFF;
+    font-size: 26px;
+}
+
 .members_header {
  font-size: 40px;
  margin: auto;
@@ -146,7 +158,7 @@ li.nav_li.dropdown {
 }
 
 .stage_name_top {
-    color: #93a9ce;
+    color: #C376FF;
     font-size: 30px;
 }
 
@@ -178,7 +190,7 @@ li.nav_li.dropdown {
 .member_small_headers {
     font-size: 20px;
     font-weight: bold;
-    color: #93a9ce; 
+    color: #C376FF; 
     margin: 22px 0px 5px 0px;
 }
 
@@ -193,9 +205,8 @@ li.nav_li.dropdown {
 .names {
     font-size: 20px;
     font-weight: bold;
-    color: #93a9ce; 
+    color: #C376FF; 
 }
-
 #subunits {
     text-align:center
 }
