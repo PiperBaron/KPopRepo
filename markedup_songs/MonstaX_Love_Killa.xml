@@ -6,7 +6,11 @@
         <songName xml:id="Love-Killa">Love Killa</songName>
         <artistName artistRef="MonstaX">Monsta X (몬스타엑스)</artistName>
         <bgInfo>
-            <p></p>
+            <p>Love Killa is the title track of <groupMent artistRef="MonstaX">Monsta X</groupMent>’s newest full-length album <albumMent albumRef="Fatal-Love">Fatal Love</albumMent>.</p> 
+            
+            <p>The song has done very well for the group, garnering over 2 million views in under 24 hours, which is a new record for Monsta X, <link linkURL="https://www.euphoriazine.com/blog/2020/11/music/videos-monsta-x-love-killa/">according to Euphoria Magazine</link>. It gained popularity within the community quickly, and even inspired a “Love Killa Challenge” on TikTok, which has been done by numerous other idols, including Seventeen’s Hoshi.</p>
+            
+            <meaning>Love Killa is a dark and tumultuous song, exploring temptation amidst a toxic relationship. The lyrics describe the feelings of <lineMent linenum="8">“love or hate,”</lineMent> fighting between <lineMent linenum="9">wanting and hating</lineMent> the listener. They’re stuck in this vicious cycle, later in the song saying that <lineMent linenum="51">“you know we never let each other go.”</lineMent> The members also seem to address the target of their mixed feelings almost as an enemy, with I.M at the end claiming <lineMent linenum="67">“I'ma take you down.”</lineMent> Additionally, there is a lot of meaning to be pulled from the music video, where each of the members depict famous Western movie sociopaths and villains: Joohoney as the (2020) Joker, Hyungwon as Tyler Durden, etc. It serves to further build this connection between love and hate/violence. </meaning>
         </bgInfo>
         <album albumRef="Fatal-Love">Fatal Love</album>
         <produceCredit>
