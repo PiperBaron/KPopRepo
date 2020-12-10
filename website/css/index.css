@@ -21,6 +21,7 @@ h1 {
 h2{
  font-size: 40px;
  margin: auto;
+ color: #E1A5FB;
 }
 
 ul.nav {
@@ -100,65 +101,57 @@ li.dropdown {
   font-size: 18px;
 }
 
-.button_container {
-    text-align: center;
+p a {
+    text-decoration: none;
+    color: #A5C1FB;
 }
 
-button {
-  background-color: #B38CFA;
-  border: none;
-  color: white;
-  padding: 10px 8px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+p a:hover {
+    text-decoration: none;
+    color: #BE6AFF;
 }
 
-#member_toggle {
-    visibility: hidden;
+.member_holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 15px 0px;
 }
 
-.member_link_holder {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.member_link {
-  color: #DCCAFE;
-  height: 300px;
-  width: 200px;
-  margin: 30px;
-  line-height: 150px;
-  border-style: solid;
-  border-color: #B38CFA;
-  text-align: center;
+.member {
+    width: 40%;
+    padding: 0px 18px;
+    background-color: #000;
+    margin: 0px 15px;
 }
 
 .member_name {
-  margin: 0px;
-  vertical-align: top;
-  background-color: #6207B2;
-  height: 50px;
-  line-height: 50px;
+    text-align: center;
+    padding: 8px 0px 12px 0px;
 }
 
 .member_name a {
-  text-decoration: none;
-  color: #DCCAFE;
-  font-size: 25px;
+    text-decoration: none;
+    color: #A5C1FB;
+    font-size: 27px;
 }
 
 .member_name a:hover {
-  text-decoration: none;
-  color: #B666FF;
+    text-decoration: none;
+    color: #BE6AFF;
+    font-size: 27px;
 }
 
-.member_link:hover {
-   background-color: #3B026E;
+.member_img {
+    width: 350px;
+    margin: auto;
+    display: block;
+    border: 2px solid #fff;
+}
+
+.member:hover {
+   background-color: #290449;
    box-shadow:
      1px 1px #B38CFA,
      2px 2px #B38CFA,
