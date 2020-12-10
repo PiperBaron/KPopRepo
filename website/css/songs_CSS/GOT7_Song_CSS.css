@@ -1,0 +1,330 @@
+body {
+  margin: 0;
+  background-color: #F3E9FC;
+  color: #f2f2f2;  
+}
+
+.header {
+  background-image: url("../../images/header_tile_bg.png");
+  background-repeat: repeat;
+  padding: 20px;
+  height: 52px;
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+  font-size: 28px;
+}
+
+h2{
+ font-size: 45px;
+ margin: auto;
+ text-align: center;
+}
+
+.kor_group_name {
+ font-size: 35px;
+ margin: auto;
+ text-align: center;
+}
+
+p a {
+    text-decoration: none;
+    color: #A5C1FB;
+}
+
+p a:hover {
+    text-decoration: none;
+    color: #BE6AFF;
+}
+
+
+ul.nav {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #282728;
+  border: 1px solid white;
+  max-height: 500px;
+}
+
+li.nav_li {
+  display: inline-block;
+  margin: 0 75px 0 75px;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #E1A5FB;
+}
+
+li.nav_li a:hover, .dropdown:hover .dropbtn {
+  background-color: #A859CA;
+  color: #f2f2f2;
+}
+
+li.nav_li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #282728;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #f2f2f2;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  border: 1px solid white;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #000;
+  color: #E1A5FB;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  columns: 2;
+  column-gap: 0px;  
+}
+
+.active {
+  background-color: #480D62;
+}
+
+.main {
+  margin: 15px 55px 15px 55px;
+  padding: 15px;
+  background-color: #282728;
+  color: #F9F5FB;
+  font-size: 18px;
+}
+
+.song_info {
+   font-size: 25px;
+   font-weight: bold;
+   margin: 15px;
+   color: #E1A5FB;
+}
+
+#producers_list a {
+    text-decoration: none;
+    color: #A5C1FB;
+    display: inline;
+    padding: 0px;
+}
+
+#producers_list a:hover {
+    text-decoration: none;
+    color: #BE6AFF;
+    display: inline;
+    padding: 0px;
+}
+
+#writers_list a {
+    text-decoration: none;
+    color: #A5C1FB;
+    display: inline;
+    padding: 0px;
+}
+
+#writers_list a:hover {
+    text-decoration: none;
+    color: #BE6AFF;
+    display: inline;
+    padding: 0px;
+}
+
+#profile_link {
+    text-decoration: none;
+    color: #A5C1FB;
+    font-size: 26px;
+}
+
+#profile_link:hover {
+    text-decoration: none;
+    color: #BE6AFF;
+    font-size: 26px;
+}
+
+#legend {
+
+    margin: auto;
+    float: right;
+    padding: 15px 45px;
+    margin-top: -50px;
+    margin-right: 25px;
+    width: 290px;
+}
+
+.fieldsetCol1, .fieldsetCol2 {
+  float: left;
+  width: 49%;
+}
+
+span.TestJB {
+    color: #E72121;
+}
+
+div.song_line.JB.on {
+    color: #E72121;
+}
+
+span.backing_vocal.JB.on {
+    color: #E72121;
+}
+
+span.shared_vocal.JB.on {
+    color: #E72121;
+}
+
+span.TestMarkTuan {
+    color: #E78421;
+}
+
+div.song_line.MarkTuan.on {
+    color: #E78421;
+}
+
+span.backing_vocal.MarkTuan.on {
+    color: #E78421;
+}
+
+span.shared_vocal.MarkTuan.on {
+    color: #E78421;
+}
+
+span.TestJackson {
+    color: #D4C92E;
+}
+
+div.song_line.Jackson.on {
+    color: #D4C92E;
+}
+
+span.backing_vocal.Jackson.on {
+    color: #D4C92E;
+}
+
+span.shared_vocal.Jackson.on {
+    color: #D4C92E;
+}
+
+span.TestJinyoung {
+    color: #82E721;
+}
+
+div.song_line.Jinyoung.on {
+    color: #82E721;
+}
+
+span.backing_vocal.Jinyoung.on {
+    color: #82E721;
+}
+
+span.shared_vocal.Jinyoung.on {
+    color: #82E721;
+}
+
+span.TestYoungjae {
+    color: #21E7BF;
+}
+
+div.song_line.Youngjae.on {
+    color: #21E7BF;
+}
+
+span.backing_vocal.Youngjae.on {
+    color: #21E7BF;
+}
+
+span.shared_vocal.Youngjae.on {
+    color: #21E7BF;
+}
+
+span.TestBamBam {
+    color: #215FE7;
+}
+
+div.song_line.BamBam.on {
+    color: #215FE7;
+}
+
+span.backing_vocal.BamBam.on {
+    color: #215FE7;
+}
+
+span.shared_vocal.BamBam.on {
+    color: #215FE7;
+}
+
+span.TestYugyeom {
+    color: #8E21E7;
+}
+
+div.song_line.Yugyeom.on {
+    color: #8E21E7;
+}
+
+span.backing_vocal.Yugyeom.on {
+    color: #8E21E7;
+}
+
+span.shared_vocal.Yugyeom.on {
+    color: #8E21E7;
+}
+
+#lyrics_holder {
+    margin: 45px 15px 15px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lyrics_header {
+ font-size: 35px;
+ margin: auto;
+ text-align: center;
+ margin-bottom: 35px;
+    
+}
+
+#korean_lyrics_div {
+    background-color: black;
+    width: 45%;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+#english_trans_div {
+    vertical-align: top;
+    background-color: black;
+    width: 45%;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height:  132%;
+}
+
+.song_section {
+    padding: 10px;
+}
