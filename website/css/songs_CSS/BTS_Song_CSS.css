@@ -165,14 +165,32 @@ li.nav_li.dropdown {
     font-size: 26px;
 }
 
-#legend {
+.Music_Video {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    clear: both;
+}
 
-    margin: auto;
+.Music_Video iframe {
+    clear: both;
+    margin-top: 25px;
+    margin-bottom: 4%;
+}
+
+#legend_left_space {
+    float: left;
+    width: 100%;
+}
+
+#legend {
     float: right;
-    padding: 15px 45px;
-    margin-top: -50px;
+    width: 25%;
     margin-right: 25px;
-    width: 290px;
+}
+
+#legend_holder {
+    display: flex;
 }
 
 .fieldsetCol1, .fieldsetCol2 {
@@ -310,7 +328,7 @@ span.shared_vocal.Non-Member.on {
 }
 
 #lyrics_holder {
-    margin: 45px 15px 15px 15px;
+  margin: 45px 15px 15px 15px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
