@@ -127,7 +127,7 @@ p a:hover {
     display: flex;
 }
 
-.lines_charts_1 {
+.lines_charts_1, .lines_charts_2 {
     display: flex;
 }
 
@@ -165,11 +165,19 @@ p a:hover {
     margin-left: 770px;
 }
 
+#EXO_Name {
+    margin-left: 340px;
+}
+
 #BTS_Lines {
     flex: 1;
 }
 
 #BP_Lines {
+    flex: 1;
+}
+
+#EXO_Lines {
     flex: 1;
 }
 

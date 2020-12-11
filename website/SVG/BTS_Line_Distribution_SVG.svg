@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 600" preserveAspectRatio="xMinYMin meet">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 400" preserveAspectRatio="xMinYMin meet">
    <g transform="translate(50, 0)">
       <rect id="RM_Lines"
             x="0"
@@ -66,5 +66,8 @@
       <text x="580" y="195" font-size="35px" fill="#215FE7">V</text>
       <text x="645" y="195" font-size="35px" fill="#8E21E7">Jungkook</text>
       <text x="945" y="195" font-size="35px" fill="#E95FF2">Halsey</text>
+         <text x="1205" y="45" font-size="35px" fill="white">119</text>
+         <text x="1205" y="85" font-size="35px" fill="white">Total</text>
+         <text x="1205" y="125" font-size="35px" fill="white">Lines</text>
    </g>
 </svg>
