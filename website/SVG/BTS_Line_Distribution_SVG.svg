@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2800 600" preserveAspectRatio="xMinYMin meet">
+   <g transform="translate(10, 0)">
+      <rect id="RM_Lines"
+            x="0"
+            y="0"
+            width="110"
+            height="150"
+            fill="#E72121"/>
+      <rect id="Jin_Lines"
+            x="110"
+            y="0"
+            width="110"
+            height="150"
+            fill="#E78421"/>
+      <rect id="Suga_Lines"
+            x="220"
+            y="0"
+            width="90"
+            height="150"
+            fill="#D4C92E"/>
+      <rect id="J-Hope_Lines"
+            x="310"
+            y="0"
+            width="120"
+            height="150"
+            fill="#82E721"/>
+      <rect id="Jimin_Lines"
+            x="430"
+            y="0"
+            width="120"
+            height="150"
+            fill="#21E7BF"/>
+      <rect id="V_Lines"
+            x="550"
+            y="0"
+            width="100"
+            height="150"
+            fill="#215FE7"/>
+      <rect id="Jungkook_Lines"
+            x="650"
+            y="0"
+            width="130"
+            height="150"
+            fill="#8E21E7"/>
+      <rect id="NonMember_Lines"
+            x="780"
+            y="0"
+            width="410"
+            height="150"
+            fill="#E95FF2"/>
+      <text x="40" y="75" font-size="35px" fill="white">11</text>
+      <text x="145" y="75" font-size="35px" fill="white">11</text>
+      <text x="255" y="75" font-size="35px" fill="white">9</text>
+      <text x="350" y="75" font-size="35px" fill="white">12</text>
+      <text x="470" y="75" font-size="35px" fill="white">12</text>
+      <text x="580" y="75" font-size="35px" fill="white">10</text>
+      <text x="695" y="75" font-size="35px" fill="white">13</text>
+      <text x="965" y="75" font-size="35px" fill="white">41</text>
+         
+      <text x="25" y="195" font-size="35px" fill="#E72121">RM</text>
+      <text x="135" y="195" font-size="35px" fill="#E78421">Jin</text>
+      <text x="232" y="195" font-size="35px" fill="#D4C92E">Suga</text>
+      <text x="320" y="195" font-size="35px" fill="#82E721">J-Hope</text>
+      <text x="448" y="195" font-size="35px" fill="#21E7BF">Jimin</text>
+      <text x="580" y="195" font-size="35px" fill="#215FE7">V</text>
+      <text x="645" y="195" font-size="35px" fill="#8E21E7">Jungkook</text>
+      <text x="945" y="195" font-size="35px" fill="#E95FF2">Halsey</text>
+   </g>
+</svg>
