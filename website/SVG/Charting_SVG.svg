@@ -40,7 +40,7 @@
             <line x1="260" y1="-450" x2="260" y2="0" stroke="white"/>
             <circle cx="260" cy="-450" r="10" fill="white"/>
             <circle cx="260" cy="-450" r="7" fill="red"/>
-            <text x="280" y="-443" font-size="28" fill="white">3</text>
+            <text x="280" y="-443" font-size="28" fill="white">6</text>
         </g>
         <g class="popBand">
             <text x="308" y="25" font-size="22" style="writing-mode: tb;" fill="white">Stray Kids</text>
