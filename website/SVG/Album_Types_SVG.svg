@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 750" preserveAspectRatio="xMinYMin meet">
-   <g transform="translate(70, 450)">
-      <line x1="0" y1="0" x2="500" y2="0" stroke="white"/>
-      <line x1="0" y1="0" x2="0" y2="-330" stroke="white"/>
-      <text x="125" y="-350" font-size="18px" fill="white">Album Types Released by Korean Pop Bands:</text>
-      <text x="-35" y="-330" font-size="20" fill="white">33</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 750" preserveAspectRatio="xMinYMin meet">
+   <g transform="translate(120, 525)">
+      <line x1="0" y1="0" x2="530" y2="0" stroke="white"/>
+      <line x1="0" y1="0" x2="0" y2="-350" stroke="white"/>
+      <text x="18" y="-490" font-size="20" fill="white">Total Albums and Individual Types Released by Each Group:</text>
+      <text x="-35" y="-330" font-size="25" fill="white">33</text>
       <text x="-25" y="-235" font-size="20" style="writing-mode: tb;" fill="white">Count of albums</text>
       <text x="-25" y="0" font-size="25" fill="white">0</text>
       <text x="550" y="-300" font-size="18" fill="white">Legend</text>
@@ -21,7 +21,7 @@
       <text x="500" y="-180" fill="white">Extended</text>
       <rect x="600" y="-190" width="50" height="15" fill="thistle"/>
       <g class="popBand">
-         <text x="55" y="25" style="writing-mode: tb;" fill="white">GOT7 (갓세븐)</text>
+         <text x="57" y="25" font-size="20" style="writing-mode: tb;" fill="white">GOT7</text>
          <line x1="80" y1="-330" x2="80" y2="0" stroke="black"/>
          <rect x="50" y="-330" width="30" height="0" fill="thistle"/>
          <rect x="50" y="-330" width="30" height="0" fill="bisque"/>
@@ -29,13 +29,13 @@
          <rect x="50" y="-300" width="30" height="50" fill="lavender"/>
          <rect x="50" y="-250" width="30" height="140" fill="khaki"/>
          <rect x="50" y="-110" width="30" height="110" fill="hotpink"/>
-         <text x="60" y="-55">11</text>
-         <text x="60" y="-180">14</text>
+         <text x="55" y="-55">11</text>
+         <text x="55" y="-180">14</text>
          <text x="60" y="-275">5</text>
-         <text x="60" y="-315">3</text>
+         <text x="60" y="-313">3</text>
       </g>
       <g class="popBand">
-         <text x="105" y="25" style="writing-mode: tb;" fill="white">BTS (방탄소년단)</text>
+         <text x="105" y="25" font-size="20" style="writing-mode: tb;" fill="white">BTS</text>
          <line x1="130" y1="-310" x2="130" y2="0" stroke="black"/>
          <rect x="100" y="-310" width="30" height="0" fill="thistle"/>
          <rect x="100" y="-310" width="30" height="0" fill="bisque"/>
@@ -43,13 +43,13 @@
          <rect x="100" y="-250" width="30" height="70" fill="lavender"/>
          <rect x="100" y="-180" width="30" height="70" fill="khaki"/>
          <rect x="100" y="-110" width="30" height="110" fill="hotpink"/>
-         <text x="110" y="-55">11</text>
+         <text x="105" y="-55">11</text>
          <text x="110" y="-145">7</text>
          <text x="110" y="-215">7</text>
          <text x="110" y="-280">6</text>
       </g>
       <g class="popBand">
-         <text x="155" y="25" style="writing-mode: tb;" fill="white">Twice (트와이스)</text>
+         <text x="155" y="25" font-size="20" style="writing-mode: tb;" fill="white">Twice</text>
          <line x1="180" y1="-300" x2="180" y2="0" stroke="black"/>
          <rect x="150" y="-300" width="30" height="0" fill="thistle"/>
          <rect x="150" y="-300" width="30" height="0" fill="bisque"/>
@@ -58,12 +58,12 @@
          <rect x="150" y="-220" width="30" height="130" fill="khaki"/>
          <rect x="150" y="-90" width="30" height="90" fill="hotpink"/>
          <text x="160" y="-45">9</text>
-         <text x="160" y="-155">13</text>
+         <text x="155" y="-155">13</text>
          <text x="160" y="-240">4</text>
          <text x="160" y="-280">4</text>
       </g>
       <g class="popBand">
-         <text x="205" y="25" style="writing-mode: tb;" fill="white">Monsta X (몬스타엑스)</text>
+         <text x="205" y="25" font-size="20" style="writing-mode: tb;" fill="white">Monsta X</text>
          <line x1="230" y1="-220" x2="230" y2="0" stroke="black"/>
          <rect x="200" y="-220" width="30" height="80" fill="thistle"/>
          <rect x="200" y="-140" width="30" height="0" fill="bisque"/>
@@ -76,7 +76,7 @@
          <text x="210" y="-180">8</text>
       </g>
       <g class="popBand">
-         <text x="255" y="25" style="writing-mode: tb;" fill="white">Seventeen (세븐틴)</text>
+         <text x="255" y="25" font-size="20" style="writing-mode: tb;" fill="white">Seventeen</text>
          <line x1="280" y1="-160" x2="280" y2="0" stroke="black"/>
          <rect x="250" y="-160" width="30" height="0" fill="thistle"/>
          <rect x="250" y="-160" width="30" height="0" fill="bisque"/>
@@ -89,7 +89,7 @@
          <text x="260" y="-135">3</text>
       </g>
       <g class="popBand">
-         <text x="305" y="25" style="writing-mode: tb;" fill="white">Stray Kids (스트레이 키즈)</text>
+         <text x="305" y="25" font-size="20" style="writing-mode: tb;" fill="white">Stray Kids</text>
          <line x1="330" y1="-160" x2="330" y2="0" stroke="black"/>
          <rect x="300" y="-160" width="30" height="0" fill="thistle"/>
          <rect x="300" y="-160" width="30" height="0" fill="bisque"/>
@@ -99,10 +99,10 @@
          <rect x="300" y="-60" width="30" height="60" fill="hotpink"/>
          <text x="310" y="-30">6</text>
          <text x="310" y="-95">7</text>
-         <text x="310" y="-150">2</text>
+         <text x="310" y="-146">2</text>
       </g>
       <g class="popBand">
-         <text x="355" y="25" style="writing-mode: tb;" fill="white">EXO (엑소)</text>
+         <text x="355" y="25" font-size="20" style="writing-mode: tb;" fill="white">EXO</text>
          <line x1="380" y1="-150" x2="380" y2="0" stroke="black"/>
          <rect x="350" y="-150" width="30" height="0" fill="thistle"/>
          <rect x="350" y="-150" width="30" height="10" fill="bisque"/>
@@ -114,7 +114,7 @@
          <text x="360" y="-95">7</text>
       </g>
       <g class="popBand">
-         <text x="405" y="25" style="writing-mode: tb;" fill="white">BLACKPINK (블랙핑크)</text>
+         <text x="405" y="25" font-size="20" style="writing-mode: tb;" fill="white">BLACKPINK</text>
          <line x1="430" y1="-110" x2="430" y2="0" stroke="black"/>
          <rect x="400" y="-110" width="30" height="0" fill="thistle"/>
          <rect x="400" y="-110" width="30" height="0" fill="bisque"/>
@@ -126,7 +126,7 @@
          <text x="410" y="-70">4</text>
       </g>
       <g class="popBand">
-         <text x="455" y="25" style="writing-mode: tb;" fill="white">NCT 127 (엔씨티 127)</text>
+         <text x="455" y="25" font-size="20" style="writing-mode: tb;" fill="white">NCT 127</text>
          <line x1="480" y1="-100" x2="480" y2="0" stroke="black"/>
          <rect x="450" y="-100" width="30" height="0" fill="thistle"/>
          <rect x="450" y="-100" width="30" height="10" fill="bisque"/>
@@ -135,11 +135,11 @@
          <rect x="450" y="-50" width="30" height="40" fill="khaki"/>
          <rect x="450" y="-10" width="30" height="10" fill="hotpink"/>
          <text x="460" y="-30">4</text>
-         <text x="460" y="-60">2</text>
-         <text x="460" y="-80">2</text>
+         <text x="460" y="-57">2</text>
+         <text x="460" y="-77">2</text>
       </g>
       <g class="popBand">
-         <text x="505" y="25" style="writing-mode: tb;" fill="white">NCT Dream (엔씨티 Dream)</text>
+         <text x="505" y="25" font-size="20" style="writing-mode: tb;" fill="white">NCT Dream</text>
          <line x1="530" y1="-100" x2="530" y2="0" stroke="black"/>
          <rect x="500" y="-100" width="30" height="0" fill="thistle"/>
          <rect x="500" y="-100" width="30" height="0" fill="bisque"/>

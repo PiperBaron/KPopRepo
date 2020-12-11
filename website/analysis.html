@@ -10,20 +10,35 @@
         <div class="header">
             <h1>K-Pop Songs, Translations, and Profiles</h1>
         </div>
+        
         <!--#include virtual="navigation_menu.html" -->
+        
         <div class="main">
             <h2>Analysis</h2>
             <h3>Album Type and Charting</h3>
+            <br />
             <div class="album_charts">
                 <img id="album_types" src="SVG/Album_Types_SVG.svg"
-                    alt="A graph showing the amount of albums and album types across each K-Pop group."
+                    alt="A stacked-bar graph showing the amount of albums and album types across each K-Pop group." />
+                <img id="charting_ranks" src="SVG/Charting_SVG.svg"
+                    alt="A line graph showing the current popularity ranking of the 10 K-Pop groups in South Korea as of November 2020"
                  />
             </div>
+            <div class="discussion">
+                <p>Popularity/Brand Reputation Ranking from <a
+                        href="https://kpopofficial.com/top-50-kpop-popularity-reputation-ranking-november-2020/"
+                        >K-Pop Official</a>.</p>
+            </div>
             <h3>Line Distribution</h3>
-            <h4 id="BTS_Name"><a href="songs/BTS_Boy_With_Luv.html">BTS</a></h4>
-            <div class="lines_charts">
+            <div class="group_names">
+                <a id="BTS_Name" href="songs/BTS_Boy_With_Luv.html">BTS</a>
+                <a id="BP_Name" href="songs/BLACKPINK_D4.html">BLACKPINK</a>
+            </div>
+            <div class="lines_charts_1">
                 <img id="BTS_Lines" src="SVG/BTS_Line_Distribution_SVG.svg"
-                    alt="A horizontal bar graph that shows the line distribution of BTS' Boy With Luv"
+                    alt="A horizontal bar graph that shows the line distribution of BTS' Boy With Luv" />
+                <img id="BP_Lines" src="SVG/BLACKPINK_Line_Distribution_SVG.svg"
+                    alt="A horizontal bar graph that shows the line distribution of BLACKPINK's D4"
                  />
             </div>
         </div>

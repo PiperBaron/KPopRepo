@@ -113,16 +113,6 @@ li.dropdown {
   font-size: 18px;
 }
 
-h4 a {
-    text-decoration: none;
-    color: #A5C1FB;
-}
-
-h4 a:hover {
-    text-decoration: none;
-    color: #BE6AFF;
-}
-
 p a {
     text-decoration: none;
     color: #A5C1FB;
@@ -137,7 +127,7 @@ p a:hover {
     display: flex;
 }
 
-.lines_charts {
+.lines_charts_1 {
     display: flex;
 }
 
@@ -146,13 +136,41 @@ p a:hover {
     width: 50%;
 }
 
+#charting_ranks {
+    flex: 1;
+    width: 50%;
+}
+
+.group_names {
+    margin: 10px;
+}
+
+.group_names a {
+    text-decoration: none;
+    color: #A5C1FB;
+    font-size: 20px;
+}
+
+.group_names a:hover {
+    text-decoration: none;
+    color: #BE6AFF;
+    font-size: 20px;
+}
+
 #BTS_Name {
-    margin-left: 250px;
+    margin-left: 270px;
+}
+
+#BP_Name {
+    margin-left: 770px;
 }
 
 #BTS_Lines {
     flex: 1;
-    width: 300px;
+}
+
+#BP_Lines {
+    flex: 1;
 }
 
 

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 650" preserveAspectRatio="xMinYMin meet">
+    <g transform="translate(150, 590)">
+        <line x1="0" y1="0" x2="530" y2="0" stroke="white"/>
+        <line x1="0" y1="0" x2="0" y2="-500" stroke="white"/>
+        <text x="20" y="-550" font-size="23" fill="white">Popularity &amp; Brand Reputation Ranking (Nov. 2020):</text>
+        <text x="-25" y="-500" font-size="22" fill="white">1</text>
+        <text x="-25" y="-315" font-size="22" style="writing-mode: tb;" fill="white">Ranking</text>
+        <text x="-35" y="0" font-size="22" fill="white">50</text>
+        <g class="popBand">
+            <text x="58" y="25" font-size="22" style="writing-mode: tb;" fill="white">GOT7</text>
+            <line x1="60" y1="0" x2="60" y2="0" stroke="white"/>
+            <circle cx="60" cy="0" r="10" fill="white"/>
+            <circle cx="60" cy="0" r="7" fill="red"/>
+            <text x="65" y="-15" font-size="28" fill="white">50</text>
+        </g>
+        <g class="popBand">
+            <text x="108" y="25" font-size="22" style="writing-mode: tb;" fill="white">BTS</text>
+            <line x1="110" y1="-500" x2="110" y2="0" stroke="white"/>
+            <circle cx="110" cy="-500" r="10" fill="white"/>
+            <circle cx="110" cy="-500" r="7" fill="red"/>
+            <text x="125" y="-493" font-size="28" fill="white">1</text>
+        </g>
+        <g class="popBand">
+            <text x="158" y="25" font-size="22" style="writing-mode: tb;" fill="white">Twice</text>
+            <line x1="160" y1="-490" x2="160" y2="0" stroke="white"/>
+            <circle cx="160" cy="-490" r="10" fill="white"/>
+            <circle cx="160" cy="-490" r="7" fill="red"/>
+            <text x="175" y="-483" font-size="28" fill="white">2</text>
+        </g>
+        <g class="popBand">
+            <text x="208" y="25" font-size="22" style="writing-mode: tb;" fill="white">Monsta X</text>
+            <line x1="210" y1="-320" x2="210" y2="0" stroke="white"/>
+            <circle cx="210" cy="-320" r="10" fill="white"/>
+            <circle cx="210" cy="-320" r="7" fill="red"/>
+            <text x="225" y="-313" font-size="28" fill="white">19</text>
+        </g>
+        <g class="popBand">
+            <text x="258" y="25" font-size="22" style="writing-mode: tb;" fill="white">Seventeen</text>
+            <line x1="260" y1="-450" x2="260" y2="0" stroke="white"/>
+            <circle cx="260" cy="-450" r="10" fill="white"/>
+            <circle cx="260" cy="-450" r="7" fill="red"/>
+            <text x="280" y="-443" font-size="28" fill="white">3</text>
+        </g>
+        <g class="popBand">
+            <text x="308" y="25" font-size="22" style="writing-mode: tb;" fill="white">Stray Kids</text>
+            <line x1="310" y1="-20" x2="310" y2="0" stroke="white"/>
+            <circle cx="310" cy="-20" r="10" fill="white"/>
+            <circle cx="310" cy="-20" r="7" fill="red"/>
+            <text x="325" y="-13" font-size="28" fill="white">48</text>
+        </g>
+        <g class="popBand">
+            <text x="358" y="25" font-size="22" style="writing-mode: tb;" fill="white">EXO</text>
+            <line x1="360" y1="-400" x2="360" y2="0" stroke="white"/>
+            <circle cx="360" cy="-400" r="10" fill="white"/>
+            <circle cx="360" cy="-400" r="7" fill="red"/>
+            <text x="375" y="-393" font-size="28" fill="white">11</text>
+        </g>
+        <g class="popBand">
+            <text x="408" y="25" font-size="22" style="writing-mode: tb;" fill="white">BLACKPINK</text>
+            <line x1="410" y1="-470" x2="410" y2="0" stroke="white"/>
+            <circle cx="410" cy="-470" r="10" fill="white"/>
+            <circle cx="410" cy="-470" r="7" fill="red"/>
+            <text x="425" y="-463" font-size="28" fill="white">4</text>
+        </g>
+        <g class="popBand">
+            <text x="458" y="25" font-size="22" style="writing-mode: tb;" fill="white">NCT 127</text>
+            <line x1="460" y1="-480" x2="460" y2="0" stroke="white"/>
+            <circle cx="460" cy="-480" r="10" fill="white"/>
+            <circle cx="460" cy="-480" r="7" fill="red"/>
+            <text x="475" y="-473" font-size="28" fill="white">3</text>
+        </g>
+        <g class="popBand">
+            <text x="508" y="25" font-size="22" style="writing-mode: tb;" fill="white">NCT Dream</text>
+            <line x1="510" y1="-480" x2="510" y2="0" stroke="white"/>
+            <circle cx="510" cy="-480" r="10" fill="white"/>
+            <circle cx="510" cy="-480" r="7" fill="red"/>
+            <text x="525" y="-473" font-size="28" fill="white">3</text>
+        </g>
+    </g>
+</svg>
