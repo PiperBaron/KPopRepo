@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 400" preserveAspectRatio="xMinYMin meet">
+   <g transform="translate(910, 100)">
+      <rect id="All_Lines_Together"
+            x="0"
+            y="0"
+            width="670"
+            height="150"
+            fill="bisque"/>
+      <rect id="Taeyong_Lines"
+            x="0"
+            y="0"
+            width="90"
+            height="150"
+            fill="#E72121"/>
+      <rect id="Taeil_Lines"
+            x="90"
+            y="0"
+            width="40"
+            height="150"
+            fill="#E78421"/>
+      <rect id="Johnny_Lines"
+            x="130"
+            y="0"
+            width="80"
+            height="150"
+            fill="#D4C92E"/>
+      <rect id="Yuta_Lines"
+            x="210"
+            y="0"
+            width="50"
+            height="150"
+            fill="#82E721"/>
+      <rect id="Doyoung_Lines"
+            x="260"
+            y="0"
+            width="30"
+            height="150"
+            fill="#21E7BF"/>
+      <rect id="Jaehyun_Lines"
+            x="290"
+            y="0"
+            width="60"
+            height="150"
+            fill="#21A7E7"/>
+      <rect id="WinWin_Lines"
+            x="350"
+            y="0"
+            width="30"
+            height="150"
+            fill="#215FE7"/>
+      <rect id="Jungwoo_Lines"
+            x="380"
+            y="0"
+            width="50"
+            height="150"
+            fill="#8E21E7"/>
+      <rect id="MarkLee_Lines"
+            x="430"
+            y="0"
+            width="90"
+            height="150"
+            fill="#FF19D1"/>
+      <rect id="Haechan_Lines"
+            x="520"
+            y="0"
+            width="50"
+            height="150"
+            fill="#CA0284"/>
+      <rect id="All_Lines"
+            x="570"
+            y="0"
+            width="100"
+            height="150"
+            fill="#A5A3A3"/>
+      <text x="30" y="75" font-size="35px" fill="white">9</text>
+      <text x="100" y="75" font-size="35px" fill="white">4</text>
+      <text x="160" y="75" font-size="35px" fill="white">8</text>
+      <text x="225" y="75" font-size="35px" fill="white">5</text>
+      <text x="265" y="75" font-size="35px" fill="white">3</text>
+      <text x="310" y="75" font-size="35px" fill="white">6</text>
+      <text x="355" y="75" font-size="35px" fill="white">3</text>
+      <text x="395" y="75" font-size="35px" fill="white">5</text>
+      <text x="465" y="75" font-size="35px" fill="white">9</text>
+      <text x="535" y="75" font-size="35px" fill="white">5</text>
+      <text x="600" y="75" font-size="35px" fill="white">10</text>
+         
+      <text x="-25" y="195" font-size="35px" fill="#E72121">Taeyong</text>
+      <text x="65" y="-30" font-size="35px" fill="#E78421">Taeil</text>
+      <text x="110" y="195" font-size="35px" fill="#D4C92E">Johnny</text>
+      <text x="195" y="-30" font-size="35px" fill="#82E721">Yuta</text>
+      <text x="225" y="195" font-size="35px" fill="#21E7BF">Doyoung</text>
+      <text x="285" y="-30" font-size="35px" fill="#21A7E7">Jaehyun</text>
+      <text x="305" y="240" font-size="35px" fill="#215FE7">WinWin</text>
+      <text x="340" y="-65" font-size="35px" fill="#8E21E7">Jungwoo</text>
+      <text x="400" y="195" font-size="35px" fill="#FF19D1">Mark (Lee)</text>
+      <text x="480" y="-30" font-size="35px" fill="#CA0284">Haechan</text>
+      <text x="585" y="195" font-size="35px" fill="#A5A3A3">All</text>
+         <text x="685" y="45" font-size="35px" fill="white">67</text>
+         <text x="685" y="85" font-size="35px" fill="white">Total</text>
+         <text x="685" y="125" font-size="35px" fill="white">Lines</text>
+   </g>
+</svg>

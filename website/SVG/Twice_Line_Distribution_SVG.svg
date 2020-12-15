@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 300" preserveAspectRatio="xMinYMin meet">
+   <g transform="translate(830, 70)">
+      <rect id="All_Lines_Together"
+            x="0"
+            y="0"
+            width="820"
+            height="150"
+            fill="bisque"/>
+      <rect id="Jihyo_Lines"
+            x="0"
+            y="0"
+            width="160"
+            height="150"
+            fill="#E72121"/>
+      <rect id="Nayeon_Lines"
+            x="160"
+            y="0"
+            width="90"
+            height="150"
+            fill="#E78421"/>
+      <rect id="Jeongyeon_Lines"
+            x="250"
+            y="0"
+            width="50"
+            height="150"
+            fill="#D4C92E"/>
+      <rect id="Momo_Lines"
+            x="300"
+            y="0"
+            width="60"
+            height="150"
+            fill="#82E721"/>
+      <rect id="Sana_Lines"
+            x="360"
+            y="0"
+            width="90"
+            height="150"
+            fill="#21E7BF"/>
+      <rect id="Mina_Lines"
+            x="450"
+            y="0"
+            width="40"
+            height="150"
+            fill="#21A7E7"/>
+      <rect id="Dahyun_Lines"
+            x="490"
+            y="0"
+            width="60"
+            height="150"
+            fill="#215FE7"/>
+      <rect id="Chaeyoung_Lines"
+            x="550"
+            y="0"
+            width="40"
+            height="150"
+            fill="#8E21E7"/>
+      <rect id="Tzuyu_Lines"
+            x="590"
+            y="0"
+            width="70"
+            height="150"
+            fill="#CA0284"/>
+      <rect id="All_Lines"
+            x="660"
+            y="0"
+            width="90"
+            height="150"
+            fill="#A5A3A3"/>
+      <rect id="NonMember_Lines"
+            x="750"
+            y="0"
+            width="70"
+            height="150"
+            fill="#E95FF2"/>
+      <text x="65" y="75" font-size="35px" fill="white">16</text>
+      <text x="190" y="75" font-size="35px" fill="white">9</text>
+      <text x="265" y="75" font-size="35px" fill="white">5</text>
+      <text x="320" y="75" font-size="35px" fill="white">6</text>
+      <text x="395" y="75" font-size="35px" fill="white">9</text>
+      <text x="460" y="75" font-size="35px" fill="white">4</text>
+      <text x="510" y="75" font-size="35px" fill="white">6</text>
+      <text x="560" y="75" font-size="35px" fill="white">4</text>
+      <text x="615" y="75" font-size="35px" fill="white">7</text>
+      <text x="695" y="75" font-size="35px" fill="white">9</text>
+      <text x="775" y="75" font-size="35px" fill="white">7</text>
+         
+      <text x="45" y="195" font-size="35px" fill="#E72121">Jihyo</text>
+      <text x="145" y="195" font-size="35px" fill="#E78421">Nayeon</text>
+      <text x="190" y="-30" font-size="35px" fill="#D4C92E">Jeongyeon</text>
+      <text x="270" y="195" font-size="35px" fill="#82E721">Momo</text>
+      <text x="380" y="195" font-size="35px" fill="#21E7BF">Sana</text>
+      <text x="435" y="-30" font-size="35px" fill="#21A7E7">Mina</text>
+      <text x="460" y="195" font-size="35px" fill="#215FE7">Dahyun</text>
+      <text x="520" y="-30" font-size="35px" fill="#8E21E7">Chaeyoung</text>
+      <text x="580" y="195" font-size="35px" fill="#CA0284">Tzuyu</text>
+      <text x="685" y="195" font-size="35px" fill="#A5A3A3">All</text>
+      <text x="720" y="-30" font-size="35px" fill="#E95FF2">Non-Member</text>
+         <text x="-52" y="45" font-size="35px" fill="white">82</text>
+         <text x="-90" y="85" font-size="35px" fill="white">Total</text>
+         <text x="-94" y="125" font-size="35px" fill="white">Lines</text>
+   </g>
+</svg>

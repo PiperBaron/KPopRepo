@@ -30,7 +30,7 @@
             y="0"
             width="60"
             height="150"
-            fill="#E95FF2"/>
+            fill="#A5A3A3"/>
       <text x="37.5" y="75" font-size="35px" fill="white">11</text>
       <text x="180" y="75" font-size="35px" fill="white">18</text>
       <text x="375" y="75" font-size="35px" fill="white">19</text>
@@ -41,7 +41,7 @@
       <text x="145" y="195" font-size="35px" fill="#E78421">Jennie</text>
       <text x="350" y="195" font-size="35px" fill="#D4C92E">Rosé</text>
       <text x="540" y="195" font-size="35px" fill="#82E721">Lisa</text>
-      <text x="668" y="195" font-size="35px" fill="#E95FF2">All</text>
+         <text x="668" y="195" font-size="35px" fill="#A5A3A3">All</text>
          <text x="-52" y="45" font-size="35px" fill="white">72</text>
          <text x="-90" y="85" font-size="35px" fill="white">Total</text>
          <text x="-94" y="125" font-size="35px" fill="white">Lines</text>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 300" preserveAspectRatio="xMinYMin meet">
+   <g transform="translate(910, 55)">
+      <rect id="All_Lines_Together"
+            x="0"
+            y="0"
+            width="670"
+            height="150"
+            fill="bisque"/>
+      <rect id="JB_Lines"
+            x="0"
+            y="0"
+            width="130"
+            height="150"
+            fill="#E72121"/>
+      <rect id="MarkTuan_Lines"
+            x="130"
+            y="0"
+            width="50"
+            height="150"
+            fill="#E78421"/>
+      <rect id="Jackson_Lines"
+            x="180"
+            y="0"
+            width="60"
+            height="150"
+            fill="#D4C92E"/>
+      <rect id="Jinyoung_Lines"
+            x="240"
+            y="0"
+            width="140"
+            height="150"
+            fill="#82E721"/>
+      <rect id="Youngjae_Lines"
+            x="380"
+            y="0"
+            width="150"
+            height="150"
+            fill="#21E7BF"/>
+      <rect id="BamBam_Lines"
+            x="530"
+            y="0"
+            width="50"
+            height="150"
+            fill="#215FE7"/>
+      <rect id="Yugyeom_Lines"
+            x="580"
+            y="0"
+            width="90"
+            height="150"
+            fill="#8E21E7"/>
+      <text x="50" y="75" font-size="35px" fill="white">13</text>
+      <text x="145" y="75" font-size="35px" fill="white">5</text>
+      <text x="200" y="75" font-size="35px" fill="white">6</text>
+      <text x="290" y="75" font-size="35px" fill="white">14</text>
+      <text x="435" y="75" font-size="35px" fill="white">15</text>
+      <text x="545" y="75" font-size="35px" fill="white">5</text>
+      <text x="615" y="75" font-size="35px" fill="white">9</text>
+         
+      <text x="35" y="195" font-size="35px" fill="#E72121">JB</text>
+      <text x="95" y="-30" font-size="35px" fill="#E78421">Mark (Tuan)</text>
+      <text x="135" y="195" font-size="35px" fill="#D4C92E">Jackson</text>
+      <text x="255" y="195" font-size="35px" fill="#82E721">Jinyoung</text>
+      <text x="380" y="-30" font-size="35px" fill="#21E7BF">Youngjae</text>
+      <text x="500" y="195" font-size="35px" fill="#21A7E7">BamBam</text>
+      <text x="560" y="-30" font-size="35px" fill="#8E21E7">Yugyeom</text>
+         <text x="685" y="45" font-size="35px" fill="white">67</text>
+         <text x="685" y="85" font-size="35px" fill="white">Total</text>
+         <text x="685" y="125" font-size="35px" fill="white">Lines</text>
+   </g>
+</svg>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 400" preserveAspectRatio="xMinYMin meet">
+   <g transform="translate(970, 100)">
+      <rect id="All_Lines_Together"
+            x="0"
+            y="0"
+            width="550"
+            height="150"
+            fill="bisque"/>
+      <rect id="SCoups_Lines"
+            x="0"
+            y="0"
+            width="30"
+            height="150"
+            fill="#E54E03"/>
+      <rect id="Jeonghan_Lines"
+            x="30"
+            y="0"
+            width="30"
+            height="150"
+            fill="#FF9A00"/>
+      <rect id="Joshua_Lines"
+            x="60"
+            y="0"
+            width="20"
+            height="150"
+            fill="#D4C92E"/>
+      <rect id="Jun_Lines"
+            x="80"
+            y="0"
+            width="30"
+            height="150"
+            fill="#A6F531"/>
+      <rect id="Hoshi_Lines"
+            x="110"
+            y="0"
+            width="40"
+            height="150"
+            fill="#03B31F"/>
+      <rect id="Wonwoo_Lines"
+            x="150"
+            y="0"
+            width="40"
+            height="150"
+            fill="#21E7BF"/>
+      <rect id="Woozi_Lines"
+            x="190"
+            y="0"
+            width="30"
+            height="150"
+            fill="#21A7E7"/>
+      <rect id="DK_Lines"
+            x="220"
+            y="0"
+            width="60"
+            height="150"
+            fill="#215FE7"/>
+      <rect id="Mingyu_Lines"
+            x="280"
+            y="0"
+            width="40"
+            height="150"
+            fill="#CBB4FC"/>
+      <rect id="The8_Lines"
+            x="320"
+            y="0"
+            width="30"
+            height="150"
+            fill="#8E21E7"/>
+      <rect id="Seungkwan_Lines"
+            x="350"
+            y="0"
+            width="30"
+            height="150"
+            fill="#FF19D1"/>
+      <rect id="Vernon_Lines"
+            x="380"
+            y="0"
+            width="20"
+            height="150"
+            fill="#CA0284"/>
+      <rect id="Dino_Lines"
+            x="400"
+            y="0"
+            width="40"
+            height="150"
+            fill="#FF408E"/>
+      <rect id="All_Lines"
+            x="440"
+            y="0"
+            width="100"
+            height="150"
+            fill="#A5A3A3"/>
+      <rect id="NonMember_Lines"
+            x="540"
+            y="0"
+            width="10"
+            height="150"
+            fill="#EE85F6"/>
+      <text x="10" y="75" font-size="35px" fill="white">3</text>
+      <text x="35" y="75" font-size="35px" fill="white">3</text>
+      <text x="60" y="75" font-size="35px" fill="white">2</text>
+      <text x="85" y="75" font-size="35px" fill="white">3</text>
+      <text x="120" y="75" font-size="35px" fill="white">4</text>
+      <text x="160" y="75" font-size="35px" fill="white">4</text>
+      <text x="195" y="75" font-size="35px" fill="white">3</text>
+      <text x="240" y="75" font-size="35px" fill="white">6</text>
+      <text x="290" y="75" font-size="35px" fill="white">4</text>
+      <text x="325" y="75" font-size="35px" fill="white">3</text>
+      <text x="355" y="75" font-size="35px" fill="white">3</text>
+      <text x="380" y="75" font-size="35px" fill="white">3</text>
+      <text x="410" y="75" font-size="35px" fill="white">3</text>
+      <text x="470" y="75" font-size="35px" fill="white">10</text>
+      <text x="535" y="75" font-size="35px" fill="white">1</text>
+         
+      <text x="-65" y="195" font-size="35px" fill="#E54E03">SCoups</text>
+      <text x="-35" y="-30" font-size="35px" fill="#FF9A00">Jeonghan</text>
+      <text x="32" y="-70" font-size="35px" fill="#D4C92E">Joshua</text>
+      <text x="65" y="195" font-size="35px" fill="#A6F531">Jun</text>
+      <text x="98" y="240" font-size="35px" fill="#03B31F">Hoshi</text>
+      <text x="135" y="195" font-size="35px" fill="#21E7BF">Wonwoo</text>
+      <text x="165" y="-30" font-size="35px" fill="#21A7E7">Woozi</text>
+      <text x="225" y="-70" font-size="35px" fill="#215FE7">DK</text>
+      <text x="265" y="195" font-size="35px" fill="#CBB4FC">Mingyu</text>
+      <text x="300" y="-30" font-size="35px" fill="#8E21E7">The8</text>
+      <text x="290" y="240" font-size="35px" fill="#FF14E5">Seungkwan</text>
+      <text x="345" y="-70" font-size="35px" fill="#CA0284">Vernon</text>
+      <text x="385" y="195" font-size="35px" fill="#FF408E">Dino</text>
+      <text x="465" y="195" font-size="35px" fill="#A5A3A3">All</text>
+      <text x="480" y="-30" font-size="35px" fill="#EE85F6">Non-Member</text>
+         <text x="-67" y="45" font-size="35px" fill="white">55</text>
+         <text x="-90" y="85" font-size="35px" fill="white">Total</text>
+         <text x="-94" y="125" font-size="35px" fill="white">Lines</text>
+   </g>
+</svg>
