@@ -173,6 +173,7 @@ li.nav_li.dropdown {
 }
 
 .Music_Video iframe {
+    border: 0px;
     clear: both;
     margin-top: 25px;
     margin-bottom: 4%;
