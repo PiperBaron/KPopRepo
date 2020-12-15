@@ -15,6 +15,7 @@ function toggle() {
     var Hyungwon = document.getElementsByClassName("Hyungwon");
     var Joohoney = document.getElementsByClassName("Joohoney");
     var IM = document.getElementsByClassName("IM");
+    var AllMembers = document.getElementsByClassName("All");
     
     switch (id) {
      case "Shownutoggle": {
@@ -51,6 +52,12 @@ function toggle() {
       var e;
       for (e=0; e < IM.length; e++)
       {IM[e].classList.toggle("on")}
+       };
+      break;
+                  case "AllMemberstoggle": {
+      var e;
+      for (e=0; e < AllMembers.length; e++)
+      {AllMembers[e].classList.toggle("on")}
        };
       break;
       }

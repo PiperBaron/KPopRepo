@@ -186,7 +186,7 @@ li.nav_li.dropdown {
 
 #legend {
     float: right;
-    width: 25%;
+    width: 28%;
     margin-right: 25px;
 }
 
@@ -294,6 +294,22 @@ span.backing_vocal.IM.on {
 
 span.shared_vocal.IM.on {
     color: #215FE7;
+}
+
+span.TestAllMembers {
+    color: #A5A3A3;
+}
+
+div.song_line.All.on {
+    color: #A5A3A3;
+}
+
+span.backing_vocal.All.on {
+    color: #A5A3A3;
+}
+
+span.shared_vocal.All.on {
+    color: #A5A3A3;
 }
 
 #lyrics_holder {

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 300" preserveAspectRatio="xMinYMin meet">
+   <g transform="translate(800, 55)">
+      <rect id="All_Lines_Together"
+            x="0"
+            y="0"
+            width="900"
+            height="150"
+            fill="bisque"/>
+      <rect id="Shownu_Lines"
+            x="0"
+            y="0"
+            width="110"
+            height="150"
+            fill="#E72121"/>
+      <rect id="Minhyuk_Lines"
+            x="110"
+            y="0"
+            width="80"
+            height="150"
+            fill="#E78421"/>
+      <rect id="Kihyun_Lines"
+            x="190"
+            y="0"
+            width="140"
+            height="150"
+            fill="#D4C92E"/>
+      <rect id="Hyungwon_Lines"
+            x="330"
+            y="0"
+            width="80"
+            height="150"
+            fill="#82E721"/>
+      <rect id="Joohoney_Lines"
+            x="410"
+            y="0"
+            width="170"
+            height="150"
+            fill="#21E7BF"/>
+      <rect id="IM_Lines"
+            x="580"
+            y="0"
+            width="200"
+            height="150"
+            fill="#215FE7"/>
+      <rect id="All_Lines"
+            x="780"
+            y="0"
+            width="120"
+            height="150"
+            fill="#A5A3A3"/>
+      <text x="40" y="75" font-size="35px" fill="white">11</text>
+      <text x="140" y="75" font-size="35px" fill="white">8</text>
+      <text x="240" y="75" font-size="35px" fill="white">14</text>
+      <text x="360" y="75" font-size="35px" fill="white">8</text>
+      <text x="475" y="75" font-size="35px" fill="white">17</text>
+      <text x="660" y="75" font-size="35px" fill="white">20</text>
+      <text x="820" y="75" font-size="35px" fill="white">12</text>
+         
+      <text x="-15" y="195" font-size="35px" fill="#E72121">Shownu</text>
+      <text x="90" y="-30" font-size="35px" fill="#E78421">Minhyuk</text>
+      <text x="200" y="195" font-size="35px" fill="#D4C92E">Kihyun</text>
+      <text x="290" y="-30" font-size="35px" fill="#82E721">Hyungwon</text>
+      <text x="430" y="195" font-size="35px" fill="#21E7BF">Joohoney</text>
+      <text x="655" y="195" font-size="35px" fill="#215FE7">I.M</text>
+      <text x="820" y="195" font-size="35px" fill="#A5A3A3">All</text>
+         <text x="-67" y="45" font-size="35px" fill="white">90</text>
+         <text x="-90" y="85" font-size="35px" fill="white">Total</text>
+         <text x="-94" y="125" font-size="35px" fill="white">Lines</text>
+   </g>
+</svg>
