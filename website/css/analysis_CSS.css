@@ -127,7 +127,7 @@ p a:hover {
     display: flex;
 }
 
-.lines_charts_1, .lines_charts_2 {
+.lines_charts {
     display: flex;
 }
 
@@ -143,6 +143,7 @@ p a:hover {
 
 .group_names {
     margin: 10px;
+    text-align: center;
 }
 
 .group_names a {
@@ -157,18 +158,6 @@ p a:hover {
     font-size: 20px;
 }
 
-#BTS_Name {
-    margin-left: 270px;
-}
-
-#BP_Name {
-    margin-left: 770px;
-}
-
-#EXO_Name {
-    margin-left: 340px;
-}
-
 #BTS_Lines {
     flex: 1;
 }
@@ -180,7 +169,6 @@ p a:hover {
 #EXO_Lines {
     flex: 1;
 }
-
 
 #CClicense {
     font-size: 15px;

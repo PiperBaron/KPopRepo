@@ -165,16 +165,33 @@ li.nav_li.dropdown {
     font-size: 26px;
 }
 
-#legend {
-
-    margin: auto;
-    float: right;
-    padding: 15px 45px;
-    margin-top: -50px;
-    margin-right: 25px;
-    width: 290px;
+.Music_Video {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    clear: both;
 }
 
+.Music_Video iframe {
+    clear: both;
+    margin-top: 25px;
+    margin-bottom: 4%;
+}
+
+#legend_left_space {
+    float: left;
+    width: 100%;
+}
+
+#legend {
+    float: right;
+    width: 25%;
+    margin-right: 25px;
+}
+
+#legend_holder {
+    display: flex;
+}
 .fieldsetCol1, .fieldsetCol2 {
   float: left;
   width: 49%;
