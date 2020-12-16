@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>K-Pop Project: Our Code</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="css/code_CSS.css"/>
+    </head>
+    <body>
+        <div class="header">
+            <h1>K-Pop Songs, Translations, and Profiles</h1>
+        </div>
+        
+        <!--#include virtual="navigation_menu.html" -->
+        
+        <div class="main">
+            <h2>A Peek at Our Code</h2>
+            <p>Here you can get a glimpse of all the code beneathe the hood. If you want to explore all of our code and documents, please feel free to sift through our <a href="https://github.com/PiperBaron/KPopRepo">GitHub Repo</a>.</p>
+            
+            <h3>XML and Document Structure</h3>
+            <p>Both our group profiles and song pages begin with an About section dedicated to providing relevant background information. We did a lot of research to make sure this information was accurate and current.</p>
+            <img id="IMG_About" src="images/code_previews/song_XML_About.PNG" alt="A screenshot of the XML editor oXygen, showing the beginning About section of the song page XML for BTS"/>
+            <p>Our group profiles and song pages had pretty unique structures from another. Every song was broken up into both the orignal Korean lyrics and their English translations, broken down een further into sections (verse, chorus, bridge, etc.) and then into individual lines.</p>
+            <img class="IMG_One" src="images/code_previews/song_XML_Lines_02.png" alt=""/>
+            <p>The profile code is less complicated, comprised mostly of these little sections that contain basic info about a given member.</p>
+            <img class="IMG_Two" src="images/code_previews/profile_XML_Members.PNG" alt=""/>
+            <h3>Schemas</h3>
+            <p>Due to having two very distinct types of documents, we had to make two RelaxNG schemas for the project. We tried to make our schemas as thourough and precise as we could, as we had a lot of text that needed to be be arranged <i>very</i> specifically (especially the songs).</p>
+            <img class="IMG_One" src="images/code_previews/song_Schema_01.PNG" alt=""/>
+            <img class="IMG_Two" src="images/code_previews/profile_Schema_01.PNG" alt=""/>
+        </div>
+    </body>
+</html>
