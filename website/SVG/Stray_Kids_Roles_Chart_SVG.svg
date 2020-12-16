@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" preserveAspectRatio="xMinYMin meet">
+   <g transform="translate(80, 500)">
+      <line x1="0" y1="0" x2="300" y2="0" stroke="white"/>
+      <line x1="0" y1="0" x2="0" y2="-400" stroke="white"/>
+         <text x="125" y="-465" font-size="20px" fill="white">Total Roles for Stray Kids:</text>
+         <text x="350" y="-300" font-size="20px" fill="white">Legend</text>
+         <text x="300" y="-280" fill="white">Vocalists</text>
+      <rect x="400" y="-290" width="50" height="15" fill="#cce6f4"/>
+         <text x="300" y="-260" fill="white">Dancers</text>
+      <rect x="400" y="-270" width="50" height="15" fill="#4ba3c3"/>
+         <text x="300" y="-240" fill="white">Rappers</text>
+      <rect x="400" y="-250" width="50" height="15" fill="#0355C1"/>
+         <text x="300" y="-220" fill="white">Visuals</text>
+      <rect x="400" y="-230" width="50" height="15" fill="#C01E6D"/>
+         <text x="300" y="-200" fill="white">Producers</text>
+      <rect x="400" y="-210" width="50" height="15" fill="#d62839"/>
+      <g class="role">
+         <rect id="Vocals"
+               x="50"
+               y="-400"
+               width="30"
+               height="400"
+               fill="#cce6f4"/>
+         <rect id="Dancers"
+               x="100"
+               y="-200"
+               width="30"
+               height="200"
+               fill="#4ba3c3"/>
+         <rect id="Rappers"
+               x="150"
+               y="-300"
+               width="30"
+               height="300"
+               fill="#0355C1"/>
+         <rect id="Visuals"
+               x="200"
+               y="-50"
+               width="30"
+               height="50"
+               fill="#C01E6D"/>
+         <rect id="Producers"
+               x="250"
+               y="-150"
+               width="30"
+               height="150"
+               fill="#d62839"/>
+         <text x="60" y="-200" font-size="20px" fill="black">8</text>
+         <text x="110" y="-100" font-size="20px" fill="black">4</text>
+         <text x="160" y="-150" font-size="20px" fill="white">6</text>
+         <text x="210" y="-25" font-size="20px" fill="white">1</text>
+         <text x="260" y="-75" font-size="20px" fill="white">3</text>
+      </g>
+   </g>
+</svg>

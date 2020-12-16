@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" preserveAspectRatio="xMinYMin meet">
+   <g transform="translate(320, 500)">
+      <line x1="0" y1="0" x2="300" y2="0" stroke="white"/>
+      <line x1="0" y1="0" x2="0" y2="-450" stroke="white"/>
+      <text x="125" y="-465" font-size="20px" fill="white">Total Roles for Twice:</text>
+         <text x="350" y="-300" font-size="20px" fill="white">Legend</text>
+         <text x="300" y="-280" fill="white">Vocalists</text>
+      <rect x="400" y="-290" width="50" height="15" fill="#FCCFA6"/>
+         <text x="300" y="-260" fill="white">Dancers</text>
+         <rect x="400" y="-270" width="50" height="15" fill="#FF8EB5"/>
+         <text x="300" y="-240" fill="white">Rappers</text>
+         <rect x="400" y="-250" width="50" height="15" fill="#dd2d4a"/>
+         <text x="300" y="-220" fill="white">Visuals</text>
+         <rect x="400" y="-230" width="50" height="15" fill="#FBB453"/>
+         <text x="300" y="-200" fill="white">Producers</text>
+         <rect x="400" y="-210" width="50" height="15" fill="#AF5A84"/>
+      <g class="role">
+         <rect id="Vocals"
+               x="50"
+               y="-450"
+               width="30"
+               height="450"
+               fill="#FCCFA6"/>
+         <rect id="Dancers"
+               x="100"
+               y="-200"
+               width="30"
+               height="200"
+               fill="#FF8EB5"/>
+         <rect id="Rappers"
+               x="150"
+               y="-150"
+               width="30"
+               height="150"
+               fill="#dd2d4a"/>
+         <rect id="Visuals"
+               x="200"
+               y="-50"
+               width="30"
+               height="50"
+               fill="#FBB453"/>
+         <rect id="Producers"
+               x="250"
+               y="0"
+               width="30"
+               height="0"
+               fill="#fff"/>
+         <text x="60" y="-225" font-size="20px" fill="black">9</text>
+         <text x="110" y="-100" font-size="20px" fill="black">4</text>
+         <text x="160" y="-75" font-size="20px" fill="black">3</text>
+         <text x="210" y="-25" font-size="20px" fill="black">1</text>
+         <text x="260" y="-15" font-size="20px" fill="white">0</text>
+      </g>
+   </g>
+</svg>

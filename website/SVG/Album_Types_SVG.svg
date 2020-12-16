@@ -7,19 +7,19 @@
       <text x="-35" y="-330" font-size="25" fill="white">33</text>
       <text x="-25" y="-235" font-size="20" style="writing-mode: tb;" fill="white">Count of albums</text>
       <text x="-25" y="0" font-size="25" fill="white">0</text>
-      <text x="550" y="-300" font-size="18" fill="white">Legend</text>
-      <text x="500" y="-280" fill="white">Single</text>
-      <rect x="600" y="-290" width="50" height="15" fill="hotpink"/>
-      <text x="500" y="-260" fill="white">Mini</text>
-      <rect x="600" y="-270" width="50" height="15" fill="khaki"/>
-      <text x="500" y="-240" fill="white">Full</text>
-      <rect x="600" y="-250" width="50" height="15" fill="lavender"/>
-      <text x="500" y="-220" fill="white">Repackaged</text>
-      <rect x="600" y="-230" width="50" height="15" fill="cyan"/>
-      <text x="500" y="-200" fill="white">Live</text>
-      <rect x="600" y="-210" width="50" height="15" fill="bisque"/>
-      <text x="500" y="-180" fill="white">Extended</text>
-      <rect x="600" y="-190" width="50" height="15" fill="thistle"/>
+      <text x="500" y="-300" font-size="18" fill="white">Legend</text>
+      <text x="450" y="-280" fill="white">Single</text>
+      <rect x="550" y="-290" width="50" height="15" fill="hotpink"/>
+      <text x="450" y="-260" fill="white">Mini</text>
+      <rect x="550" y="-270" width="50" height="15" fill="khaki"/>
+      <text x="450" y="-240" fill="white">Full</text>
+      <rect x="550" y="-250" width="50" height="15" fill="lavender"/>
+      <text x="450" y="-220" fill="white">Repackaged</text>
+      <rect x="550" y="-230" width="50" height="15" fill="cyan"/>
+      <text x="450" y="-200" fill="white">Live</text>
+      <rect x="550" y="-210" width="50" height="15" fill="bisque"/>
+      <text x="450" y="-180" fill="white">Extended</text>
+      <rect x="550" y="-190" width="50" height="15" fill="thistle"/>
       <g class="popBand">
          <text x="57" y="25" font-size="20" style="writing-mode: tb;" fill="white">GOT7</text>
          <line x1="80" y1="-330" x2="80" y2="0" stroke="black"/>

@@ -123,11 +123,15 @@ p a:hover {
     color: #BE6AFF;
 }
 
-.album_charts {
+#album_charts {
     display: flex;
 }
 
 .lines_charts {
+    display: flex;
+}
+
+#roles_charts {
     display: flex;
 }
 
@@ -159,6 +163,10 @@ p a:hover {
 }
 
 .chart_SVG {
+    flex: 1;
+}
+
+#Twice_Roles, #Stray_Kids_Roles {
     flex: 1;
 }
 
