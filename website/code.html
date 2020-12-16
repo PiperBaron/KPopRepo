@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>K-Pop Project: Our Code</title>
         <meta charset="utf-8" />
@@ -15,14 +15,23 @@
         
         <div class="main">
             <h2>A Peek at Our Code</h2>
-            <p>Here you can get a glimpse of all the code beneathe the hood. If you want to explore all of our code and documents, please feel free to sift through our <a href="https://github.com/PiperBaron/KPopRepo">GitHub Repo</a>.</p>
+            <p>Here you can get a glimpse of all the code beneath the hood. If you want to explore all of our code and documents, please feel free to sift through our <a href="https://github.com/PiperBaron/KPopRepo">GitHub Repo</a>. Use the navigation to quickly jump to a topic of interest.</p>
+            <div id="little_nav_holder">
+                <ul id="little_nav">
+                    <li class="little_nav_links"><a href="#XML">XML and Document Structure</a></li>
+                    <li class="little_nav_links"><a href="#Schemas">Schemas</a></li>
+                    <li class="little_nav_links"><a href="#XSLT">XSLT</a></li>
+                    <li class="little_nav_links"><a href="#SVG">SVG</a></li>
+                </ul>
+            </div>
             
-            <h3>XML and Document Structure</h3>
+            <h3 id="XML">XML and Document Structure</h3>
             <p>Both our group profiles and song pages begin with an About section dedicated to providing relevant background information. We did a lot of research to make sure this information was accurate and current. We also ensured that we are referencing relevant XML:IDs whenever possible to link between pages and profiles.</p>
-            <p>This "meaning" section within our song documents is meant to discuss the message, themes, and/or narrative of the song's lyrics (and video if applicable). We wrote them all ourselves, and when making them, we looked into the opinions of the general community through forum posts and comments, then into the reviews and interpretations from professional critics (typically from magazines or review sites). We also added our own personal interpretions into these as well, but we wanted to add a variety of perspectives.</p>
+            <p>The "meaning" element within the About section of the song documents is meant to discuss the message, themes, and/or narrative of the song's lyrics (and video if applicable). We wrote them all ourselves, and when making them, we looked into the opinions of the general community through forum posts and comments, then into the reviews and interpretations from professional critics (typically from magazines or review sites). We also added our own personal interpretations into these as well. Overall, we wanted to porrtay a combination of many perspectives.</p>
+            <p>You may notice in the "lyricCredit" element, there are some writers with "artistRef" attributes. That reference attribute is pointing to XML:IDs that were established on the corresponding group profile -- those people are actually members of the group! This was something we wanted to include from the start, so that we could demonstrate that many K-Pop idols contribute to the writing, production, and composition of the music itself.</p>
             <img id="IMG_About" src="images/code_previews/song_XML_About.PNG" alt="A screenshot of the XML editor oXygen, showing the beginning About section of the song page XML for BTS"/>
-            <p>Our group profiles and song pages had pretty unique structures from another. Every song was broken up into both the orignal Korean lyrics and their English translations, broken down even further into sections (verse, chorus, bridge, etc.) and then into individual lines. Each section and line has a specific number attached to it, in case we ever wanted to link to a particular verse or line (which we do in some of the song meanings!) Adding the "lineRef" attribute was very important, as that was what allowed us to do the colored line toggle you see on the song pages.</p>
-            <p>The "backVocal" and "sharedLine" elements were also really essential -- some members are well-known for their <a href="https://www.urbandictionary.com/define.php?term=Ad-libs">ad-libs</a> (like <a href="profiles/BTS_Profile.html#J-Hope">J-Hope</a> in the example below) and it would feel inaccurate and misleading if we didn't include some way for those ad-libs to be represented in our structure. It was also important, because some members (as noted in the <a href="analysis.html#line_dis_charts_section">Line Distribution section</a> of our Analysis page) have <i>more ad-libs than full lines</i>.</p>
+            <p>Our group profiles and song pages had pretty unique structures from one another. Every song was broken up into both the original Korean lyrics and their English translations, broken down even further into sections (verse, chorus, bridge, etc.) and then into individual lines. Each section and line has a specific number attached to it, in case we ever wanted to link to a particular verse or line (which we do in some of the song meanings!) Adding the "lineRef" attribute was very important, as that was what allowed us to do the colored line toggle you see on the song pages.</p>
+            <p>The "backVocal" and "sharedLine" elements were also really essential -- some members are well-known for their <a href="https://www.urbandictionary.com/define.php?term=Ad-libs">ad-libs</a> (like <a href="profiles/BTS_Profile.html#J-Hope">J-Hope</a> in the example below) and it would feel inaccurate and misleading if we didn't include some way for those ad-libs to be represented in our markup. It was also important, because some members (as noted in the <a href="analysis.html#line_dis_charts_section">Line Distribution section</a> of our Analysis page) have <i>more ad-libs than full lines</i>.</p>
             <img class="IMG_One" src="images/code_previews/song_XML_Lines_02.png" alt=""/>
             <img class="IMG_Small" src="images/code_previews/song_XML_Single_Line.png" alt=""/>
             <p class="caption">A closer look.</p>
@@ -31,23 +40,28 @@
             <img class="IMG_Two" src="images/code_previews/profile_XML_Members.PNG" alt=""/>
             <img class="IMG_Small" src="images/code_previews/profile_XML_Member.png" alt=""/>
             <p class="caption">A closer look.</p>
-            <h3>Schemas</h3>
-            <p>Due to having two very distinct types of documents, we had to make two RelaxNG schemas for the project. We tried to make our schemas as thourough and precise as we could, as we had a lot of text that needed to be be arranged <i>very</i> specifically (especially the songs).</p>
-            <p>You can see that only a few elements are required in the "koreanLyrics" section (and similarlly in the "engTrans" or English traslation section). K-Pop is very forumlaic, and we knew going in that <i>every</i> song will have some verses, choruses, prechoruses, and a bridge, but not all songs include an intro/outro, post chorus, refrain, etc. They can also be placed in any order (other than the intro/outro), because one song may start with a verse while another might start with the chorus.</p>
+            <h3 id="Schemas">Schemas</h3>
+            <p>Due to having two very distinct types of documents, we had to make two RelaxNG schemas for the project. We tried to make our schemas as thorough and precise as we could, as we had a lot of text that needed to be arranged <i>very</i> specifically (especially the songs).</p>
+            <p>You can see that only a few elements are required in the "koreanLyrics" section (and similarly in the "engTrans" or English translation section). K-Pop is very formulaic, and we knew going in that <i>every</i> song will have some verses, choruses, pre choruses, and a bridge, but not all songs include an intro/outro, post chorus, refrain, etc. They can also be placed in any order (other than the intro/outro), because one song may start with a verse while another might start with the chorus.</p>
             <img class="IMG_One" src="images/code_previews/song_Schema_02.PNG" alt=""/>
+            <p>As is (partially) explained in the comments below, there are lots of points of member information that can change from person to person. If we look back at the roles, some members might only fill one role -- maybe they <i>only</i> are a singer, and that's it. Other members, by contrast, might fill a ton of roles, be a jack-of-all-trades, type. We needed our schema to be able to fit a both scenarios, and anything in between.</p>
+            <p>Another example of an optional piece of info is the "subunit" element. Subunits are smaller sub-group that's formed of a whole, larger group, like Stray Kids' <a href="https://kpop.fandom.com/wiki/3RACHA">3RACHA</a> or EXO's <a href="https://kpop.fandom.com/wiki/EXO-CBX">EXO-CBX</a>. Not every member is a part of a subunit, and most groups don't even have them. But, some do, so we needed that flexibilty in the schema.</p>
             <img class="IMG_Two" src="images/code_previews/profile_Schema_02.PNG" alt=""/>
-            <p>We also had a Schematron file that was used to connect our group profiles and song pages. With this document, we were able to reference the XML:IDs established in a profile in the line of a song page.</p>
+            <p>We also had a Schematron file that was used to connect our group profiles and song pages. With this document, we were able to reference the XML:IDs established in a profile in the lines of a song page. We also have a few additional options when marking up the songs that can seen below: "All" and "Non-Member." "All" is pretty obviously, it's just when the entire group is singing together. "Non-Member" was used for every instace where the line being sung was <i>not</i> a member of the corresponding group -- this was usually a piece of sampled music or something to that affect.</p>
             <img class="IMG_Small" src="images/code_previews/Schematron_02.PNG" alt=""/>
-            <h3>XSLT</h3>
-            <p>We were able to convert all of that XML to HTML for this website with XSLT. Predictably, our XSLT documents were pretty long and complicated, due to how many elements and sections we developed.</p>
+            <h3 id="XSLT">XSLT</h3>
+            <p>We were able to convert all of that XML to HTML for this website with XSLT. Predictably, our XSLT documents were pretty long and complicated to put together, due to how many elements and sections we developed.</p>
             <p>Thankfully, the XSLT for the song pages was pretty simple. Setting up the background information held in the About section was easy, and just required putting the specific pieces of information like album and release date into its own div.</p>
             <img class="IMG_One" src="images/code_previews/song_XSLT_01.PNG" alt=""/>
-            <p>Matching for the different song sections was similarlly uncomplicated. We did include those afformentioned numbers on each section into the HTML through classes.</p>
+            <p>Matching for the different song sections was similarly uncomplicated. We did include those aforementioned numbers on each section into the HTML through classes.</p>
             <img class="IMG_Two" src="images/code_previews/song_XSLT_02.PNG" alt=""/>
-            <p>For the lines, we had to add in that "lineRef" attribute as a class, so we could isolate all the lines sung/rapped by each member with the line toggle JavaScript.</p>
+            <p>For the lines, we had to add in that "lineRef" attribute as a class, so we could isolate all the lines sung/rapped by each member with the line toggle JavaScript. We also have these two types of classes "korLineNumber" and "engLineNumber" followed by that "linenum" attribute from the XML. This was really useful to isolate certain lines in the song meanings.</p>
             <img class="IMG_One" src="images/code_previews/song_XSLT_Line.PNG" alt=""/>
             <p>The XSLT for the group profiles was a bit more complicated. We had to build these intricate nesting divs and lists that could accommodate all of the information we had on each idol. As said above, some elements like the "koreanName" and "nkBirthName" (non-Korean Birth Name) had to be made optional, while still fitting into the list of names when they <i>were</i> there.</p>
             <img class="IMG_Small" src="images/code_previews/profile_XSLT_Member.PNG" alt=""/>
+            <h3 id="SVG">SVG</h3>
+            <p>Lastly, here's what it takes to make one of the graphs/charts you see on the Analysis page! This is most of the code that made the <a href="analysis.html#roles_charts_section">Comparing Roles</a> chart. It involved essesntially counting each member, then counting the roles that the members fill. This chart is counting <b>every</b> role a member fills, so if there's a member who is a rapper first, then a dancer, this chart is counting <i>both</i>. We did it that way so that idols who are prolific and well-known in multiple roles won't get miscounted -- take <a href="profiles/BTS_Profile.html#RM">RM from BTS</a> as an example again. He's the leader, but the "rap line" of the group would be incomplete without him, and it would be misleading to count him <i>only</i> as a leader, when he's also a very renowned rapper.</p>
+            <img class="IMG_One" src="images/code_previews/SVG_01.PNG" alt=""/>
         </div>
     </body>
 </html>

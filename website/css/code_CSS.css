@@ -113,6 +113,31 @@ li.nav_li.dropdown {
   font-size: 18px;
 }
 
+#little_nav {
+  list-style-type: none;
+}
+ 
+li.little_nav_links {
+  margin: 12px 10px;
+}
+
+li.little_nav_links a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  color: #A5C1FB;
+  background-color: #161516;
+  padding: 5px;
+}
+
+li.little_nav_links a:hover {
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  color: #BE6AFF;
+  background-color: #000;
+}
+
 p a {
     text-decoration: none;
     color: #A5C1FB;
