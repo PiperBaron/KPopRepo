@@ -15,8 +15,20 @@
         
         <div class="main">
             <h2>Analysis</h2>
-            <h3>Album Type and Charting</h3>
-            <br />
+            <p>Below are a few charts and graphs analyzing some select points of data within our project. Use the navigation to quickly jump to a topic of interest.</p>
+            <div id="little_nav_holder">
+                <ul id="little_nav">
+                    <li class="little_nav_links"><a href="#album_charts_section">Album Type and Charting</a></li>
+                    <li class="little_nav_links"><a href="#line_dis_charts_section">Line Distribution</a></li>
+                    <li class="little_nav_links"><a href="#roles_charts_section">Comparing Roles</a></li>
+                </ul>
+            </div>
+            <h3 id="album_charts_section">Album Type and Charting</h3>
+            <div class="discussion">
+                <p>We thought these two charts would be interesting to display side-by-side as we were curious if a larger and more diverse discography in any way correlated to an increase in popularity -- it doesn't seem to! Fascinatingly enough, we stumbled upon a new comparison: the dramatic spread in popularity and recognition among our 10 groups internationally vs. in South Korea.</p>
+                <p>Popularity/Brand Reputation Ranking from <a href="https://kpopofficial.com/top-50-kpop-popularity-reputation-ranking-november-2020/">K-Pop Official</a>.</p>
+                <br />
+            </div>
             <div id="album_charts">
                 <img id="album_types" src="SVG/Album_Types_SVG.svg"
                     alt="A stacked-bar graph showing the amount of albums and album types across each K-Pop group." />
@@ -24,28 +36,28 @@
                     alt="A line graph showing the current popularity ranking of the 10 K-Pop groups in South Korea as of November 2020"
                  />
             </div>
+            <h3 id="line_dis_charts_section">Line Distribution</h3>
             <div class="discussion">
-                <p>Popularity/Brand Reputation Ranking from <a
-                        href="https://kpopofficial.com/top-50-kpop-popularity-reputation-ranking-november-2020/"
-                        >K-Pop Official</a>.</p>
-            </div>
-            <h3>Line Distribution</h3>
-            <div class="group_names">
-                <a href="songs/BTS_Boy_With_Luv.html">BTS - Boy With Luv</a>
-            </div>
-            <div class="lines_charts">
-                <img class="chart_SVG" src="SVG/BTS_Line_Distribution_SVG.svg"
-                    alt="A horizontal bar graph that shows the line distribution of BTS' Boy With Luv" />
-            </div>
-            <div class="group_names">
-                <a href="songs/BLACKPINK_D4.html">BLACKPINK - DDU-DU DDU-DU</a>
-            </div>
-            <div class="lines_charts">
-                <img class="chart_SVG" src="SVG/BLACKPINK_Line_Distribution_SVG.svg"
-                    alt="A horizontal bar graph that shows the line distribution of BLACKPINK's DDU-DU DDU-DU"
-                />
+                <p>Line distribution is the amount of lines any given member of a group gets to sing/rap on a track, typically in comparison to the other members. We found this relevant to include, because line distribution is an <a href="https://www.allkpop.com/article/2020/10/just-how-important-and-unfair-is-line-distribution-in-k-pop">incredibly common talking-point within the K-Pop community</a>. We calculated the total line count for each member (and of the song as a whole) through adding full lines and <a href="https://www.urbandictionary.com/define.php?term=Ad-libs">ad-libs</a> together.</p>
+                <p>Doing this happened to create some interesting situations! For example, one member of Stray Kids, <a href="profiles/Stray_Kids_Profile.html#Felix">Felix</a>, got less <i>full lines</i> than most of the other members in their song <a href="songs/Stray_Kids_Back_Door.html">Back Door</a>, but ended up with the <a href="#Stray_Kids_Lines">highest line count</a> due to his increased amount of <i>ad-libs</i> throughout the track.</p>
+                <br />
             </div>
             <div id="line_dis_charts"> 
+                <div class="group_names">
+                    <a href="songs/BTS_Boy_With_Luv.html">BTS - Boy With Luv</a>
+                </div>
+                <div class="lines_charts">
+                    <img class="chart_SVG" src="SVG/BTS_Line_Distribution_SVG.svg"
+                        alt="A horizontal bar graph that shows the line distribution of BTS' Boy With Luv" />
+                </div>
+                <div class="group_names">
+                    <a href="songs/BLACKPINK_D4.html">BLACKPINK - DDU-DU DDU-DU</a>
+                </div>
+                <div class="lines_charts">
+                    <img class="chart_SVG" src="SVG/BLACKPINK_Line_Distribution_SVG.svg"
+                        alt="A horizontal bar graph that shows the line distribution of BLACKPINK's DDU-DU DDU-DU"
+                    />
+                </div>
                 <div class="group_names">
                     <a href="songs/EXO_Obsession.html">EXO - Obsession</a>
                 </div>
@@ -83,7 +95,7 @@
                     <img class="chart_SVG" src="SVG/Seventeen_Line_Distribution_SVG.svg" alt="A horizontal bar graph that shows the line distribution of Seventeen's Don't Wanna Cry"/>
                 </div>
                 <div class="group_names">
-                    <a href="songs/Stray_Kids_Back_Door.html">Stray Kids - Back Door</a>
+                    <a id="Stray_Kids_Lines" href="songs/Stray_Kids_Back_Door.html">Stray Kids - Back Door</a>
                 </div>
                 <div class="lines_charts">
                     <img class="chart_SVG" src="SVG/Stray_Kids_Line_Distribution_SVG.svg" alt="A horizontal bar graph that shows the line distribution of Stray Kids' Back Door"/>
@@ -95,7 +107,12 @@
                     <img class="chart_SVG" src="SVG/MonstaX_Line_Distribution_SVG.svg" alt="A horizontal bar graph that shows the line distribution of Monsta X's Love Killa"/>
                 </div>
             </div>
-            <h3>Comparing Roles</h3>
+            <h3 id="roles_charts_section">Comparing Roles</h3>
+            <div class="discussion">
+                <p>Finally, we decided to compare the amount of roles taken by the members of two <i>very</i> different groups. For anyone unaware, "roles" are their duties a member has within a group, e.g. they sing, they dance, the write/produce the music, etc. It's important to note that one member can fulfill multiple roles within a group, and these graphs are counting <b>all of that</b> -- for example, if a member is both a rapper and dancer, the graph will count that as one rapper and one dancer. We did it that way so that idols who are prolific and well-known in multiple roles won't get miscounted (take <a href="profiles/BTS_Profile.html#RM">RM from BTS</a> as an example, his main role is "leader," but he is also a key rapper for the group).</p>
+                <p>These two charts are looking at two groups who focus on extremely different sounds/styles/aesthetics. <a href="profiles/Twice_Profile.HTML">Twice</a> is mostly an aesthetic group with a lesser focus on vocals and dancing. They don't produce any of their own music. Contrast this with <a href="profiles/Stray_Kids_Profile.html">Stray Kids</a>, who are a rap/dance focused group with three producers.</p>
+                <br />
+            </div>
             <div id="roles_charts">
                 <img id="Twice_Roles" src="SVG/Twice_Roles_Chart_SVG.svg" alt="A vertical bar graph that shows the number of roles/positions within the group Twice"/>
                 <img id="Stray_Kids_Roles" src="SVG/Stray_Kids_Roles_Chart_SVG.svg" alt="A vertical bar graph that shows the number of roles/positions within the group Stray Kids"/>

@@ -27,7 +27,7 @@ h2{
 h3 {
  font-size: 28px;
  text-align: center;
- color: white;
+ color: #F5C1FF;
 }
 
 h4 {
@@ -46,7 +46,7 @@ ul.nav {
   max-height: 500px;
 }
 
-li {
+li.nav_li {
   display: inline-block;
   margin: 0 75px 0 75px;
 }
@@ -61,12 +61,12 @@ li a, .dropbtn {
   color: #E1A5FB;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li.nav_li a:hover, .dropdown:hover .dropbtn {
   background-color: #A859CA;
   color: #f2f2f2;
 }
 
-li.dropdown {
+li.nav_li.dropdown {
   display: inline-block;
 }
 
@@ -113,6 +113,31 @@ li.dropdown {
   font-size: 18px;
 }
 
+#little_nav {
+  list-style-type: none;
+}
+ 
+li.little_nav_links {
+  margin: 12px 10px;
+}
+
+li.little_nav_links a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  color: #A5C1FB;
+  background-color: #161516;
+  padding: 5px;
+}
+
+li.little_nav_links a:hover {
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  color: #BE6AFF;
+  background-color: #000;
+}
+
 p a {
     text-decoration: none;
     color: #A5C1FB;
@@ -121,6 +146,11 @@ p a {
 p a:hover {
     text-decoration: none;
     color: #BE6AFF;
+}
+
+.discussion {
+    margin: 0px 45px;
+    font-size: 18px;
 }
 
 #album_charts {
