@@ -123,6 +123,13 @@ p a:hover {
     color: #BE6AFF;
 }
 
+.caption {
+    text-align: center;
+    font-size: 14px;
+    margin: 0px;
+    color: #C5C0C5;
+}
+
 #IMG_About {
     display: block;
     margin: 0 auto;
@@ -134,6 +141,13 @@ p a:hover {
     margin: 0 auto;
   padding: 5px;
   width: 60%;
+}
+
+.IMG_Small {
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    width: 75%;
 }
 
 #CClicense {
