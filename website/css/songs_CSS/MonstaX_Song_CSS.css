@@ -215,6 +215,18 @@ span.shared_vocal.Shownu.on {
     color: #E72121;
 }
 
+span.backing_vocal.Shownu.gradient2.on {
+   background: -webkit-linear-gradient(45deg, #E78421, #E72121);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span.shared_vocal.Shownu.gradient2.on {
+   background: -webkit-linear-gradient(45deg, #E78421, #E72121);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 span.TestMinhyuk {
     color: #E78421;
 }
@@ -230,7 +242,6 @@ span.backing_vocal.Minhyuk.on {
 span.shared_vocal.Minhyuk.on {
     color: #E78421;
 }
-
 
 span.TestKihyun {
     color: #D4C92E;
@@ -280,6 +291,18 @@ span.shared_vocal.Joohoney.on {
     color: #21E7BF;
 }
 
+span.backing_vocal.Joohoney.gradient1.on {
+   background: -webkit-linear-gradient(45deg, #215FE7, #21E7BF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span.shared_vocal.Joohoney.gradient1.on {
+   background: -webkit-linear-gradient(45deg, #215FE7, #21E7BF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 span.TestIM {
     color: #215FE7;
 }
@@ -294,6 +317,18 @@ span.backing_vocal.IM.on {
 
 span.shared_vocal.IM.on {
     color: #215FE7;
+}
+
+span.backing_vocal.IM.gradient3.on {
+   background: -webkit-linear-gradient(45deg, #21E7BF, #215FE7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span.shared_vocal.IM.gradient3.on {
+   background: -webkit-linear-gradient(45deg, #21E7BF, #215FE7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 span.TestAllMembers {

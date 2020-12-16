@@ -231,7 +231,6 @@ span.shared_vocal.Jin.on {
     color: #E78421;
 }
 
-
 span.TestSuga {
     color: #D4C92E;
 }
@@ -262,6 +261,18 @@ span.backing_vocal.J-Hope.on {
 
 span.shared_vocal.J-Hope.on {
     color: #82E721;
+}
+
+span.backing_vocal.J-Hope.gradient1.on {
+   background: -webkit-linear-gradient(45deg, #8E21E7, #82E721);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span.shared_vocal.J-Hope.gradient1.on {
+   background: -webkit-linear-gradient(45deg, #8E21E7, #82E721);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 span.TestJimin {
@@ -326,6 +337,42 @@ span.backing_vocal.Non-Member.on {
 
 span.shared_vocal.Non-Member.on {
     color: #E95FF2;
+}
+
+span.backing_vocal.Non-Member.gradient2.on {
+   background: -webkit-linear-gradient(45deg, #E78421, #E95FF2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span.shared_vocal.Non-Member.gradient2.on {
+   background: -webkit-linear-gradient(45deg, #E78421, #E95FF2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span.backing_vocal.Non-Member.gradient3.on {
+   background: -webkit-linear-gradient(45deg, #215FE7, #E95FF2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span.shared_vocal.Non-Member.gradient3.on {
+   background: -webkit-linear-gradient(45deg, #215FE7, #E95FF2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span.backing_vocal.Non-Member.gradient4.on {
+   background: -webkit-linear-gradient(45deg, #21E7BF, #E95FF2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span.shared_vocal.Non-Member.gradient4.on {
+   background: -webkit-linear-gradient(45deg, #21E7BF, #E95FF2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #lyrics_holder {
