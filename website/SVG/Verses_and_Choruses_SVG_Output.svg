@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 800" preserveAspectRatio="xMinYMin meet">
+   <g transform="translate(200, 500)">
+      <line x1="0" y1="0" x2="715" y2="0" stroke="white"/>
+      <line x1="0" y1="0" x2="0" y2="-350" stroke="white"/>
+      <text x="250" y="-465" font-size="35px" fill="white">Number of Verses</text>
+      <text x="-25" y="-50" font-size="25" fill="white">1</text>
+      <text x="-25" y="-100" font-size="25" fill="white">2</text>
+      <text x="-25" y="-150" font-size="25" fill="white">3</text>
+      <text x="-25" y="-200" font-size="25" fill="white">4</text>
+      <text x="-25" y="-250" font-size="25" fill="white">5</text>
+      <text x="-25" y="-300" font-size="25" fill="white">6</text>
+      <g class="Verses">
+         <text x="80" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Boy With Luv</text>
+         <rect x="65" y="-200" width="45" height="200" fill="#2A1AD8"/>
+         <text x="80" y="-220" font-size="30px" fill="white">4</text>
+      </g>
+      <g class="Verses">
+         <text x="145" y="25" style="writing-mode: tb;" font-size="25px" fill="white">DDU-DU DDU-DU</text>
+         <rect x="130" y="-100" width="45" height="100" fill="#4E26E2"/>
+         <text x="145" y="-120" font-size="30px" fill="white">2</text>
+      </g>
+      <g class="Verses">
+         <text x="210" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Obsession</text>
+         <rect x="195" y="-150" width="45" height="150" fill="#7231EC"/>
+         <text x="210" y="-170" font-size="30px" fill="white">3</text>
+      </g>
+      <g class="Verses">
+         <text x="275" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Likey</text>
+         <rect x="260" y="-150" width="45" height="150" fill="#953DF5"/>
+         <text x="275" y="-170" font-size="30px" fill="white">3</text>
+      </g>
+      <g class="Verses">
+         <text x="340" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Simon Says</text>
+         <rect x="325" y="-100" width="45" height="100" fill="#B948FF"/>
+         <text x="340" y="-120" font-size="30px" fill="white">2</text>
+      </g>
+      <g class="Verses">
+         <text x="405" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Ridin’</text>
+         <rect x="390" y="-100" width="45" height="100" fill="#DC48FF"/>
+         <text x="405" y="-120" font-size="30px" fill="white">2</text>
+      </g>
+      <g class="Verses">
+         <text x="470" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Lullaby</text>
+         <rect x="455" y="-300" width="45" height="300" fill="#EB4CFA"/>
+         <text x="470" y="-320" font-size="30px" fill="white">6</text>
+      </g>
+      <g class="Verses">
+         <text x="535" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Don't Wanna Cry</text>
+         <rect x="520" y="-100" width="45" height="100" fill="#F059DD"/>
+         <text x="535" y="-120" font-size="30px" fill="white">2</text>
+      </g>
+      <g class="Verses">
+         <text x="600" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Back Door</text>
+         <rect x="585" y="-100" width="45" height="100" fill="#F763C3"/>
+         <text x="600" y="-120" font-size="30px" fill="white">2</text>
+      </g>
+      <g class="Verses">
+         <text x="665" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Love Killa</text>
+         <rect x="650" y="-100" width="45" height="100" fill="#F7639F"/>
+         <text x="665" y="-120" font-size="30px" fill="white">2</text>
+      </g>
+   </g>
+   <g transform="translate(1020, 500)">
+      <line x1="0" y1="0" x2="715" y2="0" stroke="white"/>
+      <line x1="0" y1="0" x2="0" y2="-350" stroke="white"/>
+      <text x="250" y="-465" font-size="35px" fill="white">Number of Choruses</text>
+      <text x="-25" y="-50" font-size="25" fill="white">1</text>
+      <text x="-25" y="-100" font-size="25" fill="white">2</text>
+      <text x="-25" y="-150" font-size="25" fill="white">3</text>
+      <text x="-25" y="-200" font-size="25" fill="white">4</text>
+      <text x="-25" y="-250" font-size="25" fill="white">5</text>
+      <text x="-25" y="-300" font-size="25" fill="white">6</text>
+      <g class="Choruses">
+         <text x="80" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Boy With Luv</text>
+         <rect x="65" y="-150" width="45" height="150" fill="#FFE135"/>
+         <text x="80" y="-170" font-size="30px" fill="white">3</text>
+      </g>
+      <g class="Choruses">
+         <text x="145" y="25" style="writing-mode: tb;" font-size="25px" fill="white">DDU-DU DDU-DU</text>
+         <rect x="130" y="-100" width="45" height="100" fill="#FFBA28"/>
+         <text x="145" y="-120" font-size="30px" fill="white">2</text>
+      </g>
+      <g class="Choruses">
+         <text x="210" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Obsession</text>
+         <rect x="195" y="-150" width="45" height="150" fill="#FF891B"/>
+         <text x="210" y="-170" font-size="30px" fill="white">3</text>
+      </g>
+      <g class="Choruses">
+         <text x="275" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Likey</text>
+         <rect x="260" y="-100" width="45" height="100" fill="#FF751B"/>
+         <text x="275" y="-120" font-size="30px" fill="white">2</text>
+      </g>
+      <g class="Choruses">
+         <text x="340" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Simon Says</text>
+         <rect x="325" y="-150" width="45" height="150" fill="#FF560D"/>
+         <text x="340" y="-170" font-size="30px" fill="white">3</text>
+      </g>
+      <g class="Choruses">
+         <text x="405" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Ridin’</text>
+         <rect x="390" y="-150" width="45" height="150" fill="#FF3E0D"/>
+         <text x="405" y="-170" font-size="30px" fill="white">3</text>
+      </g>
+      <g class="Choruses">
+         <text x="470" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Lullaby</text>
+         <rect x="455" y="-150" width="45" height="150" fill="#FF2A00"/>
+         <text x="470" y="-170" font-size="30px" fill="white">3</text>
+      </g>
+      <g class="Choruses">
+         <text x="535" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Don't Wanna Cry</text>
+         <rect x="520" y="-100" width="45" height="100" fill="#FF0800"/>
+         <text x="535" y="-120" font-size="30px" fill="white">2</text>
+      </g>
+      <g class="Choruses">
+         <text x="600" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Back Door</text>
+         <rect x="585" y="-150" width="45" height="150" fill="#FF0032"/>
+         <text x="600" y="-170" font-size="30px" fill="white">3</text>
+      </g>
+      <g class="Choruses">
+         <text x="665" y="25" style="writing-mode: tb;" font-size="25px" fill="white">Love Killa</text>
+         <rect x="650" y="-150" width="45" height="150" fill="#FF0059"/>
+         <text x="665" y="-170" font-size="30px" fill="white">3</text>
+      </g>
+   </g>
+</svg>
