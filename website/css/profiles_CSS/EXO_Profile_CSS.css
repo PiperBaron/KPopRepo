@@ -207,22 +207,17 @@ li.nav_li.dropdown {
     font-weight: bold;
     color: #C376FF; 
 }
+
 #subunits {
     text-align:center
 }
 
-.subunit_div {
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .group_subunit_div {
-    background-color: black;
+    background-color: #161516;
     text-align: center;
-    margin: 50px;
-    width: 300px;
+    margin: 15px auto;
+    width: 400px;
+    display: none;
 }
 
 .subunit_list {
@@ -230,22 +225,39 @@ li.nav_li.dropdown {
     padding-left: 0;
 }
 
+.subunit_list li:hover {
+    background-color: black;
+}
+
 .subunit_list a {
     text-decoration: none;
     color: #E1A5FB;
+    font-size: 18px;
+    
 }
 
 .subunit_list a:hover {
     text-decoration: none;
     color: #93a9ce;
+    font-size: 18px;
 }
 
 .subunit_name_header {
+    font-size: 22px;
+    border: 0px;
+    color: #CDA2F5; 
+    margin: 5px auto;
+    display: block;
+    background-color: #6904AF;
+    padding: 10px;
+    width: 400px;
+}
+
+.subunit_name_header_small {
     font-size: 20px;
-    font-weight: bold;
-    color: #93a9ce; 
-    margin: 0px 0px 5px 0px;
-    background-color: purple;
-    vertical-align: top;
+    color: white; 
+    margin: 5px auto;
+    display: block;
+    background-color: #411064;
     padding: 10px;
 }

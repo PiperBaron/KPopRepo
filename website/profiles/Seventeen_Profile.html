@@ -5,6 +5,7 @@
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <title>K-Pop Project: Seventeen (세븐틴)</title>
       <link rel="stylesheet" type="text/css" href="../css/profiles_CSS/Seventeen_Profile_CSS.css" />
+      <script src="Subunit_Toggle.js">/**/</script>
    </head>
    <body>
       <div class="header">
@@ -18,7 +19,7 @@
          <div id="about">
             <div class="fandom_info">Background Info:</div>
             
-            <p>Seventeen is a 13-member group under <a href="#PledisEnt">Pledis Entertainment</a>, which was recently bought by <a href="#BigHitEnt">Big Hit</a> (notable for being BTS’s company), though they currently operate independently. They
+            <p>Seventeen is a 13-member group under Pledis Entertainment, which was recently bought by Big Hit (notable for being BTS’s company), though they currently operate independently. They
                were originally intended to debut with 17 members, hence the name, but 4 members dropped
                out or were deemed unfit for debut; the name “Seventeen” now signifies the 13 members
                + 3 subunits + 1 fandom.</p>
@@ -421,8 +422,16 @@
             <div class="members_header">Subunits:</div>
             <div class="subunit_div">
                
-               <div class="group_subunit_div">
-                  <div id="Hip-Hop-Team" class="subunit_name_header">Hip-Hop Team:</div>
+               <div>
+                  <button id="Hip-Hop-Team" class="subunit_name_header">Hip-Hop Team</button>
+                  <button id="Vocal-Team" class="subunit_name_header">Vocal Team</button>
+                  <button id="Performance-Team" class="subunit_name_header">Performance Team</button>
+                  <button id="SVT-Leaders" class="subunit_name_header">SVT Leaders</button>
+                  <button id="BSS" class="subunit_name_header">BooSeokSoon</button>
+               </div>
+               
+               <div class="group_subunit_div" id="subunitHip-Hop-Team">
+                  <div class="subunit_name_header_small">Hip-Hop Team:</div>
                   <ul class="subunit_list">
                      <li><a href="#SCoups">S.Coups (에스.쿱스)</a></li>
                      <li><a href="#Wonwoo">Wonwoo (원우)</a></li>
@@ -432,8 +441,8 @@
                </div>
                
                
-               <div class="group_subunit_div">
-                  <div id="Vocal-Team" class="subunit_name_header">Vocal Team:</div>
+               <div class="group_subunit_div" id="subunitVocal-Team">
+                  <div class="subunit_name_header_small">Vocal Team:</div>
                   <ul class="subunit_list">
                      <li><a href="#Woozi">Woozi (우지)</a></li>
                      <li><a href="#Jeonghan">Jeonghan (정한)</a></li>
@@ -444,8 +453,8 @@
                </div>
                
                
-               <div class="group_subunit_div">
-                  <div id="Performance-Team" class="subunit_name_header">Performance Team:</div>
+               <div class="group_subunit_div" id="subunitPerformance-Team">
+                  <div class="subunit_name_header_small">Performance Team:</div>
                   <ul class="subunit_list">
                      <li><a href="#Hoshi">Hoshi (호시)</a></li>
                      <li><a href="#Jun">Jun (준)</a></li>
@@ -455,8 +464,8 @@
                </div>
                
                
-               <div class="group_subunit_div">
-                  <div id="SVT-Leaders" class="subunit_name_header">SVT Leaders:</div>
+               <div class="group_subunit_div" id="subunitSVT-Leaders">
+                  <div class="subunit_name_header_small">SVT Leaders:</div>
                   <ul class="subunit_list">
                      <li><a href="#SCoups">S.Coups (에스.쿱스)</a></li>
                      <li><a href="#Hoshi">Hoshi (호시)</a></li>
@@ -465,8 +474,8 @@
                </div>
                
                
-               <div class="group_subunit_div">
-                  <div id="BSS" class="subunit_name_header">BooSeokSoon:</div>
+               <div class="group_subunit_div" id="subunitBSS">
+                  <div class="subunit_name_header_small">BooSeokSoon:</div>
                   <ul class="subunit_list">
                      <li><a href="#DK">DK (도겸)</a></li>
                      <li><a href="#Hoshi">Hoshi (호시)</a></li>
