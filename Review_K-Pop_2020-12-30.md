@@ -33,7 +33,7 @@ The song pages feature a more complex layout with metadata at the top, followed 
 
 *Perhaps* experiment a bit with moving the “Song Meaning” section *after* the lyrics, to give each page a bit of conclusion?
 
-The JavaScript on these pages is meticulously crafted and color-coded in a way that matches up with your Analysis page! And that leads me to one last recommendation:
+The JavaScript on these pages is meticulously crafted and color-coded in a way that matches up with your Analysis page! That makes me wonder:
 What if you set each line-distribution SVG inside the page for its corresponding Song? I say this because I think it might enhance the visibility of this impressive SVG work you did, and because that SVG is most easy to read and understand in connection with your JavaScript work on each Song page.
 
 Then, I’d recommend saving the Analysis page to hold visualizations that *compare* groups or songs. You might even rename that page, ”Comparison Infographics’ or something comparative: “Comparing the Bands?” 
