@@ -13,7 +13,7 @@ The K-Pop project team took great care in all the details of production and desi
  In my comments here I will provide you advice and suggestions with the hope that you will want this site to take on a public-facing life of its own, and that is read and appreciated not just by your peers and professors at Penn State Behrend, but by anyone excited to learn more about K-Pop! 
  
 ### Research questions
-Your detailed and meticulously organized, schema-driven XML markup helped you to track the roles of K-Pop performers and the distribution of their lines. You were able to analyze the structures of K-Popl songs to see how similar they are for number of verses and choruses. And your markup helped you to explore media outputs: to count the albums and album types of each band and compare them, while examining data about each band’s popularity. The site is as a result impressively informative!
+Your detailed and meticulously organized, schema-driven XML markup helped you to track the roles of K-Pop performers and the distribution of their lines. You were able to analyze the structures of K-Pop songs to see how similar they are for number of verses and choruses. And your markup helped you to explore media outputs: to count the albums and album types of each band and compare them, while examining data about each band’s popularity. The site is as a result impressively informative!
 
 ###  “UX”: User Experience and Site Interface
 
